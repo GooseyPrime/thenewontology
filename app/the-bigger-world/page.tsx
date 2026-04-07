@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import KinematicBackground from "@/components/KinematicBackground";
 import VisitorCounter from "@/components/VisitorCounter";
 
 export const metadata: Metadata = {
@@ -92,73 +91,114 @@ const chapters = [
 
 export default function TheBiggerWorldPage() {
   return (
-    <>
-      <KinematicBackground />
-      <main className="relative min-h-screen px-6 py-16 max-w-prose mx-auto" style={{ zIndex: 1 }}>
+    <main
+      className="relative min-h-screen overflow-hidden"
+      style={{
+        background: "linear-gradient(135deg, #0a1628 0%, #1a1060 35%, #0d2a1a 65%, #1a0a28 100%)",
+      }}
+    >
+      {/* Decorative floating circles */}
+      <div className="pointer-events-none fixed inset-0 overflow-hidden" aria-hidden="true">
+        <div className="absolute rounded-full" style={{ width: 300, height: 300, top: "5%", left: "-5%", background: "rgba(250,204,21,0.06)", filter: "blur(60px)" }} />
+        <div className="absolute rounded-full" style={{ width: 500, height: 500, top: "20%", right: "-10%", background: "rgba(167,139,250,0.07)", filter: "blur(60px)" }} />
+        <div className="absolute rounded-full" style={{ width: 200, height: 200, bottom: "15%", left: "10%", background: "rgba(52,211,153,0.07)", filter: "blur(60px)" }} />
+        <div className="absolute rounded-full" style={{ width: 350, height: 350, bottom: "5%", right: "5%", background: "rgba(251,146,60,0.06)", filter: "blur(60px)" }} />
+        <div className="absolute rounded-full" style={{ width: 150, height: 150, top: "50%", left: "40%", background: "rgba(96,165,250,0.06)", filter: "blur(60px)" }} />
+      </div>
+
+      <div className="relative z-10 px-6 py-16 max-w-2xl mx-auto">
         <Link
           href="/"
-          className="section-title inline-flex items-center gap-2 mb-10 hover:text-accent transition-colors no-underline group"
+          className="inline-flex items-center gap-2 text-violet-300/70 hover:text-violet-200 text-xs uppercase tracking-widest font-sans mb-10 no-underline transition-colors group"
         >
-          <span className="group-hover:-translate-x-1 transition-transform">←</span> Back
+          <span className="group-hover:-translate-x-1 transition-transform">←</span> Back to Library
         </Link>
 
-        <p className="section-title">Volume III</p>
-        <h1 className="font-sans text-4xl md:text-5xl font-semibold text-text mb-8">
-          The Bigger World
-        </h1>
-        <div className="h-px bg-border mb-10" />
-
-        <div className="prose prose-invert">
-          <p className="lead text-muted text-lg">
-            Did you know that the universe is much bigger, stranger, and more
-            wonderful than most people were ever taught? This book is your guide
-            to those bigger truths — written just for curious young explorers who
-            want to understand what is actually going on in the world right now,
-            and who they might become in response to it.
-          </p>
-
-          <p>
-            The three great shifts of our time — the rise of artificial
-            intelligence, the opening of government files on unexplained sky
-            phenomena, and breathtaking discoveries about the nature of
-            consciousness — are not just adult concerns. They are shaping the
-            world you will inherit. Each chapter offers tools, stories, and
-            exercises to help you think clearly, feel grounded, and act wisely
-            in the face of the unknown.
+        {/* Header */}
+        <div className="mb-10 text-center">
+          <p className="text-violet-300/60 text-xs uppercase tracking-widest font-sans mb-2">Volume III</p>
+          <h1
+            className="font-sans text-5xl md:text-6xl font-bold mb-3"
+            style={{
+              background: "linear-gradient(135deg, #facc15, #a78bfa, #34d399)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
+            }}
+          >
+            The Bigger World
+          </h1>
+          <p className="text-violet-200/70 font-serif text-lg">
+            A guide for young explorers of an amazing universe
           </p>
         </div>
 
-        <nav className="mt-10 space-y-3" aria-label="Table of Contents">
+        {/* Intro card */}
+        <div
+          className="rounded-2xl p-7 mb-8 border"
+          style={{
+            background: "rgba(167,139,250,0.08)",
+            borderColor: "rgba(167,139,250,0.25)",
+            backdropFilter: "blur(12px)",
+          }}
+        >
+          <p className="font-serif text-violet-100 leading-relaxed text-base md:text-lg">
+            Did you know that the universe is{" "}
+            <span className="text-yellow-300 font-semibold">much bigger</span>,{" "}
+            <span className="text-emerald-300 font-semibold">stranger</span>, and more{" "}
+            <span className="text-violet-300 font-semibold">wonderful</span> than most
+            people were ever taught? This book is your guide to those bigger
+            truths — written just for curious young explorers who want to understand
+            what is actually going on in the world right now, and who they might
+            become in response to it.
+          </p>
+          <p className="font-serif text-violet-200/70 leading-relaxed text-sm mt-4">
+            The three great shifts of our time — the rise of artificial intelligence,
+            the opening of government files on unexplained sky phenomena, and
+            breathtaking discoveries about the nature of consciousness — are shaping
+            the world you will inherit. Each chapter offers tools, stories, and
+            exercises to help you think clearly, feel grounded, and act wisely.
+          </p>
+        </div>
+
+        {/* Chapter cards */}
+        <nav className="grid gap-4 mb-10" aria-label="Table of Contents">
           {chapters.map((ch) => (
             <Link
               key={ch.slug}
               href={`/the-bigger-world/${ch.slug}`}
-              className="group flex gap-4 rounded-lg border border-border bg-panel p-4 hover:border-accent transition-colors no-underline"
+              className="rounded-2xl p-5 border flex items-start gap-4 no-underline transition-colors hover:opacity-90"
+              style={{
+                background: "rgba(167,139,250,0.07)",
+                borderColor: "rgba(139,92,246,0.25)",
+                backdropFilter: "blur(8px)",
+              }}
             >
-              <span className="section-title shrink-0 w-20 pt-0.5">
+              <span className="text-violet-300/60 text-xs uppercase tracking-widest font-sans shrink-0 w-16 pt-1">
                 Ch. {ch.number}
               </span>
               <div>
-                <p className="font-sans font-medium text-text group-hover:text-accent transition-colors">
-                  {ch.title}
-                </p>
-                <p className="text-sm text-muted mt-1 font-serif leading-snug">
-                  {ch.description}
-                </p>
+                <p className="font-sans font-semibold text-white text-base mb-1">{ch.title}</p>
+                <p className="font-serif text-violet-200/70 text-sm leading-relaxed">{ch.description}</p>
               </div>
             </Link>
           ))}
 
           <Link
             href="/the-bigger-world/bibliography"
-            className="group flex gap-4 rounded-lg border border-border bg-panel p-4 hover:border-accent transition-colors no-underline"
+            className="rounded-2xl p-5 border flex items-start gap-4 no-underline transition-colors hover:opacity-90"
+            style={{
+              background: "rgba(52,211,153,0.06)",
+              borderColor: "rgba(52,211,153,0.25)",
+              backdropFilter: "blur(8px)",
+            }}
           >
-            <span className="section-title shrink-0 w-20 pt-0.5">Biblio.</span>
+            <span className="text-emerald-300/60 text-xs uppercase tracking-widest font-sans shrink-0 w-16 pt-1">
+              Biblio.
+            </span>
             <div>
-              <p className="font-sans font-medium text-text group-hover:text-accent transition-colors">
-                Comprehensive Bibliography &amp; Resources
-              </p>
-              <p className="text-sm text-muted mt-1 font-serif leading-snug">
+              <p className="font-sans font-semibold text-white text-base mb-1">Comprehensive Bibliography &amp; Resources</p>
+              <p className="font-serif text-violet-200/70 text-sm leading-relaxed">
                 References, further reading, and resources organised by chapter
                 for young explorers and their families.
               </p>
@@ -166,19 +206,18 @@ export default function TheBiggerWorldPage() {
           </Link>
         </nav>
 
-        <div className="mt-16 pt-8 border-t border-border">
-          <div className="flex items-center justify-between flex-wrap gap-4 mb-4">
-            <p className="section-title">Also in This Series</p>
+        <div className="pt-6 border-t border-violet-800/30 text-center space-y-4">
+          <div className="flex justify-center">
             <VisitorCounter pageUrl="https://thenewontology.life/the-bigger-world" />
           </div>
           <Link
             href="/the-sovereign-mind"
-            className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4"
+            className="inline-flex items-center gap-2 text-violet-300 hover:text-violet-100 font-sans text-sm no-underline hover:underline underline-offset-4 transition-colors"
           >
             <span>←</span> Volume II — The Sovereign Mind
           </Link>
         </div>
-      </main>
-    </>
+      </div>
+    </main>
   );
 }
