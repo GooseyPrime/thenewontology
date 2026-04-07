@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+
+const GTM_ID = "GTM-W3985XV3";
 
 const SITE_URL = "https://thenewontology.life";
 const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ?? "";
@@ -77,7 +80,24 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="dark">
+      {/* Google Tag Manager — head script (loads as early as possible) */}
+      <Script id="gtm-head" strategy="beforeInteractive">
+        {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${GTM_ID}');`}
+      </Script>
       <body>
+        {/* Google Tag Manager — noscript fallback, immediately after <body> */}
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
         {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
         <script
           type="application/ld+json"
