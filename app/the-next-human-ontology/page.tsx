@@ -1,8 +1,20 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
+import VisitorCounter from "@/components/VisitorCounter";
 
-export const metadata = {
-  title: "The Next Human Ontology | The New Human Ontology",
+export const metadata: Metadata = {
+  title: "The Next Human Ontology",
+  description:
+    "Volume I: Documenting the simultaneous convergence of AI scaling, non-human intelligence disclosure, and consciousness physics — and the collapse of the anthropocentric worldview that underpins civilization.",
+  alternates: { canonical: "https://thenewontology.life/the-next-human-ontology" },
+  openGraph: {
+    title: "The Next Human Ontology — Volume I",
+    description:
+      "Volume I: AI, NHI disclosure, and the physics of consciousness are dismantling anthropocentrism. A field manual for understanding the threshold humanity is crossing.",
+    url: "https://thenewontology.life/the-next-human-ontology",
+    type: "article",
+  },
 };
 
 const chapters = [
@@ -158,7 +170,10 @@ export default function TheNextHumanOntologyPage() {
         </nav>
 
         <div className="mt-16 pt-8 border-t border-border">
-          <p className="section-title mb-4">Continue Reading</p>
+          <div className="flex items-center justify-between flex-wrap gap-4 mb-4">
+            <p className="section-title">Continue Reading</p>
+            <VisitorCounter pageUrl="https://thenewontology.life/the-next-human-ontology" />
+          </div>
           <Link
             href="/the-sovereign-mind"
             className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4"

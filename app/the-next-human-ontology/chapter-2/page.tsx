@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
+import VisitorCounter from "@/components/VisitorCounter";
 
-export const metadata = { title: "Chapter 2: The Architecture of Secrecy | The Next Human Ontology" };
+export const metadata: Metadata = {
+  title: "Chapter 2: The Architecture of Secrecy | The Next Human Ontology",
+  description:
+    "A Byzantine apparatus of legislative warfare, defense contractor firewalls, and clandestine research programs has concealed the greatest scientific discoveries in human history for nearly a century.",
+  alternates: { canonical: "https://thenewontology.life/the-next-human-ontology/chapter-2" },
+};
 
 export default function Chapter2Page() {
   return (
@@ -105,6 +112,9 @@ export default function Chapter2Page() {
             Dismantling these barriers requires more than legislative intent—it requires precision targeting of each specific mechanism. The Wilson-Davis memo, the financial contribution records, the cross-agency collaboration patterns documented in partially declassified materials, and the testimony of whistleblowers who have navigated these structures from the inside collectively constitute an evidentiary foundation from which a rigorous, systematic investigation could proceed. The architecture is complex; it is not impenetrable. What it requires is investigators willing to follow the structural logic of secrecy rather than merely demanding that its product—classified information—be voluntarily surrendered.
           </p>
 
+        </div>
+        <div className="mt-16 pt-4 flex justify-center">
+          <VisitorCounter pageUrl="https://thenewontology.life/the-next-human-ontology/chapter-2" />
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">
           <Link href="/the-next-human-ontology/chapter-1" className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4"><span>←</span> Chapter 1</Link>

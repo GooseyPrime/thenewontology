@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
+import VisitorCounter from "@/components/VisitorCounter";
 
-export const metadata = { title: "Chapter 6: The Mechanics of Contact | The Next Human Ontology" };
+export const metadata: Metadata = {
+  title: "Chapter 6: The Mechanics of Contact | The Next Human Ontology",
+  description:
+    "The CIA's Gateway Process, Project Stargate, and caudate-putamen neuroanatomy reveal that contact with non-human intelligence is fundamentally a neurological event mediated through consciousness.",
+  alternates: { canonical: "https://thenewontology.life/the-next-human-ontology/chapter-6" },
+};
 
 export default function Chapter6Page() {
   return (
@@ -254,6 +261,9 @@ export default function Chapter6Page() {
             convergence renders the question academic.
           </p>
 
+        </div>
+        <div className="mt-16 pt-4 flex justify-center">
+          <VisitorCounter pageUrl="https://thenewontology.life/the-next-human-ontology/chapter-6" />
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">
           <Link href="/the-next-human-ontology/chapter-5" className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4">
