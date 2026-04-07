@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root { color-scheme: dark; }
+
+  html {
+    @apply bg-bg text-text antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body { @apply min-h-screen font-serif; }
+
+  ::selection { background: rgba(155, 188, 255, 0.35); }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans font-semibold tracking-tight text-text;
+  }
+
+  p { @apply leading-relaxed; }
+
+  a { @apply text-accent no-underline; }
+  a:hover { @apply underline underline-offset-4; }
+
+  code { @apply font-mono text-[0.95em] bg-panel px-1.5 py-0.5 rounded-md; }
+
+  pre {
+    @apply font-mono bg-panel border border-border rounded-xl p-4 overflow-x-auto shadow-panel;
+  }
+  pre code { @apply bg-transparent p-0; }
+
+  input, textarea, select {
+    @apply bg-panel border border-border rounded-lg px-3 py-2 text-text placeholder:text-muted outline-none;
+  }
+  input:focus, textarea:focus, select:focus {
+    @apply ring-2 ring-accent/60 border-accent/60;
+  }
+
+  :focus-visible { @apply outline-none ring-2 ring-accent/70 ring-offset-2 ring-offset-bg; }
+}
+
+@layer components {
+  .panel { @apply bg-panel/90 border border-border rounded-xl shadow-panel; }
+
+  .callout { @apply panel p-4 border-l-4; border-left-color: theme(colors.border); }
+  .callout--warning { border-left-color: theme(colors.warning); }
+  .callout--danger  { border-left-color: theme(colors.danger); }
+  .callout--success { border-left-color: theme(colors.success); }
+
+  .section-title {
+    @apply font-sans text-muted uppercase tracking-[0.14em] text-xs mb-2;
+  }
+}
+
