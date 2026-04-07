@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
+import VisitorCounter from "@/components/VisitorCounter";
 
-export const metadata = { title: "Chapter 5: The Physics of Consciousness | The Next Human Ontology" };
+export const metadata: Metadata = {
+  title: "Chapter 5: The Physics of Consciousness | The Next Human Ontology",
+  description:
+    "From Orch-OR quantum microtubules to Strømme's universal consciousness field, the evidence converges: the brain is a macroscopic quantum transceiver dynamically interfacing with the cosmos.",
+  alternates: { canonical: "https://thenewontology.life/the-next-human-ontology/chapter-5" },
+};
 
 export default function Chapter5Page() {
   return (
@@ -174,6 +181,9 @@ export default function Chapter5Page() {
             The encounter with NHI, in this framework, is not primarily a technological encounter—one civilization's machines meeting another's. It is a <em>consciousness encounter</em>: entities whose understanding of the universal field and whose ability to navigate its structure far exceeds our own, engaging with a species that has barely begun to recognize what kind of reality it actually inhabits. The ontological shock is not the recognition that we are not alone; it is the recognition that we have been systematically wrong about the nature of mind, matter, and reality—and that the cosmos has been waiting, with great patience, for us to notice.
           </p>
 
+        </div>
+        <div className="mt-16 pt-4 flex justify-center">
+          <VisitorCounter pageUrl="https://thenewontology.life/the-next-human-ontology/chapter-5" />
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">
           <Link href="/the-next-human-ontology/chapter-4" className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4"><span>←</span> Chapter 4</Link>

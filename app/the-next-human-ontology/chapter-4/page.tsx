@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
+import VisitorCounter from "@/components/VisitorCounter";
 
-export const metadata = { title: "Chapter 4: The Extraterrestrial Hypothesis is Dead | The Next Human Ontology" };
+export const metadata: Metadata = {
+  title: "Chapter 4: The Extraterrestrial Hypothesis is Dead | The Next Human Ontology",
+  description:
+    "The nuts-and-bolts extraterrestrial hypothesis fails to account for the consciousness connection, the hitchhiker effect, and cross-cultural continuity — demanding more radical frameworks.",
+  alternates: { canonical: "https://thenewontology.life/the-next-human-ontology/chapter-4" },
+};
 
 export default function Chapter4Page() {
   return (
@@ -113,6 +120,9 @@ export default function Chapter4Page() {
             As we move beyond the ETH, UAP phenomena emerge as <em>deeply cultural, psychologically complex, and spiritually nuanced</em>—a phenomenon that has engaged human consciousness throughout recorded history and that has always exceeded the explanatory frameworks that successive eras of human civilization have tried to contain it within. The multidisciplinary lens required to make progress—merging anthropology, psychology, theology, quantum physics, and the phenomenology of consciousness—is not a counsel of confusion but a recognition of the phenomenon's actual dimensionality. Progress requires, above all, the intellectual humility to allow the phenomenon to define the investigation rather than forcing it into the shape of our prior assumptions about what is and is not possible.
           </p>
 
+        </div>
+        <div className="mt-16 pt-4 flex justify-center">
+          <VisitorCounter pageUrl="https://thenewontology.life/the-next-human-ontology/chapter-4" />
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">
           <Link href="/the-next-human-ontology/chapter-3" className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4"><span>←</span> Chapter 3</Link>

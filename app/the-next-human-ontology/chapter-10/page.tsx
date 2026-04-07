@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
+import VisitorCounter from "@/components/VisitorCounter";
 
-export const metadata = { title: "Chapter 10: Surviving the Convergence | The Next Human Ontology" };
+export const metadata: Metadata = {
+  title: "Chapter 10: Surviving the Convergence | The Next Human Ontology",
+  description:
+    "As managed disclosure collapses and catastrophic rupture becomes statistically inevitable by 2040, the blueprint for survival demands sovereign preparation, decentralized energy, and psychological fortification.",
+  alternates: { canonical: "https://thenewontology.life/the-next-human-ontology/chapter-10" },
+};
 
 export default function Chapter10Page() {
   return (
@@ -362,6 +369,9 @@ export default function Chapter10Page() {
             will require of everyone who intends to navigate it.
           </p>
 
+        </div>
+        <div className="mt-16 pt-4 flex justify-center">
+          <VisitorCounter pageUrl="https://thenewontology.life/the-next-human-ontology/chapter-10" />
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">
           <Link href="/the-next-human-ontology/chapter-9" className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4">

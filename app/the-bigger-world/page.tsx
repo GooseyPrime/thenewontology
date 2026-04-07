@@ -1,8 +1,20 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
+import VisitorCounter from "@/components/VisitorCounter";
 
-export const metadata = {
-  title: "The Bigger World | The New Human Ontology",
+export const metadata: Metadata = {
+  title: "The Bigger World",
+  description:
+    "Volume III: A guide for young explorers — the universe is larger, stranger, and more wonderful than you were ever told. Consciousness, connections, and a new story for Earth.",
+  alternates: { canonical: "https://thenewontology.life/the-bigger-world" },
+  openGraph: {
+    title: "The Bigger World — Volume III",
+    description:
+      "Volume III: A guide for young explorers — the universe is larger, stranger, and more wonderful than you were ever told.",
+    url: "https://thenewontology.life/the-bigger-world",
+    type: "article",
+  },
 };
 
 const chapters = [
@@ -156,6 +168,10 @@ export default function TheBiggerWorldPage() {
 
         <div className="mt-16 pt-8 border-t border-border">
           <p className="section-title mb-4">Also in This Series</p>
+        <div className="pt-6 border-t border-violet-800/30 text-center space-y-4">
+          <div className="flex justify-center">
+            <VisitorCounter pageUrl="https://thenewontology.life/the-bigger-world" />
+          </div>
           <Link
             href="/the-sovereign-mind"
             className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4"
