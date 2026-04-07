@@ -57,6 +57,64 @@ export default function Home() {
           </p>
         </section>
 
+        {/* Foreword */}
+        <section
+          aria-label="Foreword"
+          className="panel max-w-2xl w-full p-8 mb-14"
+        >
+          <p className="section-title mb-5 tracking-widest">Foreword</p>
+          <div className="font-serif text-text leading-loose text-sm md:text-base space-y-5">
+            <p>
+              I never imagined that, in my lifetime, I would be able to gather tools and resources
+              powerful enough to trace truth as it slipped, thread by thread, through a field of
+              lies, distortion, and misinformation. Yet here we are.
+            </p>
+            <p>
+              What once felt impossible now feels undeniable. The search that began as a personal
+              thirst for answers became something much greater: a confrontation with the fragile
+              architecture of what we call knowledge, belief, reality, and even humanity itself.
+              Along the way, I found not only fragments of truth, but patterns—signals beneath the
+              noise, structure beneath the chaos, and a deeper question waiting beneath every answer.
+            </p>
+            <p>
+              In many ways, I can say that one part of my quest has been fulfilled. I have gathered
+              enough to satisfy the hunger that first drove me. But satisfaction is not the end of
+              inquiry; it is the beginning of responsibility.
+            </p>
+            <p>
+              Because what stands before us now is not merely a correction of old errors. It is the
+              threshold of something new.
+            </p>
+            <p>
+              We are approaching a new human ontology: a new understanding of what it means to be
+              human, to know, to perceive, to relate, and to choose in an age where information can
+              be manufactured, identities can be manipulated, and reality itself is increasingly
+              contested. This moment demands more than awareness. It demands preparation—intellectual,
+              moral, emotional, and spiritual.
+            </p>
+            <p>
+              These documents are part record, part warning, and part invitation.
+            </p>
+            <p>
+              It is a record of the search for clarity in an age of confusion. It is a warning about
+              the systems, forces, and habits of mind that distort truth and fragment our shared
+              humanity. And above all, it is an invitation: to prepare ourselves and one another for
+              what comes next.
+            </p>
+            <p>
+              The new human ontology is not merely something to be observed from a distance. It is
+              something we are already entering, whether knowingly or not. The only real question is
+              whether we will meet it asleep, fragmented, and reactive—or awake, whole, and ready.
+            </p>
+            <p>
+              I offer these pages in the hope that we choose the latter.
+            </p>
+            <p className="mt-6 text-right text-muted italic">
+              — Michael Brandon Lane, April 7, 2026
+            </p>
+          </div>
+        </section>
+
         {/* Book selection buttons */}
         <nav aria-label="Book selection" className="w-full max-w-2xl flex flex-col gap-5">
           {books.map((book) => (
