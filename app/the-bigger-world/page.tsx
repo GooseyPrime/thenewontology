@@ -1,167 +1,169 @@
 import Link from "next/link";
+import KinematicBackground from "@/components/KinematicBackground";
 
 export const metadata = {
   title: "The Bigger World | The New Human Ontology",
 };
 
-interface Circle {
-  size: number;
-  top?: string;
-  left?: string;
-  right?: string;
-  bottom?: string;
-  color: string;
-}
+const chapters = [
+  {
+    number: 1,
+    slug: "chapter-1",
+    title: "The Triple Singularity & The Ontological Shock",
+    description:
+      "Three giant shifts — AI, mysterious sky phenomena, and consciousness science — are changing what we know about the universe and our place in it. Here's how to stay grounded while the world expands.",
+  },
+  {
+    number: 2,
+    slug: "chapter-2",
+    title: "The Architecture of Secrecy",
+    description:
+      "Governments keep some secrets for real reasons — but information always finds its way out. Learn to think clearly and build your own \"known vs. unknown\" map when you don't have all the pieces.",
+  },
+  {
+    number: 3,
+    slug: "chapter-3",
+    title: "The Unexplained Things in the Sky",
+    description:
+      "Pilots, governments, and scientists are taking strange sky sightings seriously. Explore the hypotheses — from secret technology to natural phenomena — and sharpen your inner detective.",
+  },
+  {
+    number: 4,
+    slug: "chapter-4",
+    title: "Your Amazing, Mysterious Brain",
+    description:
+      "Your brain might be more like a cosmic antenna than a simple computer. Discover the hard problem of consciousness, quantum effects in neurons, and how attention itself can reshape your mind.",
+  },
+  {
+    number: 5,
+    slug: "chapter-5",
+    title: "How to Think When Nobody Has the Answers",
+    description:
+      "Use a confidence scale, dodge the five thinking traps, and learn the art of steelmanning — tools that help you navigate a world where even the experts are still figuring things out.",
+  },
+  {
+    number: 6,
+    slug: "chapter-6",
+    title: "Feelings Are Data Too",
+    description:
+      "Emotions aren't distractions — they're signals. Build your anxiety toolkit, learn to tell actionable problems from observable ones, and discover your personal support constellation.",
+  },
+  {
+    number: 7,
+    slug: "chapter-7",
+    title: "Building Your Superpower Toolkit",
+    description:
+      "Master spaced repetition and the Feynman technique, make things with your hands, understand technology without worshipping it, and practise the superpower of simply being present.",
+  },
+  {
+    number: 8,
+    slug: "chapter-8",
+    title: "Humans and Other Intelligences — A History",
+    description:
+      "Octopuses, crows, dolphins, and ancient mythologies all point to the same radical idea: intelligence is far broader than we were taught, and it has always surrounded us.",
+  },
+  {
+    number: 9,
+    slug: "chapter-9",
+    title: "What Kind of World Do You Want to Build?",
+    description:
+      "You are not powerless. History belongs to the curious, the brave, and the kind. Explore the skills the world needs and write a letter to the person you are becoming.",
+  },
+  {
+    number: 10,
+    slug: "chapter-10",
+    title: "A Message from the Authors",
+    description:
+      "What we actually know, what we believe, and what we ask of you — a closing invitation to stay curious, stay kind, and stay brave as the universe keeps getting bigger.",
+  },
+];
 
 export default function TheBiggerWorldPage() {
-  const circles: Circle[] = [
-    { size: 300, top: "5%", left: "-5%", color: "rgba(250,204,21,0.06)" },
-    { size: 500, top: "20%", right: "-10%", color: "rgba(167,139,250,0.07)" },
-    { size: 200, bottom: "15%", left: "10%", color: "rgba(52,211,153,0.07)" },
-    { size: 350, bottom: "5%", right: "5%", color: "rgba(251,146,60,0.06)" },
-    { size: 150, top: "50%", left: "40%", color: "rgba(96,165,250,0.06)" },
-  ];
-
   return (
-    <main
-      className="relative min-h-screen overflow-hidden"
-      style={{
-        background: "linear-gradient(135deg, #0a1628 0%, #1a1060 35%, #0d2a1a 65%, #1a0a28 100%)",
-      }}
-    >
-      {/* Decorative floating circles */}
-      <div className="pointer-events-none fixed inset-0 overflow-hidden" aria-hidden="true">
-        {circles.map((c, i) => (
-          <div
-            key={i}
-            className="absolute rounded-full"
-            style={{
-              width: c.size,
-              height: c.size,
-              top: c.top,
-              left: c.left,
-              right: c.right,
-              bottom: c.bottom,
-              background: c.color,
-              filter: "blur(60px)",
-            }}
-          />
-        ))}
-      </div>
-
-      <div className="relative z-10 px-6 py-16 max-w-2xl mx-auto">
+    <>
+      <KinematicBackground />
+      <main className="relative min-h-screen px-6 py-16 max-w-prose mx-auto" style={{ zIndex: 1 }}>
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-violet-300/70 hover:text-violet-200 text-xs uppercase tracking-widest font-sans mb-10 no-underline transition-colors group"
+          className="section-title inline-flex items-center gap-2 mb-10 hover:text-accent transition-colors no-underline group"
         >
-          <span className="group-hover:-translate-x-1 transition-transform">←</span> Back to Library
+          <span className="group-hover:-translate-x-1 transition-transform">←</span> Back
         </Link>
 
-        {/* Header */}
-        <div className="mb-10 text-center">
-          <p className="text-violet-300/60 text-xs uppercase tracking-widest font-sans mb-2">Volume III</p>
-          <h1
-            className="font-sans text-5xl md:text-6xl font-bold mb-3"
-            style={{
-              background: "linear-gradient(135deg, #facc15, #a78bfa, #34d399)",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-              backgroundClip: "text",
-            }}
-          >
-            The Bigger World
-          </h1>
-          <p className="text-violet-200/70 font-serif text-lg">
-            A guide for young explorers of an amazing universe
+        <p className="section-title">Volume III</p>
+        <h1 className="font-sans text-4xl md:text-5xl font-semibold text-text mb-8">
+          The Bigger World
+        </h1>
+        <div className="h-px bg-border mb-10" />
+
+        <div className="prose prose-invert">
+          <p className="lead text-muted text-lg">
+            Did you know that the universe is much bigger, stranger, and more
+            wonderful than most people were ever taught? This book is your guide
+            to those bigger truths — written just for curious young explorers who
+            want to understand what is actually going on in the world right now,
+            and who they might become in response to it.
+          </p>
+
+          <p>
+            The three great shifts of our time — the rise of artificial
+            intelligence, the opening of government files on unexplained sky
+            phenomena, and breathtaking discoveries about the nature of
+            consciousness — are not just adult concerns. They are shaping the
+            world you will inherit. Each chapter offers tools, stories, and
+            exercises to help you think clearly, feel grounded, and act wisely
+            in the face of the unknown.
           </p>
         </div>
 
-        {/* Intro card */}
-        <div
-          className="rounded-2xl p-7 mb-8 border"
-          style={{
-            background: "rgba(167,139,250,0.08)",
-            borderColor: "rgba(167,139,250,0.25)",
-            backdropFilter: "blur(12px)",
-          }}
-        >
-          <p className="font-serif text-violet-100 leading-relaxed text-base md:text-lg">
-            Did you know that the universe is{" "}
-            <span className="text-yellow-300 font-semibold">much bigger</span>,{" "}
-            <span className="text-emerald-300 font-semibold">stranger</span>, and more{" "}
-            <span className="text-violet-300 font-semibold">wonderful</span> than most
-            people were ever taught? This book is your guide to those bigger
-            truths — written just for you.
-          </p>
-        </div>
-
-        {/* Chapter cards */}
-        <div className="grid gap-4 mb-10">
-          {[
-            {
-              emoji: "🌌",
-              title: "The Universe Is Alive",
-              desc: "Science is discovering that the cosmos has qualities we never imagined.",
-              color: "from-violet-500/10 to-blue-500/10",
-              border: "rgba(139,92,246,0.3)",
-            },
-            {
-              emoji: "🧠",
-              title: "Your Mind Is Extraordinary",
-              desc: "You have capabilities that researchers are only beginning to understand.",
-              color: "from-emerald-500/10 to-teal-500/10",
-              border: "rgba(52,211,153,0.3)",
-            },
-            {
-              emoji: "✨",
-              title: "Connections That Span the Stars",
-              desc: "Everything is connected in ways that make the world feel like magic — because it kind of is.",
-              color: "from-yellow-500/10 to-orange-500/10",
-              border: "rgba(250,204,21,0.3)",
-            },
-            {
-              emoji: "🌍",
-              title: "A New Story for Earth",
-              desc: "The story of our planet and its people is being rewritten — and you're part of it.",
-              color: "from-pink-500/10 to-rose-500/10",
-              border: "rgba(244,114,182,0.3)",
-            },
-          ].map((chapter) => (
-            <div
-              key={chapter.title}
-              className={`rounded-2xl p-5 border bg-gradient-to-r ${chapter.color} flex items-start gap-4`}
-              style={{ borderColor: chapter.border, backdropFilter: "blur(8px)" }}
+        <nav className="mt-10 space-y-3" aria-label="Table of Contents">
+          {chapters.map((ch) => (
+            <Link
+              key={ch.slug}
+              href={`/the-bigger-world/${ch.slug}`}
+              className="group flex gap-4 rounded-lg border border-border bg-panel p-4 hover:border-accent transition-colors no-underline"
             >
-              <span className="text-3xl">{chapter.emoji}</span>
+              <span className="section-title shrink-0 w-20 pt-0.5">
+                Ch. {ch.number}
+              </span>
               <div>
-                <h3 className="font-sans font-semibold text-white text-base mb-1">{chapter.title}</h3>
-                <p className="font-serif text-violet-200/70 text-sm leading-relaxed">{chapter.desc}</p>
+                <p className="font-sans font-medium text-text group-hover:text-accent transition-colors">
+                  {ch.title}
+                </p>
+                <p className="text-sm text-muted mt-1 font-serif leading-snug">
+                  {ch.description}
+                </p>
               </div>
-            </div>
+            </Link>
           ))}
-        </div>
 
-        <div
-          className="rounded-2xl p-5 text-center mb-10 border"
-          style={{
-            background: "rgba(250,204,21,0.06)",
-            borderColor: "rgba(250,204,21,0.2)",
-          }}
-        >
-          <p className="text-yellow-200/80 font-serif text-sm leading-relaxed">
-            📖 Full chapters are being prepared. Check back soon for your adventure to begin!
-          </p>
-        </div>
+          <Link
+            href="/the-bigger-world/bibliography"
+            className="group flex gap-4 rounded-lg border border-border bg-panel p-4 hover:border-accent transition-colors no-underline"
+          >
+            <span className="section-title shrink-0 w-20 pt-0.5">Biblio.</span>
+            <div>
+              <p className="font-sans font-medium text-text group-hover:text-accent transition-colors">
+                Comprehensive Bibliography &amp; Resources
+              </p>
+              <p className="text-sm text-muted mt-1 font-serif leading-snug">
+                References, further reading, and resources organised by chapter
+                for young explorers and their families.
+              </p>
+            </div>
+          </Link>
+        </nav>
 
-        <div className="pt-6 border-t border-violet-800/30 text-center">
+        <div className="mt-16 pt-8 border-t border-border">
+          <p className="section-title mb-4">Also in This Series</p>
           <Link
             href="/the-sovereign-mind"
-            className="inline-flex items-center gap-2 text-violet-300 hover:text-violet-100 font-sans text-sm no-underline hover:underline underline-offset-4 transition-colors"
+            className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4"
           >
             <span>←</span> Volume II — The Sovereign Mind
           </Link>
         </div>
-      </div>
-    </main>
+      </main>
+    </>
   );
 }
