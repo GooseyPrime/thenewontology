@@ -2,8 +2,10 @@
 
 import Script from "next/script";
 
+const GA_ID_PATTERN = /^G-[A-Z0-9]{6,}$/;
+
 export default function GoogleAnalytics({ gaId }: { gaId: string }) {
-  if (!gaId) return null;
+  if (!gaId || !GA_ID_PATTERN.test(gaId)) return null;
   return (
     <>
       <Script

@@ -77,7 +77,8 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="dark">
-      <head>
+      <body>
+        {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -96,9 +97,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             }),
           }}
         />
-      </head>
-      <body>
-        {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
         {children}
       </body>
     </html>
