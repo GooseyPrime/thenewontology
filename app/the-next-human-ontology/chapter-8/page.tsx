@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
+import VisitorCounter from "@/components/VisitorCounter";
 
-export const metadata = { title: "Chapter 8: The Cycles of Time and Human Resets | The Next Human Ontology" };
+export const metadata: Metadata = {
+  title: "Chapter 8: The Cycles of Time and Human Resets | The Next Human Ontology",
+  description:
+    "Civilizations consistently collapse in 250-year cycles while the Younger Dryas impact, Solar-Induced Dark Ages, and the AI Great Filter suggest humanity exists within a deeply constrained temporal window.",
+  alternates: { canonical: "https://thenewontology.life/the-next-human-ontology/chapter-8" },
+};
 
 export default function Chapter8Page() {
   return (
@@ -283,6 +290,9 @@ export default function Chapter8Page() {
             The cycles do not pause while the questions are being asked.
           </p>
 
+        </div>
+        <div className="mt-16 pt-4 flex justify-center">
+          <VisitorCounter pageUrl="https://thenewontology.life/the-next-human-ontology/chapter-8" />
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">
           <Link href="/the-next-human-ontology/chapter-7" className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4">

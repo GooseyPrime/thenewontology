@@ -1,8 +1,20 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
+import VisitorCounter from "@/components/VisitorCounter";
 
-export const metadata = {
-  title: "The Sovereign Mind | The New Human Ontology",
+export const metadata: Metadata = {
+  title: "The Sovereign Mind",
+  description:
+    "Volume II: Protocols for psychological sovereignty — navigating ontological shock, reclaiming autonomy, surviving the AI transition and NHI disclosure, and building unshakeable clarity.",
+  alternates: { canonical: "https://thenewontology.life/the-sovereign-mind" },
+  openGraph: {
+    title: "The Sovereign Mind — Volume II",
+    description:
+      "Volume II: How to survive, adapt, and thrive in the age of non-human intelligence. Practical protocols for psychological, material, cognitive, and civilizational sovereignty.",
+    url: "https://thenewontology.life/the-sovereign-mind",
+    type: "article",
+  },
 };
 
 const parts = [
@@ -99,6 +111,7 @@ export default function TheSovereignMindPage() {
           <Link href="/the-next-human-ontology" className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4">
             <span>←</span> Volume I — The Next Human Ontology
           </Link>
+          <VisitorCounter pageUrl="https://thenewontology.life/the-sovereign-mind" />
           <Link href="/the-bigger-world" className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4">
             Volume III — The Bigger World <span>→</span>
           </Link>

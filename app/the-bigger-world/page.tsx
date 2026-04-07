@@ -1,7 +1,19 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+import VisitorCounter from "@/components/VisitorCounter";
 
-export const metadata = {
-  title: "The Bigger World | The New Human Ontology",
+export const metadata: Metadata = {
+  title: "The Bigger World",
+  description:
+    "Volume III: A guide for young explorers — the universe is larger, stranger, and more wonderful than you were ever told. Consciousness, connections, and a new story for Earth.",
+  alternates: { canonical: "https://thenewontology.life/the-bigger-world" },
+  openGraph: {
+    title: "The Bigger World — Volume III",
+    description:
+      "Volume III: A guide for young explorers — the universe is larger, stranger, and more wonderful than you were ever told.",
+    url: "https://thenewontology.life/the-bigger-world",
+    type: "article",
+  },
 };
 
 interface Circle {
@@ -153,7 +165,10 @@ export default function TheBiggerWorldPage() {
           </p>
         </div>
 
-        <div className="pt-6 border-t border-violet-800/30 text-center">
+        <div className="pt-6 border-t border-violet-800/30 text-center space-y-4">
+          <div className="flex justify-center">
+            <VisitorCounter pageUrl="https://thenewontology.life/the-bigger-world" />
+          </div>
           <Link
             href="/the-sovereign-mind"
             className="inline-flex items-center gap-2 text-violet-300 hover:text-violet-100 font-sans text-sm no-underline hover:underline underline-offset-4 transition-colors"
