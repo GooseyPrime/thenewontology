@@ -167,9 +167,8 @@ export default function TheBiggerWorldPage() {
         </nav>
 
         <div className="mt-16 pt-8 border-t border-border">
-          <p className="section-title mb-4">Also in This Series</p>
-        <div className="pt-6 border-t border-violet-800/30 text-center space-y-4">
-          <div className="flex justify-center">
+          <div className="flex items-center justify-between flex-wrap gap-4 mb-4">
+            <p className="section-title">Also in This Series</p>
             <VisitorCounter pageUrl="https://thenewontology.life/the-bigger-world" />
           </div>
           <Link
