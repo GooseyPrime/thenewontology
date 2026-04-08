@@ -4,6 +4,7 @@ import "./globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 const GTM_ID = "GTM-W3985XV3";
+const GA_ID2 = "G-PEPEGCGN9F";
 
 const SITE_URL = "https://thenewontology.life";
 const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ?? "";
@@ -99,6 +100,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
         </noscript>
         {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID2}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics-2" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_ID2}', { page_path: window.location.pathname });
+          `}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
