@@ -297,6 +297,20 @@ export default function Chapter8Page() {
             Source: Szydagis, M. et al. &quot;Applying the wisdom of crowds to the question of UAP.&quot; arXiv preprint, 2023.
           </p>
 
+          <h2>Addressing the Strongest Counter-Arguments</h2>
+          <p>
+            The cyclical and catastrophic frameworks presented in this chapter intersect with contested scientific terrain. The strongest objections merit direct engagement.
+          </p>
+          <p>
+            <strong>The contested status of the Younger Dryas Impact Hypothesis:</strong> While the impact hypothesis has gained significant support since its 2007 proposal, it remains debated. Green et al. (2025) have questioned the platinum anomaly timing, and some researchers argue the evidence is better explained by volcanic activity or other terrestrial mechanisms. The hypothesis is best understood as strongly supported but not yet conclusively established — a distinction this analysis maintains.
+          </p>
+          <p>
+            <strong>&quot;Correlation is not causation&quot; — Glubb&apos;s 250-year cycle:</strong> Sir John Glubb identified a pattern across thirteen empires, but critics note that empire duration depends heavily on how &quot;empire&quot; is defined and when start/end dates are assigned. Different boundary choices yield different durations. The pattern is suggestive rather than deterministic. However, the convergence of Glubb&apos;s historical pattern with Turchin&apos;s independent structural-demographic model — derived from entirely different data and methodology — strengthens the case that the pattern reflects real structural dynamics rather than retrospective pattern-matching.
+          </p>
+          <p>
+            <strong>Mainstream consensus on geomagnetic reversal:</strong> The prevailing scientific view holds that a full geomagnetic reversal is not imminent — that current field weakening and pole acceleration, while noteworthy, fall within the range of normal secular variation. This assessment is based on the best available models. However, the honest acknowledgment is that humanity has no observational record of a full reversal; the last one occurred 780,000 years before any magnetic measurement instrument existed. The models are extrapolations, not observations. The data documented in this chapter is not presented as proof of imminent reversal but as evidence that Earth&apos;s geomagnetic environment is in a period of historically anomalous change.
+          </p>
+
           <h2>Synthesis and Open Questions</h2>
 
           <p>

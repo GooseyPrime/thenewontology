@@ -218,6 +218,20 @@ export default function Chapter5Page() {
             The theoretical foundations for understanding plasma&apos;s cosmic role were laid by Nobel laureate <strong>Hannes Alfvén</strong> (Physics, 1970), who discovered Alfvén waves and predicted the universe&apos;s filamentary structure — later confirmed by large-scale surveys. Kristian Birkeland proposed field-aligned currents connecting space to Earth&apos;s atmosphere, confirmed by satellite observation in 1974. An important distinction must be maintained: legitimate plasma cosmology, grounded in Alfvén&apos;s peer-reviewed work and Nobel-recognized physics, is fundamentally different from pseudoscientific &quot;Electric Universe&quot; theory. The former represents rigorous astrophysics; the latter extrapolates far beyond the evidence into unfalsifiable territory.
           </p>
 
+          <h2>Addressing the Strongest Counter-Arguments</h2>
+          <p>
+            The claims in this chapter challenge deeply held assumptions in mainstream neuroscience and physics. The strongest objections deserve direct engagement.
+          </p>
+          <p>
+            <strong>Tegmark&apos;s decoherence critique:</strong> Max Tegmark&apos;s influential 2000 calculation argued that quantum superpositions in neural microtubules would decohere in approximately 10<sup>−13</sup> seconds — far too fast for cognitive relevance. This remains the single most cited objection to quantum consciousness models. However, Tegmark&apos;s calculation assumed microtubules behave as isolated quantum systems in thermal equilibrium with their environment. The Babcock-Kurian tryptophan superradiance findings demonstrate that biological architectures can sustain coherent quantum states through collective shielding effects — precisely the mechanism Tegmark&apos;s model did not account for. The decoherence objection may be technically correct for isolated systems while being empirically wrong for evolved biological quantum architectures.
+          </p>
+          <p>
+            <strong>The &quot;just-so story&quot; criticism of Orch-OR:</strong> Critics argue that Orch-OR is unfalsifiable — that it explains consciousness by invoking quantum mechanics without making testable predictions. This criticism was more valid before 2014, when Anirban Bandyopadhyay&apos;s laboratory demonstrated megahertz-to-gigahertz resonance frequencies in individual microtubules matching Orch-OR&apos;s predicted frequencies. The theory now makes specific, testable predictions about microtubule quantum behavior that can be experimentally confirmed or refuted.
+          </p>
+          <p>
+            <strong>Lack of independent replication of Kerskens:</strong> The Zero Quantum Coherence study has not been independently replicated as of early 2026. This is a legitimate limitation. However, the absence of replication is not the same as the presence of refutation. The study&apos;s methodology is publicly available, and the quantum witness protocol it employs is well-established in quantum information theory. Replication attempts are warranted and, if successful, would constitute landmark evidence for macroscopic brain entanglement.
+          </p>
+
           <h2>Synthesis</h2>
           <p>
             The emerging physics of consciousness, assembled from the convergent contributions of quantum biology, experimental neuroscience, fundamental physics, and cognitive science, presents a picture of the universe radically at odds with the Cartesian-Newtonian inheritance that continues to structure most scientific and cultural assumptions about mind and reality.

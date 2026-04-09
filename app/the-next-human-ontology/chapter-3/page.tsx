@@ -179,6 +179,20 @@ export default function Chapter3Page() {
             </p>
           </blockquote>
 
+          <h2>Addressing the Strongest Counter-Arguments</h2>
+          <p>
+            Intellectual honesty demands direct engagement with the strongest objections to the claims presented in this chapter.
+          </p>
+          <p>
+            <strong>The thermodynamic objection to zero-point energy extraction:</strong> Mainstream physics holds that vacuum energy represents the ground state of quantum fields — and that extracting net energy from a ground state violates the second law of thermodynamics. This is a serious objection. The response is not that thermodynamics is wrong, but that the assumption of a single, uniform ground state may be incomplete. Casimir effect measurements confirm that vacuum boundary conditions can be manipulated to produce measurable forces. The question is whether analogous manipulation can produce net energy extraction — a question that remains experimentally open, not theoretically foreclosed.
+          </p>
+          <p>
+            <strong>The 2004 DOE LENR review:</strong> The Department of Energy&apos;s 2004 review panel was split roughly evenly on whether the evidence for anomalous excess heat in LENR experiments was convincing, with a majority finding the evidence insufficient to warrant a dedicated federal research program. Critics note that the review did not conclude LENR was impossible — it concluded the evidence was not yet compelling enough for programmatic investment. Subsequent replications, particularly from the US Navy&apos;s SPAWAR laboratory, have strengthened the empirical case considerably.
+          </p>
+          <p>
+            <strong>&quot;If it worked, someone would have demonstrated it publicly&quot;:</strong> This assumes that technological demonstration follows linearly from theoretical possibility — an assumption contradicted by the very secrecy architecture documented in Chapter 2. The Invention Secrecy Act provides the legal mechanism, classification provides the institutional mechanism, and the economic interests of the fossil fuel industry provide the financial mechanism for suppression. The absence of public demonstration is not evidence of impossibility; it is evidence consistent with the suppression hypothesis this chapter documents.
+          </p>
+
           <h2>Conclusion</h2>
           <p>
             The energy suppression paradigm is not a simple story of malicious actors suppressing beneficial technology. It is a structural story about the institutional logic of self-preservation operating at civilizational scale. The macro-economic, geopolitical, and national-security consequences of a transition to decentralized, effectively free energy are so destabilizing to every institution of the existing order that suppression becomes not a choice but a systemic output—the automatic response of a self-preserving institutional ecology to an existential threat.
