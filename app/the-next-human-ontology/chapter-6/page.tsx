@@ -67,8 +67,8 @@ export default function Chapter6Page() {
           <p>
             The functional model follows logically from the data. If the universe is a vast spectrum of interacting
             electromagnetic and quantum fields, the hypermorphic caudate-putamen tunes into frequencies, entities, and
-            phenomena entirely invisible to baseline human perception. A 1963 hypothesis theorized — arrived at through
-            a dream state, notably — that the caudate nucleus represents the center of future human evolutionary
+            phenomena entirely invisible to baseline human perception. A speculative 1963 hypothesis — reportedly arrived at through
+            non-ordinary cognition — proposed that the caudate nucleus represents the center of future human evolutionary
             development and functions as the precise locus of the biological antenna. Functional imaging of master
             chess players provides corroborating evidence: massive activation in this region is consistently observed
             when grandmasters execute strategies that defy standard logical progression — moves that appear to emerge
@@ -154,6 +154,9 @@ export default function Chapter6Page() {
             programs. The U.S. response operated under a succession of code names — SCANATE, GONDOLA WISH, GRILL
             FLAME, CENTER LANE, SUN STREAK — consolidated under the single designation Project Stargate in 1991.
           </p>
+          <p className="text-sm text-muted italic">
+            Source: Defense Intelligence Agency report, &quot;Controlled Offensive Behavior — USSR,&quot; (1972), document ST-CS-01-169-72.
+          </p>
 
           <p>
             Operating through Stanford Research Institute under physicists Hal Puthoff and Russell Targ, the program
@@ -178,12 +181,12 @@ export default function Chapter6Page() {
               <tr>
                 <td className="py-2 pr-4 align-top font-semibold">Ingo Swann</td>
                 <td className="py-2 pr-4 align-top">Planet Jupiter (April 1973)</td>
-                <td className="py-2 align-top">Prior to the Pioneer 10 flyby, accurately described Jupiter's atmospheric ice crystals, magnetic storms, and a faint undiscovered ring system. NASA's Voyager 1 later confirmed the existence of Jupiter's rings.</td>
+                <td className="py-2 align-top">Prior to the Pioneer 10 flyby, accurately described Jupiter&apos;s atmospheric ice crystals, magnetic storms, and a faint undiscovered ring system — six years before Voyager 1 confirmed the existence of Jupiter&apos;s rings in 1979. Swann also described intense volcanic activity on a moon, later identified as Io. CIA document: NSA-RDP96X00790R000100040010-3.</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 align-top font-semibold">Pat Price</td>
                 <td className="py-2 pr-4 align-top">Soviet Facilities</td>
-                <td className="py-2 align-top">Produced highly accurate detailed sketches of a secret Soviet nuclear testing site at Semipalatinsk — cranes, gantries, underground layouts. During test runs, routinely breached Top Secret NSA facilities, accurately reading code-word labels on classified folders stored in secure vaults.</td>
+                <td className="py-2 align-top">Given only geographic coordinates, produced highly accurate detailed sketches of a secret Soviet nuclear testing site at Semipalatinsk — including a remarkably accurate eight-wheeled gantry crane and a 60-foot metal sphere under construction. This sphere was unknown to any US intelligence agency and was confirmed three years later by <em>Aviation Week</em> (May 2, 1977). During additional test runs, routinely breached Top Secret NSA facilities, accurately reading code-word labels on classified folders stored in secure vaults.</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 align-top font-semibold">Joe McMoneagle</td>
@@ -193,10 +196,17 @@ export default function Chapter6Page() {
               <tr>
                 <td className="py-2 pr-4 align-top font-semibold">Joe McMoneagle</td>
                 <td className="py-2 pr-4 align-top">Mars, 1 Million B.C. (1984)</td>
-                <td className="py-2 align-top">Tasked blind with coordinates for Mars set one million years in the past. Described catastrophic geological upheaval, towering obelisks, and a dying race of tall, thin humanoid entities sheltering inside massive pyramidal stasis chambers.</td>
+                <td className="py-2 align-top">Tasked blind with a sealed envelope containing coordinates for Mars set one million years in the past. Described catastrophic geological upheaval, towering obelisks, and a dying race of tall, thin humanoid entities sheltering inside massive pyramidal stasis chambers. CIA document: CIA-RDP96-00788R001900760001-9, available at cia.gov/readingroom/.</td>
               </tr>
             </tbody>
           </table>
+
+          <p>
+            The definitive statistical validation of remote viewing came from Professor Jessica Utts, later president of the American Statistical Association. Utts analyzed 154 SRI experiments encompassing over 26,000 individual trials with 227 subjects, calculating a combined p-value of less than 10<sup>−20</sup>. Her conclusion was unequivocal: &quot;Using the standards applied to any other area of science, it is concluded that psychic functioning has been well established.&quot; Even the program&apos;s designated skeptic, psychologist Ray Hyman, conceded that the results were &quot;too large and consistent to be dismissed as statistical flukes&quot; — though he argued for methodological rather than paranormal explanations.
+          </p>
+          <p className="text-sm text-muted italic">
+            Source: Utts, J. (1996). &quot;An Assessment of the Evidence for Psychic Functioning.&quot; <em>Journal of Scientific Exploration</em> 10(1), 3-30.
+          </p>
 
           <p>
             These operational successes were frequently called "eight-martini results" — because they overwhelmingly

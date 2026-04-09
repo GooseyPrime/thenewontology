@@ -51,6 +51,9 @@ export default function Chapter7Page() {
             The subjects were primarily military personnel and aerospace engineers who had sustained injuries from
             close-proximity UAP encounters.
           </p>
+          <p className="text-sm text-muted italic">
+            Source: Green, C. &quot;Anomalous Acute and Subacute Field Effects on Human Biological Tissues.&quot; Defense Intelligence Reference Document (DIRD), 2010. Produced under the AAWSAP/AATIP program.
+          </p>
 
           <p>
             The clinical picture was consistent and devastating. UAP propulsion systems — or the active defense

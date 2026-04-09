@@ -263,6 +263,9 @@ export default function Chapter8Page() {
             humanity's approach toward the Great Filter — an intensified conditioning program running
             precisely when the civilizational stakes are at their absolute maximum.
           </p>
+          <p className="text-sm text-muted italic">
+            Source: Szydagis, M. et al. &quot;Applying the wisdom of crowds to the question of UAP.&quot; arXiv preprint, 2023.
+          </p>
 
           <h2>Synthesis and Open Questions</h2>
 
