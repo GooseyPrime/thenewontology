@@ -113,6 +113,31 @@ export default function Chapter2Page() {
             The convergence of these programs—Hemi-Sync, Gateway, Stargate—with Dr. Garry Nolan's contemporary neuroscientific work on the caudate-putamen and UAP contact suggests a through-line of classified government interest in the neurological and perceptual interface between human consciousness and whatever non-human intelligence represents. The secrecy architecture surrounding UAPs is not merely a material secrecy but an epistemological one: it conceals not only what has been found but what human minds might be capable of perceiving if the right neurological and cognitive conditions are met.
           </p>
 
+          <h2>Allied Acknowledgment: International Declassified Assessments</h2>
+          <p>
+            The architecture of secrecy is not exclusively American. Allied governments have conducted independent assessments that, while less politically fraught than US disclosures, arrive at conclusions that reinforce the central claims of this chapter.
+          </p>
+
+          <h3>The French COMETA Report (1999)</h3>
+          <p>
+            The most senior government-affiliated analysis of UAP ever published, &quot;UFOs and Defense: What Should We Prepare For?&quot; was authored by a committee of retired French generals, admirals, and aerospace scientists chaired by General Denis Letty. The report concluded that UAP represent an &quot;almost certain physical reality&quot; of unknown flying objects with exceptional capabilities. It was transmitted directly to French President Jacques Chirac and led to the creation of GEIPAN — France&apos;s ongoing institutional UAP research program. In 2010, France&apos;s Sigma/3AF Commission endorsed COMETA&apos;s core conclusions. The COMETA report demonstrates that outside the unique political pressures of the US defense-contractor complex, senior military and scientific officials reached the same fundamental assessment: the phenomenon is real, physical, and unexplained.
+          </p>
+
+          <h3>The Canadian Smith Memo (1950)</h3>
+          <p>
+            A formerly TOP SECRET Canadian government memorandum dated November 21, 1950, from Wilbert Smith — senior radio engineer at Canada&apos;s Department of Transport — reported that flying saucers &quot;exist,&quot; that the subject was &quot;the most highly classified subject in the United States Government, rating higher even than the H-bomb,&quot; and that a small group headed by Dr. Vannevar Bush was studying them. The memo&apos;s authentication is not disputed. When Dr. Robert Sarbacher — a consultant to the US Research and Development Board named in the memo — was recontacted in 1983, he confirmed the substance of Smith&apos;s report.
+          </p>
+
+          <h3>Project Blue Book: The 701 Unexplained</h3>
+          <p>
+            The US Air Force&apos;s Project Blue Book investigated 12,618 UAP reports between 1952 and 1969. Of these, 701 — approximately 5.5% — remained officially &quot;unidentified&quot; after analysis. The Battelle Memorial Institute&apos;s classified Special Report No. 14, commissioned by Blue Book, found that higher-quality cases with better documentation and more credible witnesses were <strong>more</strong> likely to remain unexplained — the opposite of what the null hypothesis predicted. This statistical finding, buried in a classified annex, contradicts the standard dismissal that unexplained cases merely reflect insufficient data.
+          </p>
+
+          <h3>The AARO Historical Record Report (2024)</h3>
+          <p>
+            The Department of Defense&apos;s All-domain Anomaly Resolution Office published a 63-page historical review in March 2024 concluding it found &quot;no verifiable information to substantiate claims&quot; of extraterrestrial material possession or reverse-engineering programs. Critics — including David Grusch, whose sworn congressional testimony directly contradicts AARO&apos;s findings, and members of the Senate Intelligence Committee — disputed the report, noting that AARO had been granted limited access to legacy special access programs. The AARO report now represents the current &quot;official position&quot; — a position that the accumulated evidence documented in this chapter systematically contradicts.
+          </p>
+
           <h2>Conclusion</h2>
           <p>
             The architecture of secrecy surrounding UAP programs is not a monolithic structure with a single controlling authority but a distributed, redundant, and self-reinforcing network of legal mechanisms, financial entanglements, administrative structures, and cultural norms that collectively produce and maintain concealment without requiring continuous active management. Waived USAPs provide legal immunity from oversight. The Atomic Energy Act provides classification permanence immune to executive action. IR&amp;D funding provides financial invisibility. Defense contractor autonomy provides administrative inaccessibility. Financial relationships between contractors and their congressional overseers provide institutional alignment. Congressional staff with decades of deep-state relationships provide process control.
