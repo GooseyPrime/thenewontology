@@ -45,7 +45,7 @@ export default function Chapter2Page() {
             In each successive legislative cycle—the December 2023 National Defense Authorization Act, the late 2024 NDAA, and again in the December 2025 process—the eminent domain clause was excised with surgical precision. The removal was not the product of floor debate or recorded committee votes but occurred in the conference process, where House and Senate versions of the NDAA are reconciled in closed-door negotiations whose internal deliberations are not subject to public record requirements.
           </p>
           <p>
-            The figure who emerged from investigative reporting as central to this repeated removal is <strong>Terry Carmack</strong>, a senior staffer for Senate Minority Leader Mitch McConnell. Representative Eric Burlison of Missouri, a UAPDA supporter, stated publicly that "a staffer blocked UAPDA, not a U.S. Senator"—a formulation pointing unmistakably toward Carmack's role. The episode illustrates a structural feature of the secrecy architecture that receives insufficient attention: the most consequential gatekeeping decisions are made not by elected officials whose accountability is in principle electoral, but by permanent professional staff whose careers span administrations and whose networks extend deeply into the defense and intelligence establishment.
+            The figure who emerged from congressional insider accounts as central to this repeated removal is <strong>Terry Carmack</strong>, a senior staffer for Senate Minority Leader Mitch McConnell. Representative Eric Burlison of Missouri, a UAPDA supporter, stated publicly that "a staffer blocked UAPDA, not a U.S. Senator"—a formulation pointing unmistakably toward Carmack's role. While this attribution has not been independently corroborated through formal legislative records, the episode illustrates a structural feature of the secrecy architecture that receives insufficient attention: the most consequential gatekeeping decisions are made not by elected officials whose accountability is in principle electoral, but by permanent professional staff whose careers span administrations and whose networks extend deeply into the defense and intelligence establishment.
           </p>
 
           <h2>Key Political Figures and Financial Entanglements</h2>
@@ -55,8 +55,14 @@ export default function Chapter2Page() {
           <p>
             Representative <strong>Mike Turner</strong> of Ohio, Chair of the House Permanent Select Committee on Intelligence during the period of the UAPDA's repeated dilution, represents a district that geographically encircles <strong>Wright-Patterson Air Force Base</strong>—the installation most frequently cited in UAP research as a repository for recovered non-human materials dating to the 1940s. Federal Election Commission records document that Turner received <strong>$186,250</strong> from Lockheed Martin's PAC and associated personnel, supplemented by substantial contributions from Northrop Grumman and BAE Systems.
           </p>
+          <p className="text-sm text-muted italic">
+            Source: Federal Election Commission filings, Lockheed Martin Corporation PAC contributions, cumulative through 2024 filing period.
+          </p>
           <p>
             Representative <strong>Mike Rogers</strong> of Alabama, Chair of the House Armed Services Committee during the same period, represents a district proximate to <strong>Redstone Arsenal</strong>, home to the Army's Missile Defense Command and a significant classified research infrastructure. Rogers received <strong>$143,250</strong> from Lockheed Martin, with additional contributions from the same defense contractor constellation.
+          </p>
+          <p className="text-sm text-muted italic">
+            Source: Federal Election Commission filings, Lockheed Martin Corporation PAC contributions, cumulative through 2024 filing period.
           </p>
           <p>
             These financial currents do not constitute evidence of corruption in any legally meaningful sense. They describe something structurally more significant: the systematic alignment of the political economy of defense oversight with the institutional interests of the entities being overseen. The oversight architecture is not merely compromised by financial relationships—it has been constituted by them, over decades of incremental normalization.
@@ -71,6 +77,9 @@ export default function Chapter2Page() {
           </p>
           <p>
             The most direct documentary evidence of this system's operation in the UAP context is the <strong>Wilson-Davis memo</strong>—a document purported to record a 1997 conversation between <em>Vice Admiral Thomas Wilson</em>, then Director of the Defense Intelligence Agency, and physicist Dr. Eric Davis. According to the memo, Wilson discovered through official channels that a classified program potentially related to non-human technology existed within a defense contractor's internal structure. When Wilson attempted to access the program through his official position—as the serving director of the nation's premier defense intelligence agency—contractor security officials denied him access and informed him that his clearance was insufficient for their internally classified program. A serving four-star intelligence official was denied access to a program operated on government contract with government-reimbursed funds.
+          </p>
+          <p>
+            The memo&apos;s evidentiary status was significantly elevated on November 13, 2024, when it was entered into the Congressional Record during the House Oversight Committee hearing on UAP as document designation &quot;SD001.&quot; This formal congressional documentation transforms the Wilson-Davis memo from a leaked document of contested provenance into an artifact of official government proceedings — a distinction with substantial implications for its legal and evidentiary weight.
           </p>
           <p>
             The contractors most frequently cited in this architecture—<strong>Lockheed Martin's Skunk Works</strong>, <strong>Northrop Grumman's Advanced Programs division</strong>, and <strong>BAE Systems</strong>—operate advanced programs divisions with classification authorities that exceed in practice, if not in law, the oversight reach of congressional committees. Their longevity, their classified institutional memory, and their control over specialized manufacturing capabilities that government lacks in-house have created a structural autonomy that decades of defense acquisition policy have inadvertently consolidated.
@@ -102,6 +111,31 @@ export default function Chapter2Page() {
           </p>
           <p>
             The convergence of these programs—Hemi-Sync, Gateway, Stargate—with Dr. Garry Nolan's contemporary neuroscientific work on the caudate-putamen and UAP contact suggests a through-line of classified government interest in the neurological and perceptual interface between human consciousness and whatever non-human intelligence represents. The secrecy architecture surrounding UAPs is not merely a material secrecy but an epistemological one: it conceals not only what has been found but what human minds might be capable of perceiving if the right neurological and cognitive conditions are met.
+          </p>
+
+          <h2>Allied Acknowledgment: International Declassified Assessments</h2>
+          <p>
+            The architecture of secrecy is not exclusively American. Allied governments have conducted independent assessments that, while less politically fraught than US disclosures, arrive at conclusions that reinforce the central claims of this chapter.
+          </p>
+
+          <h3>The French COMETA Report (1999)</h3>
+          <p>
+            The most senior government-affiliated analysis of UAP ever published, &quot;UFOs and Defense: What Should We Prepare For?&quot; was authored by a committee of retired French generals, admirals, and aerospace scientists chaired by General Denis Letty. The report concluded that UAP represent an &quot;almost certain physical reality&quot; of unknown flying objects with exceptional capabilities. It was transmitted directly to French President Jacques Chirac and led to the creation of GEIPAN — France&apos;s ongoing institutional UAP research program. In 2010, France&apos;s Sigma/3AF Commission endorsed COMETA&apos;s core conclusions. The COMETA report demonstrates that outside the unique political pressures of the US defense-contractor complex, senior military and scientific officials reached the same fundamental assessment: the phenomenon is real, physical, and unexplained.
+          </p>
+
+          <h3>The Canadian Smith Memo (1950)</h3>
+          <p>
+            A formerly TOP SECRET Canadian government memorandum dated November 21, 1950, from Wilbert Smith — senior radio engineer at Canada&apos;s Department of Transport — reported that flying saucers &quot;exist,&quot; that the subject was &quot;the most highly classified subject in the United States Government, rating higher even than the H-bomb,&quot; and that a small group headed by Dr. Vannevar Bush was studying them. The memo&apos;s authentication is not disputed. When Dr. Robert Sarbacher — a consultant to the US Research and Development Board named in the memo — was recontacted in 1983, he confirmed the substance of Smith&apos;s report.
+          </p>
+
+          <h3>Project Blue Book: The 701 Unexplained</h3>
+          <p>
+            The US Air Force&apos;s Project Blue Book investigated 12,618 UAP reports between 1952 and 1969. Of these, 701 — approximately 5.5% — remained officially &quot;unidentified&quot; after analysis. The Battelle Memorial Institute&apos;s classified Special Report No. 14, commissioned by Blue Book, found that higher-quality cases with better documentation and more credible witnesses were <strong>more</strong> likely to remain unexplained — the opposite of what the null hypothesis predicted. This statistical finding, buried in a classified annex, contradicts the standard dismissal that unexplained cases merely reflect insufficient data.
+          </p>
+
+          <h3>The AARO Historical Record Report (2024)</h3>
+          <p>
+            The Department of Defense&apos;s All-domain Anomaly Resolution Office published a 63-page historical review in March 2024 concluding it found &quot;no verifiable information to substantiate claims&quot; of extraterrestrial material possession or reverse-engineering programs. Critics — including David Grusch, whose sworn congressional testimony directly contradicts AARO&apos;s findings, and members of the Senate Intelligence Committee — disputed the report, noting that AARO had been granted limited access to legacy special access programs. The AARO report now represents the current &quot;official position&quot; — a position that the accumulated evidence documented in this chapter systematically contradicts.
           </p>
 
           <h2>Conclusion</h2>

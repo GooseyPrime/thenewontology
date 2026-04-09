@@ -190,6 +190,104 @@ export default function BibliographyPage() {
             </ul>
           </section>
 
+          <h2 className="font-sans text-xl font-semibold text-text mt-12 mb-4">Declassified Documents &amp; Government Reports</h2>
+          <table className="table-auto w-full text-sm border-collapse my-6">
+            <thead className="border-b border-border">
+              <tr>
+                <th className="text-left pb-2 pr-4 font-sans text-muted">Document</th>
+                <th className="text-left pb-2 pr-4 font-sans text-muted">ID / Reference</th>
+                <th className="text-left pb-2 font-sans text-muted">Status</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-border">
+              <tr>
+                <td className="py-2 pr-4 align-top">CIA Gateway Process</td>
+                <td className="py-2 pr-4 align-top">CIA-RDP96-00788R001700210016-5</td>
+                <td className="py-2 align-top">Declassified 2003</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-4 align-top">CIA Mars RV Session</td>
+                <td className="py-2 pr-4 align-top">CIA-RDP96-00788R001900760001-9</td>
+                <td className="py-2 align-top">Declassified</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-4 align-top">CIA Adam and Eve Story</td>
+                <td className="py-2 pr-4 align-top">CIA-RDP79B00752A000300070001-8</td>
+                <td className="py-2 align-top">Partially declassified 2013</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-4 align-top">DIA AAWSAP DIRDs (38)</td>
+                <td className="py-2 pr-4 align-top">FOIA case #00159-2018, The Black Vault</td>
+                <td className="py-2 align-top">37 of 38 released March 2022</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-4 align-top">French COMETA Report</td>
+                <td className="py-2 pr-4 align-top">Published 1999</td>
+                <td className="py-2 align-top">Public</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-4 align-top">Canadian Smith Memo</td>
+                <td className="py-2 pr-4 align-top">November 21, 1950</td>
+                <td className="py-2 align-top">Declassified</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-4 align-top">UK Project Condign</td>
+                <td className="py-2 pr-4 align-top">Declassified May 2006</td>
+                <td className="py-2 align-top">UK National Archives</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-4 align-top">Wilson-Davis Memo</td>
+                <td className="py-2 pr-4 align-top">SD001, Congressional Record Nov 2024</td>
+                <td className="py-2 align-top">Leaked 2019; entered Congress 2024</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-4 align-top">NSA ET Messages</td>
+                <td className="py-2 pr-4 align-top">NSA declassification</td>
+                <td className="py-2 align-top">Declassified</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-4 align-top">Project Blue Book</td>
+                <td className="py-2 pr-4 align-top">Air Force records</td>
+                <td className="py-2 align-top">Declassified</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-4 align-top">FBI Guy Hottel Memo</td>
+                <td className="py-2 pr-4 align-top">FBI Vault, 1950</td>
+                <td className="py-2 align-top">Public</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-4 align-top">AARO Historical Report</td>
+                <td className="py-2 pr-4 align-top">March 2024, 63 pages</td>
+                <td className="py-2 align-top">Public</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-4 align-top">DIA Controlled Offensive Behavior — USSR</td>
+                <td className="py-2 pr-4 align-top">ST-CS-01-169-72 (1972)</td>
+                <td className="py-2 align-top">Declassified</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h2 className="font-sans text-xl font-semibold text-text mt-12 mb-4">Additional Sources (Plasma Physics, Interstellar Objects, Geophysics)</h2>
+          <ul className="list-disc pl-5 space-y-2 text-sm">
+            <li>Bohm, D. (1980). <em>Wholeness and the Implicate Order.</em> Routledge.</li>
+            <li>Bohm, D. &amp; Peat, F.D. (1987). <em>Science, Order &amp; Creativity.</em> Bantam Books.</li>
+            <li>Tsytovich, V.N. et al. (2007). &quot;From Plasma Crystals and Helical Structures towards Inorganic Living Matter.&quot; <em>New Journal of Physics</em> 9, 263.</li>
+            <li>Teodorani, M. (2004). &quot;A Long-Term Scientific Survey of the Hessdalen Phenomenon.&quot; <em>Journal of Scientific Exploration</em> 18(2), 217-251.</li>
+            <li>UK Ministry of Defence. &quot;Unidentified Aerial Phenomena in the UK Air Defence Region.&quot; (Project Condign) Declassified May 2006.</li>
+            <li>Bialy, S. &amp; Loeb, A. (2018). &quot;Could Solar Radiation Pressure Explain &apos;Oumuamua&apos;s Peculiar Acceleration?&quot; <em>ApJL</em> 868(1), L1.</li>
+            <li>Loeb, A. et al. (2024). &quot;Recovery and Classification of Spherules from the Pacific Ocean Site of the CNEOS 2014-01-08 Bolide.&quot; <em>Chemical Geology</em> 670, 122415.</li>
+            <li>Cloete, R. &amp; Loeb, A. (2026). arXiv:2602.08956.</li>
+            <li>Utts, J. (1996). &quot;An Assessment of the Evidence for Psychic Functioning.&quot; <em>Journal of Scientific Exploration</em> 10(1), 3-30.</li>
+            <li>Persinger, M.A. &quot;Geophysical Variables and Behavior&quot; series. <em>Perceptual and Motor Skills</em> (1975-1989).</li>
+            <li>Hernandez, R. et al. (2018). <em>Beyond UFOs.</em> FREE Foundation.</li>
+            <li>Babcock, N.S., Kurian, P. et al. (2024). &quot;Ultraviolet Superradiance from Mega-Networks of Tryptophan in Biological Architectures.&quot; <em>Journal of Physical Chemistry B.</em></li>
+            <li>Szydagis, M. et al. (2023). &quot;Applying the wisdom of crowds to the question of UAP.&quot; arXiv preprint.</li>
+            <li>Finlay, C.C. et al. (2025). <em>Physics of Earth and Planetary Interiors.</em></li>
+            <li>COMETA. (1999). &quot;UFOs and Defense: What Should We Prepare For?&quot;</li>
+            <li>Green, C. (2010). &quot;Anomalous Acute and Subacute Field Effects on Human Biological Tissues.&quot; DIRD, AAWSAP/AATIP.</li>
+          </ul>
+
         </div>
         <div className="mt-16 pt-4 flex justify-center">
           <VisitorCounter pageUrl="https://thenewontology.life/the-next-human-ontology/bibliography" />
