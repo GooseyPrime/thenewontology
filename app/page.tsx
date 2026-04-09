@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
-import VisitorCounter from "@/components/VisitorCounter";
 
 export const metadata: Metadata = {
   title: "The New Human Ontology",
@@ -167,9 +166,6 @@ export default function Home() {
         </nav>
 
         <footer className="mt-20 text-center">
-          <div className="flex justify-center mb-3">
-            <VisitorCounter pageUrl="https://thenewontology.life" />
-          </div>
           <p className="font-sans text-muted/50 text-xs tracking-widest uppercase">
             thenewontology.life &nbsp;·&nbsp; All rights reserved
           </p>
