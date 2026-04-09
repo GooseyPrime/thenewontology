@@ -84,6 +84,9 @@ export default function Chapter1Page() {
           <p>
             The disclosure vector, less legible but accelerating, received unexpected institutional formalization at the Sol Foundation symposium at Stanford University, where retired Army Colonel Karl Nell articulated what has since been called the <strong>2030 transparency timeline</strong>—the assertion that by the end of this decade, the existence of non-human intelligence will have been formally acknowledged by governments sufficiently that the public reality matrix will have permanently shifted. Nell's background in strategic intelligence and his role in transitioning UAPTF (UAP Task Force) activities into the successor AARO (All-domain Anomaly Resolution Office) lends his timeline significant institutional credibility.
           </p>
+          <p className="text-sm text-muted italic">
+            Source: Sol Foundation Symposium, Stanford University, November 2023. Colonel Karl Nell (Ret.), keynote presentation. Video publicly available.
+          </p>
 
           <h3>The Schism and Ontological Shock</h3>
           <p>
@@ -95,6 +98,9 @@ export default function Chapter1Page() {
           <p>
             A 2018 survey conducted by Hernandez, Klimo, and colleagues at the Foundation for Research into Extraterrestrial Encounters (FREE) gathered data from over 3,200 UAP experiencers. The results were remarkable for their consistency with non-materialist models of the phenomenon: 66% reported experiencing craft that appeared intelligently controlled; 52% reported receiving what they interpreted as telepathic communications; 20–29% reported conscious memories of being aboard UAP craft. The Foundation for Unidentified Non-Human Intelligence Disclosure (uNHIdden) was subsequently established specifically to address the impending public health crisis of mass ontological shock that disclosure would precipitate.
           </p>
+          <p className="text-sm text-muted italic">
+            Source: Hernandez, R., Klimo, J., Schild, R. et al. (2018). <em>Beyond UFOs: The Science of Consciousness and Contact with Non-Human Intelligence.</em> FREE Foundation.
+          </p>
 
           <h2>The Physics of the Universal Consciousness Field</h2>
           <p>
@@ -105,6 +111,9 @@ export default function Chapter1Page() {
           </p>
           <p>
             This framework formalizes and extends two earlier theoretical positions that remained philosophically suggestive but mathematically underdeveloped. David Bohm's <strong>implicate order</strong> proposed that what we perceive as the physical universe—the "explicate order" of separate, locally interacting objects—is a surface projection of a deeper, holographic reality in which all things remain fundamentally enfolded together. John Archibald Wheeler's <strong>participatory universe</strong> argued that the act of observation is not merely passive registration but active participation in the constitution of physical reality—that the universe is not fully real until it is observed, and that observers are therefore not accidental products of the universe but necessary constituents of its being. Strømme's framework provides both a structural home for these intuitions and a physical mechanism for their operation.
+          </p>
+          <p>
+            It should be noted that <em>AIP Advances</em> operates under a lighter peer review standard than flagship physics journals. Strømme&apos;s framework is a formal theoretical proposal, not an experimentally validated theory. Its significance lies in providing mathematical structure for ideas that have previously lacked it — not in constituting proof. The framework&apos;s convergence with Bohm&apos;s implicate order, Orch-OR, and the Gateway Process analysis strengthens its theoretical plausibility but does not exempt it from the requirement of empirical validation.
           </p>
 
           <h2>Macroscopic Quantum Entanglement and Microtubular Coherence</h2>
