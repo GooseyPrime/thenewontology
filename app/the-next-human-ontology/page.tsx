@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
-import VisitorCounter from "@/components/VisitorCounter";
 
 export const metadata: Metadata = {
   title: "The Next Human Ontology",
@@ -172,7 +171,6 @@ export default function TheNextHumanOntologyPage() {
         <div className="mt-16 pt-8 border-t border-border">
           <div className="flex items-center justify-between flex-wrap gap-4 mb-4">
             <p className="section-title">Continue Reading</p>
-            <VisitorCounter pageUrl="https://thenewontology.life/the-next-human-ontology" />
           </div>
           <Link
             href="/the-sovereign-mind"

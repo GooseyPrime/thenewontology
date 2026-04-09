@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
-import VisitorCounter from "@/components/VisitorCounter";
 
 export const metadata: Metadata = {
   title: "The Sovereign Mind",
@@ -111,7 +110,6 @@ export default function TheSovereignMindPage() {
           <Link href="/the-next-human-ontology" className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4">
             <span>←</span> Volume I — The Next Human Ontology
           </Link>
-          <VisitorCounter pageUrl="https://thenewontology.life/the-sovereign-mind" />
           <Link href="/the-bigger-world" className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4">
             Volume III — The Bigger World <span>→</span>
           </Link>

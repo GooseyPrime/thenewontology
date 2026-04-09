@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
-import VisitorCounter from "@/components/VisitorCounter";
 
 export const metadata: Metadata = {
   title: "Chapter 9: The Asymmetry of Religious Shock | The Next Human Ontology",
@@ -290,9 +289,6 @@ export default function Chapter9Page() {
             required the anthropocentric assumption to begin with.
           </p>
 
-        </div>
-        <div className="mt-16 pt-4 flex justify-center">
-          <VisitorCounter pageUrl="https://thenewontology.life/the-next-human-ontology/chapter-9" />
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">
           <Link href="/the-next-human-ontology/chapter-8" className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4">

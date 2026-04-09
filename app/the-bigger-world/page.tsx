@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import VisitorCounter from "@/components/VisitorCounter";
 
 export const metadata: Metadata = {
   title: "The Bigger World",
@@ -207,9 +206,6 @@ export default function TheBiggerWorldPage() {
         </nav>
 
         <div className="pt-6 border-t border-violet-800/30 text-center space-y-4">
-          <div className="flex justify-center">
-            <VisitorCounter pageUrl="https://thenewontology.life/the-bigger-world" />
-          </div>
           <Link
             href="/the-sovereign-mind"
             className="inline-flex items-center gap-2 text-violet-300 hover:text-violet-100 font-sans text-sm no-underline hover:underline underline-offset-4 transition-colors"

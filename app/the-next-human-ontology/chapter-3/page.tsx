@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
-import VisitorCounter from "@/components/VisitorCounter";
 
 export const metadata: Metadata = {
   title: "Chapter 3: The Energy Suppression Paradigm | The Next Human Ontology",
@@ -201,9 +200,6 @@ export default function Chapter3Page() {
             The dual paradigms of established centralized fusion research and suppressed decentralized LENR and ZPE represent the complex interplay of genuine scientific inquiry and entrenched economic interest. The path forward requires not the simple wish for suppression to end but the construction of institutional frameworks capable of managing the transition—the phased introduction of revolutionary energy technology in a manner that does not precipitate the civilizational disruption that current institutional actors rationally fear. This requires transparent access to patent data, open publication of experimental methodologies and replication studies, and international governance frameworks capable of managing the geopolitical consequences of the end of energy scarcity. None of these exist. Building them is among the most urgent tasks of the current historical moment.
           </p>
 
-        </div>
-        <div className="mt-16 pt-4 flex justify-center">
-          <VisitorCounter pageUrl="https://thenewontology.life/the-next-human-ontology/chapter-3" />
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">
           <Link href="/the-next-human-ontology/chapter-2" className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4"><span>←</span> Chapter 2</Link>

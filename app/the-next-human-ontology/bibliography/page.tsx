@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
-import VisitorCounter from "@/components/VisitorCounter";
 
 export const metadata: Metadata = {
   title: "Bibliography",
@@ -288,9 +287,6 @@ export default function BibliographyPage() {
             <li>Green, C. (2010). &quot;Anomalous Acute and Subacute Field Effects on Human Biological Tissues.&quot; DIRD, AAWSAP/AATIP.</li>
           </ul>
 
-        </div>
-        <div className="mt-16 pt-4 flex justify-center">
-          <VisitorCounter pageUrl="https://thenewontology.life/the-next-human-ontology/bibliography" />
         </div>
         <div className="mt-4 pt-8 border-t border-border flex justify-between items-center">
           <Link href="/the-next-human-ontology/chapter-10" className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4">

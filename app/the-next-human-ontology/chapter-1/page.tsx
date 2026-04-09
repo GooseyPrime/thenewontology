@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
-import VisitorCounter from "@/components/VisitorCounter";
 
 export const metadata: Metadata = {
   title: "Chapter 1: The Triple Singularity & The Ontological Shock | The Next Human Ontology",
@@ -187,9 +186,6 @@ export default function Chapter1Page() {
             The emergence of new fields may be necessary. <strong>Consciousness Engineering</strong>—the application of quantum consciousness theory to the deliberate design of higher-bandwidth biological or technological interfaces with the universal field—has no institutional home in current academic or governmental structures. <strong>Ontological Design</strong>—the deliberate construction of societal frameworks capable of accommodating expanded models of reality, NHI presence, and post-anthropocentric value systems—similarly falls between and beyond existing disciplines. Preemptive governance strategies for the Schism scenario must begin now, before the event they are designed to manage renders orderly preparation impossible.
           </p>
 
-        </div>
-        <div className="mt-16 pt-4 flex justify-center">
-          <VisitorCounter pageUrl="https://thenewontology.life/the-next-human-ontology/chapter-1" />
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">
           <div />
