@@ -23,6 +23,17 @@ export default function Chapter1Page() {
         <div className="h-px bg-border mb-10" />
         <div className="prose prose-invert">
 
+          <h2>A Note on Method</h2>
+          <p>
+            This volume synthesizes evidence from congressional testimony, declassified government documents, peer-reviewed scientific papers, and verified investigative reporting. The epistemological framework employed is neither credulous acceptance nor reflexive skepticism, but weighted assessment of evidence — each claim evaluated against the strength of its sourcing, the independence of corroborating data streams, and its consistency with the broader evidentiary pattern.
+          </p>
+          <p>
+            Sources are categorized by reliability: primary sources (declassified documents, sworn testimony, peer-reviewed research) carry the most weight; secondary sources (investigative journalism, expert analysis) provide context; and speculative frameworks are explicitly identified as such. Where claims remain contested — such as the Orch-OR theory of consciousness, LENR energy research, or the authenticity of the Wilson-Davis memo — the work presents the strongest arguments on each side rather than adjudicating prematurely.
+          </p>
+          <p>
+            The work operates from a specific epistemological posture: the seven-decade institutional dismissal of UAP phenomena was not produced by rigorous scientific investigation but by social sanction, career threat, and institutional inertia. However, this recognition must be applied with discipline. The same reasoning that identifies consensus dismissal as epistemically lazy can, if applied indiscriminately, dissolve all standards of evidence. Every claim in this volume is grounded in verifiable sources — and that empirical grounding is what separates this analysis from the vast ocean of speculation that lacks evidentiary discipline.
+          </p>
+
           <h2>The Epistemological Crisis of Anthropocentrism</h2>
           <p>
             The modern sovereign state is constructed upon a philosophical bedrock so deeply embedded that it operates as invisible axiom rather than acknowledged premise: anthropocentrism. This worldview rests on three interlocking pillars that have structured Western civilization's self-understanding for centuries. The first is <strong>Human Exceptionalism</strong>—the conviction that humanity represents the sole apex intelligence in the cosmos, that the universe's complexity and richness exist as backdrop to the singular drama of human consciousness. The second is <strong>Human Sovereignty</strong>—the premise that nation-states hold the ultimate authority over the biosphere, that the monopoly on legitimate force and the governance of airspace constitute the natural order. The third is a <strong>utilitarian value system</strong> that assigns nature no intrinsic worth outside its instrumental utility to human ends.
