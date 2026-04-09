@@ -45,7 +45,7 @@ export default function Chapter2Page() {
             In each successive legislative cycle—the December 2023 National Defense Authorization Act, the late 2024 NDAA, and again in the December 2025 process—the eminent domain clause was excised with surgical precision. The removal was not the product of floor debate or recorded committee votes but occurred in the conference process, where House and Senate versions of the NDAA are reconciled in closed-door negotiations whose internal deliberations are not subject to public record requirements.
           </p>
           <p>
-            The figure who emerged from investigative reporting as central to this repeated removal is <strong>Terry Carmack</strong>, a senior staffer for Senate Minority Leader Mitch McConnell. Representative Eric Burlison of Missouri, a UAPDA supporter, stated publicly that "a staffer blocked UAPDA, not a U.S. Senator"—a formulation pointing unmistakably toward Carmack's role. The episode illustrates a structural feature of the secrecy architecture that receives insufficient attention: the most consequential gatekeeping decisions are made not by elected officials whose accountability is in principle electoral, but by permanent professional staff whose careers span administrations and whose networks extend deeply into the defense and intelligence establishment.
+            The figure who emerged from congressional insider accounts as central to this repeated removal is <strong>Terry Carmack</strong>, a senior staffer for Senate Minority Leader Mitch McConnell. Representative Eric Burlison of Missouri, a UAPDA supporter, stated publicly that "a staffer blocked UAPDA, not a U.S. Senator"—a formulation pointing unmistakably toward Carmack's role. While this attribution has not been independently corroborated through formal legislative records, the episode illustrates a structural feature of the secrecy architecture that receives insufficient attention: the most consequential gatekeeping decisions are made not by elected officials whose accountability is in principle electoral, but by permanent professional staff whose careers span administrations and whose networks extend deeply into the defense and intelligence establishment.
           </p>
 
           <h2>Key Political Figures and Financial Entanglements</h2>
@@ -55,8 +55,14 @@ export default function Chapter2Page() {
           <p>
             Representative <strong>Mike Turner</strong> of Ohio, Chair of the House Permanent Select Committee on Intelligence during the period of the UAPDA's repeated dilution, represents a district that geographically encircles <strong>Wright-Patterson Air Force Base</strong>—the installation most frequently cited in UAP research as a repository for recovered non-human materials dating to the 1940s. Federal Election Commission records document that Turner received <strong>$186,250</strong> from Lockheed Martin's PAC and associated personnel, supplemented by substantial contributions from Northrop Grumman and BAE Systems.
           </p>
+          <p className="text-sm text-muted italic">
+            Source: Federal Election Commission filings, Lockheed Martin Corporation PAC contributions, cumulative through 2024 filing period.
+          </p>
           <p>
             Representative <strong>Mike Rogers</strong> of Alabama, Chair of the House Armed Services Committee during the same period, represents a district proximate to <strong>Redstone Arsenal</strong>, home to the Army's Missile Defense Command and a significant classified research infrastructure. Rogers received <strong>$143,250</strong> from Lockheed Martin, with additional contributions from the same defense contractor constellation.
+          </p>
+          <p className="text-sm text-muted italic">
+            Source: Federal Election Commission filings, Lockheed Martin Corporation PAC contributions, cumulative through 2024 filing period.
           </p>
           <p>
             These financial currents do not constitute evidence of corruption in any legally meaningful sense. They describe something structurally more significant: the systematic alignment of the political economy of defense oversight with the institutional interests of the entities being overseen. The oversight architecture is not merely compromised by financial relationships—it has been constituted by them, over decades of incremental normalization.
@@ -71,6 +77,9 @@ export default function Chapter2Page() {
           </p>
           <p>
             The most direct documentary evidence of this system's operation in the UAP context is the <strong>Wilson-Davis memo</strong>—a document purported to record a 1997 conversation between <em>Vice Admiral Thomas Wilson</em>, then Director of the Defense Intelligence Agency, and physicist Dr. Eric Davis. According to the memo, Wilson discovered through official channels that a classified program potentially related to non-human technology existed within a defense contractor's internal structure. When Wilson attempted to access the program through his official position—as the serving director of the nation's premier defense intelligence agency—contractor security officials denied him access and informed him that his clearance was insufficient for their internally classified program. A serving four-star intelligence official was denied access to a program operated on government contract with government-reimbursed funds.
+          </p>
+          <p>
+            The memo&apos;s evidentiary status was significantly elevated on November 13, 2024, when it was entered into the Congressional Record during the House Oversight Committee hearing on UAP as document designation &quot;SD001.&quot; This formal congressional documentation transforms the Wilson-Davis memo from a leaked document of contested provenance into an artifact of official government proceedings — a distinction with substantial implications for its legal and evidentiary weight.
           </p>
           <p>
             The contractors most frequently cited in this architecture—<strong>Lockheed Martin's Skunk Works</strong>, <strong>Northrop Grumman's Advanced Programs division</strong>, and <strong>BAE Systems</strong>—operate advanced programs divisions with classification authorities that exceed in practice, if not in law, the oversight reach of congressional committees. Their longevity, their classified institutional memory, and their control over specialized manufacturing capabilities that government lacks in-house have created a structural autonomy that decades of defense acquisition policy have inadvertently consolidated.
