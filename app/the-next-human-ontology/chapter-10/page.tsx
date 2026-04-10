@@ -173,7 +173,7 @@ export default function Chapter10Page() {
             When influence and material resources become highly concentrated at the institutional
             apex, the system becomes hyper-fragile. Most destabilizingly: a state is least stable
             at the very height of its apparent political and military power, precisely because the
-            differential between insiders and outsiders is maximized.
+            differential between insiders and outsiders is maximized. The full documentation of the energy suppression architecture — including the Invention Secrecy Act, LENR suppression, and zero-point energy research — is in <Link href="/the-next-human-ontology/chapter-3" className="text-accent hover:underline underline-offset-4">Chapter 3</Link>.
           </p>
 
           <p>

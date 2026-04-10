@@ -241,7 +241,7 @@ export default function Chapter8Page() {
             the filter lies in humanity's past, we are extraordinarily rare survivors of an almost-universal
             eliminator. If it lies in our future, we march toward inevitable extinction. The Fermi paradox
             — the deafening silence of a universe that should be teeming with communicative civilizations
-            — strongly suggests the latter.
+            — strongly suggests the latter. The full convergence of AI advancement with NHI disclosure and consciousness physics is synthesized in <Link href="/the-great-convergence" className="text-accent hover:underline underline-offset-4">The Great Convergence essay</Link>.
           </p>
 
           <p>
