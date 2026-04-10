@@ -62,13 +62,7 @@ export default function Home() {
         >
           <p className="section-title mb-3">Disclosure &amp; Verification Statement</p>
           <p className="font-serif text-text leading-relaxed text-sm md:text-base">
-            The documents contained within this site present{" "}
-            <strong>verified, factual information</strong>. Where AI has been
-            employed for literary accuracy and readability, the underlying
-            substance has been cross-validated across multiple independent AI
-            systems, each drawing from distinct and extensive data corpora. No
-            speculative or unverified content has been published. Readers are
-            encouraged to conduct their own due diligence.
+            This site presents information drawn from declassified government documents, peer-reviewed scientific research, sworn Congressional testimony, credible whistleblower reports, investigative journalism, and theoretical frameworks. Where claims rest on different evidentiary foundations, those foundations are identified in the text. The author distinguishes between established fact, strong evidence, credible testimony, contested evidence, and speculative frameworks throughout. Independent verification of all claims is encouraged. Sources are cited by chapter in the Bibliography.
           </p>
         </section>
 
@@ -129,6 +123,32 @@ export default function Home() {
             </p>
           </div>
         </section>
+
+        {/* Featured essay card */}
+        <div className="w-full max-w-2xl mb-6">
+          <Link
+            href="/the-great-convergence"
+            className="group relative flex flex-col panel px-7 py-6
+                       transition-all duration-300
+                       hover:border-accent/60 hover:shadow-[0_0_30px_rgba(155,188,255,0.12)]
+                       focus-visible:ring-2 focus-visible:ring-accent/70 focus-visible:ring-offset-2 focus-visible:ring-offset-bg
+                       no-underline"
+            style={{
+              background: "rgba(0,0,0,0.55)",
+              backdropFilter: "blur(12px)",
+              WebkitBackdropFilter: "blur(12px)",
+            }}
+          >
+            <span className="section-title mb-2 text-xs">Featured Essay</span>
+            <h2 className="font-sans text-lg md:text-xl font-semibold text-text group-hover:text-accent transition-colors mb-1">
+              The Great Convergence
+            </h2>
+            <p className="font-serif text-muted text-sm leading-relaxed">
+              The bridge document connecting all three legs of the Triple Singularity — AI, NHI disclosure, and consciousness physics converging simultaneously.
+            </p>
+            <span className="mt-3 self-end text-muted/40 group-hover:text-accent/60 transition-colors text-xl font-light select-none">→</span>
+          </Link>
+        </div>
 
         {/* Book selection buttons */}
         <nav aria-label="Book selection" className="w-full max-w-2xl flex flex-col gap-5">

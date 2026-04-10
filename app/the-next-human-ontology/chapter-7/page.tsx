@@ -7,6 +7,13 @@ export const metadata: Metadata = {
   description:
     "The Hitchhiker Effect — a phenomenon that attaches to observers and follows them across the globe — challenges every existing paradigm, causing documented neurological injuries and reality distortions.",
   alternates: { canonical: "https://thenewontology.life/the-next-human-ontology/chapter-7" },
+  openGraph: {
+    title: "Chapter 7: High Strangeness and The Hitchhiker Effect",
+    description:
+      "The Hitchhiker Effect — a phenomenon that attaches to observers and follows them across the globe — challenges every existing paradigm, causing documented neurological injuries and reality distortions.",
+    url: "https://thenewontology.life/the-next-human-ontology/chapter-7",
+    type: "article",
+  },
 };
 
 export default function Chapter7Page() {

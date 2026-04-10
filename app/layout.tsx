@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import GlobalNav from "@/components/GlobalNav";
 
 const GTM_ID = "GTM-W3985XV3";
 const GA_ID2 = "G-PEPEGCGN9F";
@@ -104,6 +105,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
         </noscript>
         {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
+        <GlobalNav />
+        <div style={{ height: "3.5rem" }} aria-hidden="true" />
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID2}`}
           strategy="afterInteractive"

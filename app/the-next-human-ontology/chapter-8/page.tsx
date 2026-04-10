@@ -7,6 +7,13 @@ export const metadata: Metadata = {
   description:
     "Civilizations consistently collapse in 250-year cycles while the Younger Dryas impact, Solar-Induced Dark Ages, and the AI Great Filter suggest humanity exists within a deeply constrained temporal window.",
   alternates: { canonical: "https://thenewontology.life/the-next-human-ontology/chapter-8" },
+  openGraph: {
+    title: "Chapter 8: The Cycles of Time and Human Resets",
+    description:
+      "Civilizations consistently collapse in 250-year cycles while the Younger Dryas impact, Solar-Induced Dark Ages, and the AI Great Filter suggest humanity exists within a deeply constrained temporal window.",
+    url: "https://thenewontology.life/the-next-human-ontology/chapter-8",
+    type: "article",
+  },
 };
 
 export default function Chapter8Page() {

@@ -7,6 +7,13 @@ export const metadata: Metadata = {
   description:
     "Complete consolidated bibliography and references for The Next Human Ontology — all primary sources, key figures, scientific papers, and institutional records cited across ten chapters.",
   alternates: { canonical: "https://thenewontology.life/the-next-human-ontology/bibliography" },
+  openGraph: {
+    title: "Bibliography | The Next Human Ontology",
+    description:
+      "Complete consolidated bibliography and references for The Next Human Ontology — all primary sources, key figures, scientific papers, and institutional records cited across ten chapters.",
+    url: "https://thenewontology.life/the-next-human-ontology/bibliography",
+    type: "article",
+  },
 };
 
 export default function BibliographyPage() {

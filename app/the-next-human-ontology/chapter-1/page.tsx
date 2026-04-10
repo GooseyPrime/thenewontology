@@ -7,6 +7,13 @@ export const metadata: Metadata = {
   description:
     "The simultaneous convergence of AI scaling, NHI disclosure, and the physics of consciousness threatens to dismantle anthropocentrism — the foundational premise of modern civilization.",
   alternates: { canonical: "https://thenewontology.life/the-next-human-ontology/chapter-1" },
+  openGraph: {
+    title: "Chapter 1: The Triple Singularity & The Ontological Shock",
+    description:
+      "The simultaneous convergence of AI scaling, NHI disclosure, and the physics of consciousness threatens to dismantle anthropocentrism — the foundational premise of modern civilization.",
+    url: "https://thenewontology.life/the-next-human-ontology/chapter-1",
+    type: "article",
+  },
 };
 
 export default function Chapter1Page() {

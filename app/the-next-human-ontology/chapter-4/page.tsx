@@ -7,6 +7,13 @@ export const metadata: Metadata = {
   description:
     "The nuts-and-bolts extraterrestrial hypothesis fails to account for the consciousness connection, the hitchhiker effect, and cross-cultural continuity — demanding more radical frameworks.",
   alternates: { canonical: "https://thenewontology.life/the-next-human-ontology/chapter-4" },
+  openGraph: {
+    title: "Chapter 4: The Extraterrestrial Hypothesis is Dead",
+    description:
+      "The nuts-and-bolts extraterrestrial hypothesis fails to account for the consciousness connection, the hitchhiker effect, and cross-cultural continuity — demanding more radical frameworks.",
+    url: "https://thenewontology.life/the-next-human-ontology/chapter-4",
+    type: "article",
+  },
 };
 
 export default function Chapter4Page() {
@@ -30,7 +37,7 @@ export default function Chapter4Page() {
             The problem is that the empirical record does not support it, and the manner in which it fails is more diagnostic than a simple absence of evidence. If UAPs represented spacecraft from a singular technologically unified civilization—or even from a small number of distinct civilizations—one would expect statistical regularities in the data: standardization of craft morphology, consistency of operational protocols, recognizable patterns in communication attempts, and relative homogeneity in reported occupant biology. What the documented record reveals instead is an absurd, chaotic proliferation of morphologies: metallic discs, luminous orbs of varying color and behavior, massive black triangles executing silent low-altitude passes over population centers, aerodynamic "tic-tac" forms photographed by Navy pilots, impossible structures—cubes enclosed within translucent spheres, perfect geometric forms—and amorphous shape-shifting plasmoid entities that appear to lack fixed physical boundaries.
           </p>
           <p>
-            Statistical analysis of encounter cases by researchers including Thomas Eddie Bullard and the FREE database team reveals that approximately <strong>50% of close encounter cases involve occupant interactions</strong> including apparent telepathic communication, procedures resembling medical examinations, and exchanges of symbolic, mythological, or prophetic content that bear no relationship to anything a strictly physical contact scenario would require. If these are spacecraft pilots conducting reconnaissance or resource extraction, why the elaborate theater of symbolic imagery, archetypes, and apparent psychological manipulation? The ETH has no answer because its fundamental premise—that this is a purely material, technological encounter between physical intelligences—excludes the data by assumption.
+            Statistical analysis of encounter cases by researchers including Thomas Eddie Bullard and the FREE database team reveals that approximately <strong>50% of close encounter cases involve occupant interactions</strong> including apparent telepathic communication, procedures resembling medical examinations, and exchanges of symbolic, mythological, or prophetic content that bear no relationship to anything a strictly physical contact scenario would require (Bullard, 1987; FREE Foundation, 2018). If these are spacecraft pilots conducting reconnaissance or resource extraction, why the elaborate theater of symbolic imagery, archetypes, and apparent psychological manipulation? The ETH has no answer because its fundamental premise—that this is a purely material, technological encounter between physical intelligences—excludes the data by assumption.
           </p>
           <p>
             The ETH consistently fails to account for what researchers have termed <strong>high strangeness variables</strong>: the physical evidence that appears and disappears; the experiencer who finds their watch running backward; the UFO that responds to witnesses' thoughts before they are expressed; the encounter that leaves physical trace evidence (scorched soil, radiation burns, physiological effects) while simultaneously producing memories that carry the unmistakable texture of dream or vision. These are not peripheral anomalies in an otherwise coherent physical scenario. They are the central and most frequently reported features of the phenomenon.

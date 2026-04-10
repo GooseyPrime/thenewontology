@@ -7,6 +7,13 @@ export const metadata: Metadata = {
   description:
     "As managed disclosure collapses and catastrophic rupture becomes statistically inevitable by 2040, the blueprint for survival demands sovereign preparation, decentralized energy, and psychological fortification.",
   alternates: { canonical: "https://thenewontology.life/the-next-human-ontology/chapter-10" },
+  openGraph: {
+    title: "Chapter 10: Surviving the Convergence",
+    description:
+      "As managed disclosure collapses and catastrophic rupture becomes statistically inevitable by 2040, the blueprint for survival demands sovereign preparation, decentralized energy, and psychological fortification.",
+    url: "https://thenewontology.life/the-next-human-ontology/chapter-10",
+    type: "article",
+  },
 };
 
 export default function Chapter10Page() {
@@ -128,6 +135,10 @@ export default function Chapter10Page() {
             unprecedented systemic exposure point. Extreme coronal mass ejections could trigger
             continental-scale electrical grid collapses, severely inhibiting the state's already
             compromised ability to maintain narrative control over a post-rupture information environment.
+          </p>
+
+          <p>
+            <em>The following section presents a contactee claim that operates in a fundamentally different epistemic category from the statistical models and geopolitical analysis preceding it. It is included for completeness within the convergence framework, not as evidence of equivalent reliability. The reader should evaluate it accordingly.</em>
           </p>
 
           <p>
