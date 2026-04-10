@@ -73,7 +73,7 @@ export default function Chapter6Page() {
           <p>
             The functional model follows logically from the data. If the universe is a vast spectrum of interacting
             electromagnetic and quantum fields, the hypermorphic caudate-putamen tunes into frequencies, entities, and
-            phenomena entirely invisible to baseline human perception. Researchers have speculated that the caudate nucleus may represent a key locus of future human cognitive development — a hypothesis consistent with Nolan's findings of extreme hypermorphism in this region among individuals with demonstrated non-ordinary perceptual capabilities, though this remains a theoretical proposition without peer-reviewed support. Functional imaging of master
+            phenomena entirely invisible to baseline human perception. Researchers have speculated that the caudate nucleus may represent a key locus of future human cognitive development. This hypothesis is consistent with Nolan's findings of extreme hypermorphism in this region among individuals with demonstrated non-ordinary perceptual capabilities. However, this remains a theoretical proposition without peer-reviewed support. Functional imaging of master
             chess players provides corroborating evidence: massive activation in this region is consistently observed
             when grandmasters execute strategies that defy standard logical progression — moves that appear to emerge
             from a processing layer beyond conscious calculation.
