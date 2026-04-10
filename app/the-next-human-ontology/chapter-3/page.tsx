@@ -7,6 +7,13 @@ export const metadata: Metadata = {
   description:
     "The $8 trillion fossil fuel hegemony, the Invention Secrecy Act, and the deliberate suppression of LENR and Zero-Point Energy form an institutionalized firewall against post-scarcity civilization.",
   alternates: { canonical: "https://thenewontology.life/the-next-human-ontology/chapter-3" },
+  openGraph: {
+    title: "Chapter 3: The Energy Suppression Paradigm",
+    description:
+      "The $8 trillion fossil fuel hegemony, the Invention Secrecy Act, and the deliberate suppression of LENR and Zero-Point Energy form an institutionalized firewall against post-scarcity civilization.",
+    url: "https://thenewontology.life/the-next-human-ontology/chapter-3",
+    type: "article",
+  },
 };
 
 export default function Chapter3Page() {
@@ -147,10 +154,18 @@ export default function Chapter3Page() {
             The Invention Secrecy Act provides the administrative mechanism of suppression; the historical record suggests that more direct methods have also been employed. Between 1982 and 1990, a cluster of more than two dozen scientists and engineers associated with <strong>GEC-Marconi</strong> and related British defense contractors died under circumstances that, taken individually, were officially classified as suicide or accident, but that, when examined collectively, present a pattern that strains credulity.
           </p>
           <p>
-            The precise count varies by source: Tony Collins, in his 1990 investigation for <em>Computer News</em>, documented 25 deaths; other researchers have counted between 22 and 30. The connection to UAP detection or reverse-engineering programs specifically is inferential rather than documented — the classified nature of the victims&apos; work prevents definitive attribution. What is established is the statistical anomaly: the cluster of deaths among individuals in overlapping defense electronics programs within an eight-year window significantly exceeds actuarial baselines for the demographic.
+            The documented cases include the following:
           </p>
+          <ul>
+            <li><strong>Arshad Sharif</strong> (October 1986) — computer scientist working on satellite guidance systems, found dead after tying a rope between his neck and a tree and driving his car, a method of decapitation inconsistent with suicide.</li>
+            <li><strong>Vimal Dajibhai</strong> (August 1986) — software engineer on torpedo computer systems, fell from Bristol&apos;s Clifton Suspension Bridge with an unexplained needle-sized puncture wound on his body.</li>
+            <li><strong>David Sands</strong> (March 1987) — senior scientist who crashed a car loaded with petrol cans into an abandoned café at high speed; identification was possible only through dental records.</li>
+            <li><strong>John Ferry</strong> (August 1986) — found electrocuted, having jammed stripped wires into his dental fillings.</li>
+            <li><strong>Peter Peapell</strong> (February 1987) — found dead beneath his car in his garage with the engine running.</li>
+            <li><strong>Victor Moore</strong> (February 1987) — died of a reported drug overdose under disputed circumstances.</li>
+          </ul>
           <p>
-            The deaths included individuals who fell from buildings in ways inconsistent with the normal physics of falls, drowning cases in shallow water, electrocutions under domestic circumstances, and carbon monoxide poisonings. The official investigations, constrained by the classified nature of the victims' work, could not establish professional context for the deaths. What subsequent investigative journalism established is that the individuals in question worked on projects involving advanced electromagnetics, signal processing, and sensor development programs that, in several cases, had direct connections to UAP detection contracts and what defense historians have described as potential reverse-engineering applications.
+            Investigative journalist Tony Collins documented 25 such deaths in <em>Open Verdict</em> (1990); Nick Cook&apos;s <em>The Hunt for Zero Point</em> (2001) provides additional context linking several victims to projects involving advanced electromagnetics and sensor development. The <em>Sunday Times</em> calculated the probability of this cluster occurring by chance among the relevant demographic as extremely low. No public inquiry was ever conducted.
           </p>
           <p>
             The GEC-Marconi deaths represent what the secrecy architecture requires in its most extreme enforcement scenario: the elimination of individuals who possess knowledge of classified technology and who cannot be controlled through legal prohibition or professional sanction. Whether these deaths resulted from a coordinated program or from independent decisions by different security actors operating under the same institutional logic, they establish an empirical data point that the boundary protecting deep-state aerospace development has been enforced through lethal means.
@@ -189,7 +204,7 @@ export default function Chapter3Page() {
             <strong>The 2004 DOE LENR review:</strong> The Department of Energy&apos;s 2004 review panel was split roughly evenly on whether the evidence for anomalous excess heat in LENR experiments was convincing, with a majority finding the evidence insufficient to warrant a dedicated federal research program. Critics note that the review did not conclude LENR was impossible — it concluded the evidence was not yet compelling enough for programmatic investment. Subsequent replications, particularly from the US Navy&apos;s SPAWAR laboratory, have strengthened the empirical case considerably.
           </p>
           <p>
-            <strong>&quot;If it worked, someone would have demonstrated it publicly&quot;:</strong> This assumes that technological demonstration follows linearly from theoretical possibility — an assumption contradicted by the very secrecy architecture documented in Chapter 2. The Invention Secrecy Act provides the legal mechanism, classification provides the institutional mechanism, and the economic interests of the fossil fuel industry provide the financial mechanism for suppression. The absence of public demonstration is not evidence of impossibility; it is evidence consistent with the suppression hypothesis this chapter documents.
+            <strong>&quot;If it worked, someone would have demonstrated it publicly&quot;:</strong> This assumes that technological demonstration follows linearly from theoretical possibility — an assumption contradicted by the very secrecy architecture documented in <Link href="/the-next-human-ontology/chapter-2" className="text-accent hover:underline underline-offset-4">Chapter 2</Link>. The Invention Secrecy Act provides the legal mechanism, classification provides the institutional mechanism, and the economic interests of the fossil fuel industry provide the financial mechanism for suppression. The absence of public demonstration is not evidence of impossibility; it is evidence consistent with the suppression hypothesis this chapter documents.
           </p>
 
           <h2>Conclusion</h2>

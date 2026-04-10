@@ -7,6 +7,13 @@ export const metadata: Metadata = {
   description:
     "The Vatican's quiet exotheological preparation contrasts sharply with the vulnerability of fundamentalist literalism, while Buddhist and Hindu cosmologies have always accommodated a universe teeming with intelligence.",
   alternates: { canonical: "https://thenewontology.life/the-next-human-ontology/chapter-9" },
+  openGraph: {
+    title: "Chapter 9: The Asymmetry of Religious Shock",
+    description:
+      "The Vatican's quiet exotheological preparation contrasts sharply with the vulnerability of fundamentalist literalism, while Buddhist and Hindu cosmologies have always accommodated a universe teeming with intelligence.",
+    url: "https://thenewontology.life/the-next-human-ontology/chapter-9",
+    type: "article",
+  },
 };
 
 export default function Chapter9Page() {

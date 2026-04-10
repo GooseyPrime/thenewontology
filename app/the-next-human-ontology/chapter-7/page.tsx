@@ -7,6 +7,13 @@ export const metadata: Metadata = {
   description:
     "The Hitchhiker Effect — a phenomenon that attaches to observers and follows them across the globe — challenges every existing paradigm, causing documented neurological injuries and reality distortions.",
   alternates: { canonical: "https://thenewontology.life/the-next-human-ontology/chapter-7" },
+  openGraph: {
+    title: "Chapter 7: High Strangeness and The Hitchhiker Effect",
+    description:
+      "The Hitchhiker Effect — a phenomenon that attaches to observers and follows them across the globe — challenges every existing paradigm, causing documented neurological injuries and reality distortions.",
+    url: "https://thenewontology.life/the-next-human-ontology/chapter-7",
+    type: "article",
+  },
 };
 
 export default function Chapter7Page() {
@@ -40,7 +47,7 @@ export default function Chapter7Page() {
             Intelligence Agency and contracted to Bigelow Aerospace Advanced Space Studies, the program moved
             quickly beyond the narrow aerospace mandate implied by its name. It generated 38 Defense Intelligence
             Reference Documents — DIRDs — exploring exotic propulsion, metamaterials, invisibility cloaking, and
-            the theoretical limits of known physics.
+            the theoretical limits of known physics. The full architecture of secrecy within which AAWSAP operated is documented in <Link href="/the-next-human-ontology/chapter-2" className="text-accent hover:underline underline-offset-4">Chapter 2</Link>.
           </p>
 
           <p>
@@ -138,7 +145,7 @@ export default function Chapter7Page() {
             Chris Bledsoe's encounter with the entity he calls The Lady represents one of the most extensively
             documented ongoing contact cases in the contemporary literature. The Lady first appeared on Easter
             Sunday, 2012 — a luminous, feminine being whose presence was consistently accompanied by solar
-            miracle-type events and the appearance of orbs exhibiting intelligent behavior.
+            miracle-type events and the appearance of orbs exhibiting intelligent behavior. The Bledsoe case is examined within the broader context of Vallée's control system hypothesis in <Link href="/the-next-human-ontology/chapter-4" className="text-accent hover:underline underline-offset-4">Chapter 4</Link>.
           </p>
 
           <p>

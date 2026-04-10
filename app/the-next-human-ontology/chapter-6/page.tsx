@@ -7,6 +7,13 @@ export const metadata: Metadata = {
   description:
     "The CIA's Gateway Process, Project Stargate, and caudate-putamen neuroanatomy reveal that contact with non-human intelligence is fundamentally a neurological event mediated through consciousness.",
   alternates: { canonical: "https://thenewontology.life/the-next-human-ontology/chapter-6" },
+  openGraph: {
+    title: "Chapter 6: The Mechanics of Contact",
+    description:
+      "The CIA's Gateway Process, Project Stargate, and caudate-putamen neuroanatomy reveal that contact with non-human intelligence is fundamentally a neurological event mediated through consciousness.",
+    url: "https://thenewontology.life/the-next-human-ontology/chapter-6",
+    type: "article",
+  },
 };
 
 export default function Chapter6Page() {
@@ -66,9 +73,7 @@ export default function Chapter6Page() {
           <p>
             The functional model follows logically from the data. If the universe is a vast spectrum of interacting
             electromagnetic and quantum fields, the hypermorphic caudate-putamen tunes into frequencies, entities, and
-            phenomena entirely invisible to baseline human perception. A speculative 1963 hypothesis — reportedly arrived at through
-            non-ordinary cognition — proposed that the caudate nucleus represents the center of future human evolutionary
-            development and functions as the precise locus of the biological antenna. Functional imaging of master
+            phenomena entirely invisible to baseline human perception. Researchers have speculated that the caudate nucleus may represent a key locus of future human cognitive development. This hypothesis is consistent with Nolan's findings of extreme hypermorphism in this region among individuals with demonstrated non-ordinary perceptual capabilities. However, this remains a theoretical proposition without peer-reviewed support. Functional imaging of master
             chess players provides corroborating evidence: massive activation in this region is consistently observed
             when grandmasters execute strategies that defy standard logical progression — moves that appear to emerge
             from a processing layer beyond conscious calculation.
@@ -231,6 +236,7 @@ export default function Chapter6Page() {
             non-physical in character, marked by psychic, telepathic, and symbolic attributes rather than the
             nuts-and-bolts physical interactions of popular science fiction.
           </p>
+          <p className="text-sm text-muted italic">Source: FREE Foundation survey of 3,256 participants. Hernandez et al., Beyond UFOs (2018). The 75% figure references the subset describing encounters as "non-physical, psychic, and symbolic." Separate survey questions yielded 66% for craft sightings and 52% for telepathic communications.</p>
 
           <p>
             Process Philosophy — developed by Alfred North Whitehead and extended by thinkers like Andrew Davis —

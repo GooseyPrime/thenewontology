@@ -7,6 +7,13 @@ export const metadata: Metadata = {
   description:
     "As managed disclosure collapses and catastrophic rupture becomes statistically inevitable by 2040, the blueprint for survival demands sovereign preparation, decentralized energy, and psychological fortification.",
   alternates: { canonical: "https://thenewontology.life/the-next-human-ontology/chapter-10" },
+  openGraph: {
+    title: "Chapter 10: Surviving the Convergence",
+    description:
+      "As managed disclosure collapses and catastrophic rupture becomes statistically inevitable by 2040, the blueprint for survival demands sovereign preparation, decentralized energy, and psychological fortification.",
+    url: "https://thenewontology.life/the-next-human-ontology/chapter-10",
+    type: "article",
+  },
 };
 
 export default function Chapter10Page() {
@@ -131,6 +138,10 @@ export default function Chapter10Page() {
           </p>
 
           <p>
+            <em>The following section presents a contactee claim that operates in a fundamentally different epistemic category from the statistical models and geopolitical analysis preceding it. It is included for completeness within the convergence framework, not as evidence of equivalent reliability. The reader should evaluate it accordingly.</em>
+          </p>
+
+          <p>
             The Chris Bledsoe prophecy adds a dimension that analytical frameworks typically refuse
             to engage but cannot responsibly ignore. Through repeated and well-documented interactions
             with The Lady — an NHI entity bearing cross-cultural continuity with Marian apparitions,
@@ -162,7 +173,7 @@ export default function Chapter10Page() {
             When influence and material resources become highly concentrated at the institutional
             apex, the system becomes hyper-fragile. Most destabilizingly: a state is least stable
             at the very height of its apparent political and military power, precisely because the
-            differential between insiders and outsiders is maximized.
+            differential between insiders and outsiders is maximized. The full documentation of the energy suppression architecture — including the Invention Secrecy Act, LENR suppression, and zero-point energy research — is in <Link href="/the-next-human-ontology/chapter-3" className="text-accent hover:underline underline-offset-4">Chapter 3</Link>.
           </p>
 
           <p>
