@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import May2026Update from "@/components/content/May2026Update";
 import KinematicBackground from "@/components/KinematicBackground";
 
 export const metadata: Metadata = {
@@ -169,6 +170,26 @@ export default function Chapter4Page() {
           <p>
             The Lakota tradition of <strong>Star People</strong> holds that each infant is born with a spirit from a star (<em>wanagi</em>); upon death, the spirit returns via the Milky Way (<em>Wanagi Tacanku</em>, the Spirit Road). Wallace Black Elk described a concave luminous disk operated by &quot;little people who could converse telepathically.&quot; Zuni elder Clifford Mahooty stated: &quot;They&apos;re actually our ancestors because we took their DNA.&quot; These indigenous accounts are not primitive mythology — they constitute the world&apos;s longest-running documentation of interdimensional NHI contact, predating Western science by tens of thousands of years. They merit equal evidentiary weight with modern experiencer accounts.
           </p>
+
+          <May2026Update>
+            <h4>The PURSUE Release 01 ratified the chapter&apos;s central distinction by what it did NOT say</h4>
+            <p>
+              When the U.S. government released its first formal tranche of UAP files on <Link href="/timeline" className="text-accent hover:underline underline-offset-4">May 8, 2026</Link>, the language was carefully chosen. The portal is <code>war.gov/UFO</code> — using the legacy term &quot;UFO&quot; rather than the more recent &quot;UAP&quot; — but the program name is <em>Presidential Unsealing and Reporting System for UAP Encounters</em> (PURSUE). <Link href="/whos-who#pete-hegseth" className="text-accent hover:underline underline-offset-4">Hegseth</Link>&apos;s accompanying statements referred to &quot;unidentified aerial phenomena&quot; and the prospect that adversaries might have made &quot;a technological leap.&quot; Trump&apos;s February 19 directive used the phrasing &quot;alien and extraterrestrial life, unidentified aerial phenomena (UAP), and unidentified flying objects (UFOs).&quot; The directive enumerated the possibility of extraterrestrial life as a separate hypothesis to be investigated rather than as an established framing.
+            </p>
+            <p>
+              What the release did not do — and what no on-record statement from a senior U.S. or Japanese official in the 2025–2026 period has done — is affirmatively claim that the phenomenon is extraterrestrial. The on-camera testimony in <em>The Age of Disclosure</em> — 34 senior officials including a sitting Secretary of State — uses the term &quot;non-human intelligence&quot; with care. <Link href="/whos-who#jay-stratton" className="text-accent hover:underline underline-offset-4">Jay Stratton</Link>&apos;s most-cited line is &quot;I have seen, with my own eyes, non-human craft and non-human beings.&quot; Not extraterrestrial. Non-human. This chapter&apos;s central argument that the official vocabulary has shifted from the extraterrestrial hypothesis to a deliberately broader non-human framing is now visible in the operational language of the disclosure program itself.
+            </p>
+
+            <h4>Sol Foundation 2025 at Lake Maggiore extended the COMETA legacy</h4>
+            <p>
+              The chapter discusses France&apos;s 1999 COMETA report and its conclusion that UAP are &quot;almost certain physical reality.&quot; At the Sol Foundation&apos;s October 24–27, 2025 symposium — the first Sol symposium held outside the United States, at Lake Maggiore in Italy — documented on the <Link href="/timeline" className="text-accent hover:underline underline-offset-4">timeline</Link> as Sol Foundation 2025 Italy — Gen. <Link href="/whos-who#pierre-bescond" className="text-accent hover:underline underline-offset-4">Pierre Bescond</Link> (Brigadier General, Ret., French Armée de l&apos;Air) presented &quot;Revisiting the COMETA Report,&quot; reinforcing the report&apos;s continued relevance with two and a half decades of additional data. <Link href="/whos-who#luc-dini" className="text-accent hover:underline underline-offset-4">Luc Dini</Link>, on behalf of 3AF/Sigma2, presented the methodology for the physical observables of UAP. <Link href="/whos-who#michael-valliant" className="text-accent hover:underline underline-offset-4">Michael Valliant</Link> of GEIPAN — the longest-running official UAP investigation framework in the world, operating under the French civilian space agency CNES — presented two decades of investigative findings. The European institutional record on UAP is older, more continuous, and more methodologically explicit than the American record. The chapter&apos;s argument that the extraterrestrial framing is a uniquely American historical artifact is reinforced by this institutional contrast.
+            </p>
+
+            <h4>3I/ATLAS as a test of the framework</h4>
+            <p>
+              The chapter argues that the interdimensional / non-human framing has predictive power that the extraterrestrial framing does not. 3I/ATLAS — discussed in detail in <Link href="/the-next-human-ontology/chapter-1#may-2026-update" className="text-accent hover:underline underline-offset-4">Chapter 1&apos;s update block</Link> — is the cleanest available real-time test. The object&apos;s most anomalous features (the 7.2-hour jet wobble, the sunward-only thermal asymmetry, the alignment with the 1977 Wow! Signal direction, the Hill-radius Jupiter intercept) sit awkwardly inside both a clean natural-comet framing and a clean technological-probe framing. The interdimensional / cryptoterrestrial framings the chapter discusses do not predict 3I/ATLAS specifically either, but they accommodate the kind of anomalous-but-physical ambiguity 3I/ATLAS exhibits without requiring resolution to one of two extremes.
+            </p>
+          </May2026Update>
 
           <h2>Conclusion</h2>
           <p>
