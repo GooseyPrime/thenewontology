@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import May2026Update from "@/components/content/May2026Update";
 import KinematicBackground from "@/components/KinematicBackground";
 
 export const metadata: Metadata = {
@@ -180,6 +181,31 @@ export default function Chapter2Page() {
           <p className="text-sm text-muted italic">
             Sources: Japanese Diet session records, March 2025; European UAP/NHI Disclosure Summit proceedings, June 2025; Durham Law School symposium documentation, 2025.
           </p>
+
+          <May2026Update>
+            <h4>The Carmack attribution has hardened</h4>
+            <p>
+              When this chapter was written, the attribution of UAPDA dilution to <Link href="/whos-who#terry-carmack" className="text-accent hover:underline underline-offset-4">Terry Carmack</Link> rested on Rep. <Link href="/whos-who#eric-burlison" className="text-accent hover:underline underline-offset-4">Eric Burlison</Link>&apos;s December 2025 public statement on the Ask a Pol UAP podcast: &quot;a staffer blocked UAPDA, not a U.S. Senator.&quot; In January 2026,{" "}
+              <a href="https://www.liberationtimes.com" className="text-accent hover:underline underline-offset-4" target="_blank" rel="noopener noreferrer"><em>Liberation Times</em></a> multi-source reporting expanded the attribution: sources named <Link href="/whos-who#mitch-mcconnell" className="text-accent hover:underline underline-offset-4">McConnell</Link> himself as the primary blocker and Carmack as the specific staffer pressing to strip the UAPDA from the FY2026 NDAA. Pentagon Papers attorney <Link href="/whos-who#daniel-sheehan" className="text-accent hover:underline underline-offset-4">Daniel Sheehan</Link> publicly reinforced the framing, naming five Republican legislators — Senators McConnell and Wicker, and Representatives <Link href="/whos-who#mike-turner" className="text-accent hover:underline underline-offset-4">Turner</Link>, <Link href="/whos-who#mike-rogers" className="text-accent hover:underline underline-offset-4">Rogers</Link>, and Johnson — as the consistent blocking actors despite reportedly 98% Congressional support for the bill. Neither McConnell&apos;s office nor Carmack has publicly responded. The blocking action itself — the UAPDA stripped during conference for the third consecutive year in the FY2026 NDAA — is documented in the legislative record. The specific identification of who in the staff structure executed the stripping remains insider testimony.
+            </p>
+
+            <h4>The Immaculate Constellation document is now in the Congressional Record</h4>
+            <p>
+              The chapter discusses the alleged unacknowledged special access program named Immaculate Constellation as one of several contested claims about black-budget UAP programs. On{" "}
+              <Link href="/timeline" className="text-accent hover:underline underline-offset-4">January 23, 2026</Link>, the underlying 12-page document was formally entered into the Congressional Record during the House Oversight joint-subcommittee hearing &quot;Unidentified Anomalous Phenomena: Exposing the Truth&quot; — brought to the hearing by journalist <Link href="/whos-who#michael-shellenberger" className="text-accent hover:underline underline-offset-4">Michael Shellenberger</Link> and entered by Rep. <Link href="/whos-who#nancy-mace" className="text-accent hover:underline underline-offset-4">Mace</Link>. The document itself is a 12-page summary; the underlying source records it references remain classified. The program&apos;s existence has been alleged but not officially confirmed. The document&apos;s status as part of the Congressional Record now means it cannot be retroactively suppressed without affirmative legislative action, regardless of whether its claims are subsequently corroborated or refuted.
+            </p>
+
+            <h4>The September 2025 hearing established whistleblower protection as a structural issue</h4>
+            <p>
+              On{" "}
+              <Link href="/timeline" className="text-accent hover:underline underline-offset-4">September 9, 2025</Link>, the House Oversight Task Force on the Declassification of Federal Secrets held a hearing titled &quot;Restoring Public Trust Through UAP Transparency and Whistleblower Protection.&quot; Active-duty Air Force witness <Link href="/whos-who#dylan-borland" className="text-accent hover:underline underline-offset-4">Dylan Borland</Link> testified to having witnessed large triangular craft at Langley Air Force Base; <Link href="/whos-who#jeffrey-nuccetelli" className="text-accent hover:underline underline-offset-4">Jeffrey Nuccetelli</Link> (former Vandenberg AFB security forces) corroborated similar institutional patterns. Coast Guard officer <Link href="/whos-who#alexandro-wiggins" className="text-accent hover:underline underline-offset-4">Alexandro Wiggins</Link> framed UAP encounters as aviation and maritime safety issues requiring standardized sensor capture and chain-of-custody protocols. Investigative journalist <Link href="/whos-who#george-knapp" className="text-accent hover:underline underline-offset-4">George Knapp</Link> testified under oath — one of the few non-government witnesses to do so. Borland&apos;s subsequent unemployment, and the documented prior leaking of David Grusch&apos;s private medical information referenced by Rep. Mace at the hearing, established whistleblower retaliation as a documented pattern rather than an isolated risk.
+            </p>
+
+            <h4>The Department of War rebrand</h4>
+            <p>
+              In early 2026, Trump signed an executive order rebranding the Department of Defense as the Department of War. Throughout this chapter, references to &quot;DoD&quot; remain accurate to the historical record at time of writing; in current discussion, the same institution operates under the name &quot;Department of War&quot; (DoW). The PURSUE program (<Link href="/timeline" className="text-accent hover:underline underline-offset-4">May 8, 2026</Link>, war.gov/UFO) was executed under the DoW name. <Link href="/whos-who#pete-hegseth" className="text-accent hover:underline underline-offset-4">Pete Hegseth</Link>, as Secretary of War, is the operational point person for the program&apos;s rolling-release cadence.
+            </p>
+          </May2026Update>
 
           <h2>Conclusion</h2>
           <p>

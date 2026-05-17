@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import May2026Update from "@/components/content/May2026Update";
 import KinematicBackground from "@/components/KinematicBackground";
 
 export const metadata: Metadata = {
@@ -266,6 +267,25 @@ export default function Chapter9Page() {
             whose faith was formed in more anthropocentric theological environments is the practical
             pastoral challenge that disclosure will render urgent.
           </p>
+
+          <May2026Update>
+            <h4>Japan moves first — institutional confirmation of the Eastern-readiness thesis</h4>
+            <p>
+              When the chapter was written, the argument that Eastern cosmological traditions provide more institutional readiness for NHI disclosure was theoretical. In 2024–2026 it became operational. In June 2024, a non-partisan group of more than 80 Japanese Diet members — including former Defense Ministers <Link href="/whos-who#yasukazu-hamada" className="text-accent hover:underline underline-offset-4">Yasukazu Hamada</Link> and <Link href="/whos-who#shigeru-ishiba" className="text-accent hover:underline underline-offset-4">Shigeru Ishiba</Link>, with former Environment Minister <Link href="/whos-who#shinjiro-koizumi" className="text-accent hover:underline underline-offset-4">Shinjiro Koizumi</Link> as secretary-general — formed the Parliamentary Group for the Study of UAP from a National Security Perspective. On March 24, 2026, following Trump&apos;s February 19 disclosure directive, the caucus announced it would formally propose creation of a dedicated government body to oversee UAP intelligence. On{" "}
+              <Link href="/timeline" className="text-accent hover:underline underline-offset-4">March 30, 2026</Link>, at its Fourth General Assembly, the caucus finalized the proposal: a specialized office placed directly under the Deputy Chief Cabinet Secretary for Crisis Management — that is, in the Cabinet Office, not siloed inside the Ministry of Defense.
+            </p>
+            <p>
+              A driver of the legislative push has been the unresolved Genkai Nuclear Power Plant UAP incident, where the operational records of Kyushu Electric Power are reported to be irreconcilable with the official explanation provided by the Saga Prefectural Police.
+            </p>
+            <p>
+              The structural placement matters. In the United States, AARO sits inside the Office of the Secretary of War — the operational defense bureaucracy. The Japanese proposal places UAP work in crisis management — alongside earthquake, nuclear, and pandemic response — recognizing UAP as a coordination challenge across civilian and military domains, not as a defense-attaché problem. Japan, the chapter&apos;s named exemplar of an Eastern tradition with a continuous folkloric narrative of contact with non-human intelligences, is also Japan the polity that has moved most decisively to institutionalize the disclosure response. <Link href="/whos-who#yasuhide-nakayama" className="text-accent hover:underline underline-offset-4">Yasuhide Nakayama</Link> and other caucus leaders have been central to advancing the proposal in public forums.
+            </p>
+
+            <h4>The Vatican&apos;s continued institutional silence</h4>
+            <p>
+              The chapter notes the Vatican&apos;s long-running preparation for the disclosure question — Father José Funes&apos; 2008 <em>L&apos;Osservatore Romano</em> discussion of ET as theological &quot;brothers,&quot; Brother Guy Consolmagno&apos;s continued public commentary, the Vatican Observatory&apos;s posture. The period since this chapter was written has produced no comparable formal Vatican statement. Following the <Link href="/timeline" className="text-accent hover:underline underline-offset-4">May 8 PURSUE release</Link>, no public Vatican response was issued; following <em>The Age of Disclosure</em>, none. The institutional silence is itself informative: a tradition that prepared its theological vocabulary two decades ago has, when the question moved into the news cycle, declined to operationalize that vocabulary. The asymmetry the chapter predicts — preparation in advance, hesitation at the moment — is visible.
+            </p>
+          </May2026Update>
 
           <h2>Synthesis: Asymmetry in Preparedness</h2>
 

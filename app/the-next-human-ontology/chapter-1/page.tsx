@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import May2026Update from "@/components/content/May2026Update";
 import KinematicBackground from "@/components/KinematicBackground";
 
 export const metadata: Metadata = {
@@ -184,6 +185,43 @@ export default function Chapter1Page() {
               The ontological shock is absolute: humanity must face that both mind and cosmos are vastly more complex and more densely populated with superior intelligences than the anthropocentric model could accommodate. The question is not whether we survive this confrontation with reality. The question is whether we can construct, in time, a framework adequate to navigate it.
             </p>
           </blockquote>
+
+          <May2026Update>
+            <h4>The Strømme framework no longer stands alone</h4>
+            <p>
+              In November 2025, <Link href="/whos-who#maria-stromme" className="text-accent hover:underline underline-offset-4">Maria Strømme</Link>&apos;s &quot;A Field Theory of Consciousness&quot; in <em>AIP Advances</em> was the most prominent peer-reviewed publication proposing consciousness as a fundamental physical field. The chapter frames this carefully, noting AIP Advances&apos; lighter peer-review threshold. That framing remains correct. What has changed is the surrounding citation landscape.
+            </p>
+            <p>
+              In May 2025, <Link href="/whos-who#michael-wiest" className="text-accent hover:underline underline-offset-4">Michael Wiest</Link> at Wellesley published &quot;A quantum microtubule substrate of consciousness is experimentally supported and solves the binding and epiphenomenalism problems&quot; in <em>Neuroscience of Consciousness</em> (Oxford University Press,{" "}
+              <a href="https://doi.org/10.1093/nc/niaf011" className="text-accent hover:underline underline-offset-4" target="_blank" rel="noopener noreferrer">DOI 10.1093/nc/niaf011</a>) — a more rigorous venue than AIP Advances. The paper provides recent experimental support for the <Link href="/whos-who#roger-penrose" className="text-accent hover:underline underline-offset-4">Penrose</Link>-<Link href="/whos-who#stuart-hameroff" className="text-accent hover:underline underline-offset-4">Hameroff</Link> Orch-OR framework and argues that quantum microtubule activity solves two of the hardest philosophical problems consciousness theory faces: the binding problem (why is conscious experience unified rather than fragmented) and the epiphenomenalism problem (why would consciousness evolve at all if it has no causal power). In September 2025, Wiest published a follow-up in <em>ScienceDirect</em> bridging Karl Friston&apos;s active inference formalism with Orch-OR.
+            </p>
+            <p>
+              In 2026, Burgos-Salcedo published in the <em>European Journal of Theoretical and Applied Sciences</em> a paper bridging Penrose&apos;s Conformal Cyclic Cosmology, Orch-OR, and Strømme&apos;s Universal Consciousness Field — the first peer-reviewed integrative paper to hold all three frameworks the way this site has held them narratively. This does not establish the underlying physics. It does establish that the synthesis is no longer outside the peer-reviewed conversation.
+            </p>
+
+            <h4>3I/ATLAS as the live test case</h4>
+            <p>
+              The chapter frames the Triple Singularity as a coming threshold. Between July 2025 and May 2026, a single object made it tangible.
+            </p>
+            <p>
+              3I/ATLAS — the third confirmed interstellar object to enter our solar system — was discovered by the ATLAS survey in Chile in July 2025. Its trajectory was retrograde and aligned within five degrees of the ecliptic plane (a 0.2% probability for a random interstellar arrival, given that the Milky Way disk is tilted ~60° from the ecliptic). Its arrival direction coincided to within nine degrees with the source coordinates of the 1977 &quot;Wow! Signal.&quot; On{" "}
+              <Link href="/timeline" className="text-accent hover:underline underline-offset-4">January 22, 2026</Link> it reached a rare Sun-Earth opposition alignment at 0.69° offset; Hubble imaging during that window, processed with a Larson-Sekanina rotational-gradient filter, revealed three equally-spaced collimated mini-jets around the nucleus and a sunward anti-tail ten times longer than wide. The jets exhibit a 7.2-hour wobble. On{" "}
+              <Link href="/timeline" className="text-accent hover:underline underline-offset-4">March 16, 2026</Link>, 3I/ATLAS reached closest approach to Jupiter at 53.6 million km — coincident with Jupiter&apos;s Hill radius of 53.5 million km, the boundary of Jupiter&apos;s gravitational dominance.
+            </p>
+            <p>
+              <Link href="/whos-who#avi-loeb" className="text-accent hover:underline underline-offset-4">Avi Loeb</Link>, who maintains a public anomaly catalog for the object, classifies it currently as rank 3 on his interstellar-object classification scale (where 0 is natural comet and 10 is alien technology posing major threat) — natural cometary behavior accompanied by multiple unexplained anomalies. The most provocative observation: the sunward jets are only active when facing the Sun yet remain perfectly thermally insulated on the nightside for months, a thermal asymmetry difficult to explain through natural conduction. JWST detected outgassing plumes with deuterium concentrations elevated relative to natural interstellar background.
+            </p>
+            <p>
+              None of this confirms an artificial origin. All of it constitutes the most data-rich anomaly humanity has had access to in real time. 3I/ATLAS is, in effect, a live exam of the very capacity for impartial observation that the Triple Singularity thesis says we will need.
+            </p>
+
+            <h4>The threshold has moved</h4>
+            <p>
+              When this chapter was written, the Triple Singularity was framed as approaching. The{" "}
+              <Link href="/timeline" className="text-accent hover:underline underline-offset-4">May 8, 2026 PURSUE Release 01</Link> — 162 declassified UAP files published by the U.S. government at war.gov/UFO, drawing 340 million hits in 12 hours — is the first moment when the disclosure leg has been formally crossed by the state itself, even if partially. The chapter&apos;s central argument is not weakened by this; it is structurally validated. What the chapter framed as a coming event has, on one leg of the three, now occurred. The remaining work — calibrating what the released data does and does not establish, tracking what is still withheld and on what authority — is the work the site itself now takes up. See the{" "}
+              <Link href="/the-great-convergence" className="text-accent hover:underline underline-offset-4">Great Convergence postscript</Link> for the full re-reading.
+            </p>
+          </May2026Update>
 
           <h2>Gaps and Future Research</h2>
           <p>
