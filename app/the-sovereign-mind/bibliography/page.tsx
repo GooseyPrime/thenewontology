@@ -46,6 +46,8 @@ export default function BibliographyPage() {
               <li><em>Small Wars Journal</em>. Articles on hybrid warfare and counter-disinformation. Various issues.</li>
               <li>"4i FACT" disinformation framework. PubMed-indexed sources.</li>
               <li>Academic studies on epistemic inoculation and red-teaming methods. Various authors, 2018–2025.</li>
+              <li>Universe Magazine (2026). &quot;Why gravity on Earth will &apos;weaken&apos;: NASA explains the situation&quot; — primary rebuttal of viral August 2026 gravity-loss narrative.</li>
+              <li>Gough, S. (n.d.). <em>The Evolution of Strategic Influence</em> — foundational reference on the U.S. defense community&apos;s framing of strategic-influence operations (cited in Sentinel News, March 2026).</li>
             </ul>
           </section>
 
@@ -74,6 +76,10 @@ export default function BibliographyPage() {
               <li>UAP Disclosure Act. Legislative records, 2023–2024.</li>
               <li>FY2026 NDAA provisions on energy and disclosure.</li>
               <li>RethinkX. "Energy superabundance at near-zero marginal cost by 2040." Disruption research report, 2023.</li>
+              <li><em>IEEE Spectrum</em> (2026). &quot;Scientists in the U.S. and Japan Get Serious About Low-Energy Nuclear Reactions.&quot;</li>
+              <li>Loeb, A. (April 2026). &quot;We have a Missing Science problem, not a Missing Scientists problem.&quot; avi-loeb.medium.com.</li>
+              <li>Wikipedia (2026). &quot;Missing scientists conspiracy theory&quot; — for the named counter-position framing.</li>
+              <li><em>The Guardian</em> (April 25, 2026). &quot;Conspiracy theory over UFOs and missing scientists spreads from White House.&quot;</li>
             </ul>
           </section>
 
@@ -112,6 +118,9 @@ export default function BibliographyPage() {
               <li>Amodei, Dario. Prediction of Nobel-laureate-equivalent AI capabilities by 2026–2027. Anthropic public communications.</li>
               <li>Kurzweil, Ray. Longer-horizon AGI timelines. <em>The Singularity Is Nearer</em>. Viking, 2024.</li>
               <li>MMLU, HumanEval, GSM8K benchmark documentation. Academic and industry sources.</li>
+              <li>Stanford HAI (April 2026). <em>2026 AI Index Report</em> — Responsible AI chapter. hai.stanford.edu.</li>
+              <li>International AI Safety Report (January 2026), chaired by Yoshua Bengio.</li>
+              <li>Ai-frontiers.org (Dec 2025). &quot;The Evidence for AI Consciousness, Today.&quot;</li>
             </ul>
           </section>
 
@@ -141,6 +150,8 @@ export default function BibliographyPage() {
               <li>MUFON (Mutual UFO Network). Incident filing and database resources.</li>
               <li>Galileo Project. Harvard University research initiative on anomalous phenomena.</li>
               <li>Sol Foundation. Non-physical and telepathic contact research and reporting.</li>
+              <li>The Disclosure Project (May 8, 2026). 25th anniversary press conference materials. National Press Club.</li>
+              <li>PR Newswire (April 29, 2026). &quot;Disclosure Event to Feature Whistleblower Testimony, New Visual Evidence, and Policy Recommendations.&quot;</li>
             </ul>
           </section>
 

@@ -49,6 +49,11 @@ export default function BibliographyPage() {
               <li><em>State of the World Forum</em> documentation. Various years.</li>
               <li>arXiv. Studies on catastrophic disclosure probabilities (14–42% by 2027; 39–59% by 2036). Multiple authors, 2023–2025.</li>
               <li>U.S. Congress. Legislative actions on UAPs — UAP Disclosure Act, NDAA provisions. 2022–2025.</li>
+              <li>Wiest, M. C. (2025). &quot;A quantum microtubule substrate of consciousness is experimentally supported and solves the binding and epiphenomenalism problems.&quot; <em>Neuroscience of Consciousness</em>, niaf011. DOI: 10.1093/nc/niaf011.</li>
+              <li>Wiest, M. C. (2025). &quot;Conscious active inference II: Quantum orchestrated objective reduction among intraneuronal microtubules naturally accounts for discrete perceptual cycles.&quot; <em>ScienceDirect / Biosystems</em>, September 2025.</li>
+              <li>Burgos-Salcedo, J. (2026). &quot;Cosmic Memory, Universal Consciousness, and Biological Meaning: An Integrative Framework Bridging Conformal Cyclic Cosmology, Orchestrated Objective Reduction, and the Universal Consciousness Field.&quot; <em>European Journal of Theoretical and Applied Sciences</em>, 4(2), 171–183. DOI: 10.59324/ejtas.2026.4(2).16.</li>
+              <li>Loeb, A. (multiple, 2025–2026). 3I/ATLAS anomaly catalog and Sun-Earth opposition analysis, via avi-loeb.medium.com and accompanying research notes. Primary catalog: <em>&quot;3I/ATLAS is Fading Away: Reflections on its 22 Mysterious Anomalies&quot;</em> (April 2026).</li>
+              <li>Loeb, A., &amp; Barbieri, M. (2026). &quot;A Rare Alignment of 3I/ATLAS With the Sun-Earth Axis on 22 January 2026.&quot; Research note.</li>
             </ul>
           </section>
 
@@ -69,6 +74,11 @@ export default function BibliographyPage() {
               <li>U.S. Army. <em>Project Stargate</em> documentation. Declassified 1995.</li>
               <li><em>Inside Defense</em>. Legal commentary on UAP disclosure legislation. 2023–2024.</li>
               <li><em>Defense Scoop</em>. Articles on UAP program structures. 2023–2024.</li>
+              <li>Liberation Times (Sharp, C., Jan 2026). &quot;Sources Blame Senator McConnell for UFO Transparency Law Failure.&quot;</li>
+              <li>U.S. Congress (2025). S.Amdt.3111 to S.2296 (UAP Disclosure Act of 2025). Congress.gov.</li>
+              <li>U.S. House Oversight Committee (Jan 23, 2026). Hearing transcript: <em>&quot;Unidentified Anomalous Phenomena: Exposing the Truth.&quot;</em> rev.com.</li>
+              <li>U.S. House Oversight Task Force on the Declassification of Federal Secrets (Sept 9, 2025). Hearing transcript: <em>&quot;Restoring Public Trust Through UAP Transparency and Whistleblower Protection.&quot;</em></li>
+              <li>Trump, D. J. (Feb 19, 2026). Truth Social directive on UAP/UFO/ET records declassification.</li>
             </ul>
           </section>
 
@@ -99,6 +109,8 @@ export default function BibliographyPage() {
               <li>Tipler, F. J. "Extraterrestrial intelligent beings do not exist." <em>Quarterly Journal of the Royal Astronomical Society</em>, 21, 267–281, 1980.</li>
               <li>Malik, Shoaib. "Islamic Theology and Extraterrestrial Life." <em>Theology and Science</em>, 2023.</li>
               <li>FREE Foundation. <em>Survey of 3,256 UAP Experiencers</em>. Foundation for Research into Extraterrestrial and Extraordinary Experiences, 2018.</li>
+              <li>The Sol Foundation (2025). 2025 Symposium proceedings, Lake Maggiore, Italy. thesolfoundation.org.</li>
+              <li>Bescond, P. (2025). &quot;Revisiting the COMETA Report.&quot; Sol Foundation 2025 Symposium.</li>
             </ul>
           </section>
 
@@ -176,6 +188,8 @@ export default function BibliographyPage() {
               <li><em>Anguttara Nikaya</em>. Pali Canon. "Thousands of inhabited worlds." Book of Threes, Sutta 80.</li>
               <li>Malik, Shoaib. "Islam and Astrobiology." <em>Zygon: Journal of Religion and Science</em>, 56(1), 2021.</li>
               <li>Kripal, Jeffrey J. <em>Authors of the Impossible: The Paranormal and the Sacred</em>. University of Chicago Press, 2010.</li>
+              <li>The House of Representatives, Japan (2024–2026). Parliamentary Group for the Study of UAP from a National Security Perspective — press releases.</li>
+              <li>Sprague, R. (March 2026). &quot;Japan Moves Toward Unified UAP Strategy with Landmark Government Proposal.&quot; Medium.</li>
             </ul>
           </section>
 
@@ -193,6 +207,10 @@ export default function BibliographyPage() {
               <li>International Science Council (ISC). <em>The Age of the Polycrisis</em>. ISC, 2023.</li>
               <li>IFI CLAIMS Patent Services. <em>2025 Patent Application Statistics and Global Rankings</em>. 2025.</li>
               <li>Trump Administration. Executive declassification directives and UAP-related executive orders. 2025.</li>
+              <li>U.S. Department of War (May 8, 2026). PURSUE (Presidential Unsealing and Reporting System for UAP Encounters) — Release 01. war.gov/UFO.</li>
+              <li>DefenseScoop (May 14, 2026). &quot;&apos;Data alone is not disclosure&apos;: UAP research community reacts to Trump&apos;s first PURSUE file drop.&quot;</li>
+              <li>Vision Times (May 11, 2026). &quot;Trump Administration Releases First Major Tranche of Declassified UAP Files.&quot;</li>
+              <li>CNN (May 8, 2026). &quot;Pentagon releases initial batch of declassified files detailing UFOs.&quot;</li>
             </ul>
           </section>
 
