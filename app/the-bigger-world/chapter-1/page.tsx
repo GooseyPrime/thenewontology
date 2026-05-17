@@ -152,6 +152,19 @@ export default function Chapter1Page() {
             adventure rather than a source of fear.
           </p>
 
+          <div className="h-px border-violet-800/30 my-12" />
+          <p className="text-violet-300/60 text-xs uppercase tracking-widest font-sans mb-2">Added May 17, 2026</p>
+          <h2>Update — May 2026</h2>
+          <p>
+            When this book was written, the three big things were still in motion and none of them had quite landed in public view. On <Link href="/timeline">May 8, 2026</Link> — a Friday — one of them landed. The U.S. government published a website (war.gov/UFO) and put 162 declassified files on it: photos, videos, written reports going back to the 1940s. The website got 340 million visits in 12 hours. That is roughly the population of the United States visiting in a single afternoon.
+          </p>
+          <p>
+            This does not mean every question got answered. Most of the files were old. The most recent videos that people had been asking about specifically were not included. But it means something important all the same: for the first time, a government put its own institutional name on the question and said, <em>some of this is real, and we are starting to talk about it openly.</em>
+          </p>
+          <p>
+            If you have ever felt slightly weird for being curious about UAP, or about whether we are alone, or about whether your school&apos;s science class is telling you everything science actually knows — May 8, 2026 is the day a lot of grown-ups in suits at official desks effectively said <em>you were right to ask.</em> Keep asking. The next part is harder: figuring out what the answers actually mean. For a deeper read when you are ready, see the postscript in <Link href="/the-great-convergence">The Great Convergence</Link>.
+          </p>
+
           <h2>Conclusion</h2>
           <p>
             The Triple Singularity isn't just about advanced AI, mysterious aerial phenomena, and groundbreaking
