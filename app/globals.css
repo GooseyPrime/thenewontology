@@ -3,7 +3,29 @@
 @tailwind utilities;
 
 @layer base {
-  :root { color-scheme: dark; }
+  :root {
+    color-scheme: dark;
+    --network-cat-gov: #6b9fd4;
+    --network-cat-ic: #8b7ec8;
+    --network-cat-leg: #c9a86c;
+    --network-cat-sci: #5cb8a8;
+    --network-cat-wit: #d48ab0;
+    --network-cat-jour: #9eb56a;
+    --network-edge-coauth: #5b8fd4;
+    --network-edge-cofound: #9b7ed8;
+    --network-edge-cotest: #5ec9e8;
+    --network-edge-invest: #4db8a8;
+    --network-edge-dispute: #e07070;
+    --network-edge-mentor: #d4b85c;
+    --network-edge-funded: #e8a050;
+    --network-flag-blocker: #e07070;
+    --network-flag-contractor: #b8956a;
+    --network-flag-energy: #e8b050;
+    --network-flag-whistle: #5cb87a;
+    --network-flag-contested: #9aa3b8;
+    --network-flag-deceased: #4a4a52;
+    --network-flag-missing: #6a6a78;
+  }
 
   html {
     @apply bg-bg text-text antialiased;

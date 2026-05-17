@@ -1,0 +1,1514 @@
+{
+  "figures": [
+    {
+      "id": "john-alexander",
+      "name": "John Alexander",
+      "category": "government-military",
+      "affiliations": [
+        "Department of War (formerly DoD)"
+      ],
+      "role": "Retired Army colonel; Pentagon non-lethal weapons program; UAP investigator-author",
+      "bio": "Retired U.S. Army Colonel; former head of the Pentagon's non-lethal weapons program. Author of UFOs: Myths, Conspiracies, and Realities (2011). A rare insider who investigated UAP phenomena through official channels and concluded they are real but resisted simple explanation.",
+      "stakeholderFlags": [],
+      "status": "retired"
+    },
+    {
+      "id": "robert-bigelow",
+      "name": "Robert Bigelow",
+      "category": "witness-experiencer",
+      "affiliations": [
+        "AAWSAP / BAASS",
+        "Skinwalker Ranch"
+      ],
+      "role": "BAASS founder; Skinwalker Ranch owner; DIA AAWSAP contractor",
+      "bio": "Aerospace entrepreneur and founder of Bigelow Aerospace Advanced Space Studies (BAASS). Funded AAWSAP under a $22M DIA contract (2008). Owner of Skinwalker Ranch (1996–2016); hosted one of the most intensive multi-year scientific investigations of UAP and anomalous phenomena ever conducted.",
+      "stakeholderFlags": [
+        "defense-contractor",
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "chris-bledsoe",
+      "name": "Chris Bledsoe",
+      "category": "witness-experiencer",
+      "affiliations": [],
+      "role": "North Carolina contactee; 'The Lady' NHI interactions investigated by scientists and IC",
+      "bio": "North Carolina contactee whose decade-plus interactions with a luminous feminine NHI entity called 'The Lady' have been investigated by NASA scientists, CIA officers, and MUFON researchers. His contact experiences include apparent telepathic communication, healing events, and a prophecy referencing the 2026 Regulus/Sphinx astronomical alignment.",
+      "stakeholderFlags": [
+        "experiencer"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "eric-davis",
+      "name": "Eric Davis",
+      "category": "intelligence-community",
+      "affiliations": [
+        "AAWSAP / BAASS"
+      ],
+      "role": "Physicist; Wilson-Davis memo co-author; Earthtech senior scientist",
+      "bio": "Physicist; senior research scientist at Earthtech International. Co-author of the alleged Wilson-Davis memo (2002), allegedly recording a conversation in which Vice Admiral Wilson was denied access to a contractor-held UAP program. Has neither confirmed nor denied the memo's authenticity, citing classification obligations.",
+      "stakeholderFlags": [
+        "intel-community",
+        "contested-status"
+      ],
+      "status": "active",
+      "calibrationNote": "The Wilson-Davis memo has been entered into the Congressional Record but has not been officially confirmed or denied by Davis or Wilson. Its contents remain contested evidence, not established fact."
+    },
+    {
+      "id": "luis-elizondo",
+      "name": "Luis Elizondo",
+      "category": "intelligence-community",
+      "affiliations": [
+        "To The Stars Academy (TTSA)",
+        "UAPTF (Unidentified Aerial Phenomena Task Force, 2020–2022)",
+        "The Age of Disclosure (2025)",
+        "January 23, 2026 Congressional Hearing"
+      ],
+      "role": "Former AATIP director; TTSA co-founder; Five Observables primary source",
+      "bio": "Former DIA counterintelligence officer; director of AATIP (2010–2017). Resigned citing ethical objections. Author of Imminent (2024), #1 New York Times bestseller. Co-founded TTSA. Primary source establishing the 'Five Observables' as technical descriptors for UAP. Has confirmed UAP-nuclear nexus publicly.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "tim-gallaudet",
+      "name": "Tim Gallaudet",
+      "category": "government-military",
+      "affiliations": [
+        "Sol Foundation",
+        "The Age of Disclosure (2025)",
+        "January 23, 2026 Congressional Hearing"
+      ],
+      "role": "Rear Admiral (Ret.); former Acting NOAA Administrator; Sol Foundation member",
+      "bio": "Rear Admiral (Ret.), U.S. Navy; former Acting NOAA Administrator; oceanographer. Member of the Sol Foundation. Has stated publicly that UAP phenomena are real and have been documented extensively by military platforms. Participated in Japan's 2025 Diet session UAP briefing.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "retired"
+    },
+    {
+      "id": "david-grusch",
+      "name": "David Grusch",
+      "category": "intelligence-community",
+      "affiliations": [
+        "UAPTF (Unidentified Aerial Phenomena Task Force, 2020–2022)",
+        "House UAP Caucus"
+      ],
+      "role": "Former NRO analyst; July 2023 whistleblower testimony; Congressional adviser to Burlison",
+      "bio": "Former National Reconnaissance Office senior analyst and UAP Task Force representative. Testified under oath before the House Oversight Committee (July 2023) alleging a multi-decade non-human intelligence recovery and reverse-engineering program. Hired as Congressional adviser to Rep. Eric Burlison (March 2025).",
+      "stakeholderFlags": [
+        "disclosure-advocate",
+        "whistleblower"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "stuart-hameroff",
+      "name": "Stuart Hameroff",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "University of Arizona anesthesiologist; Orch-OR co-developer with Penrose",
+      "bio": "Anesthesiologist and consciousness researcher at the University of Arizona. Co-developer with Roger Penrose of Orchestrated Objective Reduction (Orch-OR), which proposes consciousness arises from quantum computations in neural microtubules. Has actively integrated experimental evidence from microtubule anesthetic studies since 2015.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "donald-hoffman",
+      "name": "Donald Hoffman",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "UC Irvine cognitive scientist; Interface Theory of Perception; Conscious Realism",
+      "bio": "Cognitive scientist at UC Irvine. Developed the Interface Theory of Perception and Conscious Realism through extensive evolutionary game theory modeling. Author of The Case Against Reality (W.W. Norton, 2019). His work implies UAP 'violations of physical law' may represent operations at a level more fundamental than the perceptual interface.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "colm-kelleher",
+      "name": "Colm Kelleher",
+      "category": "scientist-academic",
+      "affiliations": [
+        "AAWSAP / BAASS",
+        "Skinwalker Ranch"
+      ],
+      "role": "BAASS/NIDSci lead scientist; Skinwalker hitchhiker effect documenter",
+      "bio": "Molecular biologist; lead scientist at BAASS/NIDSci during the Skinwalker Ranch investigation (1996–2004, 2008–2010). Co-author of Hunt for the Skinwalker (2005) with George Knapp. Documented the hitchhiker effect — post-encounter anomalous phenomena following witnesses off-site — in systematic detail.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "sean-kirkpatrick",
+      "name": "Sean Kirkpatrick",
+      "category": "intelligence-community",
+      "affiliations": [
+        "AARO (All-domain Anomaly Resolution Office)"
+      ],
+      "role": "Former AARO Director (2022–2023); published no-credible-evidence conclusion",
+      "bio": "Former AARO Director (2022–2023). Published op-ed concluding 'no credible evidence' of extraterrestrial craft while admitting he lobbied against the UAP Records Review Board. Called 'a documented liar' on the Congressional record by Representative Anna Paulina Luna.",
+      "stakeholderFlags": [
+        "contested-status"
+      ],
+      "status": "retired",
+      "calibrationNote": "Representative Luna's 'documented liar' characterization is on the Congressional record. Kirkpatrick maintains his AARO findings are accurate and has publicly critiqued PURSUE Release 01 as light on substantive content. Both positions are on the public record."
+    },
+    {
+      "id": "jon-kosloski",
+      "name": "Jon Kosloski",
+      "category": "government-military",
+      "affiliations": [
+        "AARO (All-domain Anomaly Resolution Office)"
+      ],
+      "role": "AARO Director; NSA quantum-optics researcher acknowledging unexplained cases",
+      "bio": "Successor to Sean Kirkpatrick as AARO Director; NSA researcher with quantum optics background. Acknowledged 21 UAP cases his physics and engineering background cannot explain — a markedly different posture than his predecessor's categorical denial.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "avi-loeb",
+      "name": "Avi Loeb",
+      "category": "scientist-academic",
+      "affiliations": [
+        "Galileo Project"
+      ],
+      "role": "Harvard astrophysicist; Galileo Project founder; interstellar object researcher",
+      "bio": "Harvard astrophysicist; former chair of Harvard's astronomy department. Founder of the Galileo Project, which deploys AI-assisted sensor arrays to systematically search for extraterrestrial artifacts. Led the Pacific Ocean expedition that recovered spherules from the first confirmed interstellar object, CNEOS 2014-01-08.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "anna-paulina-luna",
+      "name": "Anna Paulina Luna",
+      "category": "legislator",
+      "affiliations": [
+        "House UAP Caucus"
+      ],
+      "role": "House UAP Caucus co-chair; AARO accountability and whistleblower protection advocate",
+      "bio": "U.S. Representative (R-FL); co-chair of the House UAP Caucus. Called AARO's Sean Kirkpatrick 'a documented liar' on the Congressional record. Introduced legislation requiring UAP whistleblower protection and ordered AARO be disbanded as of 2026. A leading legislative voice for disclosure accountability.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "nancy-mace",
+      "name": "Nancy Mace",
+      "category": "legislator",
+      "affiliations": [
+        "House UAP Caucus",
+        "January 23, 2026 Congressional Hearing"
+      ],
+      "role": "House Oversight UAP hearings; whistleblower intimidation inquiries",
+      "bio": "U.S. Representative (R-SC). Conducted public inquiries characterizing AARO's secrecy as excessive and documenting credible reports of whistleblower intimidation. Hosted a July 2023 House Oversight Committee hearing on UAP whistleblowers that included David Grusch's landmark testimony.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "joe-mcmoneagle",
+      "name": "Joe McMoneagle",
+      "category": "witness-experiencer",
+      "affiliations": [
+        "Project Stargate (SRI)"
+      ],
+      "role": "Army remote viewer (Ret.); documented Project Stargate operative",
+      "bio": "U.S. Army remote viewer (Warrant Officer, Ret.); one of the most documented Project Stargate operatives. Author of Mind Trek (1993). His operational remote viewing record, partially declassified, includes claimed contributions to intelligence collection confirmed by Stargate program directors.",
+      "stakeholderFlags": [
+        "intel-community"
+      ],
+      "status": "retired"
+    },
+    {
+      "id": "chris-mellon",
+      "name": "Chris Mellon",
+      "category": "intelligence-community",
+      "affiliations": [
+        "To The Stars Academy (TTSA)",
+        "Sol Foundation",
+        "The Age of Disclosure (2025)",
+        "January 23, 2026 Congressional Hearing"
+      ],
+      "role": "Former DASD for Intelligence; Nimitz video leaker; Sol Foundation co-founder",
+      "bio": "Former Deputy Assistant Secretary of Defense for Intelligence; former Senate Intelligence Committee staff director. Co-founded TTSA with Elizondo. Leaked the Nimitz encounter videos to the New York Times (2017). Called the AARO Historical Report 'the most error-ridden and unsatisfactory' he had encountered. Sol Foundation member.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "karl-nell",
+      "name": "Karl Nell",
+      "category": "government-military",
+      "affiliations": [
+        "Sol Foundation",
+        "UAPTF (Unidentified Aerial Phenomena Task Force, 2020–2022)"
+      ],
+      "role": "Retired Army colonel; UAPTF attaché; zero-doubt NHI statements at SALT 2024",
+      "bio": "Retired U.S. Army Colonel; former Army attaché to the UAP Task Force. Aerospace executive. Stated at the 2024 SALT conference that he has 'zero doubt' non-human intelligence exists and interacts with humanity. Presented a five-phase disclosure roadmap at Stanford's Sol Foundation Symposium (2023); targets full transparency by October 2030.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "retired"
+    },
+    {
+      "id": "garry-nolan",
+      "name": "Garry Nolan",
+      "category": "scientist-academic",
+      "affiliations": [
+        "Sol Foundation",
+        "Sol Foundation 2025 Italy Symposium"
+      ],
+      "role": "Stanford immunologist; UAP experiencer brain imaging; materials analysis with Vallée",
+      "bio": "Stanford University immunologist; inventor of Hyperion mass cytometry platform (licensed to Fluidigm). Conducted MRI studies of over 100 military and intelligence personnel documenting extreme caudate-putamen hypermorphism in UAP experiencers. Co-published materials analysis of alleged UAP samples with Jacques Vallée in Progress in Aerospace Sciences (2022). Co-founder of the Sol Foundation.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "diana-walsh-pasulka",
+      "name": "Diana Walsh Pasulka",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "UNC Wilmington religious studies professor; American Cosmic author",
+      "bio": "Professor of religious studies at UNC Wilmington; author of American Cosmic (Oxford UP, 2019) and Encounters (2023). Studies the sociological and religious dimensions of UAP belief, documenting scientists, military professionals, and engineers who privately hold UAP experiences as central to their lives and work.",
+      "stakeholderFlags": [
+        "experiencer"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "hal-puthoff",
+      "name": "Hal Puthoff",
+      "category": "intelligence-community",
+      "affiliations": [
+        "To The Stars Academy (TTSA)",
+        "Project Stargate (SRI)"
+      ],
+      "role": "Physicist; SRI remote viewing co-director; TTSA director",
+      "bio": "Physicist; co-director (with Russell Targ) of SRI International's remote viewing research program under CIA/DIA contract. Later joined Elizondo's TTSA as a director. Has stated publicly that he has seen classified evidence of recovered non-human materials. Founded the Institute for Advanced Studies at Austin.",
+      "stakeholderFlags": [
+        "disclosure-advocate",
+        "intel-community"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "mike-rogers",
+      "name": "Mike Rogers",
+      "category": "legislator",
+      "affiliations": [
+        "House UAP Caucus"
+      ],
+      "role": "Former HPSCI Chair; Lockheed PAC recipient; cited UAPDA dilution critic",
+      "bio": "Former U.S. Representative (R-MI); former Chair of the House Permanent Select Committee on Intelligence. Federal Election Commission records document $143,000 in contributions from Lockheed Martin PAC and associated personnel. Critics have linked his committee's oversight role to repeated UAPDA dilution.",
+      "stakeholderFlags": [
+        "legislative-blocker",
+        "defense-contractor"
+      ],
+      "status": "retired"
+    },
+    {
+      "id": "jim-semivan",
+      "name": "Jim Semivan",
+      "category": "intelligence-community",
+      "affiliations": [
+        "To The Stars Academy (TTSA)"
+      ],
+      "role": "Retired CIA SIS officer (25 years); TTSA co-founder; Bledsoe case investigator",
+      "bio": "Retired CIA Senior Intelligence Service officer (25 years). Co-founder of TTSA. Investigated the Chris Bledsoe contact case. Has stated publicly that non-human intelligence is real and interacts with humanity. One of the most credentialed intelligence community figures to make unequivocal public statements about NHI reality.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "retired"
+    },
+    {
+      "id": "maria-stromme",
+      "name": "Maria Strømme",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "Uppsala nanotechnology professor; field theory of consciousness (AIP Advances 2025)",
+      "bio": "Professor of nanotechnology at Uppsala University; one of Europe's most-cited applied physics researchers. Published 'A Field Theory of Consciousness' in AIP Advances (November 2025), selected as best paper of the issue. Proposes consciousness as a fundamental physical field prior to and generative of spacetime — with testable predictions.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "ingo-swann",
+      "name": "Ingo Swann",
+      "category": "witness-experiencer",
+      "affiliations": [
+        "Project Stargate (SRI)"
+      ],
+      "role": "SRI coordinate remote viewing protocol co-developer; Penetration author",
+      "bio": "New York artist and pioneering remote viewer; co-developer (with Hal Puthoff and Russell Targ) of the 'coordinate remote viewing' protocol at SRI International. Author of Penetration (1998), describing claimed classified remote viewing sessions of non-human activity on the Moon. His operational records remain partially classified.",
+      "stakeholderFlags": [
+        "intel-community"
+      ],
+      "status": "deceased"
+    },
+    {
+      "id": "matthew-szydagis",
+      "name": "Matthew Szydagis",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "SUNY Albany physicist; UAP disclosure statistical modeling in Limina",
+      "bio": "Physicist at the University at Albany (SUNY); developer of the NEST radiation detection simulation. Applied statistical modeling to UAP disclosure scenarios in a series of papers in Limina: The Journal of UAP Studies, estimating mean catastrophic disclosure year at 2040 based on surveillance technology proliferation.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "mike-turner",
+      "name": "Mike Turner",
+      "category": "legislator",
+      "affiliations": [
+        "House UAP Caucus"
+      ],
+      "role": "HPSCI Chair; Wright-Patterson district; Lockheed PAC recipient",
+      "bio": "U.S. Representative (R-OH); former Chair of the House Permanent Select Committee on Intelligence. His district geographically encircles Wright-Patterson Air Force Base. FEC records document $186,250 from Lockheed Martin PAC; critics have argued his committee's oversight role correlates with UAPDA dilution.",
+      "stakeholderFlags": [
+        "legislative-blocker",
+        "defense-contractor"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "jacques-vallee",
+      "name": "Jacques Vallée",
+      "category": "scientist-academic",
+      "affiliations": [
+        "Sol Foundation",
+        "Sol Foundation 2025 Italy Symposium"
+      ],
+      "role": "Astrophysicist-venture capitalist; Passport to Magonia; Nolan materials co-author",
+      "bio": "French-American astrophysicist, computer scientist, and venture capitalist. A pioneer of both artificial intelligence (astrophysics computing at Northwestern, 1960s) and UAP research. Author of Passport to Magonia (1969), which proposed the interdimensional/control system hypothesis. Co-published materials analysis with Garry Nolan (2022). Sol Foundation member.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "thomas-wilson",
+      "name": "Thomas Wilson",
+      "category": "government-military",
+      "affiliations": [],
+      "role": "Former DIA Director; Wilson-Davis memo central figure",
+      "bio": "Vice Admiral (Ret.); former Director of the Defense Intelligence Agency (1999–2002). Central figure in the Wilson-Davis memo, which alleges he was denied access to a contractor-held UAP program despite his position. Wilson has publicly denied the meeting occurred. The memo was entered into the Congressional Record as SD001 in November 2024.",
+      "stakeholderFlags": [],
+      "status": "retired"
+    },
+    {
+      "id": "roger-penrose",
+      "name": "Roger Penrose",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "Nobel laureate mathematical physicist; Orch-OR co-developer with Hameroff",
+      "bio": "Mathematical physicist; Nobel Prize laureate (2020); emeritus professor at Oxford. Co-developer (with Stuart Hameroff) of Orchestrated Objective Reduction (Orch-OR). Author of The Emperor's New Mind (1989) and Shadows of the Mind (1994), arguing consciousness involves non-computable quantum processes beyond algorithmic replication.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "jay-stratton",
+      "name": "Jay Stratton",
+      "category": "intelligence-community",
+      "affiliations": [
+        "UAPTF (Unidentified Aerial Phenomena Task Force, 2020–2022)",
+        "Skinwalker Ranch",
+        "The Age of Disclosure (2025)"
+      ],
+      "role": "Former UAPTF director (2017–2022); on-camera non-human craft testimony",
+      "bio": "Former director of the UAP Task Force; first on-camera testimony in The Age of Disclosure (Nov 2025). Stated publicly: \"I have seen, with my own eyes, non-human craft and non-human beings.\" Also appeared on History Channel's The Secret of Skinwalker Ranch. Compares the inter-state race to reverse-engineer recovered craft to the Manhattan Project.",
+      "stakeholderFlags": [
+        "disclosure-advocate",
+        "intel-community"
+      ],
+      "status": "retired"
+    },
+    {
+      "id": "david-fravor",
+      "name": "David Fravor",
+      "category": "government-military",
+      "affiliations": [
+        "The Age of Disclosure (2025)"
+      ],
+      "role": "Navy Commander (Ret.); lead pilot, 2004 USS Nimitz Tic Tac encounter",
+      "bio": "Pilot of the lead F/A-18 Super Hornet in the 2004 USS Nimitz Tic Tac encounter. Has stated under oath that the object he engaged demonstrated capabilities beyond any known platform. Featured in The Age of Disclosure with independent corroboration from fellow aircrew.",
+      "stakeholderFlags": [
+        "disclosure-advocate",
+        "experiencer"
+      ],
+      "status": "retired"
+    },
+    {
+      "id": "alex-dietrich",
+      "name": "Alex Dietrich",
+      "category": "government-military",
+      "affiliations": [
+        "The Age of Disclosure (2025)"
+      ],
+      "role": "Navy Lt. Cmdr. (Ret.); WSO in second Nimitz F/A-18 during Tic Tac encounter",
+      "bio": "Weapons Systems Officer in the second F/A-18 during the 2004 Nimitz Tic Tac encounter. Independent corroborating witness to Commander Fravor's account. Provided public on-camera testimony in The Age of Disclosure, strengthening the multi-witness record of the incident.",
+      "stakeholderFlags": [
+        "disclosure-advocate",
+        "experiencer"
+      ],
+      "status": "retired"
+    },
+    {
+      "id": "ryan-graves",
+      "name": "Ryan Graves",
+      "category": "government-military",
+      "affiliations": [],
+      "role": "Former F/A-18 pilot; Americans for Safe Aerospace founder; July 2023 House testimony",
+      "bio": "Former F/A-18 pilot who testified to the House Subcommittee on National Security (July 2023) that UAP sightings are severely underreported due to career stigma within the military. Founded Americans for Safe Aerospace as a pilot-reporting nonprofit to reduce reporting barriers for aviators.",
+      "stakeholderFlags": [
+        "whistleblower",
+        "disclosure-advocate"
+      ],
+      "status": "retired"
+    },
+    {
+      "id": "pete-hegseth",
+      "name": "Pete Hegseth",
+      "category": "government-military",
+      "affiliations": [
+        "Department of War (formerly DoD)",
+        "PURSUE (Presidential Unsealing and Reporting System for UAP Encounters)"
+      ],
+      "role": "Secretary of War; operational lead for PURSUE declassification program",
+      "bio": "Trump's appointed Secretary of War (Department of Defense rebranded by executive order). Operational point person for the PURSUE program announced Feb 19, 2026 and first executed May 8, 2026 at war.gov/UFO with 162 declassified files. Has publicly committed to \"maximum transparency\" while noting the rolling-release structure.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active",
+      "cites": [
+        "https://www.war.gov/UFO",
+        "CBS coverage of May 8, 2026 release"
+      ]
+    },
+    {
+      "id": "mike-gold",
+      "name": "Mike Gold",
+      "category": "government-military",
+      "affiliations": [
+        "The Age of Disclosure (2025)"
+      ],
+      "role": "Former NASA Associate Administrator for Space Policy; NASA UAP study team member",
+      "bio": "Former NASA Associate Administrator for Space Policy and member of the NASA UAP Independent Study Team. Appeared in The Age of Disclosure, bringing the institutional civilian-science perspective to a documentary anchored primarily in DoD and intelligence testimony.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "travis-taylor",
+      "name": "Travis Taylor",
+      "category": "scientist-academic",
+      "affiliations": [
+        "UAPTF (Unidentified Aerial Phenomena Task Force, 2020–2022)",
+        "Skinwalker Ranch",
+        "The Age of Disclosure (2025)"
+      ],
+      "role": "Astrophysicist; former UAPTF chief scientist; Skinwalker Ranch program scientist",
+      "bio": "Astrophysicist and former chief scientist for the UAP Task Force. Featured presence on The Secret of Skinwalker Ranch (History Channel). Speaks in The Age of Disclosure about UAPTF-era encounters, bridging government task-force work and long-running ranch investigations.",
+      "stakeholderFlags": [
+        "disclosure-advocate",
+        "intel-community"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "william-neil-mccasland",
+      "name": "Maj. Gen. William Neil McCasland",
+      "category": "government-military",
+      "affiliations": [
+        "Department of War (formerly DoD)"
+      ],
+      "role": "Former AFRL Commander (Ret.); missing since Feb 27, 2026, Albuquerque",
+      "bio": "Disappeared from his home in Albuquerque on Feb 27, 2026. His Air Force Research Laboratory background gave him deep institutional access to advanced aerospace and energy programs. His disappearance is frequently cited within the broader 2025–2026 \"missing scientists\" narrative; the FBI and House Oversight Committee announced an investigation into the pattern. President Trump publicly stated federal briefings have not shown a meaningful link among the cited cases.",
+      "stakeholderFlags": [
+        "missing",
+        "contested-status"
+      ],
+      "status": "missing",
+      "calibrationNote": "McCasland's disappearance is a real and unresolved missing-persons case. The framing of his disappearance as part of a coordinated state-sponsored neutralization of disclosure-adjacent figures is contested. Multiple credible voices — including Avi Loeb (\"We have a Missing Science problem, not a Missing Scientists problem,\" April 2026) and President Trump himself — have publicly disputed the linkage. The investigation is ongoing."
+    },
+    {
+      "id": "eric-burlison",
+      "name": "Eric Burlison",
+      "category": "legislator",
+      "affiliations": [
+        "House UAP Caucus"
+      ],
+      "role": "House UAP Caucus member; Grusch adviser; UAPDA NDAA amendment sponsor",
+      "bio": "U.S. Representative (R-MO) and House UAP Caucus member. Hired David Grusch as Congressional adviser (March 2025). Repeatedly submitted UAPDA as a House amendment to the FY2026 NDAA, where it was reportedly stripped at the committee-staff level. Publicly stated \"a staffer blocked UAPDA, not a U.S. Senator,\" identifying the blocking action as occurring inside the Senate Appropriations Committee.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "tim-burchett",
+      "name": "Tim Burchett",
+      "category": "legislator",
+      "affiliations": [
+        "House UAP Caucus"
+      ],
+      "role": "House UAP advocate; DOGE chair; partner with Luna on withheld UAP videos",
+      "bio": "Among the most vocal House UAP advocates and a public-facing partner with Rep. Luna in pressing the Pentagon for the 46 UAP videos still withheld from PURSUE Release 01. As DOGE chair, became the formal recipient of Luna's March 22, 2026 recommendation to disband and defund AARO.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "marco-rubio",
+      "name": "Marco Rubio",
+      "category": "legislator",
+      "affiliations": [
+        "The Age of Disclosure (2025)"
+      ],
+      "role": "Secretary of State; former Senate Intelligence Vice Chair; UAP briefings",
+      "bio": "Featured prominently in The Age of Disclosure. As Senate Intelligence Committee Vice Chair, was briefed on UAP matters; now as Secretary of State and acting National Security Advisor sits at the executive end of the same information flow. Compared on camera the prospect of an adversary cracking reverse-engineering first to the surprises of Pearl Harbor and 9/11.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "kirsten-gillibrand",
+      "name": "Kirsten Gillibrand",
+      "category": "legislator",
+      "affiliations": [
+        "Senate UAPDA Sponsors",
+        "The Age of Disclosure (2025)"
+      ],
+      "role": "U.S. Senator (D-NY); bipartisan UAPDA co-sponsor; AARO establishment via FY2022 NDAA",
+      "bio": "Bipartisan UAPDA co-sponsor with Schumer and Rounds who helped establish AARO via the FY2022 NDAA. On-camera in The Age of Disclosure: \"it's not acceptable to have secret parts of government that no one ever sees.\"",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "mike-rounds",
+      "name": "Mike Rounds",
+      "category": "legislator",
+      "affiliations": [
+        "Senate UAPDA Sponsors",
+        "The Age of Disclosure (2025)"
+      ],
+      "role": "U.S. Senator (R-SD); UAPDA co-sponsor; Records Review Board advocate",
+      "bio": "UAPDA co-sponsor with Schumer and Gillibrand who has pushed for the UAPDA's Records Review Board structure modeled on the Assassination Records Review Board. Featured in The Age of Disclosure as a senior Senate voice for structured declassification.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "chuck-schumer",
+      "name": "Chuck Schumer",
+      "category": "legislator",
+      "affiliations": [
+        "Senate UAPDA Sponsors"
+      ],
+      "role": "Senate Minority Leader; lead Senate UAPDA sponsor (S.Amdt.3111)",
+      "bio": "Lead Senate sponsor of the UAP Disclosure Act (S.Amdt.3111 to S.2296, FY2026). The act has been stripped from each successive NDAA since 2023 despite reported broad Congressional support for transparency measures.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "mitch-mcconnell",
+      "name": "Mitch McConnell",
+      "category": "legislator",
+      "affiliations": [
+        "Senate UAPDA Sponsors"
+      ],
+      "role": "Former Senate Minority Leader; named in UAPDA stripping allegations",
+      "bio": "Multiple credible sources have identified McConnell's office as central to repeatedly stripping the UAPDA from successive NDAAs. Per Liberation Times' Jan 2026 reporting and Pentagon Papers attorney Daniel Sheehan, McConnell is named alongside Senators Wicker and Representatives Turner, Rogers, and Johnson as a small group repeatedly blocking the legislation despite reported 98% Congressional support.",
+      "stakeholderFlags": [
+        "legislative-blocker",
+        "contested-status"
+      ],
+      "status": "retired",
+      "calibrationNote": "McConnell and his office have not responded to direct inquiries from Liberation Times or other outlets seeking comment on these allegations. Attribution rests on multi-source congressional insider accounts and Burlison's public statements; the legislative record itself shows only that the UAPDA was repeatedly stripped during conference, without identifying the specific staff or member responsible."
+    },
+    {
+      "id": "terry-carmack",
+      "name": "Terry Carmack",
+      "category": "legislator",
+      "affiliations": [
+        "Senate UAPDA Sponsors"
+      ],
+      "role": "Chief of Staff to Sen. McConnell; named UAPDA stripping actor",
+      "bio": "Identified by multiple congressional insider sources (Burlison; Liberation Times reporting Jan 2026) as the senior staffer who repeatedly pressed to strip the UAPDA from the NDAA. Has not publicly responded to the attribution.",
+      "stakeholderFlags": [
+        "legislative-blocker",
+        "contested-status"
+      ],
+      "status": "active",
+      "calibrationNote": "Attribution sourced to Liberation Times Jan 2026 reporting and Rep. Burlison's December 18, 2025 statement on the Ask a Pol UAP podcast. Carmack has not publicly responded. The blocking action itself — UAPDA repeatedly stripped — is documented in the legislative record; the specific identification of Carmack as the blocking actor remains insider testimony."
+    },
+    {
+      "id": "daniel-sheehan",
+      "name": "Daniel Sheehan",
+      "category": "legislator",
+      "affiliations": [
+        "Senate UAPDA Sponsors"
+      ],
+      "role": "Pentagon Papers attorney; UAPDA advocate naming five consistent blockers",
+      "bio": "Famed civil-rights attorney (Pentagon Papers, Watergate) who has publicly named five legislators (McConnell, Wicker, Turner, Rogers, Johnson) as the consistent UAPDA blockers. Serves as counsel to multiple disclosure-adjacent whistleblowers advancing transparency claims in Congress.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "james-comer",
+      "name": "James Comer",
+      "category": "legislator",
+      "affiliations": [
+        "House UAP Caucus"
+      ],
+      "role": "House Oversight Chair; investigating missing-scientist pattern (April 2026)",
+      "bio": "U.S. Representative (R-KY) and Chair of the House Oversight Committee under which Luna's Task Force on Declassification of Federal Secrets operates. Announced in April 2026 that the Committee would investigate the disappearance and death pattern alleged among nuclear and aerospace scientists.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "donald-trump",
+      "name": "Donald Trump",
+      "category": "legislator",
+      "affiliations": [
+        "PURSUE (Presidential Unsealing and Reporting System for UAP Encounters)",
+        "Department of War (formerly DoD)"
+      ],
+      "role": "President; Feb 19, 2026 UAP declassification directive; PURSUE initiator",
+      "bio": "Issued the February 19, 2026 Truth Social directive instructing federal agencies to identify and release UAP/UFO/ET records. The directive resulted in the PURSUE program, which launched May 8, 2026 with 162 files at war.gov/UFO. Has publicly stated federal briefings have not shown a meaningful link among the \"missing scientists\" cases.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active",
+      "calibrationNote": "Executive directives can be reversed, narrowed, or selectively implemented. The PURSUE Release 01 was widely characterized — including by AARO's former director Sean Kirkpatrick — as light on substantive content. The 46 specific UAP videos demanded by Luna in March 2026 were not included in Release 01."
+    },
+    {
+      "id": "dan-farah",
+      "name": "Dan Farah",
+      "category": "journalist-investigator",
+      "affiliations": [
+        "The Age of Disclosure (2025)"
+      ],
+      "role": "Director, The Age of Disclosure; assembled 34 senior government testimonies",
+      "bio": "Producer-director who spent three years in secret production assembling on-camera testimony from 34 senior U.S. government, military, and intelligence officials. The documentary released on Amazon Prime Video Nov 21, 2025 and broke the platform's documentary record within 48 hours.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "andre-carson",
+      "name": "André Carson",
+      "category": "legislator",
+      "affiliations": [
+        "House UAP Caucus",
+        "The Age of Disclosure (2025)"
+      ],
+      "role": "House Intelligence Committee member; long-running UAP transparency advocate",
+      "bio": "U.S. Representative (D-IN), House Intelligence Committee member, and long-running UAP transparency advocate. On-camera in The Age of Disclosure as part of the bipartisan legislative cohort pressing for institutional accountability on anomalous phenomena.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "dan-crenshaw",
+      "name": "Dan Crenshaw",
+      "category": "legislator",
+      "affiliations": [
+        "House UAP Caucus",
+        "The Age of Disclosure (2025)"
+      ],
+      "role": "Former Navy SEAL; House Intelligence Committee; Age of Disclosure participant",
+      "bio": "U.S. Representative (R-TX), former Navy SEAL, and House Intelligence Committee member. On-camera in The Age of Disclosure, contributing a special-operations and intelligence-committee perspective to the documentary's senior-official testimony roster.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "mike-gallagher",
+      "name": "Mike Gallagher",
+      "category": "legislator",
+      "affiliations": [
+        "House UAP Caucus",
+        "The Age of Disclosure (2025)"
+      ],
+      "role": "Former House Armed Services voice; Age of Disclosure participant",
+      "bio": "Former U.S. Representative (R-WI) and former House Armed Services UAP-adjacent voice. On-camera in The Age of Disclosure as part of the legislative cohort documenting Congressional engagement with UAP transparency.",
+      "stakeholderFlags": [],
+      "status": "retired"
+    },
+    {
+      "id": "james-clapper",
+      "name": "James Clapper",
+      "category": "intelligence-community",
+      "affiliations": [
+        "The Age of Disclosure (2025)"
+      ],
+      "role": "Former Director of National Intelligence; Age of Disclosure participant",
+      "bio": "Former Director of National Intelligence, on-camera in The Age of Disclosure. Has publicly stated the intelligence community's involvement in UAP investigation is logical and that current institutional approaches are out of date relative to the evidence base.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "retired"
+    },
+    {
+      "id": "dylan-borland",
+      "name": "Dylan Borland",
+      "category": "government-military",
+      "affiliations": [
+        "Disclosure Project",
+        "September 9, 2025 Congressional Hearing"
+      ],
+      "role": "USAF whistleblower; triangular craft at Langley AFB; Sept 2025 House testimony",
+      "bio": "Active-duty Air Force witness at the September 9, 2025 House Oversight Task Force hearing on Restoring Public Trust Through UAP Transparency and Whistleblower Protection. Has stated witnessing large triangular craft while stationed at Langley AFB and faced career retaliation post-disclosure.",
+      "stakeholderFlags": [
+        "whistleblower",
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "jeffrey-nuccetelli",
+      "name": "Jeffrey Nuccetelli",
+      "category": "government-military",
+      "affiliations": [
+        "Disclosure Project",
+        "September 9, 2025 Congressional Hearing"
+      ],
+      "role": "Former Vandenberg AFB security forces; UAP incursions testimony Sept 2025",
+      "bio": "Former Vandenberg Air Force Base security forces member who testified at the September 2025 House hearing alongside Dylan Borland. Documents UAP incursions over sensitive military installations from a base-security perspective.",
+      "stakeholderFlags": [
+        "whistleblower",
+        "disclosure-advocate"
+      ],
+      "status": "retired"
+    },
+    {
+      "id": "alexandro-wiggins",
+      "name": "Alexandro Wiggins",
+      "category": "government-military",
+      "affiliations": [
+        "January 23, 2026 Congressional Hearing"
+      ],
+      "role": "U.S. Coast Guard officer; Jan 2026 House Oversight UAP hearing witness",
+      "bio": "U.S. Coast Guard officer and formal witness at the January 23, 2026 House Oversight hearing \"Unidentified Anomalous Phenomena: Exposing the Truth.\" Framed UAP encounters as aviation and maritime safety issues requiring standardized sensor capture and chain-of-custody protocols.",
+      "stakeholderFlags": [
+        "whistleblower"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "matthew-brown",
+      "name": "Matthew Brown",
+      "category": "intelligence-community",
+      "affiliations": [
+        "January 23, 2026 Congressional Hearing"
+      ],
+      "role": "Self-identified author of Immaculate Constellation IC report summary",
+      "bio": "Publicly self-identified in March 2025 as the author of the Immaculate Constellation document detailing the alleged unacknowledged special access program of the same name. The document was entered into the Congressional Record by Rep. Mace on January 23, 2026 after being brought to the hearing by Michael Shellenberger.",
+      "stakeholderFlags": [
+        "whistleblower",
+        "contested-status"
+      ],
+      "status": "active",
+      "calibrationNote": "The Immaculate Constellation program's existence has been alleged but not officially confirmed. The document entered into the Congressional Record is a 12-page summary, not the underlying source records."
+    },
+    {
+      "id": "michael-shellenberger",
+      "name": "Michael Shellenberger",
+      "category": "journalist-investigator",
+      "affiliations": [
+        "January 23, 2026 Congressional Hearing"
+      ],
+      "role": "Independent journalist; carried Immaculate Constellation into Jan 2026 hearing",
+      "bio": "Independent journalist who carried the Immaculate Constellation document into the January 23, 2026 hearing and ensured its entry into the Congressional Record. Public Editor at Public.News and persistent investigative journalist on UAP and national security intersections.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "yasukazu-hamada",
+      "name": "Yasukazu Hamada",
+      "category": "legislator",
+      "affiliations": [
+        "Japan Diet UAP Parliamentary Group"
+      ],
+      "role": "Japan House Rep.; former Defense Minister; Diet UAP caucus chair",
+      "bio": "House of Representatives member and former Minister of Defense who chairs the Diet's non-partisan Parliamentary Group for the Study of UAP from a National Security Perspective, founded June 2024 with 80+ members. Led the caucus's March 30, 2026 formal proposal to establish a dedicated UAP intelligence body under the Deputy Chief Cabinet Secretary for Crisis Management.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "shinjiro-koizumi",
+      "name": "Shinjiro Koizumi",
+      "category": "legislator",
+      "affiliations": [
+        "Japan Diet UAP Parliamentary Group"
+      ],
+      "role": "Japan House Rep.; former Environment Minister; Diet UAP caucus secretary-general",
+      "bio": "House of Representatives member, former Minister of the Environment, and Secretary-General of the Diet UAP caucus. Son of former Prime Minister Junichiro Koizumi, bringing institutional credibility and Japan's mainstream center-right political weight to the caucus.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "yasuhide-nakayama",
+      "name": "Yasuhide Nakayama",
+      "category": "legislator",
+      "affiliations": [
+        "Japan Diet UAP Parliamentary Group"
+      ],
+      "role": "Japan House Rep.; former State Minister of Defense; caucus founding member",
+      "bio": "House of Representatives member, former State Minister of Defense, and founding member of the Diet UAP caucus. Long-running advocate for Japan's information-gathering capabilities on UAP; re-elected February 2026 (Kinki proportional representation block).",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "yoshiharu-asakawa",
+      "name": "Yoshiharu Asakawa",
+      "category": "legislator",
+      "affiliations": [
+        "Japan Diet UAP Parliamentary Group"
+      ],
+      "role": "Japan House opposition member; caucus founding voice on AARO hotspot designation",
+      "bio": "House of Representatives member (opposition) and caucus founding voice. On record in June 2024 framing AARO's 2023 designation of western Japan as a UAP \"hotspot\" as the moment Japan recognized institutional asymmetry with the United States on anomalous phenomena intelligence.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "shigeru-ishiba",
+      "name": "Shigeru Ishiba",
+      "category": "legislator",
+      "affiliations": [
+        "Japan Diet UAP Parliamentary Group"
+      ],
+      "role": "Former Prime Minister of Japan; former Defense Minister; caucus founding member",
+      "bio": "Former Prime Minister of Japan (until October 2025) and career-long defense-policy figure who served as Minister of Defense. Caucus founding member whose premiership elevated the Diet UAP group's standing within Japan's national-security establishment.",
+      "stakeholderFlags": [],
+      "status": "retired"
+    },
+    {
+      "id": "sanae-takaichi",
+      "name": "Sanae Takaichi",
+      "category": "legislator",
+      "affiliations": [
+        "Japan Diet UAP Parliamentary Group"
+      ],
+      "role": "Prime Minister of Japan since Oct 2025; executive gate for caucus proposals",
+      "bio": "Prime Minister of Japan since October 21, 2025, who won the February 2026 snap election. Not a member of the UAP caucus but the executive authority through whom the caucus's March 2026 intelligence-body proposal must move.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "beatriz-villarroel",
+      "name": "Beatriz Villarroel",
+      "category": "scientist-academic",
+      "affiliations": [
+        "Sol Foundation",
+        "Sol Foundation 2025 Italy Symposium"
+      ],
+      "role": "Stockholm astrophysicist; VASCO non-human artifact hunt methodology",
+      "bio": "Astrophysicist at Stockholm University investigating non-human artifacts near Earth through the VASCO (Vanishing & Appearing Sources during a Century of Observations) project. Spoke at Sol 2025 opening session on \"The Hunt for Nonhuman Artifacts Near Earth,\" focusing on historical photographic-plate anomalies.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "pierre-bescond",
+      "name": "Pierre Bescond",
+      "category": "government-military",
+      "affiliations": [
+        "Sol Foundation 2025 Italy Symposium"
+      ],
+      "role": "French Brigadier General (Ret.); COMETA report co-author (1999)",
+      "bio": "Brigadier General (Ret.) of the French Armée de l'Air and COMETA report co-author (1999). Spoke at Sol 2025 on \"Revisiting the COMETA Report.\" COMETA's conclusion — that UAP are \"almost certain physical reality\" — predated the modern U.S. disclosure cycle by two decades.",
+      "stakeholderFlags": [],
+      "status": "retired"
+    },
+    {
+      "id": "roberto-pinotti",
+      "name": "Roberto Pinotti",
+      "category": "journalist-investigator",
+      "affiliations": [
+        "Sol Foundation 2025 Italy Symposium"
+      ],
+      "role": "Italian UAP historian; Sol 2025 speaker on Italy's UAP record",
+      "bio": "Italian UAP historian who spoke at Sol 2025 on Italy's UAP history (\"From Magenta to Project Titan\"). Long-running Italian-language disclosure researcher connecting European archival cases to contemporary transparency debates.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "luc-dini",
+      "name": "Luc Dini",
+      "category": "scientist-academic",
+      "affiliations": [
+        "Sol Foundation 2025 Italy Symposium"
+      ],
+      "role": "French aerospace engineer; 3AF/Sigma2 UAP physical observables methodology",
+      "bio": "Aerospace engineer with France's 3AF and Sigma2 specializing in physical observables of UAP. Spoke at Sol 2025 on the Sigma2 methodology for structuring anomalous aerospace data within engineering frameworks.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "michael-valliant",
+      "name": "Michael Valliant",
+      "category": "government-military",
+      "affiliations": [
+        "Sol Foundation 2025 Italy Symposium"
+      ],
+      "role": "GEIPAN representative; two decades of French official UAP investigations",
+      "bio": "Representative of GEIPAN (Groupe d'Études et d'Informations sur les Phénomènes Aérospatiaux Non identifiés), France's civilian-aerospace UAP body. Spoke at Sol 2025 on two decades of UAP investigations at the longest-running official UAP investigation framework in the world.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "jacob-haqq-misra",
+      "name": "Jacob Haqq-Misra",
+      "category": "scientist-academic",
+      "affiliations": [
+        "Sol Foundation 2025 Italy Symposium"
+      ],
+      "role": "Blue Marble Space astrobiologist; UAP within SETI framework",
+      "bio": "Astrobiologist at the Blue Marble Space Institute of Science. Spoke at Sol 2025 on situating UAP within the scientific search for extraterrestrial intelligence, bridging anomalous-phenomena reporting and mainstream astrobiology methods.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "jeffrey-kripal",
+      "name": "Jeffrey Kripal",
+      "category": "scientist-academic",
+      "affiliations": [
+        "Sol Foundation",
+        "Sol Foundation 2025 Italy Symposium"
+      ],
+      "role": "Rice philosopher of religion; long-running Pasulka collaborator",
+      "bio": "J. Newton Rayzor Chair in Philosophy and Religious Thought at Rice University. Philosopher of religion and consciousness with a long-running scholarly collaboration with Diana Pasulka on the intersections of UAP, belief, and institutional science.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "kevin-knuth",
+      "name": "Kevin Knuth",
+      "category": "scientist-academic",
+      "affiliations": [
+        "Sol Foundation 2025 Italy Symposium"
+      ],
+      "role": "SUNY Albany physicist; UAP statistical modeling with Szydagis",
+      "bio": "Physicist at the University at Albany (SUNY) who has worked with Matthew Szydagis on UAP statistical modeling. Contributed quantitative disclosure-scenario analysis to the academic UAP literature through peer-reviewed and specialist-journal channels.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "james-fowler",
+      "name": "James Fowler",
+      "category": "journalist-investigator",
+      "affiliations": [
+        "Sol Foundation 2025 Italy Symposium"
+      ],
+      "role": "Defense and drone analyst; Sol 2025 UAP/drone overlap speaker",
+      "bio": "Defense and drone analyst who spoke at Sol 2025 on the UAP and drone overlap, examining how proliferating unmanned systems complicate identification, sensor interpretation, and public reporting of anomalous aerial events.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "michael-wiest",
+      "name": "Michael Wiest",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "Wellesley neuroscientist; 2025 Orch-OR experimental support papers",
+      "bio": "Neuroscientist at Wellesley College who published \"A quantum microtubule substrate of consciousness is experimentally supported and solves the binding and epiphenomenalism problems\" in Neuroscience of Consciousness (Oxford UP), May 2025. Published a follow-up in September 2025 bridging Friston's active inference with Orch-OR, providing recent experimental support for the Penrose-Hameroff framework.",
+      "stakeholderFlags": [],
+      "status": "active",
+      "cites": [
+        "https://doi.org/10.1093/nc/niaf011"
+      ]
+    },
+    {
+      "id": "anirban-bandyopadhyay",
+      "name": "Anirban Bandyopadhyay",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "MIT researcher; warm-temperature quantum vibrations in brain microtubules",
+      "bio": "Lead researcher (MIT; formerly NIMS Tsukuba) whose group demonstrated warm-temperature quantum vibrations in brain microtubules — among the experimental findings most cited as corroborating Orch-OR's proposed biological substrate for consciousness.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "christof-koch",
+      "name": "Christof Koch",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "Allen Institute consciousness researcher; lost 1998 bet with Chalmers (2025)",
+      "bio": "Consciousness researcher and former chief scientist at the Allen Institute; longtime collaborator with Francis Crick. Lost his 1998 bet with David Chalmers in April 2025 — the bet held that neural correlates of consciousness would be identified within 25 years.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "david-chalmers",
+      "name": "David Chalmers",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "NYU philosopher of mind; coined the hard problem of consciousness",
+      "bio": "Philosopher of mind at NYU who coined \"the hard problem of consciousness.\" Won his 1998 bet with Christof Koch in April 2025, reflecting ongoing debate over whether neural correlates alone suffice to explain subjective experience.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "ross-coulthart",
+      "name": "Ross Coulthart",
+      "category": "journalist-investigator",
+      "affiliations": [],
+      "role": "NewsNation UAP investigative journalist; Tic-Tac/Lockheed claim (July 2025)",
+      "bio": "Lead investigative journalist on the UAP beat at NewsNation who made the public claim in July 2025 that \"the Tic-Tac is Lockheed Martin\" — a controversial reattribution that, if accurate, would relocate the central Nimitz encounter from non-human origin to a domestic black program.",
+      "stakeholderFlags": [
+        "disclosure-advocate",
+        "contested-status"
+      ],
+      "status": "active",
+      "calibrationNote": "The \"Tic-Tac is Lockheed Martin\" claim sourced to Coulthart's confidential reporting has not been independently corroborated. Coulthart has maintained the claim publicly; multiple other UAP-beat journalists (including those at DefenseScoop and the Disclosure Foundation) have not adopted it."
+    },
+    {
+      "id": "george-knapp",
+      "name": "George Knapp",
+      "category": "journalist-investigator",
+      "affiliations": [
+        "Skinwalker Ranch",
+        "September 9, 2025 Congressional Hearing"
+      ],
+      "role": "KLAS investigative journalist; Bob Lazar story; Hunt for the Skinwalker co-author",
+      "bio": "Investigative journalist at KLAS Las Vegas who broke the Bob Lazar story (1989) and co-authored Hunt for the Skinwalker (2005) with Colm Kelleher. Testified under oath at the September 2025 House Oversight hearing — one of the few journalists to do so.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "bob-lazar",
+      "name": "Bob Lazar",
+      "category": "witness-experiencer",
+      "affiliations": [
+        "Skinwalker Ranch"
+      ],
+      "role": "Self-described former S-4 scientist; 1989 Area 51 reverse-engineering claims",
+      "bio": "Claimed in 1989 to have reverse-engineered alien craft at S-4 near Area 51. Returned to The Joe Rogan Experience in April 2026 in connection with a new S-4 documentary. His claimed credentials (MIT, Caltech) remain disputed and have not been verified through the institutions themselves.",
+      "stakeholderFlags": [
+        "experiencer",
+        "contested-status"
+      ],
+      "status": "active",
+      "calibrationNote": "Lazar's claimed credentials (MIT, Caltech) have never been verified through the institutions themselves. Supporters point to his demonstrable specialized knowledge of element 115 and propulsion concepts that predated public discussion. Critics point to the absence of independent corroboration. Treat as a primary historical-narrative figure whose evidentiary weight is contested."
+    },
+    {
+      "id": "steven-greer",
+      "name": "Steven Greer",
+      "category": "witness-experiencer",
+      "affiliations": [
+        "Disclosure Project"
+      ],
+      "role": "Disclosure Project founder; CE-5 protocols; May 2026 National Press Club briefing",
+      "bio": "Emergency-medicine physician who founded the Disclosure Project (2001). Hosted the May 8, 2026 National Press Club 25th-anniversary briefing featuring new whistleblowers and analysis of the Buga Sphere (Colombia). Originator of CE-5 protocols for human-initiated contact.",
+      "stakeholderFlags": [
+        "experiencer",
+        "disclosure-advocate",
+        "contested-status"
+      ],
+      "status": "active",
+      "calibrationNote": "Greer is a major movement figure with a long public record; he has also drawn substantial within-community criticism for selling CE-5 training and for some specific claims (e.g., the Atacama specimen). His convening role is genuine; specific factual claims should be evaluated case by case."
+    },
+    {
+      "id": "jaime-maussan",
+      "name": "Jaime Maussan",
+      "category": "journalist-investigator",
+      "affiliations": [
+        "Disclosure Project"
+      ],
+      "role": "Mexican UAP journalist; Buga Sphere briefing; contested Nazca specimens",
+      "bio": "Long-running Mexican UAP journalist and central figure in the Buga Sphere presentation alongside Greer at the May 8, 2026 National Press Club briefing. Has previously been associated with the contested Nazca \"alien mummies\" specimens subject to substantial scientific dispute.",
+      "stakeholderFlags": [
+        "contested-status"
+      ],
+      "status": "active",
+      "calibrationNote": "Maussan's Nazca specimens have been the subject of substantial scientific dispute. Treat associated claims as requiring independent verification."
+    },
+    {
+      "id": "amy-eskridge",
+      "name": "Amy Eskridge",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "Institute for Exotic Science co-founder; anti-gravity researcher; died June 2022",
+      "bio": "Anti-gravity propulsion and electrostatic systems researcher and co-founder of the Institute for Exotic Science. Died June 11, 2022, age 34; cause of death officially ruled self-inflicted gunshot wound. Cited within the missing-scientists narrative based on her field and reported pre-event statements warning that any suicide or overdose report would be a cover. President Trump and others have publicly disputed pattern-linkage among such cases.",
+      "stakeholderFlags": [
+        "deceased",
+        "contested-status"
+      ],
+      "status": "deceased",
+      "dateOfEvent": "2022-06-11",
+      "calibrationNote": "The official cause of death is suicide. The conspiracy framing rests on uncorroborated reports of her pre-event statements warning of a fabricated cover story. No independent investigation has reopened the case."
+    },
+    {
+      "id": "nuno-loureiro",
+      "name": "Nuno Loureiro",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "MIT plasma physicist; killed Dec 2025 by former PhD classmate",
+      "bio": "MIT plasma physicist and limitless-energy researcher killed December 16, 2025 by a former PhD classmate who had dropped out of his program. Cited within the missing-scientists narrative because of his fusion-physics expertise, framed as relevant to analyzing 3I/ATLAS deuterium signatures. The homicide has an identified perpetrator on the public record; coordinated-suppression framing is disputed.",
+      "stakeholderFlags": [
+        "deceased",
+        "contested-status"
+      ],
+      "status": "deceased",
+      "dateOfEvent": "2025-12-16",
+      "calibrationNote": "Loureiro's death was a documented homicide by an identified individual with a documented academic relationship to the victim. The framing of this homicide as part of a coordinated suppression of UAP-adjacent science is not supported by the public record of the case."
+    },
+    {
+      "id": "ning-li",
+      "name": "Ning Li",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "UAH gravity-modification researcher; brain damage 2014; died July 2021",
+      "bio": "Pioneer in superconductivity and gravity-modification research at the University of Alabama Huntsville and AC Gravity LLC. Suffered permanent brain damage in a 2014 vehicle accident on campus; died July 27, 2021. Cited within the missing-scientists narrative because of her foundational work on gravitational effects. The 2014 accident and subsequent Alzheimer's death are on the public record.",
+      "stakeholderFlags": [
+        "deceased",
+        "contested-status"
+      ],
+      "status": "deceased",
+      "dateOfEvent": "2021-07-27",
+      "calibrationNote": "The 2014 accident was on the public record and the death from Alzheimer's came years later. The framing of these events as suspicious is a narrative overlay, not an investigative finding."
+    },
+    {
+      "id": "monica-jacinto-reza",
+      "name": "Monica Jacinto Reza",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "JPL advanced materials engineer; missing June 22, 2025, Angeles National Forest",
+      "bio": "JPL advanced materials engineer who disappeared June 22, 2025 while hiking in the Angeles National Forest. Cited within the missing-scientists narrative because of her exotic-metallurgy expertise. This is a real and unresolved missing-persons case; pattern-based suspicious framing remains narrative rather than an established investigative finding.",
+      "stakeholderFlags": [
+        "missing",
+        "contested-status"
+      ],
+      "status": "missing",
+      "dateOfEvent": "2025-06-22",
+      "calibrationNote": "This is a real and unresolved missing-persons case. The framing as suspicious within a broader pattern is narrative; the case itself is open."
+    },
+    {
+      "id": "carl-grillmair",
+      "name": "Carl Grillmair",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "Caltech (Ret.) exoplanet astronomer; died early 2026",
+      "bio": "Caltech (Ret.) exoplanet astronomer who died in early 2026. Cited within the missing-scientists narrative based on his exoplanet-tracking expertise. Avi Loeb and President Trump have publicly disputed meaningful linkage among deaths cited in that broader narrative. The official circumstances of death should be treated as the primary record unless independently investigated.",
+      "stakeholderFlags": [
+        "deceased",
+        "contested-status"
+      ],
+      "status": "deceased",
+      "calibrationNote": "Grillmair's death is documented; the framing of it as part of a coordinated suppression pattern is contested and not supported by an independent investigative finding on the public record."
+    },
+    {
+      "id": "michel-david-hicks",
+      "name": "Michel David Hicks",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "JPL planetary scientist; died July 30, 2023",
+      "bio": "JPL planetary scientist who died July 30, 2023. Cited within the missing-scientists narrative based on his planetary-science expertise. Pattern-linkage to a coordinated attrition campaign is disputed by multiple credible voices, including researchers who argue for a \"missing science\" problem rather than targeted killings.",
+      "stakeholderFlags": [
+        "deceased",
+        "contested-status"
+      ],
+      "status": "deceased",
+      "dateOfEvent": "2023-07-30",
+      "calibrationNote": "Hicks's death is on the public record. The framing of it as suspicious within a broader coordinated pattern is narrative overlay, not an established investigative finding."
+    },
+    {
+      "id": "frank-maiwald",
+      "name": "Frank Maiwald",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "JPL imaging spectroscopy; died July 4, 2024",
+      "bio": "JPL imaging spectroscopy researcher who died July 4, 2024. Cited within the missing-scientists narrative because of his instrumentation expertise. As with other JPL-adjacent deaths grouped in social-media discourse, pattern linkage remains contested and is disputed on the public record by senior scientists and federal briefings.",
+      "stakeholderFlags": [
+        "deceased",
+        "contested-status"
+      ],
+      "status": "deceased",
+      "dateOfEvent": "2024-07-04",
+      "calibrationNote": "Maiwald's death is documented. The framing of it as part of a coordinated suppression pattern is contested and not supported by an independent investigative finding on the public record."
+    },
+    {
+      "id": "david-wilcock",
+      "name": "David Wilcock",
+      "category": "journalist-investigator",
+      "affiliations": [],
+      "role": "Disclosure-movement author and YouTuber; died April 20, 2026, Boulder County",
+      "bio": "Disclosure-movement author and YouTuber who died April 20, 2026 in Boulder County, Colorado. His family released a public statement attributing the death to long-term depression and overwhelming financial debt; the Boulder County Sheriff's Office detailed timeline shows the death occurred during a mental-health crisis with deputies on scene. His death amplified attention to the missing-scientists narrative regardless of its actual causation.",
+      "stakeholderFlags": [
+        "deceased",
+        "contested-status"
+      ],
+      "status": "deceased",
+      "dateOfEvent": "2026-04-20",
+      "calibrationNote": "Wilcock's death is officially recorded as suicide. His family's published statement explicitly attributes the cause to depression and financial circumstances. The conspiracy framing of his death is widespread on social media but is directly disputed by both his family and the Boulder County Sheriff's investigative record."
+    }
+  ],
+  "connections": [
+    {
+      "source": "garry-nolan",
+      "target": "jacques-vallee",
+      "type": "co-authored",
+      "note": "2022 Progress in Aerospace Sciences materials analysis",
+      "year": "2022"
+    },
+    {
+      "source": "roger-penrose",
+      "target": "stuart-hameroff",
+      "type": "co-authored",
+      "note": "Orch-OR framework papers",
+      "year": "1990s"
+    },
+    {
+      "source": "colm-kelleher",
+      "target": "george-knapp",
+      "type": "co-authored",
+      "note": "Hunt for the Skinwalker",
+      "year": "2005"
+    },
+    {
+      "source": "luis-elizondo",
+      "target": "chris-mellon",
+      "type": "co-founded",
+      "note": "To The Stars Academy",
+      "year": "2017"
+    },
+    {
+      "source": "luis-elizondo",
+      "target": "hal-puthoff",
+      "type": "co-founded",
+      "note": "To The Stars Academy",
+      "year": "2017"
+    },
+    {
+      "source": "luis-elizondo",
+      "target": "jim-semivan",
+      "type": "co-founded",
+      "note": "To The Stars Academy",
+      "year": "2017"
+    },
+    {
+      "source": "garry-nolan",
+      "target": "chris-mellon",
+      "type": "co-founded",
+      "note": "Sol Foundation",
+      "year": "2023"
+    },
+    {
+      "source": "garry-nolan",
+      "target": "tim-gallaudet",
+      "type": "co-founded",
+      "note": "Sol Foundation",
+      "year": "2023"
+    },
+    {
+      "source": "garry-nolan",
+      "target": "jacques-vallee",
+      "type": "co-founded",
+      "note": "Sol Foundation",
+      "year": "2023"
+    },
+    {
+      "source": "chris-mellon",
+      "target": "tim-gallaudet",
+      "type": "co-founded",
+      "note": "Sol Foundation",
+      "year": "2023"
+    },
+    {
+      "source": "chris-mellon",
+      "target": "jacques-vallee",
+      "type": "co-founded",
+      "note": "Sol Foundation",
+      "year": "2023"
+    },
+    {
+      "source": "tim-gallaudet",
+      "target": "jacques-vallee",
+      "type": "co-founded",
+      "note": "Sol Foundation",
+      "year": "2023"
+    },
+    {
+      "source": "karl-nell",
+      "target": "chris-mellon",
+      "type": "co-founded",
+      "note": "Sol Foundation",
+      "year": "2023"
+    },
+    {
+      "source": "david-grusch",
+      "target": "ryan-graves",
+      "type": "co-testified",
+      "note": "House National Security subcommittee UAP hearing",
+      "year": "2023"
+    },
+    {
+      "source": "luis-elizondo",
+      "target": "michael-shellenberger",
+      "type": "co-testified",
+      "note": "Jan 23, 2026 House Oversight hearing",
+      "year": "2026"
+    },
+    {
+      "source": "luis-elizondo",
+      "target": "chris-mellon",
+      "type": "co-testified",
+      "note": "Jan 23, 2026 House Oversight hearing",
+      "year": "2026"
+    },
+    {
+      "source": "luis-elizondo",
+      "target": "tim-gallaudet",
+      "type": "co-testified",
+      "note": "Jan 23, 2026 House Oversight hearing",
+      "year": "2026"
+    },
+    {
+      "source": "michael-shellenberger",
+      "target": "chris-mellon",
+      "type": "co-testified",
+      "note": "Jan 23, 2026 House Oversight hearing",
+      "year": "2026"
+    },
+    {
+      "source": "dylan-borland",
+      "target": "jeffrey-nuccetelli",
+      "type": "co-testified",
+      "note": "Sept 9, 2025 whistleblower protection hearing",
+      "year": "2025"
+    },
+    {
+      "source": "dylan-borland",
+      "target": "george-knapp",
+      "type": "co-testified",
+      "note": "Sept 9, 2025 whistleblower protection hearing",
+      "year": "2025"
+    },
+    {
+      "source": "jeffrey-nuccetelli",
+      "target": "george-knapp",
+      "type": "co-testified",
+      "note": "Sept 9, 2025 whistleblower protection hearing",
+      "year": "2025"
+    },
+    {
+      "source": "alexandro-wiggins",
+      "target": "george-knapp",
+      "type": "co-testified",
+      "note": "Sept 9, 2025 whistleblower protection hearing",
+      "year": "2025"
+    },
+    {
+      "source": "colm-kelleher",
+      "target": "george-knapp",
+      "type": "investigated-together",
+      "note": "Skinwalker Ranch / BAASS investigation",
+      "year": "2008"
+    },
+    {
+      "source": "colm-kelleher",
+      "target": "jay-stratton",
+      "type": "investigated-together",
+      "note": "Skinwalker Ranch / UAPTF overlap",
+      "year": "2020"
+    },
+    {
+      "source": "colm-kelleher",
+      "target": "travis-taylor",
+      "type": "investigated-together",
+      "note": "Skinwalker Ranch investigations",
+      "year": "2020"
+    },
+    {
+      "source": "robert-bigelow",
+      "target": "colm-kelleher",
+      "type": "investigated-together",
+      "note": "BAASS / Skinwalker Ranch",
+      "year": "2008"
+    },
+    {
+      "source": "garry-nolan",
+      "target": "jacques-vallee",
+      "type": "investigated-together",
+      "note": "UAP materials analysis program",
+      "year": "2022"
+    },
+    {
+      "source": "anna-paulina-luna",
+      "target": "sean-kirkpatrick",
+      "type": "public-dispute",
+      "note": "Called Kirkpatrick 'documented liar' on Congressional record",
+      "year": "2024"
+    },
+    {
+      "source": "chris-mellon",
+      "target": "sean-kirkpatrick",
+      "type": "public-dispute",
+      "note": "AARO historical report 'most error-ridden'",
+      "year": "2024"
+    },
+    {
+      "source": "avi-loeb",
+      "target": "sean-kirkpatrick",
+      "type": "public-dispute",
+      "note": "Critique of AARO posture on interstellar objects",
+      "year": "2025"
+    },
+    {
+      "source": "hal-puthoff",
+      "target": "ingo-swann",
+      "type": "mentor-mentee",
+      "note": "SRI coordinate remote viewing protocol",
+      "year": "1970s"
+    },
+    {
+      "source": "ingo-swann",
+      "target": "joe-mcmoneagle",
+      "type": "mentor-mentee",
+      "note": "Stargate operational lineage",
+      "year": "1980s"
+    },
+    {
+      "source": "robert-bigelow",
+      "target": "colm-kelleher",
+      "type": "funded",
+      "note": "BAASS / DIA AAWSAP $22M Skinwalker program",
+      "year": "2008"
+    },
+    {
+      "source": "mike-turner",
+      "target": "mike-rogers",
+      "type": "public-dispute",
+      "note": "Both cited as UAPDA legislative blockers in insider accounts",
+      "year": "2025"
+    }
+  ]
+}
