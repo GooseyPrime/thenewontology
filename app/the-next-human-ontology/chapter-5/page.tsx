@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import May2026Update from "@/components/content/May2026Update";
 import KinematicBackground from "@/components/KinematicBackground";
 
 export const metadata: Metadata = {
@@ -261,6 +262,32 @@ export default function Chapter5Page() {
           <p>
             <strong>Lack of independent replication of Kerskens:</strong> The Zero Quantum Coherence study has not been independently replicated as of early 2026. This is a legitimate limitation. However, the absence of replication is not the same as the presence of refutation. The study&apos;s methodology is publicly available, and the quantum witness protocol it employs is well-established in quantum information theory. Replication attempts are warranted and, if successful, would constitute landmark evidence for macroscopic brain entanglement.
           </p>
+
+          <May2026Update>
+            <h4>Wiest&apos;s experimental support adds an independent line of corroboration</h4>
+            <p>
+              The chapter discusses the experimental landscape around Orch-OR — Bandyopadhyay&apos;s warm-temperature quantum vibrations in microtubules, the anesthetic-microtubule binding studies, the Eckenhoff laboratory work. Add to this lineage two new peer-reviewed papers from 2025.
+            </p>
+            <p>
+              <Link href="/whos-who#michael-wiest" className="text-accent hover:underline underline-offset-4">Michael Wiest</Link> at Wellesley College published in May 2025 in <em>Neuroscience of Consciousness</em> (Oxford University Press,{" "}
+              <a href="https://doi.org/10.1093/nc/niaf011" className="text-accent hover:underline underline-offset-4" target="_blank" rel="noopener noreferrer">DOI 10.1093/nc/niaf011</a>) &quot;A quantum microtubule substrate of consciousness is experimentally supported and solves the binding and epiphenomenalism problems.&quot; The paper reviews recent experimental evidence pointing to intraneuronal microtubules as a functional target of inhalational anesthetics — a result consistent with the Orch-OR hypothesis that microtubules are the biophysical substrate of consciousness. The paper&apos;s distinct contribution is its argument that the quantum microtubule framework solves not only the binding problem (the unity of conscious experience) but also the epiphenomenalism problem (the puzzle of why consciousness, if it has no causal power, would evolve at all). The argument is that quantum collapse in entangled microtubule networks confers a measurable behavioral fitness advantage that classical computation cannot replicate.
+            </p>
+            <p>
+              In September 2025, Wiest published a follow-up in <em>ScienceDirect</em> bridging Karl Friston&apos;s active inference formalism with Orch-OR. The bridge proposes that Orch-OR provides the missing physical substrate for active inference&apos;s &quot;minimization of prediction error&quot; — a connection that, if it holds, ties consciousness theory to the dominant computational framework in contemporary neuroscience.
+            </p>
+            <p>
+              These do not constitute proof. They constitute experimental and theoretical convergence from a more rigorous peer-reviewed venue than AIP Advances. The Orch-OR framework has, over the period since this chapter was written, moved from &quot;controversial but defensible&quot; to &quot;increasingly hard to dismiss without engaging the recent experimental record.&quot;
+            </p>
+
+            <h4>The Burgos-Salcedo synthesis paper</h4>
+            <p>
+              In 2026, J. Burgos-Salcedo published in the <em>European Journal of Theoretical and Applied Sciences</em> (4(2):171–183,{" "}
+              <a href="https://doi.org/10.59324/ejtas.2026.4(2).16" className="text-accent hover:underline underline-offset-4" target="_blank" rel="noopener noreferrer">DOI 10.59324/ejtas.2026.4(2).16</a>) &quot;Cosmic Memory, Universal Consciousness, and Biological Meaning: An Integrative Framework Bridging Conformal Cyclic Cosmology, Orchestrated Objective Reduction, and the Universal Consciousness Field.&quot; The paper proposes that three frameworks — <Link href="/whos-who#roger-penrose" className="text-accent hover:underline underline-offset-4">Penrose</Link>&apos;s Conformal Cyclic Cosmology, <Link href="/whos-who#stuart-hameroff" className="text-accent hover:underline underline-offset-4">Hameroff</Link>-Penrose Orch-OR, and <Link href="/whos-who#maria-stromme" className="text-accent hover:underline underline-offset-4">Strømme</Link>&apos;s Universal Consciousness Field — converge on a common ontological thesis: consciousness is a fundamental substrate of reality that persists across cosmological cycles, instantiates in biological quantum systems, and generates meaning through topological attractors.
+            </p>
+            <p>
+              This is, to this site&apos;s knowledge, the first published peer-reviewed paper that explicitly assembles the three frameworks this chapter holds together. The site&apos;s narrative argument that these three frameworks converge has now appeared as an academic claim in the peer-reviewed literature. The Burgos-Salcedo paper does not validate the underlying physics. It validates that the synthesis is a legitimate object of scholarly inquiry.
+            </p>
+          </May2026Update>
 
           <h2>Synthesis</h2>
           <p>
