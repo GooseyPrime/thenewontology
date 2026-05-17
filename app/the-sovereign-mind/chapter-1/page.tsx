@@ -1,5 +1,6 @@
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
+import May2026Update from "@/components/content/May2026Update";
 
 export const metadata = { title: "Chapter 1: The Anatomy of Ontological Shock | The Sovereign Mind" };
 
@@ -104,6 +105,21 @@ export default function Chapter1Page() {
           <p>
             Develop emergency protocols to identify immediate support networks and create a sensory-mitigated "safe space" environment. Recognize when professional intervention is required for extremely dysregulated states or persistent identity fragmentation. This survival manual is not static — it's a living document that must evolve as your understanding deepens.
           </p>
+
+          <May2026Update>
+            <p>
+              The chapter framed ontological shock as approaching. The{" "}
+              <Link href="/timeline" className="text-accent hover:underline underline-offset-4">May 8, 2026 PURSUE Release 01</Link> — 162 declassified UAP files published on a <code>.gov</code> domain, drawing 340 million hits in 12 hours — is the first moment when the shock the chapter described moved from anticipated to operational.
+            </p>
+            <p>
+              The public response has been instructive, and broadly consistent with the chapter&apos;s typology. The institutional press largely framed the release as a procedural milestone, neither rejecting nor centering its content — a managed-attention response. Social media oscillated between two failure modes: the &quot;this changes everything&quot; framing (magical thinking — the release does not contain recovered-materials documentation or sustained sensor data, and treating it as definitive confirmation is a misreading) and the &quot;this is all a distraction&quot; framing (collapse into reflexive dismissal). The middle posture — taking the release as exactly what it is, namely a partial historical-archive disclosure carrying the institutional weight of an executive-branch directive but not the substantive weight that would justify either celebration or dismissal — is the integration posture this chapter advocates.
+            </p>
+            <p>
+              The chapter&apos;s central instruction stands without revision: ontological shock is not avoided by being right early; it is avoided by maintaining stable epistemic posture while the territory shifts. The May 8 release was a small territorial shift relative to what is still classified. The next twelve months of PURSUE tranches, the FY2027 NDAA UAPDA fight, the Japan Diet legislative process, and the eventual public-record disposition of the 46 specific UAP videos{" "}
+              <Link href="/whos-who#anna-paulina-luna" className="text-accent hover:underline underline-offset-4">Luna</Link> has named will produce larger ones. Readers who have done this chapter&apos;s work in advance will navigate those shifts more cleanly than readers who have not. For the broader re-reading of the Triple Singularity in light of May 8, see the{" "}
+              <Link href="/the-great-convergence" className="text-accent hover:underline underline-offset-4">Great Convergence postscript</Link>.
+            </p>
+          </May2026Update>
 
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">
