@@ -1,5 +1,6 @@
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
+import May2026Update from "@/components/content/May2026Update";
 
 export const metadata = { title: "Chapter 9: First Contact Protocol — A Personal Field Manual | The Sovereign Mind" };
 
@@ -105,6 +106,22 @@ export default function Chapter9Page() {
           <p>
             Field operatives, explorers, and experiencers should internalize the encounter categories and develop personal checklists before any situation arises. Adhere strictly to observational and documentation protocols, prioritizing safety and non-aggression. Prepare for the hitchhiker effect by instituting immediate post-encounter decontamination and long-term psychological follow-up. This manual bridges the gap between anecdotal experiences and hard research — it is a living document to be continuously updated as additional interdisciplinary research and field data become available.
           </p>
+
+          <May2026Update>
+            <p>
+              The chapter&apos;s caveats about charismatic-leader-mediated contact deserve a specific update. On{" "}
+              <Link href="/timeline" className="text-accent hover:underline underline-offset-4">May 8, 2026</Link> — coincident with the PURSUE Release 01 —{" "}
+              <Link href="/whos-who#steven-greer" className="text-accent hover:underline underline-offset-4">Steven Greer</Link> held a 25th-anniversary briefing at the National Press Club commemorating his 2001 Disclosure Project event. The briefing included new whistleblower testimony (a U.S. Army Green Beret describing an underground facility in Indiana housing non-human artifacts; a U.S. Marine describing a 300-foot-diameter craft used in human-trafficking operations; a Marine describing a triangular craft observed near 29 Palms, California) and the presentation, alongside Mexican UAP journalist{" "}
+              <Link href="/whos-who#jaime-maussan" className="text-accent hover:underline underline-offset-4">Jaime Maussan</Link>, of the &quot;Buga Sphere&quot; — an object recovered in Buga, Colombia, with carbon-dating reportedly placing resin within the object at approximately 12,560 years old.
+            </p>
+            <p>
+              The chapter&apos;s posture toward this kind of presentation is unchanged. Greer is a major movement figure with a long public record. He has also drawn substantial within-community criticism for specific factual claims (the Atacama specimen case is the most prominent example) and for the commercial structure around CE-5 training. Maussan&apos;s prior Nazca-specimens advocacy has been the subject of substantial scientific dispute. None of this means specific claims at the May 8 briefing are wrong; some of them may be exactly right. It means that for any specific claim, the reader&apos;s epistemic discipline must be applied case by case, claim by claim, regardless of the credibility weight the convening figure brings.
+            </p>
+            <p>
+              This is the chapter&apos;s central instruction operationalized. A reader practicing contact-readiness in 2026 must hold several things at once: contact experience may be real; movement leaders presenting contact narratives may be partly accurate and partly mistaken; institutional release programs like PURSUE may be partly substantive and partly performative; one&apos;s own contact experience, if it occurs, is data that must be integrated without being immediately interpretable. Patience and individual evaluation are not the absence of conviction. They are the discipline that allows conviction, when it forms, to rest on something firmer than charisma.
+            </p>
+          </May2026Update>
+
 
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">
