@@ -1,0 +1,283 @@
+# P4 — Volume I Content Updates (Chapters 1, 2, 4, 5, 9, 10)
+
+**Branch:** `feat/p4-vol-i-updates`
+**Scope:** Six chapter files in `app/the-next-human-ontology/`. Each gets targeted additions integrating May 2026 developments while preserving every word of existing content. **Additive only.** Where an existing passage is factually superseded by new information, add a clarifying paragraph rather than rewriting the original — the historical record of what the author wrote and when matters.
+
+This is the deepest editorial PR in the plan. Vol I is the site's investigative spine. The agent should work one chapter at a time, in the order below, committing after each so review and rollback are clean per chapter.
+
+---
+
+## CONTEXT FOR THE AGENT
+
+Volume I, *The Next Human Ontology*, is the site's flagship work — investigative and theoretical. Its ten chapters were written before the May 8, 2026 PURSUE release; before *The Age of Disclosure* documentary; before the Wiest peer-reviewed Orch-OR papers; before Japan's March 30 caucus action; before 3I/ATLAS reached perihelion and Jupiter encounter. The chapters as written are accurate to their time, and that accuracy must be preserved.
+
+Each chapter below gets a labeled **update block** appended near the end of the relevant section, formatted consistently as:
+
+> ### Update — May 2026
+>
+> [new content]
+
+The "Update — May 2026" header should be styled the same as the existing in-chapter subsection headers but with a small `section-title` kicker above it reading `Added May 17, 2026`. This is a visible editorial marker — readers must see which content is original and which is the post-PURSUE addition. Match the visual pattern used in `/the-great-convergence`'s postscript from P7 (consistent treatment across the site).
+
+All editorial decisions must respect the site's stated evidentiary calibration: distinguish established fact, strong evidence, credible testimony, contested evidence, and speculative frameworks. The site is not a vector for unsourced assertions. Where claims rest on contested foundations, name the contest.
+
+Cross-link generously to `/whos-who`, `/timeline`, and `/the-great-convergence` where named figures and events appear.
+
+---
+
+## CHAPTER 1 — *The Triple Singularity & The Ontological Shock*
+
+**File:** `app/the-next-human-ontology/chapter-1/page.tsx`
+
+### Existing content
+The flagship chapter. The consciousness physics chain (Strømme → Penrose-Hameroff → Nolan → Hoffman) is the site's most original contribution and is presented here. It also frames the Triple Singularity thesis.
+
+### Update — May 2026 (insert as labeled block near the end of the chapter, before the final summary paragraph)
+
+Three additions, in this order:
+
+**1. The Strømme framework no longer stands alone (~200 words)**
+
+In November 2025, Maria Strømme's *"A Field Theory of Consciousness"* in *AIP Advances* was the most prominent peer-reviewed publication proposing consciousness as a fundamental physical field. The chapter frames this carefully, noting AIP Advances' lighter peer-review threshold. That framing remains correct. What has changed is the surrounding citation landscape.
+
+In May 2025, Michael Wiest at Wellesley published *"A quantum microtubule substrate of consciousness is experimentally supported and solves the binding and epiphenomenalism problems"* in *Neuroscience of Consciousness* (Oxford University Press, DOI 10.1093/nc/niaf011) — a more rigorous venue than AIP Advances. The paper provides recent experimental support for the Penrose-Hameroff Orch-OR framework and argues that quantum microtubule activity solves two of the hardest philosophical problems consciousness theory faces: the binding problem (why is conscious experience unified rather than fragmented) and the epiphenomenalism problem (why would consciousness evolve at all if it has no causal power). In September 2025, Wiest published a follow-up in *ScienceDirect* bridging Karl Friston's active inference formalism with Orch-OR.
+
+In 2026, Burgos-Salcedo published in the *European Journal of Theoretical and Applied Sciences* a paper bridging Penrose's Conformal Cyclic Cosmology, Orch-OR, and Strømme's Universal Consciousness Field — the first peer-reviewed integrative paper to hold all three frameworks the way this site has held them narratively. This does not establish the underlying physics. It does establish that the synthesis is no longer outside the peer-reviewed conversation.
+
+**2. 3I/ATLAS as the live test case (~250 words)**
+
+The chapter frames the Triple Singularity as a coming threshold. Between July 2025 and May 2026, a single object made it tangible.
+
+3I/ATLAS — the third confirmed interstellar object to enter our solar system — was discovered by the ATLAS survey in Chile in July 2025. Its trajectory was retrograde and aligned within five degrees of the ecliptic plane (a 0.2% probability for a random interstellar arrival, given that the Milky Way disk is tilted ~60° from the ecliptic). Its arrival direction coincided to within nine degrees with the source coordinates of the 1977 "Wow! Signal." On January 22, 2026 it reached a rare Sun-Earth opposition alignment at 0.69° offset; Hubble imaging during that window, processed with a Larson-Sekanina rotational-gradient filter, revealed three equally-spaced collimated mini-jets around the nucleus and a sunward anti-tail ten times longer than wide. The jets exhibit a 7.2-hour wobble. On March 16, 2026, 3I/ATLAS reached closest approach to Jupiter at 53.6 million km — coincident with Jupiter's Hill radius of 53.5 million km, the boundary of Jupiter's gravitational dominance.
+
+Avi Loeb, who maintains a public anomaly catalog for the object, classifies it currently as rank 3 on his interstellar-object classification scale (where 0 is natural comet and 10 is alien technology posing major threat) — natural cometary behavior accompanied by multiple unexplained anomalies. The most provocative observation: the sunward jets are only active when facing the Sun yet remain perfectly thermally insulated on the nightside for months, a thermal asymmetry difficult to explain through natural conduction. JWST detected outgassing plumes with deuterium concentrations elevated relative to natural interstellar background.
+
+None of this confirms an artificial origin. All of it constitutes the most data-rich anomaly humanity has had access to in real time. 3I/ATLAS is, in effect, a live exam of the very capacity for impartial observation that the Triple Singularity thesis says we will need.
+
+**3. The threshold has moved (~150 words)**
+
+When this chapter was written, the Triple Singularity was framed as approaching. The May 8, 2026 PURSUE Release 01 — 162 declassified UAP files published by the U.S. government at war.gov/UFO, drawing 340 million hits in 12 hours — is the first moment when the disclosure leg has been formally crossed by the state itself, even if partially. The chapter's central argument is not weakened by this; it is structurally validated. What the chapter framed as a coming event has, on one leg of the three, now occurred. The remaining work — calibrating what the released data does and does not establish, tracking what is still withheld and on what authority — is the work the site itself now takes up. See the [Great Convergence postscript](/the-great-convergence) for the full re-reading.
+
+### Cross-links to add in the new content
+- Strømme, Wiest (link to /whos-who if their slugs are present from P2)
+- 3I/ATLAS — link the date "January 22, 2026" and "March 16, 2026" to `/timeline`
+- "May 8, 2026 PURSUE Release 01" → `/timeline`
+- "Great Convergence postscript" → `/the-great-convergence`
+- Avi Loeb → `/whos-who#avi-loeb`
+
+### Calibration check for this chapter
+The chapter currently includes the May 2025 COGITATE study from Nature and Koch losing his bet to Chalmers. Do not duplicate. Do not contradict the chapter's existing framing of AIP Advances' lower peer-review threshold — the update reinforces it by pointing out the higher-threshold corroboration that has since appeared.
+
+---
+
+## CHAPTER 2 — *The Architecture of Secrecy*
+
+**File:** `app/the-next-human-ontology/chapter-2/page.tsx`
+
+### Existing content
+The chapter is the site's strongest investigative work. SAPs, Wilson-Davis memo, IR&D laundering, contractor firewall, UAPDA legislative warfare, Immaculate Constellation, FEC-documented financial entanglements (Turner $186K, Rogers $143K from Lockheed Martin PAC), Terry Carmack named as central to UAPDA dilution. This chapter is dense with specific names and dollar figures.
+
+### Update — May 2026 (insert as labeled block, near end of chapter)
+
+Four short additions in sequence:
+
+**1. The Carmack attribution has hardened (~150 words)**
+
+When this chapter was written, the attribution of UAPDA dilution to Terry Carmack rested on Rep. Eric Burlison's December 2025 public statement on the Ask a Pol UAP podcast: *"a staffer blocked UAPDA, not a U.S. Senator."* In January 2026, *Liberation Times* multi-source reporting expanded the attribution: sources named McConnell himself as the primary blocker and Carmack as the specific staffer pressing to strip the UAPDA from the FY2026 NDAA. Pentagon Papers attorney Daniel Sheehan publicly reinforced the framing, naming five Republican legislators — Senators McConnell and Wicker, and Representatives Turner, Rogers, and Johnson — as the consistent blocking actors despite reportedly 98% Congressional support for the bill. Neither McConnell's office nor Carmack has publicly responded. The blocking action itself — the UAPDA stripped during conference for the third consecutive year in the FY2026 NDAA — is documented in the legislative record. The specific identification of who in the staff structure executed the stripping remains insider testimony.
+
+**2. The Immaculate Constellation document is now in the Congressional Record (~120 words)**
+
+The chapter discusses the alleged unacknowledged special access program named Immaculate Constellation as one of several contested claims about black-budget UAP programs. On January 23, 2026, the underlying 12-page document was formally entered into the Congressional Record during the House Oversight joint-subcommittee hearing *"Unidentified Anomalous Phenomena: Exposing the Truth"* — brought to the hearing by journalist Michael Shellenberger and entered by Rep. Mace. The document itself is a 12-page summary; the underlying source records it references remain classified. The program's existence has been alleged but not officially confirmed. The document's status as part of the Congressional Record now means it cannot be retroactively suppressed without affirmative legislative action, regardless of whether its claims are subsequently corroborated or refuted.
+
+**3. The September 2025 hearing established whistleblower protection as a structural issue (~120 words)**
+
+On September 9, 2025, the House Oversight Task Force on the Declassification of Federal Secrets held a hearing titled *"Restoring Public Trust Through UAP Transparency and Whistleblower Protection."* Active-duty Air Force witness Dylan Borland testified to having witnessed large triangular craft at Langley Air Force Base; Jeffrey Nuccetelli (former Vandenberg AFB security forces) corroborated similar institutional patterns. Coast Guard officer Alexandro Wiggins framed UAP encounters as aviation and maritime safety issues requiring standardized sensor capture and chain-of-custody protocols. Investigative journalist George Knapp testified under oath — one of the few non-government witnesses to do so. Borland's subsequent unemployment, and the documented prior leaking of David Grusch's private medical information referenced by Rep. Mace at the hearing, established whistleblower retaliation as a documented pattern rather than an isolated risk.
+
+**4. The Department of War rebrand (~80 words)**
+
+In early 2026, Trump signed an executive order rebranding the Department of Defense as the Department of War. Throughout this chapter, references to "DoD" remain accurate to the historical record at time of writing; in current discussion, the same institution operates under the name "Department of War" (DoW). The PURSUE program (May 8, 2026, war.gov/UFO) was executed under the DoW name. Pete Hegseth, as Secretary of War, is the operational point person for the program's rolling-release cadence.
+
+### Cross-links to add
+- Daniel Sheehan, Eric Burlison, Mitch McConnell, Terry Carmack, Michael Shellenberger, Dylan Borland, Jeffrey Nuccetelli, Alexandro Wiggins, George Knapp, Pete Hegseth — all to `/whos-who`
+- "January 23, 2026 hearing" and "September 9, 2025 hearing" — to `/timeline`
+- "Liberation Times" — external link to liberationtimes.com if you want the source visible
+
+### Do not modify
+The existing Carmack passage in the original chapter text. Add to it; don't replace it. The historical accuracy of what the author wrote in early 2026 is itself part of the chapter's value.
+
+---
+
+## CHAPTER 4 — *The Extraterrestrial Hypothesis is Dead*
+
+**File:** `app/the-next-human-ontology/chapter-4/page.tsx`
+
+### Existing content
+Vallée's control-system hypothesis, cryptoterrestrial framing, cross-cultural continuity, the trickster archetype, the COMETA report's "almost certain physical reality" framing. The chapter's central distinction — that governments have denied extraterrestrial origin but not interdimensional origin — is the chapter's most strategically important argument.
+
+### Update — May 2026
+
+Three additions:
+
+**1. The PURSUE Release 01 ratified the chapter's central distinction by what it did NOT say (~200 words)**
+
+When the U.S. government released its first formal tranche of UAP files on May 8, 2026, the language was carefully chosen. The portal is `war.gov/UFO` — using the legacy term "UFO" rather than the more recent "UAP" — but the program name is *Presidential Unsealing and Reporting System for **UAP** Encounters* (PURSUE). Hegseth's accompanying statements referred to "unidentified aerial phenomena" and the prospect that adversaries might have made "a technological leap." Trump's February 19 directive used the phrasing *"alien and extraterrestrial life, unidentified aerial phenomena (UAP), and unidentified flying objects (UFOs)."* The directive enumerated the possibility of extraterrestrial life as a separate hypothesis to be investigated rather than as an established framing.
+
+What the release did not do — and what no on-record statement from a senior U.S. or Japanese official in the 2025–2026 period has done — is affirmatively claim that the phenomenon is extraterrestrial. The on-camera testimony in *The Age of Disclosure* — 34 senior officials including a sitting Secretary of State — uses the term "non-human intelligence" with care. Jay Stratton's most-cited line is *"I have seen, with my own eyes, non-human craft and non-human beings."* Not extraterrestrial. Non-human. This chapter's central argument that the official vocabulary has shifted from the extraterrestrial hypothesis to a deliberately broader non-human framing is now visible in the operational language of the disclosure program itself.
+
+**2. Sol Foundation 2025 at Lake Maggiore extended the COMETA legacy (~150 words)**
+
+The chapter discusses France's 1999 COMETA report and its conclusion that UAP are *"almost certain physical reality."* At the Sol Foundation's October 24–27, 2025 symposium — the first Sol symposium held outside the United States, at Lake Maggiore in Italy — Gen. Pierre Bescond (Brigadier General, Ret., French Armée de l'Air) presented *"Revisiting the COMETA Report,"* reinforcing the report's continued relevance with two and a half decades of additional data. Luc Dini, on behalf of 3AF/Sigma2, presented the methodology for the physical observables of UAP. Michael Valliant of GEIPAN — the longest-running official UAP investigation framework in the world, operating under the French civilian space agency CNES — presented two decades of investigative findings. The European institutional record on UAP is older, more continuous, and more methodologically explicit than the American record. The chapter's argument that the extraterrestrial framing is a uniquely American historical artifact is reinforced by this institutional contrast.
+
+**3. 3I/ATLAS as a test of the framework (~100 words)**
+
+The chapter argues that the interdimensional / non-human framing has predictive power that the extraterrestrial framing does not. 3I/ATLAS — discussed in detail in Chapter 1 — is the cleanest available real-time test. The object's most anomalous features (the 7.2-hour jet wobble, the sunward-only thermal asymmetry, the alignment with the 1977 Wow! Signal direction, the Hill-radius Jupiter intercept) sit awkwardly inside both a clean natural-comet framing and a clean technological-probe framing. The interdimensional / cryptoterrestrial framings the chapter discusses do not predict 3I/ATLAS specifically either, but they accommodate the kind of anomalous-but-physical ambiguity 3I/ATLAS exhibits without requiring resolution to one of two extremes.
+
+### Cross-links to add
+- Jay Stratton, Pierre Bescond, Luc Dini, Michael Valliant → `/whos-who`
+- *The Age of Disclosure*, Sol Foundation 2025 Italy → `/timeline`
+- 3I/ATLAS chapter references → link to Chapter 1's update block
+
+---
+
+## CHAPTER 5 — *The Physics of Consciousness*
+
+**File:** `app/the-next-human-ontology/chapter-5/page.tsx`
+
+### Existing content
+The site's most technically demanding chapter. Deep dive on Orch-OR, the Babcock tryptophan paper, Kerskens entanglement, Strømme field theory, Hoffman ITP. Already comprehensive on the consciousness-physics chain.
+
+### Update — May 2026
+
+Two additions:
+
+**1. Wiest's experimental support adds an independent line of corroboration (~250 words)**
+
+The chapter discusses the experimental landscape around Orch-OR — Bandyopadhyay's warm-temperature quantum vibrations in microtubules, the anesthetic-microtubule binding studies, the Eckenhoff laboratory work. Add to this lineage two new peer-reviewed papers from 2025.
+
+Michael Wiest at Wellesley College published in May 2025 in *Neuroscience of Consciousness* (Oxford University Press, DOI 10.1093/nc/niaf011) *"A quantum microtubule substrate of consciousness is experimentally supported and solves the binding and epiphenomenalism problems."* The paper reviews recent experimental evidence pointing to intraneuronal microtubules as a functional target of inhalational anesthetics — a result consistent with the Orch-OR hypothesis that microtubules are the biophysical substrate of consciousness. The paper's distinct contribution is its argument that the quantum microtubule framework solves not only the binding problem (the unity of conscious experience) but also the epiphenomenalism problem (the puzzle of why consciousness, if it has no causal power, would evolve at all). The argument is that quantum collapse in entangled microtubule networks confers a measurable behavioral fitness advantage that classical computation cannot replicate.
+
+In September 2025, Wiest published a follow-up in *ScienceDirect* bridging Karl Friston's active inference formalism with Orch-OR. The bridge proposes that Orch-OR provides the missing physical substrate for active inference's "minimization of prediction error" — a connection that, if it holds, ties consciousness theory to the dominant computational framework in contemporary neuroscience.
+
+These do not constitute proof. They constitute experimental and theoretical convergence from a more rigorous peer-reviewed venue than AIP Advances. The Orch-OR framework has, over the period since this chapter was written, moved from "controversial but defensible" to "increasingly hard to dismiss without engaging the recent experimental record."
+
+**2. The Burgos-Salcedo synthesis paper (~150 words)**
+
+In 2026, J. Burgos-Salcedo published in the *European Journal of Theoretical and Applied Sciences* (4(2):171–183, DOI 10.59324/ejtas.2026.4(2).16) *"Cosmic Memory, Universal Consciousness, and Biological Meaning: An Integrative Framework Bridging Conformal Cyclic Cosmology, Orchestrated Objective Reduction, and the Universal Consciousness Field."* The paper proposes that three frameworks — Penrose's Conformal Cyclic Cosmology, Hameroff-Penrose Orch-OR, and Strømme's Universal Consciousness Field — converge on a common ontological thesis: consciousness is a fundamental substrate of reality that persists across cosmological cycles, instantiates in biological quantum systems, and generates meaning through topological attractors.
+
+This is, to this site's knowledge, the first published peer-reviewed paper that explicitly assembles the three frameworks this chapter holds together. The site's narrative argument that these three frameworks converge has now appeared as an academic claim in the peer-reviewed literature. The Burgos-Salcedo paper does not validate the underlying physics. It validates that the synthesis is a legitimate object of scholarly inquiry.
+
+### Cross-links to add
+- Michael Wiest, J. Burgos-Salcedo (if added to P2; otherwise name without link), Stuart Hameroff, Roger Penrose, Maria Strømme → `/whos-who`
+- DOI links should be live external links to the publisher
+
+---
+
+## CHAPTER 9 — *The Asymmetry of Religious Shock*
+
+**File:** `app/the-next-human-ontology/chapter-9/page.tsx`
+
+### Existing content
+Vatican preparation, fundamentalist vulnerability, Eastern cosmological readiness, Islam's Jinn framework. The chapter argues that disclosure's psychological impact will be asymmetric across religious traditions, with Eastern and Islamic traditions structurally readier than Western Christian-fundamentalist traditions.
+
+### Update — May 2026
+
+Two additions:
+
+**1. Japan moves first — institutional confirmation of the Eastern-readiness thesis (~250 words)**
+
+When the chapter was written, the argument that Eastern cosmological traditions provide more institutional readiness for NHI disclosure was theoretical. In 2024–2026 it became operational. In June 2024, a non-partisan group of more than 80 Japanese Diet members — including former Defense Ministers Yasukazu Hamada and Shigeru Ishiba, with former Environment Minister Shinjiro Koizumi as secretary-general — formed the Parliamentary Group for the Study of UAP from a National Security Perspective. On March 24, 2026, following Trump's February 19 disclosure directive, the caucus announced it would formally propose creation of a dedicated government body to oversee UAP intelligence. On March 30, 2026, at its Fourth General Assembly, the caucus finalized the proposal: a specialized office placed directly under the Deputy Chief Cabinet Secretary for Crisis Management — that is, in the Cabinet Office, not siloed inside the Ministry of Defense.
+
+A driver of the legislative push has been the unresolved Genkai Nuclear Power Plant UAP incident, where the operational records of Kyushu Electric Power are reported to be irreconcilable with the official explanation provided by the Saga Prefectural Police.
+
+The structural placement matters. In the United States, AARO sits inside the Office of the Secretary of War — the operational defense bureaucracy. The Japanese proposal places UAP work in crisis management — alongside earthquake, nuclear, and pandemic response — recognizing UAP as a coordination challenge across civilian and military domains, not as a defense-attaché problem. Japan, the chapter's named exemplar of an Eastern tradition with a continuous folkloric narrative of contact with non-human intelligences, is also Japan the polity that has moved most decisively to institutionalize the disclosure response.
+
+**2. The Vatican's continued institutional silence (~100 words)**
+
+The chapter notes the Vatican's long-running preparation for the disclosure question — Father José Funes' 2008 *L'Osservatore Romano* discussion of ET as theological "brothers," Brother Guy Consolmagno's continued public commentary, the Vatican Observatory's posture. The period since this chapter was written has produced no comparable formal Vatican statement. Following the May 8 PURSUE release, no public Vatican response was issued; following *The Age of Disclosure*, none. The institutional silence is itself informative: a tradition that prepared its theological vocabulary two decades ago has, when the question moved into the news cycle, declined to operationalize that vocabulary. The asymmetry the chapter predicts — preparation in advance, hesitation at the moment — is visible.
+
+### Cross-links to add
+- Yasukazu Hamada, Shinjiro Koizumi, Yasuhide Nakayama, Shigeru Ishiba → `/whos-who`
+- Japan caucus March 30, 2026 → `/timeline`
+
+---
+
+## CHAPTER 10 — *Surviving the Convergence*
+
+**File:** `app/the-next-human-ontology/chapter-10/page.tsx`
+
+### Existing content
+Nell's failed disclosure roadmap, Szydagis's statistical model of catastrophic disclosure (mean year 2040), Bledsoe's prophecy referencing the 2026 Regulus/Sphinx astronomical alignment, the ZPE post-scarcity speculation, the Great Filter framing. The chapter is the site's existing forward-looking close.
+
+### Update — May 2026
+
+This is the longest of the chapter updates because Chapter 10 is the chapter the May 8 moment most directly affects. Four additions.
+
+**1. The Szydagis model has been falsified on the early tail (~150 words)**
+
+The chapter cites physicist Matthew Szydagis's statistical modeling of catastrophic disclosure scenarios — accidental disclosure of conclusive NHI evidence outside government control — published in *Limina: The Journal of UAP Studies*. The Szydagis model estimated a mean catastrophic-disclosure year of approximately 2040, with a distribution spanning roughly 2030–2060.
+
+The May 8, 2026 PURSUE Release 01 was not catastrophic disclosure in Szydagis's defined sense — it was *managed* state disclosure, the inverse case. But the model's broader distribution implicitly assumed that managed disclosure would not occur first; it modeled the time-until-an-uncontrolled smartphone capture would force the question. That assumption is now visibly wrong. The disclosure timeline has compressed not because of an accidental tipping point but because of an executive-branch decision to release on a `.gov` domain on a rolling cadence. The model needs an update — not because it was wrong on first principles, but because the variable it most depended on (the rate of state suppression) underwent a regime change in February 2026.
+
+**2. The Karl Nell roadmap is partially operational, partially defied (~200 words)**
+
+The chapter discusses Karl Nell's five-phase disclosure roadmap, presented at the November 2023 Sol Foundation Symposium at Stanford, with full transparency targeted for October 2030. Across 2025–2026, several of Nell's predicted phase markers became visible. His call for international coordination is visible in Japan's March 30, 2026 caucus proposal and in the Sol Foundation's choice to hold its 2025 symposium in Italy. His call for whistleblower protection is partially institutionalized in the September 9, 2025 House Oversight hearing on the topic, even if no statute has yet passed. His call for non-state coalition was visibly executed in the Disclosure Foundation's rebranding from the UAP Disclosure Fund and in Mellon's chairmanship of that effort.
+
+What has not happened, per Nell's roadmap, is the substantive content release. The May 8 PURSUE Release 01 is procedurally consistent with Nell's roadmap (managed, government-led, rolling) but materially thin (no recovered-materials documentation, the 46 specific UAP videos demanded by Luna not included, AARO's former director openly calling the release a "shiny object"). Nell's October 2030 target now appears less like a ceiling and more like a floor. The trajectory is consistent with his framing; the rate is slow even by his slow timeline.
+
+**3. 3I/ATLAS as the catastrophic-disclosure test case the model didn't anticipate (~250 words)**
+
+Szydagis modeled the catastrophic-disclosure question as a question about an event on Earth — a craft observed at low altitude in a populated area, captured by enough smartphones simultaneously to make institutional denial impossible. The 2025–2026 period produced a different kind of test case: an interstellar object, visible only to professional astronomers and orbital telescopes, exhibiting a sufficient cluster of anomalous features to make natural-comet framing inadequate without itself making artificial-origin framing conclusive.
+
+3I/ATLAS — discovered July 2025, perihelion October 2025, closest Earth approach December 19, 2025, Jupiter Hill-radius intercept March 16, 2026, currently fading at 6.7 AU — is functioning as the disclosure scenario the Szydagis model did not consider: not a populated-area encounter, not a crash, but a single object exhibiting enough anomalies (Loeb's running catalog is now at 22, drawn from peer-reviewed observations and Hubble/JWST data) that the natural-vs-artificial question cannot be definitively resolved with the instruments humanity currently has.
+
+This is its own kind of catastrophic disclosure — not a clean reveal but a permanent ambiguity. If 3I/ATLAS deposited any technological payload inside Jupiter's Hill radius on March 16, the Juno spacecraft could in principle detect it; if it did not, the object recedes into interstellar space with its anomalies unresolved. Either outcome is informative. The neither-and-nor outcome — a fading interstellar visitor that natural-comet models incompletely explain and artificial-origin models cannot prove — is the outcome most likely on current evidence. The Triple Singularity thesis predicts exactly this kind of bounded ambiguity becoming permanent feature rather than transient phase. 3I/ATLAS is the first prominent confirmed instance.
+
+**4. Forward markers: what to watch (~150 words)**
+
+Replace any existing forward-looking close paragraph (or append, if no such paragraph exists) with a short list of named markers the site will be tracking through late 2026:
+
+- **PURSUE rolling tranches** — the program promised additional batches every few weeks; the cadence and substance of the second and third tranches will calibrate whether May 8 was an opening move or a one-off
+- **The 46 withheld videos** — Luna's specific named UAP videos remain outside Release 01; their release would constitute substantive disclosure beyond the historical-archive material currently published
+- **The Aug 12, 2026 Total Solar Eclipse** — traverses Arctic Circle, Greenland, Iceland, northern Spain; no specific event is predicted in connection with it, but it is a natural focal point
+- **The Bledsoe prophecy's 2026 Regulus/Sphinx astronomical alignment** — discussed earlier in this chapter; the alignment itself is an astronomical fact, the prophecy's interpretation of it is the contested element
+- **Japan's UAP office** — whether the March 30 caucus proposal advances to legislative implementation, and on what timeline
+- **The FY2027 NDAA** — whether the UAPDA finally clears the legislative obstacles that have blocked it through three consecutive NDAAs
+
+### Cross-links to add
+- Matthew Szydagis, Karl Nell, Chris Bledsoe → `/whos-who`
+- All dated events → `/timeline`
+- Linked back to `/the-great-convergence` for the broader thesis
+
+---
+
+## ACCEPTANCE CRITERIA
+
+- `pnpm build` and `pnpm lint` pass after each chapter commit individually, and again after the merged PR.
+- All six chapter files render their existing content unchanged.
+- Each modified chapter contains a clearly-labeled "Update — May 2026" block with a small `section-title` kicker reading `Added May 17, 2026` above the heading.
+- All `/whos-who` cross-links resolve to existing slugs (must align with P2's id scheme). Where a named figure does not exist in P2, name them without link rather than create a broken anchor.
+- All `/timeline` cross-links resolve to the page (anchor links to specific entries are optional; if implemented, must match the timeline's event id scheme).
+- No existing chapter text is modified, deleted, or rephrased. The update is strictly additive.
+- Reading flow: a returning reader who skips the update blocks gets the exact essay they read previously. A new reader gets the original essay followed by the calibrated update.
+- Mobile renders cleanly on all six chapters.
+- No console warnings or hydration errors.
+
+## OUT OF SCOPE
+
+- Vol II / Vol III chapter updates (P5, P6).
+- Glossary entries for new terms (PURSUE, DoW, Burgos-Salcedo, Wiest, Hill radius, Wow! Signal, etc.) — P8.
+- New chapter creation. Don't create a "Chapter 11" or a "Postscript" file in Vol I. The Vol I postscript work happens distributed across the existing chapters as specified above, not as a new file.
+- The "Project Anchor" PsyOp framing from the uploaded research document — that material belongs in Vol II (P5), as a case study in epistemic self-defense. Do not introduce it here.
+- The "missing scientists" cohort — those figures land in `/whos-who` via P2 with calibration notes. Vol I Ch 2 should mention the *pattern* and the FBI/House Oversight investigation announcement, but should not become a roll-call of specific scientists. The chapter's argumentative spine is institutional structure, not biographical inventory.
+
+## COMMIT STRATEGY
+
+One commit per chapter, in this order:
+1. `feat(p4): vol i ch1 - add Wiest/Burgos-Salcedo, 3I/ATLAS, threshold-crossed framing`
+2. `feat(p4): vol i ch2 - add Carmack hardening, Immaculate Constellation Record entry, Sept 2025 hearing, DoW rebrand`
+3. `feat(p4): vol i ch4 - add PURSUE language calibration, Sol 2025 Italy, 3I/ATLAS framing test`
+4. `feat(p4): vol i ch5 - add Wiest Neuroscience of Consciousness paper, Burgos-Salcedo synthesis`
+5. `feat(p4): vol i ch9 - add Japan Diet caucus institutional confirmation, Vatican silence`
+6. `feat(p4): vol i ch10 - add Szydagis model update, Nell roadmap calibration, 3I/ATLAS catastrophic-disclosure framing, forward markers`
+
+PR description summary: *"Volume I chapters 1, 2, 4, 5, 9, 10 receive labeled 'Update — May 2026' blocks integrating PURSUE Release 01, The Age of Disclosure, Japan Diet caucus action, Wiest/Burgos-Salcedo peer-reviewed corroboration, 3I/ATLAS anomaly catalog, and the September 2025 + January 2026 Congressional hearings. All existing chapter text preserved verbatim. P5 (Vol II) unblocked."*
