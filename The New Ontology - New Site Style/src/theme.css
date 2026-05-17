@@ -1,0 +1,157 @@
+/**
+ * THE NEW ONTOLOGY - Dark Void Theme System
+ * Ethereal + Highly Technical aesthetic
+ */
+@theme {
+	/* Core Palette - Absolute Void */
+	--color-void: #000000;
+	--color-void-subtle: #050508;
+	--color-void-elevated: #0a0a0f;
+	
+	/* Silver-White Typography */
+	--color-silver: #e8e8e8;
+	--color-silver-muted: #a0a0a8;
+	--color-silver-dim: #606068;
+	
+	/* Bioluminescent Accents - Sticklight Effect */
+	--color-magenta: #ff00ff;
+	--color-magenta-glow: #ff00ff40;
+	--color-cyan: #00ffff;
+	--color-cyan-glow: #00ffff40;
+	
+	/* Discovery Kids Palette */
+	--color-cosmic-blue: #0b1b3d;
+	--color-nebula-start: #1a1a4e;
+	--color-nebula-end: #0d2847;
+	--color-kids-accent: #7dd3fc;
+	--color-kids-glow: #c4b5fd;
+	
+	/* Typography */
+	--font-sans: 'Geist', system-ui, -apple-system, sans-serif;
+	--font-mono: 'Geist Mono', 'SF Mono', Consolas, monospace;
+	
+	/* Semantic Colors */
+	--color-primary: var(--color-magenta);
+	--color-primary-foreground: var(--color-void);
+	--color-secondary: var(--color-cyan);
+	--color-secondary-foreground: var(--color-void);
+	--color-muted: var(--color-void-elevated);
+	--color-muted-foreground: var(--color-silver-muted);
+	--color-accent: var(--color-magenta);
+	--color-accent-foreground: var(--color-void);
+	--color-border: #1a1a22;
+	--color-input: #0f0f14;
+	--color-ring: var(--color-magenta);
+	
+	/* Spacing Scale */
+	--spacing-section: clamp(5rem, 12vw, 10rem);
+	
+	/* Radius */
+	--radius-sm: 0.25rem;
+	--radius-md: 0.5rem;
+	--radius-lg: 1rem;
+	--radius-xl: 1.5rem;
+	--radius-2xl: 2rem;
+	
+	/* Transitions */
+	--ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+	--ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-track {
+	background: #050508;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #1a1a22;
+	border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #2a2a35;
+}
+
+/* Selection */
+::selection {
+	background: #ff00ff30;
+	color: #e8e8e8;
+}
+
+/* Focus Ring */
+:focus-visible {
+	outline: 1px solid #ff00ff;
+	outline-offset: 2px;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+	}
+}
+
+/* Geist Font Faces */
+@font-face {
+	font-family: 'Geist';
+	src: url('https://cdn.jsdelivr.net/npm/geist@1.2.2/dist/fonts/geist-sans/Geist-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Geist';
+	src: url('https://cdn.jsdelivr.net/npm/geist@1.2.2/dist/fonts/geist-sans/Geist-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Geist';
+	src: url('https://cdn.jsdelivr.net/npm/geist@1.2.2/dist/fonts/geist-sans/Geist-SemiBold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Geist';
+	src: url('https://cdn.jsdelivr.net/npm/geist@1.2.2/dist/fonts/geist-sans/Geist-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Geist';
+	src: url('https://cdn.jsdelivr.net/npm/geist@1.2.2/dist/fonts/geist-sans/Geist-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Geist Mono';
+	src: url('https://cdn.jsdelivr.net/npm/geist@1.2.2/dist/fonts/geist-mono/GeistMono-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Geist Mono';
+	src: url('https://cdn.jsdelivr.net/npm/geist@1.2.2/dist/fonts/geist-mono/GeistMono-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
