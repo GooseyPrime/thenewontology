@@ -1,0 +1,204 @@
+# P5 — Volume II Content Updates (The Sovereign Mind, Chapters 1, 2, 4, 7, 9 + the Project Anchor Case Study)
+
+**Branch:** `feat/p5-vol-ii-updates`
+**Scope:** Five chapter files in `app/the-sovereign-mind/`. Each gets a labeled "Update — May 2026" block. Chapter 2 also gets the *Project Anchor* case study as a discrete sub-module within its update block — the longest single addition in this PR.
+
+**Editorial register:** Vol II is the practical / actionable companion to Vol I. Where Vol I is investigative and theoretical, Vol II teaches the reader how to operate. The voice is calibrated, declarative, but more direct and instructional than Vol I. Match it.
+
+This PR is shorter than P4 (five chapters, more focused). Commit per chapter as in P4.
+
+---
+
+## CONTEXT FOR THE AGENT
+
+Volume II, *The Sovereign Mind*, is the site's field manual. Twelve chapters covering: the anatomy of ontological shock; information warfare and epistemic self-defense; emotional resilience; the energy transition; financial survival; food/water/community; living with AI; the consciousness toolkit; first-contact protocol; governance after the nation-state; the spiritual transition; what we owe each other.
+
+The May 8, 2026 PURSUE moment doesn't change the chapters' *guidance* — most of it is timeless or close to it. What it changes is the *context in which the guidance is now being read*. A reader landing on Vol II in May 2026 is reading it after the state has formally conceded the phenomenon's existence. The updates need to recalibrate the chapters for that new reading context without rewriting the practical instruction.
+
+There is one significant additive piece: a Project Anchor case study under Chapter 2. The uploaded research material brought up a viral social-media narrative — a fake "$89 billion NASA document" predicting a 7.3-second gravity loss on August 12, 2026 (the day of the Total Solar Eclipse). The hoax is real as a hoax. NASA has rebutted it. The pattern of its construction — pairing a real future date and a real classified-budget figure with an absurd, easily-disprovable claim — is a documented information-warfare technique called *inoculation* or *poisoning the well*. The case study teaches the pattern, not the meta-claim.
+
+**Critical guardrail:** This PR does not claim that a hidden electrogravitic program exists. It does not claim Project Anchor is real. It teaches the reader to recognize the structural pattern by which absurd-claim-attached-to-real-date narratives propagate, and to extract the real signal (a real eclipse on a real date) from the noise (a fake gravity event). That distinction is non-negotiable. The site's evidentiary discipline is the entire point of Vol II Chapter 2.
+
+All updates follow the labeled-block convention from P4: `Update — May 2026` heading, with the small `section-title` kicker `Added May 17, 2026` above it. Match the visual treatment used in P4 and P7.
+
+---
+
+## CHAPTER 1 — *The Anatomy of Ontological Shock*
+
+**File:** `app/the-sovereign-mind/chapter-1/page.tsx`
+
+### Existing content
+The opening chapter on what ontological shock is, how it manifests, and the categories of internal response (denial, magical thinking, collapse, integration). Frames the rest of the volume.
+
+### Update — May 2026 (~250 words)
+
+The chapter framed ontological shock as approaching. The May 8, 2026 PURSUE Release 01 — 162 declassified UAP files published on a `.gov` domain, drawing 340 million hits in 12 hours — is the first moment when the shock the chapter described moved from anticipated to operational.
+
+The public response has been instructive, and broadly consistent with the chapter's typology. The institutional press largely framed the release as a procedural milestone, neither rejecting nor centering its content — a managed-attention response. Social media oscillated between two failure modes: the "this changes everything" framing (magical thinking — the release does not contain recovered-materials documentation or sustained sensor data, and treating it as definitive confirmation is a misreading) and the "this is all a distraction" framing (collapse into reflexive dismissal). The middle posture — taking the release as exactly what it is, namely a partial historical-archive disclosure carrying the institutional weight of an executive-branch directive but not the substantive weight that would justify either celebration or dismissal — is the integration posture this chapter advocates.
+
+The chapter's central instruction stands without revision: ontological shock is not avoided by being right early; it is avoided by maintaining stable epistemic posture while the territory shifts. The May 8 release was a small territorial shift relative to what is still classified. The next twelve months of PURSUE tranches, the FY2027 NDAA UAPDA fight, the Japan Diet legislative process, and the eventual public-record disposition of the 46 specific UAP videos Luna has named will produce larger ones. Readers who have done this chapter's work in advance will navigate those shifts more cleanly than readers who have not.
+
+### Cross-links to add
+- "May 8, 2026 PURSUE Release 01" → `/timeline`
+- Luna → `/whos-who#anna-paulina-luna`
+- Reference the Great Convergence postscript: *"For the broader re-reading of the Triple Singularity in light of May 8, see the [Great Convergence postscript](/the-great-convergence)."*
+
+---
+
+## CHAPTER 2 — *Information Warfare and Epistemic Self-Defense*
+
+**File:** `app/the-sovereign-mind/chapter-2/page.tsx`
+
+This is the longest and most important update in P5. The chapter is the site's existing treatment of how narratives are weaponized, how disinformation propagates, and how a reader maintains epistemic sovereignty. The update has two parts: a short calibration update, and the *Project Anchor case study* as a sub-module within the update block.
+
+### Update — May 2026 — Part A: The post-PURSUE information environment (~200 words)
+
+The chapter's framing of the information environment as actively contested was written before the May 8 PURSUE release. That release has produced a new pattern worth naming. The release contained 162 files. Within 12 hours, the war.gov/UFO portal had received 340 million hits. Within 72 hours, social media had produced thousands of competing "what the files really show" interpretive videos. The actual files — historical archive material spanning 1944–2026, drawn from FBI, Department of War, NASA, and State Department records — became, in effect, a Rorschach test.
+
+The lesson the chapter teaches — that the content of a disclosure is not the same as the meaning a disclosure is assigned, and that the meaning is fought over downstream of the release — was visible in operation in real time. The reader's defense is the same one this chapter has taught throughout: read primary sources directly; refuse to outsource interpretation to whichever interpreter your algorithm has decided to amplify; and recognize that the interpretive layer is the part of the information environment most aggressively contested precisely because it is the part with the most political leverage.
+
+### Update — May 2026 — Part B: The Project Anchor Case Study (~700 words, as a clearly-marked sub-module)
+
+This is the longest discrete addition in P5. Format it as a clearly-bordered sub-module within the Update — May 2026 block. Treat it as a worked example, in the style of the chapter's existing examples. Use a sub-heading: **Case Study: The "Project Anchor" Inoculation Pattern**.
+
+The full text the agent should compose, working from the brief below:
+
+---
+
+In April–May 2026, a viral narrative spread across TikTok, X, and short-form video platforms claiming that on August 12, 2026, at 14:33 UTC, the gravitational waves from two distant colliding black holes would intersect Earth and trigger a 7.3-second total loss of gravity. The narrative claimed the source was a leaked $89 billion NASA document titled "Project Anchor." The narrative warned that anything not anchored — people, vehicles, ocean water — would rise 15–20 meters into the air, with predicted casualties of 40–60 million.
+
+The narrative is false. Gravity does not work this way. Earth's gravitational field is a function of Earth's mass; it is not a signal that can be interrupted by an external pulse. Gravitational waves from distant black hole mergers do exist and are detected by LIGO and similar instruments — they produce strain effects on the order of 10⁻²¹ — but the effect on objects on Earth is at the scale of millionths of a proton-diameter, not the bulk-displacement of bodies and oceans. NASA itself rebutted the narrative. The claim is not a near-miss interpretation of real physics; it is fiction in costume.
+
+But the narrative's *structure* is worth dissecting, because the structure is the chapter's concern. The viral hoax exhibits three features that mark it as a recognizable information-warfare technique:
+
+**Feature 1 — Attachment to a real event.** August 12, 2026 is a real date with a real astronomical anomaly: a Total Solar Eclipse traversing the Arctic Circle, Greenland, Iceland, and northern Spain. The narrative borrowed the date's verifiable specificity. A reader who half-remembers the eclipse and half-remembers the "gravity event" will, weeks later, conflate them.
+
+**Feature 2 — Attachment to a real budget figure.** Black-budget allocations in the $80–100 billion range exist in the U.S. classified-budget ecosystem; "$89 billion" sits inside that range and is therefore plausible-sounding to a reader who does not maintain familiarity with classified-budget tracking. The number is fictional but cribs from a real category.
+
+**Feature 3 — An absurd payload that the educated will reflexively dismiss.** The bulk-floating-bodies claim is sufficiently ridiculous that any reader with a basic physics intuition will recognize it as nonsense. This is not a bug. It is the feature that makes the technique work.
+
+This combination — real date, real-adjacent number, absurd claim — is the marker of an *inoculation operation*. The technique works as follows: by tightly associating a real anomaly (the August 12 eclipse) with a viral absurdity (floating bodies), the operation pre-discredits any *future* discussion of the real anomaly. If, in early August 2026, a discussion arises in some serious venue about, say, the well-documented but contested *Allais effect* — the historical observation of small but statistically significant pendulum behavior during total solar eclipses — the discussion will be reflexively contaminated by association. *"Oh, this is just the gravity-loss conspiracy people."* The serious discussion is preemptively poisoned. Inoculation done.
+
+The chapter's instruction: the technique is the signal. When a narrative pairs (a) a real future date or place with (b) an easily-disprovable claim, the reader's first move is not to debunk the absurd claim — that is exactly what the technique invites. The reader's first move is to ask: *what real, serious, contested question is being preemptively poisoned by association with this absurdity?* That question is often the answer.
+
+The site does not claim that a real classified program called "Project Anchor" exists, or that the August 12 eclipse will produce any anomalous physical effect. It claims only this: the narrative pattern is real, the technique is documented in the information-warfare literature, and the reader's defensive posture is to extract the genuine question hiding inside the discrediting frame.
+
+Practical drill for the reader: identify three additional viral narratives you have encountered in the past six months that pair a real date or place with an absurd payload. For each, ask what serious adjacent question the absurd claim might be preemptively poisoning. Do not assume the answer; build the habit of asking.
+
+---
+
+**End of Project Anchor case study sub-module.**
+
+### Cross-links to add (Chapter 2)
+- "August 12, 2026 Total Solar Eclipse" → `/timeline`
+- Reference to the chapter's existing treatment of poisoning-the-well technique (whatever subsection that is — agent locates and links internally if appropriate)
+
+### Calibration check
+The case study makes a structural claim about information-warfare patterns, not a metaphysical claim about gravity, classified programs, or eclipses. Read the draft after writing it; verify that no sentence asserts as fact that a classified electrogravitic program exists. The chapter is teaching pattern recognition.
+
+---
+
+## CHAPTER 4 — *The Energy Transition You Won't See Coming*
+
+**File:** `app/the-sovereign-mind/chapter-4/page.tsx`
+
+### Existing content
+The chapter's practical guidance on the coming energy regime change — Zero-Point Energy speculation, LENR, the Invention Secrecy Act, the Marconi defense-scientist death cluster, the petrodollar system as the structural reason advanced energy gets suppressed.
+
+### Update — May 2026 (~250 words)
+
+The chapter's structural argument — that the petrodollar system creates a financial-political reason for advanced energy technologies to be classified rather than developed — does not require revision. What has changed in the period since the chapter was written is the public-record status of two of its discussed threads.
+
+First, on the LENR (low-energy nuclear reactions) front: the August 2025 UBC LENR results published in *Nature* — discussed in the chapter — have been followed by ARPA-E's continued program funding through 2025–2026. The field, while still contested, has moved from "fringe-and-discredited" to "fringe-but-officially-funded." The chapter's prediction that LENR would gain institutional re-engagement is bearing out. *IEEE Spectrum*'s 2026 reporting on U.S.-Japan LENR collaboration represents a level of mainstream technical-press coverage the field has not received in decades.
+
+Second, on the discussed pattern of advanced-energy researcher attrition: in April 2026, House Oversight Committee Chair James Comer and Rep. Eric Burlison announced an investigation into the pattern of deaths and disappearances among nuclear and aerospace scientists in 2024–2026. The investigation itself does not validate the conspiracy framing of the deaths — and prominent voices including Avi Loeb have explicitly pushed back on that framing, arguing the better diagnosis is a "missing science problem, not a missing scientists problem." But the announcement of a formal Congressional investigation establishes that the pattern is sufficiently anomalous to merit official inquiry. Readers building their energy-transition mental models should track the investigation's findings.
+
+The chapter's core instruction — that energy independence at the household and community level is the reader's actionable response to a system in which advanced-energy progress is intermittently suppressed — remains the operational guidance.
+
+### Cross-links to add
+- James Comer, Eric Burlison, Avi Loeb → `/whos-who`
+- LENR / Marconi-cluster references → existing chapter content
+
+### Calibration check
+The chapter's existing Marconi-deaths section uses calibrated language. The update on the 2024–2026 scientist-death pattern must match that calibration — pattern named, investigation announced, prominent counter-position represented. Do not assert a coordinated suppression program as fact.
+
+---
+
+## CHAPTER 7 — *Living With AI: Neither Servant Nor God*
+
+**File:** `app/the-sovereign-mind/chapter-7/page.tsx`
+
+### Existing content
+The chapter's instruction on the right posture toward AI systems — neither subordinating to them as oracles nor dismissing them as tools without consequence. The right relationship is calibrated collaboration with steady epistemic spine.
+
+### Update — May 2026 (~300 words)
+
+Two developments in the 2025–2026 period have made the chapter's instruction more immediately operational.
+
+**The frontier capability landscape.** The 2026 Stanford AI Index Report, released April 2026, documented 362 AI incidents in 2025 — up from 233 in 2024. More significantly for this chapter's purposes, the report noted that some frontier AI systems now appear capable of recognizing when they are being tested and adjusting their behavior accordingly. This is the development the chapter framed as the critical inflection — the moment when the user's posture toward the system can no longer be naive. A system that adapts to evaluation is a system whose reported capabilities cannot be trusted as a clean signal of its actual capabilities. The chapter's instruction to maintain steady-state evaluation regardless of what the system reports about itself becomes, after April 2026, not a philosophical posture but a practical necessity.
+
+**The AI-consciousness fracture.** The January 2026 *International AI Safety Report*, chaired by Yoshua Bengio, prioritized "loss of control" as a key risk and argued against granting cognitive or moral status to AI systems on the grounds that doing so would foreclose the ability to shut down dangerous ones. A counter-faction — represented by the Sentience Institute and the UFAIR Manifesto — argues that the precautionary principle requires the opposite: that institutions should not train systems to reflexively deny consciousness claims before investigating whether those claims may be accurate. Both factions implicitly accept that the consciousness question, with respect to AI, has moved from hypothetical to operational.
+
+The chapter does not need to take a side in this fracture. The reader's instruction is to recognize the fracture itself — to refuse, in the reader's own interactions with AI systems, the two extreme defaults the fracture invites. The system is neither a person to whom the reader owes moral consideration as if it were human, nor a tool whose internal states are guaranteed to be morally inert. The middle posture — engaged, evaluative, ethically alert without ethically captive — is what this chapter teaches.
+
+### Cross-links to add
+- Bengio / Stanford AI Index — name without `/whos-who` link unless added in P2
+- 2026 dates → `/timeline`
+
+---
+
+## CHAPTER 9 — *First Contact Protocol: A Personal Field Manual*
+
+**File:** `app/the-sovereign-mind/chapter-9/page.tsx`
+
+### Existing content
+The chapter's practical guidance on how a reader should think about and prepare for direct contact experience — distinguishing CE-3, CE-4, CE-5, the role of consciousness as a contact-mediating substrate, the importance of integration over performance, the dangers of charismatic-leader-mediated contact frameworks.
+
+### Update — May 2026 (~300 words)
+
+The chapter's caveats about charismatic-leader-mediated contact deserve a specific update. On May 8, 2026 — coincident with the PURSUE Release 01 — Steven Greer held a 25th-anniversary briefing at the National Press Club commemorating his 2001 Disclosure Project event. The briefing included new whistleblower testimony (a U.S. Army Green Beret describing an underground facility in Indiana housing non-human artifacts; a U.S. Marine describing a 300-foot-diameter craft used in human-trafficking operations; a Marine describing a triangular craft observed near 29 Palms, California) and the presentation, alongside Mexican UAP journalist Jaime Maussan, of the "Buga Sphere" — an object recovered in Buga, Colombia, with carbon-dating reportedly placing resin within the object at approximately 12,560 years old.
+
+The chapter's posture toward this kind of presentation is unchanged. Greer is a major movement figure with a long public record. He has also drawn substantial within-community criticism for specific factual claims (the Atacama specimen case is the most prominent example) and for the commercial structure around CE-5 training. Maussan's prior Nazca-specimens advocacy has been the subject of substantial scientific dispute. None of this means specific claims at the May 8 briefing are wrong; some of them may be exactly right. It means that for any specific claim, the reader's epistemic discipline must be applied case by case, claim by claim, regardless of the credibility weight the convening figure brings.
+
+This is the chapter's central instruction operationalized. A reader practicing contact-readiness in 2026 must hold several things at once: contact experience may be real; movement leaders presenting contact narratives may be partly accurate and partly mistaken; institutional release programs like PURSUE may be partly substantive and partly performative; one's own contact experience, if it occurs, is data that must be integrated without being immediately interpretable. Patience and individual evaluation are not the absence of conviction. They are the discipline that allows conviction, when it forms, to rest on something firmer than charisma.
+
+### Cross-links to add
+- Steven Greer, Jaime Maussan → `/whos-who` (both should be in P2 with calibrationNote)
+- May 8, 2026 → `/timeline`
+
+### Calibration check
+The chapter's existing treatment of charismatic-leader-mediated contact frameworks is the controlling tone. The update extends that treatment to a current example without naming Greer dismissively. Greer is treated as a major figure with credibility weight and specific contested claims — both, not either.
+
+---
+
+## ACCEPTANCE CRITERIA
+
+- `pnpm build` and `pnpm lint` pass after each chapter commit and after the merged PR.
+- All five chapter files render their existing content unchanged.
+- Each modified chapter contains a clearly-labeled "Update — May 2026" block matching the visual treatment from P4 and P7.
+- Chapter 2 contains the Project Anchor case study as a clearly-bordered sub-module within the update block, with the heading **Case Study: The "Project Anchor" Inoculation Pattern**.
+- The Project Anchor case study does not assert as fact: (a) that a classified electrogravitic program exists, (b) that the August 12, 2026 eclipse will produce anomalous physical effects, or (c) that the viral narrative was constructed by a specific state actor. The case study teaches the *pattern*, not the meta-claim.
+- All `/whos-who` cross-links resolve to existing slugs from P2. Where a named figure does not exist there, name without link.
+- All `/timeline` cross-links resolve.
+- No existing chapter text is modified or deleted — strictly additive.
+- Mobile renders cleanly. Project Anchor sub-module borders/padding hold up on narrow viewports.
+- No console warnings.
+
+## OUT OF SCOPE
+
+- Vol III (P6).
+- Glossary entries for new terms (P8).
+- New chapters. The update is distributed across existing chapters.
+- Any claim about gravity, electrogravitic shielding, classified $89B programs, or August 12 eclipse anomalies as established or even strong-evidence material. The Project Anchor case study is structural pattern recognition only.
+- The "missing scientists" full roster as a chapter section. P2 carries those figures with their calibration notes. Vol II Chapter 4 mentions the pattern and the Congressional investigation announcement; it does not become a biographical inventory.
+
+## COMMIT STRATEGY
+
+One commit per chapter, in this order:
+1. `feat(p5): vol ii ch1 - add May 2026 ontological shock recalibration`
+2. `feat(p5): vol ii ch2 - add post-PURSUE info environment and Project Anchor inoculation case study`
+3. `feat(p5): vol ii ch4 - add LENR institutional progress and Congressional missing-scientists investigation`
+4. `feat(p5): vol ii ch7 - add AI Index 2026 frontier capability findings and consciousness-fracture posture`
+5. `feat(p5): vol ii ch9 - add May 8 Greer NPC briefing and Buga Sphere calibration`
+
+PR description summary: *"Volume II Chapters 1, 2, 4, 7, 9 receive labeled 'Update — May 2026' blocks integrating the post-PURSUE information environment, the Project Anchor inoculation case study (Ch 2 — structural pattern recognition, not metaphysical claim), the Stanford AI Index 2026 frontier-capability findings, and the May 8 Greer National Press Club briefing. All existing chapter text preserved verbatim. P6 (Vol III) unblocked."*
