@@ -1,0 +1,71 @@
+# P0 — Repo Housekeeping & Foundation for Network Page
+
+**Branch:** `feat/p0-housekeeping`
+**Scope:** Foundation only. No content edits. No styling changes beyond a single nav breakpoint flip.
+
+## Objective
+
+Close three foundation gaps before content and feature work begins:
+
+1. `app/sitemap.ts` is incomplete — missing several live routes.
+2. `components/GlobalNav.tsx` is missing links to live routes.
+3. Dependencies for the upcoming Network page (P3) should be pinned now so install pain happens once.
+
+## Tasks
+
+### 1. Complete the sitemap
+
+`app/sitemap.ts` currently emits ~26 entries (Vol I/II chapters + two bibliographies + a few static routes). The site has more live routes than that. Audit `app/` and emit a `MetadataRoute.Sitemap` covering **every page that exists on disk**, including:
+
+- `/the-great-convergence`
+- `/timeline`, `/whos-who`, `/glossary`, `/reading-guide`, `/about`
+- All three volume bibliographies (Vol III's is currently missing)
+- All ten Vol III chapter routes (`/the-bigger-world/chapter-1..10`)
+
+Use the existing `changeFrequency` / `priority` conventions in the file. Home stays at 1.0, volume indexes at 0.9, chapters at 0.8 (Vol III at 0.7 since it's the youth edition), bibliographies and reference pages 0.55–0.75, About / Reading Guide 0.6.
+
+### 2. Expand global nav
+
+In `components/GlobalNav.tsx`, add three nav items: **Convergence** (`/the-great-convergence`), **Who's Who** (`/whos-who`), and **Network** (`/network` — placeholder for now, real page lands in P3). Insert them in reading order matching the IA.
+
+Final desktop nav is 10 items. At the current `md:flex gap-6` breakpoint that crowds — flip the desktop breakpoint to `lg:` and tighten `gap-6` → `gap-5`. Mobile menu behavior unchanged.
+
+### 3. Add a `/network` placeholder route
+
+To prevent the new nav link from 404'ing between P0 and P3. Match the visual pattern of `/whos-who` and `/timeline` exactly — `KinematicBackground`, `max-w-prose` main, section-title, `← Home` link, heading, intro paragraph, divider, a single `panel` saying the interactive network is in development with a link to `/whos-who` as the interim canonical reference. No graph code. Metadata: title "Human Network | The New Ontology", canonical `/network`, brief description.
+
+This placeholder is fully overwritten in P3 — don't over-invest.
+
+### 4. Pin Network page dependencies
+
+User has chosen **Cytoscape.js with compound nodes** for the Network graph. Add to `package.json`:
+
+- `cytoscape` (^3.30) — core
+- `cytoscape-cose-bilkent` (^4.1) — compound-node-aware force layout
+- `react-cytoscapejs` (^2.0) — React wrapper
+- `@types/cytoscape` (^3.21) in devDependencies
+
+`react-cytoscapejs` has a React ^16–18 peer constraint and the site is on React 19. If install fails on strict peer resolution, resolve via `pnpm.peerDependencyRules.allowedVersions` (pnpm) or `--legacy-peer-deps` (npm). Pick whichever matches the existing `package-lock.json` / `pnpm-lock.yaml` in the repo — don't switch package managers.
+
+## Acceptance criteria
+
+- `pnpm build` (or `npm run build`) exits 0 with no TS / ESLint errors.
+- `pnpm lint` exits 0.
+- Sitemap output covers every `page.tsx` file under `app/`. Verify by counting and listing in the PR description.
+- `/network` renders the placeholder, no 404.
+- All 10 nav links present at `lg+`; hamburger at smaller widths.
+- No new console warnings on any existing page.
+
+## Out of scope
+
+No content edits. No new figures. No timeline entries. No styling beyond the nav breakpoint. No Network graph implementation.
+
+## Commit
+
+Single atomic commit, message:
+
+```
+feat(p0): complete sitemap, expand nav, pin Cytoscape deps, add /network placeholder
+
+Foundation work only. No content changes. P2 unblocked once merged.
+```
