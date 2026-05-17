@@ -178,6 +178,22 @@ export default function Chapter8Page() {
             full of diverse forms of intelligence can empower us to be kinder, more curious, and more resilient.
           </p>
 
+          <div className="h-px border-violet-800/30 my-12" />
+          <p className="text-violet-300/60 text-xs uppercase tracking-widest font-sans mb-2">Added May 17, 2026</p>
+          <h2>Update — May 2026</h2>
+          <p>
+            This chapter walks through how different cultures over thousands of years have understood the question of intelligences besides humans. Something interesting happened in 2025 and 2026 that fits into this long story.
+          </p>
+          <p>
+            A Japanese member of parliament said in 2024 that UAP had traditionally been seen in Japan as <em>&quot;an occult matter that has nothing to do with politics.&quot;</em> Two years later, <Link href="/timeline">Japan&apos;s national government</Link> is setting up an office to study them. A continent over, Italian, French, and British researchers presented their long histories of UAP investigation at a conference at Lake Maggiore in October 2025 — the first time the U.S.-based Sol Foundation held its annual meeting in Europe. The French civilian aerospace agency has been running an official UAP investigation office (called GEIPAN) for almost fifty years. The British government published a study called <em>Project Condign</em> in 2000 that called UAP &quot;almost certain physical reality&quot; — and then mostly stopped talking about it.
+          </p>
+          <p>
+            What this chapter is saying — that humans across cultures have always engaged with the question of non-human intelligence, and that the Western scientific tradition is a relatively brief exception to that pattern — has gotten more obvious recently, not less. The pattern this chapter describes is the long pattern. The denial of the pattern, which dominated roughly the second half of the twentieth century, was the short pattern. We are watching the short pattern end in real time.
+          </p>
+          <p>
+            If you want to know which countries are doing serious institutional UAP work right now, the answer is: more of them than you would expect, and growing. Japan, France, the UK, Italy, the U.S. — and the European institutional record on this question is older and more continuous than the American one.
+          </p>
+
           <h2>Conclusion</h2>
           <p>
             Intelligence is a spectrum, not a single characteristic. From octopuses solving puzzles to ancient

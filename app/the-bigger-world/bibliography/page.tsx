@@ -53,6 +53,7 @@ export default function BibliographyPage() {
               <li>Adaptation of Kübler-Ross stages for ontological shock.</li>
               <li>Neuroscientific studies on the effects of meditation on brain structure.</li>
               <li>Reality calibration exercises inspired by UAP investigators.</li>
+              <li>U.S. Department of War (May 8, 2026). PURSUE portal. war.gov/UFO. <em>(Accessible to anyone with a browser.)</em></li>
             </ul>
           </section>
 
@@ -76,6 +77,8 @@ export default function BibliographyPage() {
               <li>Declassified videos and congressional reports documenting sightings with unusual flight characteristics.</li>
               <li>Scientific hypotheses on unidentified phenomena: secret human technology, extraterrestrial visitors, interdimensional entities, natural phenomena, and misidentifications.</li>
               <li>Sky observation journal exercise — practical nighttime observation template.</li>
+              <li><em>The Age of Disclosure</em> (Dan Farah, 2025). Documentary, Amazon Prime Video. <em>(Recommended for readers 14+ given some weight of subject matter.)</em></li>
+              <li>The House of Representatives, Japan (March 24, 2026). Parliamentary UAP Caucus press release on national crisis management reform.</li>
             </ul>
           </section>
 
@@ -132,6 +135,8 @@ export default function BibliographyPage() {
               <li>Elephant emotional lives and tree communication through underground fungal networks.</li>
               <li>Howard Gardner's Theory of Multiple Intelligences: logical, musical, spatial, interpersonal, and intrapersonal intelligence.</li>
               <li>Cultural references: Hopi Ant People; Islamic Jinn; Hindu multidimensional realms; Celtic Tuatha Dé Danann.</li>
+              <li>GEIPAN (CNES, France). geipan.fr. <em>(The French civilian-aerospace UAP investigation office&apos;s public-facing portal.)</em></li>
+              <li>The Sol Foundation (2025). 2025 Symposium, Lake Maggiore.</li>
             </ul>
           </section>
 

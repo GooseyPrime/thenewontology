@@ -62,7 +62,7 @@ export default function Home() {
         >
           <p className="section-title mb-3">Disclosure &amp; Verification Statement</p>
           <p className="font-serif text-text leading-relaxed text-sm md:text-base">
-            This site presents information drawn from declassified government documents, peer-reviewed scientific research, sworn Congressional testimony, credible whistleblower reports, investigative journalism, and theoretical frameworks. Where claims rest on different evidentiary foundations, those foundations are identified in the text. The author distinguishes between established fact, strong evidence, credible testimony, contested evidence, and speculative frameworks throughout. Independent verification of all claims is encouraged. Sources are cited by chapter in the Bibliography.
+            This site presents information drawn from declassified government documents, peer-reviewed scientific research, sworn Congressional testimony, credible whistleblower reports, investigative journalism, and theoretical frameworks. Where claims rest on different evidentiary foundations, those foundations are identified in the text. The author distinguishes between established fact, strong evidence, credible testimony, contested evidence, and speculative frameworks throughout. Independent verification of all claims is encouraged. Sources are cited by chapter in the Bibliography. Following the May 8, 2026 PURSUE Release 01, the site&apos;s posture has shifted from <em>demanding</em> disclosure to <em>independently verifying</em> the records the state has released and tracking what remains withheld. The framework above continues to govern that verification work.
           </p>
         </section>
 

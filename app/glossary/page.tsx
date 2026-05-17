@@ -5,12 +5,12 @@ import KinematicBackground from "@/components/KinematicBackground";
 export const metadata: Metadata = {
   title: "Glossary | The New Ontology",
   description:
-    "Comprehensive glossary of 55+ specialized terms used across The New Ontology — from AARO to Zero-Point Energy.",
+    "Comprehensive glossary of 75+ specialized terms used across The New Ontology — from AARO to Zero-Point Energy.",
   alternates: { canonical: "https://thenewontology.life/glossary" },
   openGraph: {
     title: "Glossary | The New Ontology",
     description:
-      "Comprehensive glossary of 55+ specialized terms used across The New Ontology — from AARO to Zero-Point Energy.",
+      "Comprehensive glossary of 75+ specialized terms used across The New Ontology — from AARO to Zero-Point Energy.",
     url: "https://thenewontology.life/glossary",
     type: "article",
   },
@@ -18,9 +18,14 @@ export const metadata: Metadata = {
 
 const terms = [
   {
+    term: "3I/ATLAS",
+    definition:
+      "The third confirmed interstellar object to enter our solar system, discovered July 2025 by the ATLAS survey in Chile. Subject of an extensive anomaly catalog maintained by Avi Loeb; closest approach to Jupiter at the planet's Hill radius on March 16, 2026; currently fading.",
+  },
+  {
     term: "AARO",
     definition:
-      "All-domain Anomaly Resolution Office. The Department of Defense's official UAP investigation body, established 2022. Successor to UAPTF and AATIP. Publishes historical reports and manages incoming UAP reports from military personnel.",
+      "All-domain Anomaly Resolution Office. The Department of Defense's official UAP investigation body, established 2022. Successor to UAPTF and AATIP. Publishes historical reports and manages incoming UAP reports from military personnel. As of March 22, 2026, Rep. Anna Paulina Luna formally recommended to DOGE that AARO be disbanded and defunded; AARO's role in coordinating PURSUE declassification is ongoing.",
   },
   {
     term: "AAWSAP",
@@ -31,6 +36,11 @@ const terms = [
     term: "AATIP",
     definition:
       "Advanced Aerospace Threat Identification Program. The successor to AAWSAP, run informally by Luis Elizondo within the Pentagon (2010–2017) before his resignation. Its existence was revealed by the New York Times in December 2017.",
+  },
+  {
+    term: "Allais Effect",
+    definition:
+      "A historically documented but contested anomaly in pendulum behavior observed during total solar eclipses, named for French physicist Maurice Allais. The effect's reality is disputed; replication results are mixed. Mentioned in Vol II Ch 2's Project Anchor case study.",
   },
   {
     term: "Analytical Idealism",
@@ -48,6 +58,11 @@ const terms = [
       "Federal statute establishing the 'born classified' doctrine: certain information is classified automatically at creation, without requiring an affirmative decision by a government official. Crucially, it places such information outside the standard executive order declassification system.",
   },
   {
+    term: "Burgos-Salcedo Synthesis Paper (2026)",
+    definition:
+      "\"Cosmic Memory, Universal Consciousness, and Biological Meaning,\" European Journal of Theoretical and Applied Sciences, 4(2):171–183. The first peer-reviewed paper to formally integrate Conformal Cyclic Cosmology (Penrose), Orchestrated Objective Reduction (Penrose-Hameroff), and Strømme's Universal Consciousness Field.",
+  },
+  {
     term: "Caudate-Putamen",
     definition:
       "Basal ganglia structures critical to motor control, executive function, and subconscious goal-planning. Garry Nolan's research documents extreme hypermorphism — synaptic density five to fifteen times normal — in frequent UAP experiencers and remote viewers. A congenital, hereditary trait.",
@@ -56,6 +71,11 @@ const terms = [
     term: "Casimir Effect",
     definition:
       "A measurable attractive force between two uncharged parallel conducting plates in close proximity, arising from differential suppression of quantum vacuum fluctuations. Empirically confirmed with high precision; demonstrates the physical reality of zero-point energy in the quantum vacuum.",
+  },
+  {
+    term: "CE-5 (Close Encounter of the Fifth Kind)",
+    definition:
+      "Human-initiated contact with non-human intelligence, originally proposed and operationalized as a protocol by Steven Greer and the Disclosure Project. Distinguished from CE-1 through CE-4 in the Hynek classification by the human as initiator rather than respondent. Methodologically contested.",
   },
   {
     term: "Chain-of-Custody",
@@ -68,6 +88,16 @@ const terms = [
       "Donald Hoffman's framework proposing that reality fundamentally consists of interacting conscious agents. Space, time, and physical objects are user-interface constructs — pragmatic representations that do not resemble the underlying conscious reality they encode.",
   },
   {
+    term: "COMETA Report (1999)",
+    definition:
+      "The French civilian-aerospace report (Comité d'Études Approfondies) concluding UAP are \"almost certain physical reality.\" Foundational document in European institutional UAP study. Revisited at the Sol Foundation 2025 Symposium by Gen. Pierre Bescond.",
+  },
+  {
+    term: "Conformal Cyclic Cosmology (CCC)",
+    definition:
+      "Penrose's cosmological framework proposing that the universe undergoes infinite eons of expansion, each beginning from the conformal boundary of the previous. Integrated with Orch-OR and the Strømme field model in the Burgos-Salcedo 2026 synthesis paper.",
+  },
+  {
     term: "Control System Hypothesis",
     definition:
       "Jacques Vallée's proposal, developed across multiple books from 1969 onward, that UAP phenomena function as a control mechanism for human consciousness and belief systems — conditioning civilization's development across millennia through carefully calibrated apparitions, contacts, and events.",
@@ -76,6 +106,11 @@ const terms = [
     term: "Cryptoterrestrial Hypothesis",
     definition:
       "Mac Tonnies' proposal, developed in The Cryptoterrestrials (2010), that an indigenous non-human intelligence coexists on Earth — possibly in deep ocean, underground, or parallel dimensional strata — rather than originating from elsewhere in the cosmos.",
+  },
+  {
+    term: "Department of War (DoW)",
+    definition:
+      "The rebranded U.S. Department of Defense, following Trump's early-2026 executive order. References to DoD in older site content remain accurate to time of writing.",
   },
   {
     term: "DIRD",
@@ -118,6 +153,11 @@ const terms = [
       "Harvard University-based systematic scientific search for extraterrestrial technological artifacts, founded by astrophysicist Avi Loeb. Deploys AI-assisted multi-spectral sensor arrays for continuous sky monitoring. Published findings on Pacific Ocean spherule recovery from the 2014 interstellar object CNEOS 2014-01-08.",
   },
   {
+    term: "GEIPAN",
+    definition:
+      "Groupe d'Études et d'Informations sur les Phénomènes Aérospatiaux Non identifiés. The French civilian space agency CNES's UAP investigation office, operating continuously since 1977 — the longest-running official UAP investigation framework in the world.",
+  },
+  {
     term: "Gateway Process",
     definition:
       "CIA-assessed Monroe Institute protocol for consciousness alteration via Hemi-Sync binaural beat technology. Analyzed in the 1983 classified document by Lt. Col. Wayne McDonnell (CIA-RDP96-00788R001700210016-5), which frames consciousness as a holographic field capable of interfacing with a 'universal continuum.'",
@@ -138,6 +178,11 @@ const terms = [
       "J. Allen Hynek's term for anomalous features of UAP encounters that resist conventional material explanation — apparent shapeshifting, telepathic communication, reality distortion, and post-encounter transformation of witnesses. Vallée's control system hypothesis treats high strangeness as functional, not incidental.",
   },
   {
+    term: "Hill Radius",
+    definition:
+      "The boundary in space within which a celestial body's gravity dominates over the gravitational pull of a more massive nearby body (e.g., Jupiter's Hill radius within the Sun-Jupiter system is ~53.5 million km). 3I/ATLAS's closest approach to Jupiter on March 16, 2026 was at 53.6 million km — at the boundary of Jupiter's Hill radius. The proximity is one of the catalogued anomalies.",
+  },
+  {
     term: "Hitchhiker Effect",
     definition:
       "Post-encounter phenomena that follow UAP witnesses beyond the original event site — poltergeist activity, anomalous psychic experiences, health effects, and persistent contact — documented most extensively in the AAWSAP/Skinwalker Ranch research program by Colm Kelleher and the BAASS team.",
@@ -150,7 +195,7 @@ const terms = [
   {
     term: "Immaculate Constellation",
     definition:
-      "Alleged USAP (Unacknowledged Special Access Program) consolidating UAP imagery from classified platforms, initiated approximately 2017. Entered the Congressional Record in November 2024. Intelligence community analyst Matthew Brown self-identified as the program's documenter on the WEAPONIZED podcast in 2025.",
+      "Alleged unacknowledged special access program for UAP-related activities. The 12-page summary document was entered into the Congressional Record by Rep. Mace at the January 23, 2026 House Oversight hearing, brought to the hearing by journalist Michael Shellenberger. The underlying program's existence has been alleged but not officially confirmed.",
   },
   {
     term: "Implicate Order",
@@ -168,6 +213,11 @@ const terms = [
       "Federal statute (35 U.S.C. §§ 181–188) allowing the USPTO to issue secrecy orders suppressing patent applications on national security grounds. Approximately 6,000 orders currently active; approximately 5,700 involve unnamed agencies. Provides administrative suppression mechanism for breakthrough energy technologies.",
   },
   {
+    term: "Inoculation (information-warfare technique)",
+    definition:
+      "The pairing of a real future event or real-adjacent figure with an absurd, easily-disprovable claim, such that subsequent serious discussion of the real element is preemptively associated with the absurdity and thereby discredited. Discussed in Vol II Ch 2's Project Anchor case study.",
+  },
+  {
     term: "IR&D Laundering",
     definition:
       "Use of Independent Research & Development funds — a cost-accounting category under the Federal Acquisition Regulation allowing contractors to classify research as reimbursable overhead — to conduct classified research outside Congressional authorization and standard oversight mechanisms.",
@@ -175,7 +225,12 @@ const terms = [
   {
     term: "LENR",
     definition:
-      "Low-Energy Nuclear Reactions, formerly 'cold fusion.' Research demonstrating anomalous excess heat and nuclear products in electrochemical systems. DOE's ARPA-E allocated $10M across eight projects in 2025. University of British Columbia published first peer-reviewed demonstration in Nature (August 2025).",
+      "Low-Energy Nuclear Reactions. Research field investigating anomalous nuclear effects at near-ambient conditions, historically associated with the 1989 Pons-Fleischmann \"cold fusion\" controversy. Reentered institutional research via ARPA-E funding in the 2020s. UBC LENR results published in Nature in August 2025.",
+  },
+  {
+    term: "Loeb Classification Scale",
+    definition:
+      "Avi Loeb's 0–10 classification scale for interstellar objects, where 0 indicates natural comet and 10 indicates alien technology posing major threat to humanity. 3I/ATLAS is currently rated 3 (natural cometary behavior with multiple unexplained anomalies).",
   },
   {
     term: "Multimodal User Interface (MUI)",
@@ -200,12 +255,17 @@ const terms = [
   {
     term: "Orch-OR",
     definition:
-      "Orchestrated Objective Reduction. The Penrose-Hameroff theory proposing that consciousness arises from quantum computations in neural microtubules, collapsed by Penrose's gravitational objective reduction mechanism. Each collapse event constitutes a discrete moment of conscious awareness. Accumulated substantial experimental support in 2025.",
+      "Orchestrated Objective Reduction. Penrose-Hameroff theory that consciousness arises from quantum computations in neural microtubules, terminated by gravitationally-mediated objective reduction. Recently corroborated by experimental work documented in Wiest (2025).",
   },
   {
     term: "Participatory Universe",
     definition:
       "John Archibald Wheeler's thesis that observers are constitutive of physical reality rather than merely passive registrants within it. Strømme's universal consciousness field provides a literal physical mechanism: the universe is generated by the consciousness field's self-observation.",
+  },
+  {
+    term: "PURSUE (Presidential Unsealing and Reporting System for UAP Encounters)",
+    definition:
+      "The U.S. federal interagency program established under Trump's February 19, 2026 directive to declassify and publish UAP records. Coordinated across the White House, ODNI, Department of Energy, Department of War's AARO, NASA, FBI, and other agencies. Release 01 published May 8, 2026 at war.gov/UFO (162 files; 340M hits in 12 hours).",
   },
   {
     term: "Polycrisis",
@@ -238,6 +298,11 @@ const terms = [
       "Stanford University-based institution bridging the defense establishment and academic UAP research, co-founded by immunologist Garry Nolan. Includes Christopher Mellon, Rear Admiral Tim Gallaudet, Diana Walsh Pasulka, and Jacques Vallée. Hosts the annual Sol Foundation Symposium and publishes policy white papers.",
   },
   {
+    term: "Sol Foundation 2025 Symposium",
+    definition:
+      "Held October 24–27, 2025 at Lake Maggiore, Italy. First Sol Foundation symposium held outside the United States. Speakers included Karl Nell, Beatriz Villarroel, Gen. Pierre Bescond, Roberto Pinotti, Luc Dini, Michael Valliant.",
+  },
+  {
     term: "Spiral of Silence",
     definition:
       "Sociological mechanism by which consensus is preserved through distributed embarrassment and career threat rather than explicit censorship. Applied to UAP: scientists avoided the subject to protect grants, journalists to protect credibility, military personnel to protect careers — producing silence without formal prohibition.",
@@ -246,6 +311,11 @@ const terms = [
     term: "Superradiance",
     definition:
       "Cooperative quantum optical phenomenon where multiple emitters phase-synchronize to emit radiation coherently, producing intensities that increase with the square rather than the linear sum of emitter counts. Babcock, Kurian et al. (2024) found superradiant emission from tryptophan networks in biological tissues.",
+  },
+  {
+    term: "The Age of Disclosure",
+    definition:
+      "Dan Farah's 2025 documentary featuring on-camera testimony from 34 senior U.S. government, military, and intelligence officials, including Secretary of State Marco Rubio. Released on Amazon Prime Video, November 21, 2025; broke the platform's documentary-record within 48 hours.",
   },
   {
     term: "The Lady",
@@ -258,9 +328,9 @@ const terms = [
       "The simultaneous convergence of artificial intelligence approaching AGI, NHI disclosure reaching legislative acknowledgment, and consciousness physics producing empirical evidence for non-materialist frameworks. Each would individually reshape civilization; their simultaneous arrival creates dynamics no single-domain analysis can capture.",
   },
   {
-    term: "UAPDA",
+    term: "UAPDA (Unidentified Anomalous Phenomena Disclosure Act)",
     definition:
-      "UAP Disclosure Act. Legislation modeled on the JFK Records Act, proposing an independent review board to compel government and contractor UAP record transfers. Introduced in three consecutive NDAAs (2023, 2024, 2025) with the eminent domain clause removed each time during closed-door conference negotiations.",
+      "Bipartisan legislation reintroduced by Senators Schumer, Rounds, and Gillibrand. As of the FY2026 NDAA conference, stripped for the third consecutive year. The 2025 reintroduction as S.Amdt.3111 to S.2296 remains the formal Senate version of record.",
   },
   {
     term: "Ultraterrestrial Hypothesis",
@@ -270,7 +340,12 @@ const terms = [
   {
     term: "Universal Consciousness Field",
     definition:
-      "Maria Strømme's (Uppsala University) proposal, published in AIP Advances (November 2025) and selected as best paper of the issue, that consciousness is the foundational physical field preceding and generative of spacetime itself — not an emergent property of matter but the substrate from which matter, space, and time emerge.",
+      "Maria Strømme's 2025 AIP Advances proposal of consciousness as a fundamental physical field, prior to and generative of spacetime. Now joined in the peer-reviewed literature by Wiest (2025) and Burgos-Salcedo (2026).",
+  },
+  {
+    term: "war.gov/UFO",
+    definition:
+      "The U.S. Department of War's PURSUE program portal, launched May 8, 2026.",
   },
   {
     term: "Waived USAP",
@@ -281,6 +356,11 @@ const terms = [
     term: "Wilson-Davis Memo",
     definition:
       "Alleged 2002 document recording a meeting between Vice Admiral Thomas Wilson (then DIA Director) and physicist Dr. Eric Davis, in which Wilson was denied access to a contractor-held program potentially related to non-human technology. Found in Edgar Mitchell's estate. Entered Congressional Record as SD001, November 2024.",
+  },
+  {
+    term: "Wow! Signal",
+    definition:
+      "A 72-second narrowband radio signal detected on August 15, 1977 by Ohio State University's Big Ear radio telescope, of unknown origin. 3I/ATLAS's interstellar arrival direction coincides to within ~9 degrees with the Wow! Signal source coordinates — one of the 22 anomalies in Loeb's running catalog.",
   },
   {
     term: "Zero-Point Energy (ZPE)",
@@ -308,7 +388,7 @@ export default function GlossaryPage() {
         <p className="section-title">Reference</p>
         <h1 className="font-sans text-4xl md:text-5xl font-semibold text-text mb-4">Glossary</h1>
         <p className="font-serif text-muted text-sm mb-10 leading-relaxed">
-          55 specialized terms used across The New Ontology — from AARO to Zero Quantum Coherence.
+          75+ specialized terms used across The New Ontology — from AARO to Zero Quantum Coherence.
           Organized alphabetically.
         </p>
         <div className="h-px bg-border mb-12" />

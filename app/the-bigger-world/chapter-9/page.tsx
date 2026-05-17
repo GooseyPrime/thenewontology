@@ -185,6 +185,22 @@ export default function Chapter9Page() {
             answers and that exploration is a lifelong journey.
           </p>
 
+          <div className="h-px border-violet-800/30 my-12" />
+          <p className="text-violet-300/60 text-xs uppercase tracking-widest font-sans mb-2">Added May 17, 2026</p>
+          <h2>Update — May 2026</h2>
+          <p>
+            When this book was written, the question this chapter asks was a forward-looking one. <em>Imagine the world you would want to build.</em> In the months since, the ground has moved. The U.S. government has started — slowly, partially, sometimes performatively — to admit out loud that the world is bigger than the official story said. Japan has started organizing for that bigger world institutionally. Peer-reviewed scientists have published papers in 2025 and 2026 supporting the idea that consciousness is more fundamental to the universe than the standard model has allowed.
+          </p>
+          <p>
+            If you are reading this in 2026 or later, here is the situation: your generation is going to be the first one that grows up with non-human intelligence as a <em>known feature of public reality</em>, not a fringe topic. Your generation is also going to be the first one for whom AI is a constant collaborator, sometimes a partner, sometimes an adversary, never simply a tool the way a hammer is a tool. And your generation is going to be the first one that takes consciousness physics seriously as a working scientific field, not as philosophy.
+          </p>
+          <p>
+            The question this chapter asked is sharper now, not softer. <em>What kind of world do you want to build?</em> The answer is no longer hypothetical. The materials are arriving in real time. The world you build with them depends on what you bring to the work — your curiosity, your standards, your refusal to settle for easy answers in either direction.
+          </p>
+          <p>
+            You were always going to be the generation that did this. The work has started.
+          </p>
+
           <h2>Conclusion</h2>
           <p>
             In exploring the kind of world you want to build, remember that you are not powerless. History is

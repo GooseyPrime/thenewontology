@@ -169,6 +169,25 @@ export default function Chapter3Page() {
             mysteries as opportunities to learn more about science and our world, rather than reasons to be afraid.
           </p>
 
+          <div className="h-px border-violet-800/30 my-12" />
+          <p className="text-violet-300/60 text-xs uppercase tracking-widest font-sans mb-2">Added May 17, 2026</p>
+          <h2>Update — May 2026</h2>
+          <p>
+            Three things changed in the UAP world in 2025 and 2026 that are worth knowing if this chapter is the first time you have read about any of this.
+          </p>
+          <p>
+            First, a documentary called <em>The Age of Disclosure</em> came out in November 2025. It interviews 34 people who used to work for the U.S. government — including senators, intelligence officials, military pilots, and one current Secretary of State — and they say, on camera, that non-human craft and non-human beings are real and that the U.S. government has known about them for a long time. You can watch it on Amazon Prime Video. See <Link href="/timeline">the timeline</Link> for context on its release.
+          </p>
+          <p>
+            Second, in March 2026, Japan&apos;s parliament — called the Diet — announced it was setting up a special government office to study UAP, placed right next to the offices that handle earthquakes and other big national emergencies. Japan&apos;s government is taking this very seriously. The <Link href="/timeline">March 30, 2026</Link> caucus action is on the site timeline.
+          </p>
+          <p>
+            Third, in May 2026, the U.S. government released a big batch of UAP files. (<Link href="/the-bigger-world/chapter-1">Chapter 1&apos;s update</Link> talks about this.) Not all the answers, but a real start.
+          </p>
+          <p>
+            The reason this matters for you: a few years ago, asking serious questions about UAP got you laughed at. Now it gets you closer to what the actual evidence says. Keep your curiosity. Keep your standards. Both.
+          </p>
+
           <h2>Conclusion</h2>
           <p>
             This chapter presents a balanced view of unexplained phenomena by summarising government statements,
