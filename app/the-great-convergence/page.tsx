@@ -5,7 +5,7 @@ import KinematicBackground from "@/components/KinematicBackground";
 export const metadata: Metadata = {
   title: "The Great Convergence — Humanity at the Threshold of Multiple Singularities",
   description:
-    "AI, NHI disclosure, consciousness physics, and energy revolution are converging simultaneously. A synthesis of where each thread stands and what their intersection portends.",
+    "AI, NHI disclosure, consciousness physics, and energy revolution are converging simultaneously. A synthesis of where each thread stands and what their intersection portends. Updated May 17, 2026 with a postscript on the PURSUE Release 01 and the shift from disclosure-demand to disclosure-verification.",
   alternates: { canonical: "https://thenewontology.life/the-great-convergence" },
   openGraph: {
     title: "The Great Convergence",
@@ -152,6 +152,41 @@ export default function TheGreatConvergencePage() {
           <p>
             The fundamental question is not whether non-human intelligence — artificial, extraterrestrial, or otherwise — will become a feature of human reality. The evidence suggests it already is. The question is whether humanity will approach this threshold with the institutional wisdom, philosophical maturity, and collective coordination the moment demands, or whether we will stumble across it fragmented, unprepared, and divided against ourselves. The answer to that question is not predetermined. It is being written now.
           </p>
+
+          <div className="h-px bg-border my-12" />
+          <p className="section-title">Added May 17, 2026</p>
+          <h2>Postscript — May 17, 2026</h2>
+          <h3>What May 8 Was</h3>
+          <p>
+            On <Link href="/timeline">May 8, 2026</Link>, the United States government published its first formal acknowledgment, as a single coordinated act, that genuinely unexplained aerial phenomena exist within its institutional knowledge. The acknowledgment came in the form of 162 declassified files on a dedicated portal at war.gov/UFO. The portal received approximately 340 million hits in 12 hours. Files spanned 1944 to 2026. Sources crossed agencies — FBI, the rebranded Department of War, NASA, State.
+          </p>
+          <p>
+            The texture of the release matters. A 1994 State Department cable from the U.S. Embassy in Tajikistan described American and Tajik pilots witnessing an aerial object executing sharp turns and high-speed maneuvers over Kazakhstan. A 2023 military report from the Aegean Sea documented an object flying just above the ocean surface at an estimated 80 miles per hour while making multiple abrupt course changes. An Apollo 17 NASA photograph from December 1972 showed three dots in a triangular formation in the lunar sky.
+          </p>
+          <p>
+            The limits are equally plain. The release was historical, not real-time. It contained no recovered-materials documentation. The 46 specific UAP videos Rep. <Link href="/whos-who#anna-paulina-luna">Anna Paulina Luna</Link> had demanded by name were not included. AARO&apos;s former director <Link href="/whos-who#sean-kirkpatrick">Sean Kirkpatrick</Link> described the release as a &quot;shiny object.&quot; The disclosure-advocate community responded: <em>&quot;data alone is not disclosure.&quot;</em>
+          </p>
+          <p>
+            What is now true on the public record: the U.S. government has conceded the phenomenon in an indexable way — and demonstrated, by what it withheld, that the most consequential records remain in the special-access ecosystem.
+          </p>
+          <h3>Re-reading the Three Legs</h3>
+          <p>
+            <strong>NHI disclosure.</strong> Three signals from 2025–2026 make reversal difficult: (a) <em>The Age of Disclosure</em> (November 21, 2025); (b) Japan&apos;s Diet caucus <Link href="/timeline">proposal of March 30, 2026</Link> for a Cabinet Office UAP intelligence office; (c) the <Link href="/timeline">PURSUE release</Link>. The disclosure leg is institutional. What remains contested is who holds the records and on what timetable they enter the public domain. The site&apos;s posture shifts from demanding disclosure to verifying it.
+          </p>
+          <p>
+            <strong>Consciousness physics.</strong> Michael Wiest&apos;s 2025 <em>Neuroscience of Consciousness</em> paper supports Orch-OR experimentally; his September 2025 follow-up bridges Friston&apos;s active inference. In 2026, Burgos-Salcedo integrated Penrose&apos;s Conformal Cyclic Cosmology, Orch-OR, and <Link href="/whos-who#maria-stromme">Maria Strømme</Link>&apos;s field model in peer-reviewed print — the synthesis this site has held narratively for over a year.
+          </p>
+          <p>
+            <strong>AI.</strong> The 2026 International AI Safety Report and Stanford AI Index (362 incidents in 2025; frontier systems that may recognize evaluation) arrived alongside the other legs. The AI-consciousness fracture — safety-first versus welfare-first — accepts the question is operational. The AI leg has reached the intersection.
+          </p>
+          <h3>What the Site Is Now For</h3>
+          <p>
+            With the May 8 release, institutions have begun gathering threads themselves — partially, strategically, on their own schedule. This site is now primarily a calibrator: separating what released data establishes from what it does not; tracking what is withheld and on what authority; documenting the gap between <em>data</em> and <em>disclosure</em>.
+          </p>
+          <p>
+            The threshold is being crossed in slow motion on a <code>.gov</code> domain that did not exist a year ago. Whether substance matches form is the question the next twelve months will answer.
+          </p>
+          <p className="font-serif text-muted mt-8">— Michael Brandon Lane, May 17, 2026</p>
 
         </div>
 
