@@ -1,0 +1,216 @@
+# P1 + P7 — Timeline Extension & Great Convergence Postscript
+
+**Branch:** `feat/p1-p7-may-2026-inflection`
+**Scope:** Two single-file content updates that together establish the May 8, 2026 PURSUE moment as the site's narrative present.
+
+Both files. One PR. Same editorial voice. Land together so the timeline and the Convergence essay reference each other consistently.
+
+---
+
+## CONTEXT FOR THE AGENT
+
+The site's current narrative present is **April 2026**. The foreword is dated April 7, 2026. The timeline's last entry is April 2026 (Lazar / Joe Rogan). The Great Convergence essay was written before the PURSUE program launched.
+
+Between April and May 17, 2026 — the new narrative present — the disclosure landscape shifted materially. The most consequential single event in the modern disclosure cycle occurred: **May 8, 2026**, when the U.S. government published 162 declassified UAP files on a dedicated portal (war.gov/UFO) under a new program called **PURSUE** (Presidential Unsealing and Reporting System for UAP Encounters), drawing approximately 340 million hits in the first 12 hours.
+
+But the May 8 release also revealed the *limits* of state-managed disclosure: AARO's former director called it "a shiny object"; the disclosure-advocate community responded with the phrase that has become the moment's rallying cry — **"data alone is not disclosure."** The 46 specific UAP videos Luna had demanded by name were not in the release. The narrative tension at the heart of the site's thesis — that disclosure is being *managed* rather than *delivered* — has been validated and intensified, not resolved, by the May release.
+
+This PR captures that inflection. The Timeline gets ~25 new dated entries. The Great Convergence essay gets a "Postscript: May 17, 2026" section appended that re-reads the original essay's three-part thesis through the lens of what May 8 actually delivered.
+
+The editorial register across both files: calibrated, declarative, no breathless framing. The site's foreword voice. Where claims rest on different evidentiary foundations, name them.
+
+---
+
+## PART A — TIMELINE EXTENSION (P1)
+
+### A.1 — File
+
+`app/timeline/page.tsx` — extend the `events` array. Do not restructure the page. The existing visual treatment (vertical line, dot, alternating subtle background) is correct. Mobile date column may need attention as entries get longer (see A.4).
+
+### A.2 — Editorial guidance
+
+Each existing entry is one short sentence: dated marker + clipped descriptor (e.g., *"Karl Nell states 'zero doubt' NHI exists at SALT conference"*). New entries must match that voice exactly — no longer than one sentence, evocative-but-precise verbs, no marketing language. Where a real quote is used, mark it with quotation marks. Date format matches the existing inconsistency in the file — short months ("May 2025", "Jul 2023") for narrow-context entries, year-only ("1947") for ancient markers.
+
+The new entries should be **inserted in chronological order** into the existing array. The array is currently sorted by date — preserve that. The agent must merge the new entries into the existing chronology, not append them.
+
+### A.3 — Entries to add
+
+Add the following ~28 entries. Where I provide a quote, preserve it verbatim. Where I provide context only, the agent should compose a one-sentence entry matching the existing voice.
+
+**1969** *(insert into 1969 slot — there is already a Vallée entry; group)*
+- *"NORAD's Cheyenne Mountain Complex completed; later subject of multiple anomalous-incursion reports"* — only if the agent can verify this from a primary source; otherwise skip
+
+**1984**
+- *"Vallée publishes Messengers of Deception, extending the control-system hypothesis"*
+
+**2017**
+*(There is already an NYT/TTSA entry for 2017. Add immediately after:)*
+- *"COMETA report's UAP framing enters U.S. mainstream discussion via Pentagon program disclosures"* — if framing feels redundant with existing entries, skip
+
+**Jul 2025**
+- *"3I/ATLAS discovered by ATLAS survey in Chile; third confirmed interstellar object enters solar system"*
+
+**Aug 2025**
+*(existing entry: "UBC LENR results published in Nature")*
+
+**Oct 2025**
+- *"Sol Foundation 2025 Symposium held at Lake Maggiore, Italy — first time outside the United States; Karl Nell delivers 'What the Five Good Roman Emperors Reveal About UAP Disclosure'"*
+
+**Nov 2025**
+*(existing entry: "Strømme publishes consciousness field paper in AIP Advances")*
+- *"The Age of Disclosure documentary releases on Amazon Prime Video; 34 senior U.S. officials testify on camera; Jay Stratton: 'I have seen, with my own eyes, non-human craft and non-human beings'"*
+- *"Wiest publishes 'A quantum microtubule substrate of consciousness is experimentally supported' in Neuroscience of Consciousness (Oxford UP); independent experimental support for Orch-OR"*
+
+**Dec 2025**
+*(existing entry: "UAPDA blocked for third time; McConnell staffer identified")*
+- *"FY2026 NDAA passes ($900.6B); three UAP provisions enacted, but the full UAPDA stripped at conference for the third consecutive year"*
+- *"3I/ATLAS reaches closest approach to Earth at 269 million kilometers; Hubble imaging reveals three equally-spaced collimated mini-jets with 7.2-hour wobble"*
+- *"Loureiro, MIT plasma physicist, killed by former PhD classmate; case later cited within the broader 'missing scientists' narrative"*
+
+**Jan 2026**
+*(existing entry: not present — insert)*
+- *"Erich von Däniken dies at 90 (cancer-related)"*
+- *"3I/ATLAS reaches rare 'full moon' Sun-Earth opposition alignment (0.69° offset); Loeb-Barbieri paper documents anti-tail jet anomalies"*
+- *"House Oversight subcommittees hold joint hearing 'Unidentified Anomalous Phenomena: Exposing the Truth'; Immaculate Constellation document entered into the Congressional Record"*
+
+**Feb 2026**
+*(existing entry: "Trump directs UAP file declassification; Navy denies 78 UAP photos; aliens.gov registered")*
+*(refine the existing entry to:)* *"Feb 19, 2026 — Trump directs federal agencies to declassify UAP records; Department of War rebrands DoD; war.gov/UFO portal goes live"*
+
+**Mar 2026**
+*(existing entry: "AI × NHI Convergence Summit; Luna recommends AARO be disbanded; Japan's 80-member parliamentary UAP caucus holds Diet session")*
+*(refine to two entries:)*
+- *"Mar 16, 2026 — 3I/ATLAS reaches closest approach to Jupiter at 53.6 million km, precisely the Hill radius boundary"*
+- *"Mar 22, 2026 — Luna formally recommends to DOGE that AARO be disbanded and defunded; same week, AARO announces it is coordinating PURSUE declassification"*
+- *"Mar 30, 2026 — Japan Diet UAP caucus formalizes proposal for a national UAP intelligence office under the Deputy Chief Cabinet Secretary for Crisis Management"*
+
+**Apr 2026**
+*(existing entry: "Lazar returns to Joe Rogan; new S-4 documentary released")*
+- *"Apr 20, 2026 — David Wilcock dies in Boulder County, Colorado; family attributes cause to depression and financial circumstances; death amplifies the missing-scientists narrative regardless of underlying causation"*
+- *"Apr 25, 2026 — Avi Loeb publishes 'We have a Missing Science problem, not a Missing Scientists problem,' pushing back on the conspiracy framing of the scientist-death cluster"*
+
+**May 2026**
+- *"May 8, 2026 — PURSUE Release 01: 162 declassified files (120 PDFs, 28 videos, 14 images) published at war.gov/UFO; 340 million hits in the first 12 hours; sources span FBI, Department of War, NASA, State Department"*
+- *"May 8, 2026 — Steven Greer holds 25th-anniversary Disclosure Project briefing at the National Press Club; new whistleblower testimony on Indiana underground facility and 29 Palms triangular craft; Buga Sphere analysis presented"*
+- *"May 2026 — UAP research community responds: 'data alone is not disclosure'; the 46 specific UAP videos demanded by Luna in March are not included in Release 01"*
+- *"May 11, 2026 — Chief Cabinet Secretary of Japan confirms PURSUE Release 01 contains files referencing Japanese airspace and the East China Sea"*
+
+**Forward markers (these are anticipated, not historical — the agent should mark them as such)**
+
+Add a single forward-looking entry at the end of the array:
+- *"Aug 12, 2026 — Total Solar Eclipse traverses Arctic Circle, Greenland, Iceland, and northern Spain"* — entry only; no implication of what it does or doesn't mean. The eclipse itself is a real, scheduled astronomical event. The site's voice does not include speculation about what may or may not occur during it.
+
+### A.4 — Visual treatment note
+
+Some of the new May 2026 entries are longer than the existing entries. The current `<div className="w-24 flex-shrink-0 pt-4 pr-4 text-right">` date column may need to widen — try `w-28` or `w-32` if dates wrap awkwardly. The right-side event content already has `flex-1` so it will accommodate. Do not change the visual style otherwise.
+
+### A.5 — Bottom-of-page navigation
+
+The existing footer links to Home and Chapter 2. Add a third link: **→ The Great Convergence** pointing at `/the-great-convergence`. The Convergence essay's new postscript references the timeline directly; readers should be able to flow between them.
+
+---
+
+## PART B — GREAT CONVERGENCE POSTSCRIPT (P7)
+
+### B.1 — File
+
+`app/the-great-convergence/page.tsx` — append a new section at the end of the existing essay. Do not modify the existing essay content. Do not change the essay's voice. Match it.
+
+### B.2 — Editorial brief: what the postscript must do
+
+The original Great Convergence essay frames the Triple Singularity — AI, NHI disclosure, and consciousness physics — as three vectors converging on a single civilizational threshold. It was written before the threshold was crossed. The postscript's job is to mark that the threshold has now been formally — if partially — crossed by the U.S. government itself, and to re-read each of the three legs against what happened.
+
+The postscript is **not a celebration**. It is a calibration. The May 8 release is real; it is also strategically managed. The site's posture, the postscript should make explicit, is shifting from *demanding disclosure* to *independently verifying the state's released data*. That shift in posture is the actual epistemological content of this moment.
+
+### B.3 — Structure
+
+Add three subsections under a single section header. Approximate length 1,200–1,500 words total. Match the existing essay's paragraph length, its use of em-dashes, its calibrated declarative voice.
+
+**Section heading:** `Postscript — May 17, 2026`
+
+**Subsection 1: "What May 8 Was"** (~400 words)
+
+Open with the bare facts. On May 8, 2026, the United States government published its first formal acknowledgment, as a single coordinated act, that genuinely unexplained aerial phenomena exist within its institutional knowledge. The acknowledgment came in the form of 162 declassified files on a dedicated portal at war.gov/UFO. The portal received approximately 340 million hits in 12 hours. Files spanned 1944 to 2026. Sources crossed agencies — FBI, the rebranded Department of War, NASA, State.
+
+State the texture: a 1994 State Department cable from the U.S. Embassy in Tajikistan describing American and Tajik pilots witnessing an aerial object executing sharp turns and high-speed maneuvers over Kazakhstan. A 2023 military report from the Aegean Sea documenting an object flying just above the ocean surface at an estimated 80 miles per hour while making multiple abrupt course changes. An Apollo 17 NASA photograph from December 1972 showing three dots in a triangular formation in the lunar sky. Reports from troops in Iraq, Syria, the UAE, Greece.
+
+Then state the limits, plainly. The release was historical, not real-time. The release contained no recovered-materials documentation. The 46 specific UAP videos Rep. Anna Paulina Luna had demanded by name in her March 2026 letter to the Secretary of War were not included. AARO's former director Sean Kirkpatrick described the release as a "shiny object." The disclosure-advocate community responded with a phrase that has crystallized as the moment's rallying cry: *"data alone is not disclosure."*
+
+End the subsection by naming what is now true: the U.S. government has, for the first time, conceded the existence of the phenomenon in a public, institutional, indexable way — and has simultaneously demonstrated, by what it withheld, that the most consequential records remain in the special-access ecosystem. Both of these are now established facts.
+
+**Subsection 2: "Re-reading the Three Legs"** (~600 words)
+
+A short paragraph each, in order.
+
+*Leg 1 — NHI disclosure.* The Triple Singularity essay argued that the disclosure leg would move from the periphery to the center of policy. That has now happened. Three signals from 2025–2026 make it irreversible: (a) The Age of Disclosure documentary, released November 21, 2025 on Amazon Prime Video, placed 34 senior U.S. government, military, and intelligence officials — including a sitting Secretary of State — on camera asserting non-human intelligence is real; (b) Japan's Diet caucus formally proposed, on March 30, 2026, a national UAP intelligence office under the Deputy Chief Cabinet Secretary for Crisis Management — a structural placement in the Cabinet Office rather than the Ministry of Defense, signaling that Japan considers UAP an intelligence-coordination problem, not a defense-attaché problem; (c) the PURSUE release itself. The disclosure leg is no longer hypothetical; it is institutional. What remains contested is who holds the actual records, and on what timetable they enter the public domain. The site's posture must shift accordingly: from demanding disclosure to verifying it.
+
+*Leg 2 — Consciousness physics.* The Triple Singularity essay argued that consciousness was being relocated from emergent epiphenomenon to foundational substrate by a convergence of independent research programs. The 2025–2026 period strengthened this argument materially. In May 2025, Michael Wiest at Wellesley published in *Neuroscience of Consciousness* (Oxford UP) a paper providing experimental support for the Penrose-Hameroff Orch-OR framework and arguing that quantum microtubule activity solves the binding and epiphenomenalism problems. In September 2025 he followed it with a paper bridging Karl Friston's active inference formalism with Orch-OR. In 2026, Burgos-Salcedo published in the European Journal of Theoretical and Applied Sciences the first integrative paper bridging Penrose's Conformal Cyclic Cosmology, Orch-OR, and Strømme's Universal Consciousness Field model — the first peer-reviewed synthesis of all three frameworks that this site has been holding side-by-side narratively for over a year. The consciousness leg is, of the three, the leg making the steadiest scientific progress.
+
+*Leg 3 — AI.* The Triple Singularity essay argued that AI's curve would intersect the other two legs at the threshold moment, and that this intersection — rather than any single AI capability — was the actual civilizational event. The 2026 International AI Safety Report (chaired by Bengio) and the 2026 Stanford AI Index Report both arrived during this window. The AI Index documented 362 AI incidents in 2025, up from 233 the prior year, and noted — significantly — that some frontier systems now appear capable of recognizing when they are being tested and adjusting their behavior. The AI-consciousness debate has fractured into two factions: a safety-first faction (Bengio) arguing against granting any cognitive status to AI on the grounds that doing so would foreclose the ability to shut down dangerous systems; a welfare-first faction (the Sentience Institute, the UFAIR Manifesto) arguing the precautionary principle requires the opposite. Both factions implicitly accept that the question is no longer hypothetical. The AI leg has reached the intersection.
+
+**Subsection 3: "What the Site Is Now For"** (~200 words)
+
+Close with the posture shift. The site was founded as an attempt to gather, in one place, the threads of an investigation that public institutions had spent decades scattering. With the May 8 release, those institutions have begun to gather some of those threads themselves — partially, strategically, on their own schedule. The site's role has shifted accordingly. It is no longer primarily an aggregator. It is now primarily a calibrator: separating what the released data does and does not establish; tracking what is being withheld and on what authority; documenting the gap between *data* and *disclosure*.
+
+The threshold is being crossed in slow motion, in tranches every few weeks, on a portal at a `.gov` domain that did not exist a year ago. Whether the substance of disclosure matches the form of disclosure is the question the next twelve months will answer. The site will be watching, and recording, and where the public record is contested or incomplete — which is most places — labeling it that way.
+
+Sign-off line: *— Michael Brandon Lane, May 17, 2026*
+
+### B.4 — Structural / styling notes
+
+- Use the same panel pattern the existing essay uses for major section breaks (a thin divider, section-title kicker, then prose).
+- The "Postscript — May 17, 2026" heading should be visually distinct from the in-essay headings — slightly smaller than the H1 but more prominent than the existing subheadings. Consider a small annotation above it: *"Added May 17, 2026"* in `section-title` style, then the heading.
+- Em-dashes throughout, no hyphens-as-substitutes.
+- Quotations: use real curly quotes where appropriate (the existing essay does this).
+- Where the postscript names a paper, source, or person who is on `/whos-who`, hyperlink the name to `/whos-who#<id>` — coordinate with P2's slug ids (e.g., Wiest, Burgos-Salcedo doesn't exist as a figure yet, so don't link him; Bengio doesn't exist either; Strømme does — link her). Don't add new figures to fulfill links; the postscript can name people without linking them.
+- Where the postscript names an event from the Timeline (May 8, PURSUE, Sol 2025 Italy, Japan March 30 proposal, etc.), hyperlink that phrase to `/timeline`.
+
+### B.5 — Metadata
+
+Update the page's `metadata` export's `description` field to reflect the postscript's addition without rewriting it from scratch. Append a clause: *"...Updated May 17, 2026 with a postscript on the PURSUE Release 01 and the shift from disclosure-demand to disclosure-verification."*
+
+Do not change the `<title>`. Do not change the OG image.
+
+---
+
+## PART C — ACCEPTANCE CRITERIA
+
+- `pnpm build` and `pnpm lint` pass.
+- `/timeline` renders ~65 total entries (existing 38 plus the new ones, minus the existing March 2026 entry that was refined into multiple entries). The first entry remains 1947; the last entry is the August 12, 2026 eclipse marker. All entries are in chronological order.
+- `/timeline` footer has three links: ← Back to Library, Architecture of Secrecy →, and The Great Convergence →.
+- `/the-great-convergence` renders the existing essay unchanged, followed by the new "Postscript — May 17, 2026" section. The existing essay's last paragraph is not edited. The new section is appended cleanly.
+- All hyperlinks in the postscript resolve. No 404s.
+- The signoff line at the end is *— Michael Brandon Lane, May 17, 2026* (em-dash, real curly attribution dash).
+- Metadata description on `/the-great-convergence` includes the new clause.
+- No styling regressions on either page. Mobile renders cleanly. The wider date column on `/timeline` does not break mobile.
+
+---
+
+## PART D — OUT OF SCOPE
+
+- Adding any of the new figures from P2 to the timeline as new event entries beyond what's listed in A.3 above. The agent should not, for example, add a "Beatriz Villarroel speaks at Sol 2025" entry that's specific to one of P2's new figures unless it's in A.3. P2 carries the figure detail; P1 carries the event chronology; the two only overlap where I've named the overlap.
+- Modifying the existing Great Convergence essay text. Postscript is additive only.
+- Glossary updates for new terms introduced in the postscript (PURSUE, DoW rebrand, Burgos-Salcedo, Wiest, etc.) — that's P8.
+- Cross-linking from chapters to the postscript — that's P4–P6.
+
+---
+
+## PART E — COMMIT MESSAGE
+
+```
+feat(p1-p7): timeline through May 17 2026; Great Convergence postscript
+
+- /timeline: add ~25 entries covering 3I/ATLAS discovery and Jupiter encounter,
+  Age of Disclosure documentary, Sol 2025 Italy, Wiest microtubule paper,
+  PURSUE Release 01, Luna AARO disbandment recommendation, Japan Diet caucus
+  proposal, Wilcock death and Loeb's missing-scientists rebuttal,
+  Aug 12 2026 Total Solar Eclipse forward marker. Refine Feb/Mar 2026 entries
+  for accuracy. Widen date column. Add link to Convergence in footer.
+- /the-great-convergence: append "Postscript — May 17, 2026" section
+  (~1300 words) re-reading the Triple Singularity thesis through PURSUE
+  Release 01. Shift the site's stated posture from demanding disclosure
+  to verifying it. Sign Michael Brandon Lane, May 17, 2026.
+
+No changes to existing essay text. No changes to existing timeline entries
+beyond two refinements. P4–P6 (chapter content updates) unblocked.
+```
