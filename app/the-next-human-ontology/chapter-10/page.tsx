@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import May2026Update from "@/components/content/May2026Update";
 import KinematicBackground from "@/components/KinematicBackground";
 
 export const metadata: Metadata = {
@@ -343,6 +344,45 @@ export default function Chapter10Page() {
             politics and individual resilience simultaneously — a combination that the existing
             institutional architecture is not designed to deliver.
           </p>
+
+          <May2026Update>
+            <h4>The Szydagis model has been falsified on the early tail</h4>
+            <p>
+              The chapter cites physicist <Link href="/whos-who#matthew-szydagis" className="text-accent hover:underline underline-offset-4">Matthew Szydagis</Link>&apos;s statistical modeling of catastrophic disclosure scenarios — accidental disclosure of conclusive NHI evidence outside government control — published in <em>Limina: The Journal of UAP Studies</em>. The Szydagis model estimated a mean catastrophic-disclosure year of approximately 2040, with a distribution spanning roughly 2030–2060.
+            </p>
+            <p>
+              The <Link href="/timeline" className="text-accent hover:underline underline-offset-4">May 8, 2026 PURSUE Release 01</Link> was not catastrophic disclosure in Szydagis&apos;s defined sense — it was <em>managed</em> state disclosure, the inverse case. But the model&apos;s broader distribution implicitly assumed that managed disclosure would not occur first; it modeled the time-until-an-uncontrolled smartphone capture would force the question. That assumption is now visibly wrong. The disclosure timeline has compressed not because of an accidental tipping point but because of an executive-branch decision to release on a <code>.gov</code> domain on a rolling cadence. The model needs an update — not because it was wrong on first principles, but because the variable it most depended on (the rate of state suppression) underwent a regime change in February 2026.
+            </p>
+
+            <h4>The Karl Nell roadmap is partially operational, partially defied</h4>
+            <p>
+              The chapter discusses <Link href="/whos-who#karl-nell" className="text-accent hover:underline underline-offset-4">Karl Nell</Link>&apos;s five-phase disclosure roadmap, presented at the November 2023 Sol Foundation Symposium at Stanford, with full transparency targeted for October 2030. Across 2025–2026, several of Nell&apos;s predicted phase markers became visible. His call for international coordination is visible in Japan&apos;s <Link href="/timeline" className="text-accent hover:underline underline-offset-4">March 30, 2026</Link> caucus proposal and in the Sol Foundation&apos;s choice to hold its 2025 symposium in Italy. His call for whistleblower protection is partially institutionalized in the <Link href="/timeline" className="text-accent hover:underline underline-offset-4">September 9, 2025</Link> House Oversight hearing on the topic, even if no statute has yet passed. His call for non-state coalition was visibly executed in the Disclosure Foundation&apos;s rebranding from the UAP Disclosure Fund and in <Link href="/whos-who#chris-mellon" className="text-accent hover:underline underline-offset-4">Chris Mellon</Link>&apos;s chairmanship of that effort.
+            </p>
+            <p>
+              What has not happened, per Nell&apos;s roadmap, is the substantive content release. The May 8 PURSUE Release 01 is procedurally consistent with Nell&apos;s roadmap (managed, government-led, rolling) but materially thin (no recovered-materials documentation, the 46 specific UAP videos demanded by Luna not included, AARO&apos;s former director openly calling the release a &quot;shiny object&quot;). Nell&apos;s October 2030 target now appears less like a ceiling and more like a floor. The trajectory is consistent with his framing; the rate is slow even by his slow timeline.
+            </p>
+
+            <h4>3I/ATLAS as the catastrophic-disclosure test case the model didn&apos;t anticipate</h4>
+            <p>
+              Szydagis modeled the catastrophic-disclosure question as a question about an event on Earth — a craft observed at low altitude in a populated area, captured by enough smartphones simultaneously to make institutional denial impossible. The 2025–2026 period produced a different kind of test case: an interstellar object, visible only to professional astronomers and orbital telescopes, exhibiting a sufficient cluster of anomalous features to make natural-comet framing inadequate without itself making artificial-origin framing conclusive.
+            </p>
+            <p>
+              3I/ATLAS — discovered July 2025, perihelion October 2025, closest Earth approach December 19, 2025, Jupiter Hill-radius intercept <Link href="/timeline" className="text-accent hover:underline underline-offset-4">March 16, 2026</Link>, currently fading at 6.7 AU — is functioning as the disclosure scenario the Szydagis model did not consider: not a populated-area encounter, not a crash, but a single object exhibiting enough anomalies (<Link href="/whos-who#avi-loeb" className="text-accent hover:underline underline-offset-4">Loeb</Link>&apos;s running catalog is now at 22, drawn from peer-reviewed observations and Hubble/JWST data) that the natural-vs-artificial question cannot be definitively resolved with the instruments humanity currently has.
+            </p>
+            <p>
+              This is its own kind of catastrophic disclosure — not a clean reveal but a permanent ambiguity. If 3I/ATLAS deposited any technological payload inside Jupiter&apos;s Hill radius on March 16, the Juno spacecraft could in principle detect it; if it did not, the object recedes into interstellar space with its anomalies unresolved. Either outcome is informative. The neither-and-nor outcome — a fading interstellar visitor that natural-comet models incompletely explain and artificial-origin models cannot prove — is the outcome most likely on current evidence. The Triple Singularity thesis predicts exactly this kind of bounded ambiguity becoming permanent feature rather than transient phase. 3I/ATLAS is the first prominent confirmed instance. See <Link href="/the-great-convergence" className="text-accent hover:underline underline-offset-4">The Great Convergence</Link> for the broader thesis.
+            </p>
+
+            <h4>Forward markers: what to watch</h4>
+            <ul>
+              <li><strong>PURSUE rolling tranches</strong> — the program promised additional batches every few weeks; the cadence and substance of the second and third tranches will calibrate whether May 8 was an opening move or a one-off</li>
+              <li><strong>The 46 withheld videos</strong> — Luna&apos;s specific named UAP videos remain outside Release 01; their release would constitute substantive disclosure beyond the historical-archive material currently published</li>
+              <li><strong>The Aug 12, 2026 Total Solar Eclipse</strong> — traverses Arctic Circle, Greenland, Iceland, northern Spain; no specific event is predicted in connection with it, but it is a natural focal point</li>
+              <li><strong>The Bledsoe prophecy&apos;s 2026 Regulus/Sphinx astronomical alignment</strong> — discussed earlier in this chapter; <Link href="/whos-who#chris-bledsoe" className="text-accent hover:underline underline-offset-4">Chris Bledsoe</Link>&apos;s alignment reference is an astronomical fact; the prophecy&apos;s interpretation of it is the contested element</li>
+              <li><strong>Japan&apos;s UAP office</strong> — whether the March 30 caucus proposal advances to legislative implementation, and on what timeline</li>
+              <li><strong>The FY2027 NDAA</strong> — whether the UAPDA finally clears the legislative obstacles that have blocked it through three consecutive NDAAs</li>
+            </ul>
+          </May2026Update>
 
           <h2>Strategic Recommendations and Conclusion</h2>
 
