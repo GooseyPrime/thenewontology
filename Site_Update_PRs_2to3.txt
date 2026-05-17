@@ -1,0 +1,560 @@
+# P2 + P3 — Who's Who Data Extraction & Interactive Network Page
+
+**Branch:** `feat/p2-p3-network`
+**Scope:** Refactor `/whos-who` to consume a shared typed data module, expand the roster from 30 to ~80 figures, then build the interactive `/network` page on the same data source.
+
+The two packages share the `content/whos-who/figures.ts` data file as single source of truth. Shipping together prevents schema drift.
+
+---
+
+## PART A — DATA MODEL
+
+Create `content/whos-who/figures.ts` and `content/whos-who/connections.ts`. The `/whos-who` page becomes a thin renderer over figures. The `/network` page is a client component visualizing both.
+
+### Figure schema (TypeScript types — design as you see fit, but cover these fields)
+
+Each figure has:
+
+- `id` — kebab-case slug, stable, used by edges (e.g., `david-grusch`)
+- `name` — display name
+- `category` — exactly one of: `government-military`, `intelligence-community`, `legislator`, `scientist-academic`, `witness-experiencer`, `journalist-investigator`
+- `affiliations` — array of organization/program/event strings; these drive the compound-node grouping in P3. Use canonical names so identical strings cluster (e.g., always `"Sol Foundation"`, not `"the Sol Foundation"`)
+- `role` — short narrative phrase (≤120 chars) describing role in the disclosure narrative
+- `bio` — the existing-style 2–4 sentence calibrated paragraph for the `/whos-who` page
+- `stakeholderFlags` — array; zero or more of: `defense-contractor`, `energy-industry`, `legislative-blocker`, `disclosure-advocate`, `intel-community`, `whistleblower`, `experiencer`, `deceased`, `missing`, `contested-status`
+- `status` — `active` | `deceased` | `missing` | `retired` (display-only, supplements flags)
+- `dateOfEvent` — optional ISO string for deaths/disappearances
+- `calibrationNote` — optional; used for contested figures where evidence cuts in multiple directions (see "Calibration discipline" below). When present, the network and Who's Who pages must surface it visibly.
+- `cites` — array of inline citation strings or URLs; light, just enough to evidence the bio
+
+### Connection schema
+
+Each connection edge has:
+
+- `source` — figure id
+- `target` — figure id
+- `type` — exactly one of: `co-authored`, `co-founded`, `co-testified`, `investigated-together`, `public-dispute`, `mentor-mentee`, `funded`
+- `note` — short string explaining the relationship (≤80 chars)
+- `year` — optional 4-digit year or year range
+
+Both files export typed arrays. Keep import-friendly: `import { figures } from "@/content/whos-who/figures"`.
+
+---
+
+## PART B — CALIBRATION DISCIPLINE (READ THIS BEFORE WRITING BIOS)
+
+The site's foreword commits to distinguishing established fact, strong evidence, credible testimony, contested evidence, and speculative frameworks. Every new figure must respect that bar.
+
+For contested entries — particularly the "missing scientists" cohort — write the bio in this voice:
+
+> **DO:** State what is documented (the death/disappearance, the official cause of record, the person's expertise). State that the case has been **cited within a broader narrative** of targeted attrition. State the strongest counter-position on the public record (e.g., Avi Loeb's *"We have a Missing Science problem, not a Missing Scientists problem"* essay; Trump's own statement that federal briefings show no meaningful link; the Wilcock family's statement attributing his death to depression and financial debt).
+
+> **DO NOT:** State as fact that any of these individuals were neutralized by state actors. The site is not a vector for unsourced assertions, regardless of how compelling the narrative.
+
+When in doubt: tag `contested-status` in stakeholderFlags and put the calibration in `calibrationNote`. The Who's Who page must render the calibrationNote inline. The Network page must surface it in the hover-card with a distinct visual treatment (italic, smaller, muted color).
+
+---
+
+## PART C — FIGURE ROSTER
+
+### C.1 — Existing 30 figures: PRESERVE
+
+The existing 30 figures already on `/whos-who` (Alexander, Bigelow, Bledsoe, Davis, Elizondo, Gallaudet, Grusch, Hameroff, Hoffman, Kelleher, Kirkpatrick, Kosloski, Loeb, Luna, Mace, McMoneagle, Mellon, Nell, Nolan, Pasulka, Puthoff, Rogers, Semivan, Strømme, Swann, Szydagis, Turner, Vallée, Wilson, Penrose) port verbatim from the current `app/whos-who/page.tsx` into `figures.ts`. Slugify their ids. Categorize them as follows:
+
+- `government-military`: Alexander, Gallaudet, Nell, Wilson, Kosloski (note Kosloski's NSA quantum-optics background — also tag `scientist-academic` is tempting but his role is governmental; keep him single-category)
+- `intelligence-community`: Davis, Elizondo, Grusch, Kirkpatrick, Mellon, Semivan, Puthoff
+- `legislator`: Luna, Mace, Rogers, Turner
+- `scientist-academic`: Hameroff, Hoffman, Kelleher, Loeb, Nolan, Strømme, Szydagis, Vallée, Penrose
+- `witness-experiencer`: Bledsoe, Bigelow (Bigelow is also industry — see flags), McMoneagle, Swann, Pasulka (Pasulka is academic and witness — categorize as `scientist-academic`, flag `experiencer`)
+- `journalist-investigator`: none in the current 30
+
+Stakeholder flags to apply to existing figures:
+
+- `Robert Bigelow` → `defense-contractor` + `disclosure-advocate` (BAASS contracted DIA; Bigelow Aerospace)
+- `Mike Rogers` → `legislative-blocker`, `defense-contractor` (Lockheed PAC $143K)
+- `Mike Turner` → `legislative-blocker`, `defense-contractor` (Lockheed PAC $186K; district encircles Wright-Patterson)
+- `Sean Kirkpatrick` → `contested-status` (Luna's "documented liar" characterization is on the Congressional record; Kirkpatrick maintains his AARO findings are accurate — surface both)
+- `Luis Elizondo`, `Chris Mellon`, `Karl Nell`, `Tim Gallaudet`, `Anna Paulina Luna`, `Nancy Mace`, `Garry Nolan`, `Hal Puthoff`, `Jim Semivan`, `David Grusch`, `Jacques Vallée` → `disclosure-advocate`
+- `Joe McMoneagle`, `Ingo Swann` → `intel-community` (Stargate operators)
+- `Chris Bledsoe` → `experiencer`
+- `Eric Davis` → `intel-community` + `contested-status` (Wilson-Davis memo neither confirmed nor denied)
+
+### C.2 — NEW figures to add (~50)
+
+Write each bio in the existing 2–4 sentence calibrated voice. The brief I'm giving below is **research direction, not final copy** — the agent should write proper prose, not just transcribe my notes. But the facts in the brief must appear in the bio.
+
+---
+
+**Government / Military (post-2024 additions)**
+
+**Jay Stratton** | `intelligence-community` | UAPTF (director 2017–2022), Skinwalker Ranch
+First on-camera testimony in *The Age of Disclosure* (Nov 2025). Former director of the UAP Task Force. Stated publicly: *"I have seen, with my own eyes, non-human craft and non-human beings."* Also appeared on the History Channel's *The Secret of Skinwalker Ranch*. Compares the inter-state race to reverse-engineer recovered craft to the Manhattan Project.
+Flags: `disclosure-advocate`, `intel-community`
+
+**David Fravor** | `government-military` | U.S. Navy (Ret.), Commander
+Pilot of the lead F/A-18 Super Hornet in the 2004 USS Nimitz Tic Tac encounter. Has stated under oath that the object he engaged demonstrated capabilities beyond any known platform. Featured in *The Age of Disclosure*.
+Flags: `disclosure-advocate`, `experiencer`
+
+**Alex Dietrich** | `government-military` | U.S. Navy (Ret.), Lt. Cmdr.
+Weapons Systems Officer in the second F/A-18 during the 2004 Nimitz Tic Tac encounter. Independent corroborating witness to Fravor's account. Public on-camera testimony in *The Age of Disclosure*.
+Flags: `disclosure-advocate`, `experiencer`
+
+**Ryan Graves** | `government-military` | U.S. Navy (Ret.), founder Americans for Safe Aerospace
+Former F/A-18 pilot. Testified to the House Subcommittee on National Security (July 2023) that UAP sightings are severely underreported due to career stigma within the military. Founded Americans for Safe Aerospace as a pilot-reporting nonprofit.
+Flags: `whistleblower`, `disclosure-advocate`
+
+**Pete Hegseth** | `government-military` | Secretary of War
+Trump's appointed Secretary of War (Department of Defense rebranded by Trump executive order). Operational point person for the PURSUE program announced Feb 19, 2026 and first executed May 8, 2026 at war.gov/UFO with 162 declassified files. Has publicly committed to "maximum transparency" while noting the rolling-release structure.
+Flags: `disclosure-advocate`
+Cites: war.gov/UFO; CBS coverage of May 8 release
+
+**Mike Gold** | `government-military` | Former NASA Associate Administrator for Space Policy
+Member of the NASA UAP Independent Study Team. Appeared in *The Age of Disclosure*. Brings the institutional civilian-science perspective to the documentary's mostly DoD-anchored testimony.
+Flags: `disclosure-advocate`
+
+**Travis Taylor** | `scientist-academic` | UAPTF, History Channel
+Astrophysicist and former chief scientist for the UAPTF. Featured presence on *The Secret of Skinwalker Ranch* (History Channel). Speaks in *The Age of Disclosure* about UAPTF-era encounters.
+Flags: `disclosure-advocate`, `intel-community`
+
+**Maj. Gen. William Neil McCasland** | `government-military` | Former Cmdr, Air Force Research Laboratory (Ret.)
+Disappeared from his home in Albuquerque on Feb 27, 2026. AFRL background gave him deep institutional access to advanced aerospace and energy programs. His disappearance is **frequently cited** within the broader 2025–2026 "missing scientists" narrative; the FBI and House Oversight Committee announced an investigation into the pattern. President Trump publicly stated federal briefings have not shown a meaningful link among the cited cases.
+Flags: `missing`, `contested-status`
+Status: `missing`
+CalibrationNote: *McCasland's disappearance is a real and unresolved missing-persons case. The framing of his disappearance as part of a coordinated state-sponsored neutralization of disclosure-adjacent figures is contested. Multiple credible voices — including Avi Loeb ("We have a Missing Science problem, not a Missing Scientists problem," April 2026) and President Trump himself — have publicly disputed the linkage. The investigation is ongoing.*
+
+---
+
+**Legislators (post-2024 additions)**
+
+**Eric Burlison** | `legislator` | U.S. Representative (R-MO)
+House UAP Caucus member. Hired David Grusch as Congressional adviser (March 2025). Repeatedly submitted UAPDA as a House amendment to the FY2026 NDAA, where it was reportedly stripped at the committee-staff level. Publicly stated *"a staffer blocked UAPDA, not a U.S. Senator,"* identifying the blocking action as occurring inside the Senate Appropriations Committee.
+Flags: `disclosure-advocate`
+
+**Tim Burchett** | `legislator` | U.S. Representative (R-TN), Chair of DOGE
+Among the most vocal House UAP advocates. Public-facing partner with Luna in pressing Pentagon for the 46 UAP videos still withheld from PURSUE Release 01. As DOGE chair, became the formal recipient of Luna's March 22, 2026 recommendation to disband and defund AARO.
+Flags: `disclosure-advocate`
+
+**Marco Rubio** | `legislator` | U.S. Secretary of State, former Senator (R-FL)
+Featured prominently in *The Age of Disclosure*. As Senate Intelligence Committee Vice Chair, was briefed on UAP matters; now as Secretary of State and acting National Security Advisor sits at the executive end of the same information flow. Compared on camera the prospect of an adversary cracking reverse-engineering first to the surprises of Pearl Harbor and 9/11.
+Flags: `disclosure-advocate`
+
+**Kirsten Gillibrand** | `legislator` | U.S. Senator (D-NY)
+Bipartisan UAPDA co-sponsor with Schumer and Rounds. Helped establish AARO via the FY2022 NDAA. On-camera in *The Age of Disclosure*: *"it's not acceptable to have secret parts of government that no one ever sees."*
+Flags: `disclosure-advocate`
+
+**Mike Rounds** | `legislator` | U.S. Senator (R-SD)
+UAPDA co-sponsor with Schumer and Gillibrand. Has pushed for the UAPDA's Records Review Board structure modeled on the Assassination Records Review Board. Featured in *The Age of Disclosure*.
+Flags: `disclosure-advocate`
+
+**Chuck Schumer** | `legislator` | U.S. Senator (D-NY), Senate Minority Leader
+Lead Senate sponsor of the UAP Disclosure Act (S.Amdt.3111 to S.2296, FY2026). The act has been stripped from each successive NDAA since 2023.
+Flags: `disclosure-advocate`
+
+**Mitch McConnell** | `legislator` | Former U.S. Senate Minority Leader (R-KY)
+Multiple credible sources have identified McConnell's office as central to repeatedly stripping the UAPDA from successive NDAAs. Per Liberation Times' Jan 2026 reporting and Pentagon Papers attorney Daniel Sheehan, McConnell is named alongside Senators Wicker and Representatives Turner, Rogers, and Johnson as the small group repeatedly blocking the legislation despite reported 98% Congressional support.
+Flags: `legislative-blocker`, `contested-status`
+CalibrationNote: *McConnell and his office have not responded to direct inquiries from Liberation Times or other outlets seeking comment on these allegations. Attribution rests on multi-source congressional insider accounts and Burlison's public statements; the legislative record itself shows only that the UAPDA was repeatedly stripped during conference, without identifying the specific staff or member responsible.*
+
+**Terry Carmack** | `legislator` | Chief of Staff to Sen. McConnell
+Identified by multiple congressional insider sources (Burlison; Liberation Times reporting Jan 2026) as the senior staffer who repeatedly pressed to strip the UAPDA from the NDAA. Has not publicly responded.
+Flags: `legislative-blocker`, `contested-status`
+CalibrationNote: *Attribution sourced to Liberation Times Jan 2026 reporting and Rep. Burlison's December 18, 2025 statement on the Ask a Pol UAP podcast. Carmack has not publicly responded. The blocking action itself — UAPDA repeatedly stripped — is documented in the legislative record; the specific identification of Carmack as the blocking actor remains insider testimony.*
+
+**Daniel Sheehan** | `legislator` | Attorney (Pentagon Papers, Watergate); UAPDA advocate
+Famed civil-rights attorney who has publicly named five legislators (McConnell, Wicker, Turner, Rogers, Johnson) as the consistent UAPDA blockers. Counsel to multiple disclosure-adjacent whistleblowers.
+Flags: `disclosure-advocate`
+
+**James Comer** | `legislator` | U.S. Representative (R-KY), Chair, House Oversight
+Chairs the House Oversight Committee under which Luna's Task Force on Declassification of Federal Secrets operates. Announced (April 2026) that the Committee would investigate the disappearance/death pattern alleged among nuclear and aerospace scientists.
+Flags: `disclosure-advocate`
+
+**Donald Trump** | `legislator` | President of the United States
+Issued the February 19, 2026 Truth Social directive instructing federal agencies to identify and release UAP/UFO/ET records. The directive resulted in the PURSUE program (Presidential Unsealing and Reporting System for UAP Encounters), which launched May 8, 2026 with 162 files at war.gov/UFO. Has publicly stated federal briefings have not shown a meaningful link among the "missing scientists" cases.
+Flags: `disclosure-advocate`
+CalibrationNote: *Executive directives can be reversed, narrowed, or selectively implemented. The PURSUE Release 01 was widely characterized — including by AARO's former director Sean Kirkpatrick — as light on substantive content. The 46 specific UAP videos demanded by Luna in March 2026 were not included in Release 01.*
+
+---
+
+**The Age of Disclosure (Nov 2025) — additional documentary participants**
+
+**Dan Farah** | `journalist-investigator` | Director, *The Age of Disclosure*
+Producer-director who spent three years in secret production assembling on-camera testimony from 34 senior U.S. government, military, and intelligence officials. The documentary released on Amazon Prime Video Nov 21, 2025 and broke the platform's documentary record within 48 hours.
+Flags: `disclosure-advocate`
+
+**André Carson** | `legislator` | U.S. Representative (D-IN)
+House Intelligence Committee member; long-running UAP transparency advocate. On-camera in *The Age of Disclosure*.
+Flags: `disclosure-advocate`
+
+**Dan Crenshaw** | `legislator` | U.S. Representative (R-TX)
+Former Navy SEAL, House Intelligence Committee. On-camera in *The Age of Disclosure*.
+
+**Mike Gallagher** | `legislator` | Former U.S. Representative (R-WI)
+Former House Armed Services UAP-adjacent voice. On-camera in *The Age of Disclosure*.
+
+**James Clapper** | `intelligence-community` | Former Director of National Intelligence
+On-camera in *The Age of Disclosure*. Has publicly stated the IC's involvement in UAP investigation is logical and that current institutional approaches are out of date.
+Flags: `disclosure-advocate`
+
+---
+
+**Whistleblowers (post-2025)**
+
+**Dylan Borland** | `government-military` | USAF whistleblower
+Active-duty Air Force testimony, September 9, 2025 House Oversight Task Force hearing on Restoring Public Trust Through UAP Transparency and Whistleblower Protection. Has stated witnessing large triangular craft while stationed at Langley AFB. Faced career retaliation post-disclosure.
+Flags: `whistleblower`, `disclosure-advocate`
+
+**Jeffrey Nuccetelli** | `government-military` | USAF whistleblower
+Former Vandenberg AFB security forces; testified at the September 2025 House hearing alongside Borland. Documents UAP incursions over sensitive military installations.
+Flags: `whistleblower`, `disclosure-advocate`
+
+**Alexandro Wiggins** | `government-military` | U.S. Coast Guard officer
+Formal witness at the January 23, 2026 House Oversight hearing *"Unidentified Anomalous Phenomena: Exposing the Truth."* Framed UAP encounters as aviation and maritime safety issues requiring standardized sensor capture and chain-of-custody protocols.
+Flags: `whistleblower`
+
+**Matthew Brown** | `intelligence-community` | Self-identified author, *Immaculate Constellation* IC report
+Publicly self-identified (March 2025) as the author of the *Immaculate Constellation* document detailing the alleged unacknowledged special access program of the same name. The document was entered into the Congressional Record by Rep. Mace on January 23, 2026 after being brought to the hearing by Michael Shellenberger.
+Flags: `whistleblower`, `contested-status`
+CalibrationNote: *The Immaculate Constellation program's existence has been alleged but not officially confirmed. The document entered into the Congressional Record is a 12-page summary, not the underlying source records.*
+
+**Michael Shellenberger** | `journalist-investigator` | Independent journalist
+Carried the *Immaculate Constellation* document into the January 23, 2026 hearing and ensured its entry into the Congressional Record. Public Editor at Public.News; persistent investigative journalist on UAP / national security.
+Flags: `disclosure-advocate`
+
+---
+
+**Japan Diet UAP Caucus (Tier A — primary record)**
+
+**Yasukazu Hamada** | `legislator` | House of Representatives, Japan; former Minister of Defense
+Chair of the Diet's non-partisan Parliamentary Group for the Study of UAP from a National Security Perspective, founded June 2024 with 80+ members. Led the caucus's March 30, 2026 formal proposal to establish a dedicated UAP intelligence body under the Deputy Chief Cabinet Secretary for Crisis Management.
+Flags: `disclosure-advocate`
+
+**Shinjiro Koizumi** | `legislator` | House of Representatives, Japan; former Minister of the Environment
+Secretary-General of the Diet UAP caucus. Son of former PM Junichiro Koizumi. Brings institutional credibility and Japan's mainstream center-right political weight to the caucus.
+
+**Yasuhide Nakayama** | `legislator` | House of Representatives, Japan; former State Minister of Defense
+Caucus founding member; long-running advocate for Japan's information-gathering capabilities on UAP. Re-elected Feb 2026 (Kinki PR).
+
+**Yoshiharu Asakawa** | `legislator` | House of Representatives, Japan (opposition)
+Caucus founding voice. On record (June 2024) framing AARO's 2023 designation of western Japan as a UAP "hotspot" as the moment Japan recognized institutional asymmetry with the U.S.
+
+**Shigeru Ishiba** | `legislator` | Former Prime Minister of Japan; former Minister of Defense
+Caucus founding member. As PM (until October 2025) elevated the caucus's standing. Career-long defense-policy figure.
+
+**Sanae Takaichi** | `legislator` | Prime Minister of Japan
+Sitting PM since October 21, 2025. Won the February 2026 snap election. Not a member of the caucus but the executive that the caucus's proposals must move through.
+
+---
+
+**Sol Foundation 2025 Symposium (Lake Maggiore, Italy, Oct 24–27, 2025) — new academic vanguard**
+
+**Beatriz Villarroel** | `scientist-academic` | Stockholm University; Vanishing & Appearing Sources during a Century of Observations (VASCO)
+Astrophysicist investigating non-human artifacts near Earth. Spoke at Sol 2025 opening session on *"The Hunt for Nonhuman Artifacts Near Earth."* Methodology focuses on historical photographic-plate anomalies.
+Flags: `disclosure-advocate`
+
+**Pierre Bescond** | `government-military` | Brigadier General (Ret.), French Armée de l'Air
+COMETA report co-author (1999). Spoke at Sol 2025 on *"Revisiting the COMETA Report."* COMETA's conclusion — that UAP are *"almost certain physical reality"* — predated the modern U.S. disclosure cycle by two decades.
+
+**Roberto Pinotti** | `journalist-investigator` | Italian UAP historian
+Spoke at Sol 2025 on Italy's UAP history (*"From Magenta to Project Titan"*). Long-running Italian-language disclosure researcher.
+
+**Luc Dini** | `scientist-academic` | 3AF / Sigma2 (France)
+Aerospace engineer specializing in physical observables of UAP. Spoke at Sol 2025 on the Sigma2 methodology.
+
+**Michael Valliant** | `government-military` | GEIPAN (Groupe d'Études et d'Informations sur les Phénomènes Aérospatiaux Non identifiés), France
+Spoke at Sol 2025 on two decades of UAP investigations at the French civilian-aerospace UAP body — the longest-running official UAP investigation framework in the world.
+
+**Jacob Haqq-Misra** | `scientist-academic` | Blue Marble Space Institute of Science
+Astrobiologist. Spoke at Sol 2025 on situating UAP within the scientific search for extraterrestrial intelligence.
+
+**Jeffrey Kripal** | `scientist-academic` | Rice University; J. Newton Rayzor Chair in Philosophy and Religious Thought
+Philosopher of religion and consciousness; long-running collaborator with Diana Pasulka.
+Flags: `disclosure-advocate`
+
+**Kevin Knuth** | `scientist-academic` | University at Albany (SUNY); Physics
+Worked with Szydagis at SUNY on UAP statistical modeling.
+
+**James Fowler** | `journalist-investigator`
+Defense / drone analyst. Spoke at Sol 2025 on the UAP / drone overlap.
+
+---
+
+**Consciousness physics — peer-reviewed additions**
+
+**Michael Wiest** | `scientist-academic` | Wellesley College, Neuroscience
+Published *"A quantum microtubule substrate of consciousness is experimentally supported and solves the binding and epiphenomenalism problems"* in *Neuroscience of Consciousness* (Oxford UP), May 2025, DOI 10.1093/nc/niaf011. Published a follow-up in September 2025 bridging Friston's active inference with Orch-OR. Provides recent experimental support for the Penrose-Hameroff framework on multiple fronts.
+
+**Anirban Bandyopadhyay** | `scientist-academic` | MIT (formerly NIMS Tsukuba)
+Lead researcher whose group demonstrated warm-temperature quantum vibrations in brain microtubules — the experimental discovery that has been most cited as corroborating Orch-OR's biological substrate.
+
+**Christof Koch** | `scientist-academic` | Allen Institute (former chief scientist)
+Consciousness researcher; longtime collaborator with Francis Crick. Lost his 1998 bet with David Chalmers in April 2025 — the bet was that the neural correlates of consciousness would be identified within 25 years.
+
+**David Chalmers** | `scientist-academic` | NYU; philosopher of mind
+Coined "the hard problem of consciousness." Won his 1998 bet with Koch in April 2025.
+
+---
+
+**Industry / Defense / Energy stakeholders (PEOPLE)**
+
+For organizations like Lockheed Martin, Northrop Grumman, Bigelow Aerospace — these become **compound parent nodes** in the network graph (Part D below), not figures. But add the following individual people:
+
+**Ross Coulthart** | `journalist-investigator` | NewsNation
+Lead investigative journalist on the UAP beat. Made the public claim in July 2025 that *"the Tic-Tac is Lockheed Martin"* — a controversial reattribution that, if accurate, would relocate the central Nimitz encounter from non-human origin to a domestic black program.
+Flags: `disclosure-advocate`, `contested-status`
+CalibrationNote: *The "Tic-Tac is Lockheed Martin" claim sourced to Coulthart's confidential reporting has not been independently corroborated. Coulthart has maintained the claim publicly; multiple other UAP-beat journalists (including those at DefenseScoop and the Disclosure Foundation) have not adopted it.*
+
+**George Knapp** | `journalist-investigator` | KLAS Las Vegas
+Investigative journalist who broke the Bob Lazar story (1989); co-author with Colm Kelleher of *Hunt for the Skinwalker* (2005). Testified under oath at the September 2025 House Oversight hearing — one of the few journalists to do so.
+Flags: `disclosure-advocate`
+
+**Bob Lazar** | `witness-experiencer` | Self-described former S-4 scientist
+Claimed (1989) to have reverse-engineered alien craft at S-4 near Area 51. Returned to *The Joe Rogan Experience* in April 2026 in connection with a new S-4 documentary. His credentials remain disputed.
+Flags: `experiencer`, `contested-status`
+CalibrationNote: *Lazar's claimed credentials (MIT, Caltech) have never been verified through the institutions themselves. Supporters point to his demonstrable specialized knowledge of element 115 and propulsion concepts that predated public discussion. Critics point to the absence of independent corroboration. Treat as a primary historical-narrative figure whose evidentiary weight is contested.*
+
+**Steven Greer** | `witness-experiencer` | Founder, The Disclosure Project; CE-5
+Emergency-medicine physician who founded the Disclosure Project (2001). Hosted the May 8, 2026 National Press Club 25th-anniversary briefing featuring new whistleblowers (Indiana facility Green Beret testimony; Marines on 300-ft UAP and 29 Palms triangular craft) and analysis of the Buga Sphere (Colombia). Originator of CE-5 protocols for human-initiated contact.
+Flags: `experiencer`, `disclosure-advocate`, `contested-status`
+CalibrationNote: *Greer is a major movement figure with a long public record; he has also drawn substantial within-community criticism for selling CE-5 training and for some specific claims (e.g., the Atacama specimen). His convening role is genuine; specific factual claims should be evaluated case by case.*
+
+**Jaime Maussan** | `journalist-investigator` | Mexican UAP journalist
+Long-running Mexican UAP journalist; central figure in the Buga Sphere presentation alongside Greer at the May 8, 2026 National Press Club briefing. Has previously been associated with the contested Nazca "alien mummies" specimens.
+Flags: `contested-status`
+CalibrationNote: *Maussan's Nazca specimens have been the subject of substantial scientific dispute. Treat associated claims as requiring independent verification.*
+
+---
+
+**"Missing Scientists" cohort — write each with calibration discipline**
+
+For each of the following, the bio must (a) state the documented fact of the death/disappearance, (b) state the official cause of record where one exists, (c) state the person's expertise and why they have been cited in the missing-scientists narrative, and (d) include the counter-position. Flag all with `contested-status` and provide a `calibrationNote`.
+
+**Amy Eskridge** | `scientist-academic` | Institute for Exotic Science (co-founder)
+Anti-gravity propulsion and electrostatic systems researcher. Died June 11, 2022, age 34; cause of death officially ruled self-inflicted gunshot wound. Cited within the missing-scientists narrative based on (a) her field, (b) reported pre-event statements warning that any suicide or overdose report would be a cover.
+Flags: `deceased`, `contested-status`
+Status: `deceased`
+DateOfEvent: `2022-06-11`
+CalibrationNote: *The official cause of death is suicide. The conspiracy framing rests on uncorroborated reports of her pre-event statements warning of a fabricated cover story. No independent investigation has reopened the case.*
+
+**Nuno Loureiro** | `scientist-academic` | MIT plasma physicist
+Plasma physics and limitless-energy researcher. Killed December 16, 2025 by a former PhD classmate who had dropped out of his program. Cited within the missing-scientists narrative because of his expertise in fusion physics, framed as relevant to analyzing 3I/ATLAS's deuterium signatures.
+Flags: `deceased`, `contested-status`
+Status: `deceased`
+DateOfEvent: `2025-12-16`
+CalibrationNote: *Loureiro's death was a documented homicide by an identified individual with a documented academic relationship to the victim. The framing of this homicide as part of a coordinated suppression of UAP-adjacent science is not supported by the public record of the case.*
+
+**Ning Li** | `scientist-academic` | University of Alabama Huntsville; AC Gravity LLC
+Pioneer in superconductivity and gravity-modification research. Suffered permanent brain damage in a 2014 vehicle accident on campus; died July 27, 2021. Cited within the missing-scientists narrative because of her foundational work on gravitational effects.
+Flags: `deceased`, `contested-status`
+Status: `deceased`
+DateOfEvent: `2021-07-27`
+CalibrationNote: *The 2014 accident was on the public record and the death from Alzheimer's came years later. The framing of these events as suspicious is a narrative overlay, not an investigative finding.*
+
+**Monica Jacinto Reza** | `scientist-academic` | JPL; advanced materials engineer
+Disappeared June 22, 2025 while hiking in the Angeles National Forest. Cited within the missing-scientists narrative because of her exotic-metallurgy expertise.
+Flags: `missing`, `contested-status`
+Status: `missing`
+DateOfEvent: `2025-06-22`
+CalibrationNote: *This is a real and unresolved missing-persons case. The framing as suspicious within a broader pattern is narrative; the case itself is open.*
+
+**Carl Grillmair** | `scientist-academic` | Caltech (Ret.); exoplanet astronomer
+Died early 2026. Cited within the missing-scientists narrative based on his exoplanet-tracking expertise.
+Flags: `deceased`, `contested-status`
+
+**Michel David Hicks** | `scientist-academic` | JPL planetary scientist
+Died July 30, 2023.
+Flags: `deceased`, `contested-status`
+
+**Frank Maiwald** | `scientist-academic` | JPL imaging spectroscopy
+Died July 4, 2024.
+Flags: `deceased`, `contested-status`
+
+**David Wilcock** | `journalist-investigator` | Disclosure-movement author and YouTuber
+Died April 20, 2026 in Boulder County, Colorado. His family released a public statement attributing the death to long-term depression and overwhelming financial debt; the Boulder County Sheriff's Office detailed timeline shows the death occurred during a mental-health crisis with deputies on scene. Two days before his death, Wilcock's final livestream noted the deaths of fellow researchers Erich von Däniken (cancer-related, January 2026, age 90) and Nick Pope (stage IV esophageal cancer, early April 2026, publicly announced). His death amplified attention to the missing-scientists narrative regardless of its actual causation.
+Flags: `deceased`, `contested-status`
+Status: `deceased`
+DateOfEvent: `2026-04-20`
+CalibrationNote: *Wilcock's death is officially recorded as suicide. His family's published statement explicitly attributes the cause to depression and financial circumstances. The conspiracy framing of his death is widespread on social media but is directly disputed by both his family and the Boulder County Sheriff's investigative record.*
+
+---
+
+### C.3 — Compound parent nodes (organizational / event affiliations)
+
+The following are not figures, but appear in `affiliations` arrays on multiple figures. In the network graph (Part D), these become compound parent nodes that visually contain their members.
+
+Canonical org names (use these strings exactly in `affiliations`):
+
+- `Sol Foundation` — members: Nolan, Mellon, Gallaudet, Vallée, Nell, plus 2025 Italy speakers above
+- `To The Stars Academy (TTSA)` — Elizondo, Mellon, Puthoff, Semivan
+- `Disclosure Project` — Greer + new whistleblowers
+- `Galileo Project` — Loeb + collaborators
+- `UAPTF (Unidentified Aerial Phenomena Task Force, 2020–2022)` — Stratton, Nell (Army attaché)
+- `AARO (All-domain Anomaly Resolution Office)` — Kirkpatrick, Kosloski
+- `AAWSAP / BAASS` — Bigelow, Kelleher, Davis
+- `Skinwalker Ranch` — Bigelow, Kelleher, Knapp, Taylor, Stratton
+- `Project Stargate (SRI)` — Puthoff, Swann, McMoneagle
+- `House UAP Caucus` — Burlison, Burchett, Luna, Mace, Carson, Crenshaw, Gallagher
+- `Senate UAPDA Sponsors` — Schumer, Rounds, Gillibrand
+- `Japan Diet UAP Parliamentary Group` — Hamada, Koizumi, Nakayama, Asakawa, Ishiba
+- `Department of War (formerly DoD)` — Hegseth (executive)
+- `PURSUE (Presidential Unsealing and Reporting System for UAP Encounters)` — initiated by Trump executive directive Feb 19, 2026
+- `The Age of Disclosure (2025)` — event compound including all 34 on-camera participants documented above
+- `January 23, 2026 Congressional Hearing` — event compound (Elizondo, Shellenberger, Mellon, Gallaudet)
+- `September 9, 2025 Congressional Hearing` — event compound (Borland, Nuccetelli, Knapp, Wiggins)
+- `Sol Foundation 2025 Italy Symposium` — event compound
+
+---
+
+## PART D — NETWORK PAGE (P3)
+
+### D.1 — Page structure
+
+`/network` replaces the P0 placeholder. Match the visual language of `/whos-who` and `/timeline`: `KinematicBackground`, max-width container (but **wider than `max-w-prose`** — use a `max-w-7xl` or full-bleed minus padding for the graph itself), section-title kicker, `← Home` link, headline "Human Network," intro paragraph (2–3 sentences explaining the graph, hover behavior, download links, calibration), divider, graph, downloads section, bottom nav.
+
+### D.2 — Graph: Cytoscape.js with compound nodes
+
+Implement as a client component (`"use client"`) dynamically imported with `ssr: false`. Use `react-cytoscapejs` with the `cytoscape-cose-bilkent` layout extension registered at module load.
+
+**Compound parent grouping:** Each unique affiliation string in the figures data becomes a compound parent node. Member figures are children of the parent. A figure with multiple affiliations is a child of one *primary* parent (first item in the affiliations array) and connected via edges to its other affiliations represented as ghost-edge connections to those parents. The cose-bilkent layout handles compound layout well; tune `nestingFactor`, `idealEdgeLength`, and `nodeRepulsion` for legibility.
+
+**Visual encoding:**
+
+| Property | Encoding |
+|---|---|
+| Node fill color | Category (6 colors — pick from the existing site palette: accent-blue family for primary categories, use varied saturations/hues that work on the kinematic dark background) |
+| Node border ring | Stakeholder flag — multiple flags = multiple concentric rings or a striped border. `legislative-blocker` → red ring. `defense-contractor` → bronze ring. `energy-industry` → amber ring. `whistleblower` → emerald ring. `contested-status` → dashed gray ring. `deceased` → black ring with crosshatch. `missing` → dashed black ring. |
+| Node size | Constant for v1; could scale by degree centrality in v2 — leave as future enhancement |
+| Node label | Last name only at default zoom; full name on hover/zoom |
+| Edge color | Type — `co-authored` solid blue, `co-founded` solid violet, `co-testified` dashed cyan, `investigated-together` solid teal, `public-dispute` solid red, `mentor-mentee` dotted gold, `funded` dashed orange |
+| Edge thickness | Constant 1.5px |
+| Compound parent | Translucent fill with the parent name in small caps label at top; no fill on hover |
+
+All colors must be themed via CSS custom properties in `globals.css` so the palette is a single source of truth.
+
+**Interactions:**
+
+- Hover over a node → show hover-card overlay (HTML div positioned via Cytoscape's `renderedPosition` of the node, with viewport edge collision detection). Card contains: name, category, affiliations (as chips), role, full bio, stakeholder flags (as colored chips), calibrationNote (italicized, smaller, distinct) if present, cites (linked).
+- Click node → pin hover-card open; click outside or press Esc to close
+- Hover over edge → small tooltip with edge type + note + year
+- Click compound parent → fade non-member nodes to 20% opacity; click background to reset
+- Search input above graph: filter nodes by name match; non-matches fade to 20% opacity
+- Category legend in a small panel beside the graph (or top-right corner overlay), toggleable: clicking a category dims/restores its nodes
+- Stakeholder legend similarly
+- Zoom + pan via Cytoscape defaults; add a "Reset view" button
+
+**Performance:** ~80 nodes + ~150 edges + ~20 compound parents is well within Cytoscape's comfortable range. Use `headless: false`, `wheelSensitivity: 0.2`, and disable node-dragging once the layout settles (`autoungrabify: true` after first `layoutstop`).
+
+**Mobile fallback:** On viewports below 768px, render a compact view: vertical list grouped by compound parent (effectively a structured Who's Who), with a banner explaining the interactive graph requires a larger screen. Mobile users still get full data, just non-graph rendered.
+
+### D.3 — Downloads section
+
+Below the graph (and above the bottom nav):
+
+- **Download as CSV** — figures.csv with columns: name, category, affiliations (semicolon-joined), role, stakeholder_flags, status, date_of_event, calibration_note, cites (semicolon-joined)
+- **Download as JSON** — full structured dump of both figures and connections
+- **Download network as Cytoscape JSON** — graph-ready import format
+
+Implement as `app/api/figures/route.ts` (GET → CSV) and `app/api/figures.json/route.ts` (GET → JSON), or as static files generated at build time in `public/downloads/`. Pick the simpler path — static at build time is fine, since the data only changes on commits.
+
+### D.4 — Connections data — minimum viable edge set
+
+Author the edges in `content/whos-who/connections.ts`. Write at least the following — agent should extrapolate additional obvious edges from the bios but should not invent connections not implied by the bios.
+
+**co-authored:**
+- nolan ↔ vallee (2022 Progress in Aerospace Sciences materials analysis paper)
+- penrose ↔ hameroff (Orch-OR original papers, 1990s onward)
+- loeb ↔ barbieri (Jan 22, 2026 3I/ATLAS alignment paper)
+- kelleher ↔ knapp (*Hunt for the Skinwalker*, 2005)
+- wiest — solo, no co-author edge required for the recent Wellesley paper
+
+**co-founded:**
+- elizondo ↔ mellon, elizondo ↔ puthoff, elizondo ↔ semivan (TTSA)
+- nolan, mellon, gallaudet, vallee — Sol Foundation co-founders (all pairs)
+- puthoff ↔ targ (SRI Stargate; Targ is not a current figure — skip or add Targ if you want him in)
+
+**co-testified:**
+- grusch ↔ graves (July 2023 hearing)
+- elizondo ↔ shellenberger ↔ mellon ↔ gallaudet (January 23, 2026 hearing)
+- borland ↔ nuccetelli ↔ knapp ↔ wiggins (September 9, 2025 hearing)
+
+**investigated-together:**
+- kelleher ↔ knapp ↔ stratton ↔ taylor ↔ bigelow (Skinwalker Ranch / BAASS)
+- nolan ↔ vallee (materials studies)
+
+**public-dispute:**
+- luna ↔ kirkpatrick (Luna called Kirkpatrick "documented liar" on Congressional record)
+- mellon ↔ kirkpatrick (Mellon: AARO report "most error-ridden")
+- loeb ↔ kirkpatrick (Loeb has critiqued AARO's posture)
+- coulthart — Tic-Tac/Lockheed assertion vs. other UAP journalists (mark as note rather than per-person dispute edges)
+
+**mentor-mentee:**
+- penrose ↔ hameroff (collaboration, not strictly mentorship — use co-authored instead if more accurate)
+- puthoff ↔ swann (SRI coordinate remote viewing protocol development)
+- swann ↔ mcmoneagle (Stargate operational lineage)
+
+**funded:**
+- bigelow → kelleher (BAASS funding of Skinwalker investigation)
+- "Lockheed Martin PAC" → turner (note "$186,250 per FEC records")
+- "Lockheed Martin PAC" → rogers (note "$143,000 per FEC records")
+- bigelow → AAWSAP (DIA contract $22M)
+
+The Lockheed PAC node could be a compound `Defense Industry PACs` parent. Tag with `defense-contractor` stakeholder. The agent should decide whether to represent PACs as compound non-person nodes or as edges to a stylized "Lockheed Martin PAC" node. Either works; pick the cleaner.
+
+---
+
+## PART E — `/whos-who` REFACTOR
+
+Once `figures.ts` exists, replace the inline `figures` array in `app/whos-who/page.tsx` with `import { figures } from "@/content/whos-who/figures"`. The page becomes much shorter.
+
+Two display improvements while you're in the file:
+
+1. **Group by category** with subheaders (Government/Military, Intelligence, Legislators, etc.) instead of a single alphabetical list. Within each category, alphabetize by last name (keep the existing sort logic).
+2. **Render `calibrationNote`** when present, as italic text in a slightly dimmer color (`text-muted/80`), below the bio with a left border indicator matching the existing styling.
+3. **Render stakeholder flags as small chips** next to each name (use the same colors as the network ring system for visual consistency).
+
+Add a small notice above the list pointing to `/network`:
+> *Want to see how these figures connect? Visit the [Human Network](/network) for the interactive graph.*
+
+The description sentence at the top should update from "30 key figures" to a count derived from `figures.length` so it doesn't drift.
+
+---
+
+## PART F — ACCEPTANCE CRITERIA
+
+- `pnpm build` and `pnpm lint` pass.
+- `figures.ts` exports an array of at least 75 figures with required fields populated.
+- `connections.ts` exports at least 30 edges covering all 7 edge types.
+- `/whos-who` renders grouped by category, calibration notes visible, stakeholder chips, link to `/network`. Original 30 figures still present with original text preserved.
+- `/network` renders the Cytoscape graph on desktop (≥768px), with all interactions working (hover-card, click-pin, search filter, category and stakeholder legend toggles, reset view).
+- Mobile fallback renders structured by-compound-parent list with banner.
+- CSV and JSON downloads available, contain all figures and all connections.
+- No CSP / hydration warnings in console.
+- The contested-status figures (missing scientists, Wilcock, Lazar, Brown, Coulthart, Maussan, Kirkpatrick, McConnell, Carmack, Bledsoe-related claims) have visible calibration notes both in the hover-card and on the Who's Who page.
+
+---
+
+## PART G — OUT OF SCOPE
+
+- Timeline updates (P1).
+- Chapter content updates (P4–P6).
+- Glossary updates (P8).
+- Adding 3I/ATLAS or PURSUE program info to chapters.
+- Anything from the ResearchOne pricing / multi-agent architecture document — that content does not belong on this site.
+
+## PART H — COMMIT MESSAGE
+
+```
+feat(p2-p3): extract Who's Who data, expand roster to ~80 figures, ship interactive Network page
+
+- content/whos-who/figures.ts: typed source of truth for all figures, with calibration discipline
+  on contested-status entries (missing scientists, Wilcock, etc.)
+- content/whos-who/connections.ts: 7 edge types, ~30+ relationships
+- /whos-who: refactored to consume shared data; grouped by category; calibration notes visible;
+  stakeholder chips
+- /network: Cytoscape.js with cose-bilkent compound-node layout; hover-cards; legend toggles;
+  search; CSV + JSON downloads; mobile fallback
+- All 34 Age of Disclosure participants, Japan Diet caucus, Sol 2025 Italy speakers,
+  Sept 2025 + Jan 2026 hearing witnesses, and missing-scientists cohort included with
+  primary sources
+
+No content changes to chapters. No timeline updates. P1 unblocked.
+```
