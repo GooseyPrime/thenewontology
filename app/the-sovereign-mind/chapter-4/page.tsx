@@ -1,5 +1,5 @@
 import Link from "next/link";
-import KinematicBackground from "@/components/KinematicBackground";
+import PlasmaBackground from "@/components/PlasmaBackground";
 import May2026Update from "@/components/content/May2026Update";
 
 export const metadata = { title: "Chapter 4: The Energy Transition You Won't See Coming | The Sovereign Mind" };
@@ -7,7 +7,7 @@ export const metadata = { title: "Chapter 4: The Energy Transition You Won't See
 export default function Chapter4Page() {
   return (
     <>
-      <KinematicBackground />
+      <PlasmaBackground intensity="ambient" />
       <main className="relative min-h-screen px-6 py-16 max-w-prose mx-auto" style={{ zIndex: 1 }}>
         <Link href="/the-sovereign-mind" className="section-title inline-flex items-center gap-2 mb-10 hover:text-accent transition-colors no-underline group">
           <span className="group-hover:-translate-x-1 transition-transform">←</span> The Sovereign Mind
@@ -15,7 +15,7 @@ export default function Chapter4Page() {
         <p className="section-title">Chapter 4</p>
         <h1 className="font-sans text-4xl md:text-5xl font-semibold text-text mb-8">The Energy Transition You Won&apos;t See Coming</h1>
         <div className="h-px bg-border mb-10" />
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <h2>Navigating the Unexpected Energy Transition</h2>
           <p>

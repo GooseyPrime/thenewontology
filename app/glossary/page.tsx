@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import KinematicBackground from "@/components/KinematicBackground";
+import PlasmaBackground from "@/components/PlasmaBackground";
 
 export const metadata: Metadata = {
   title: "Glossary | The New Ontology",
@@ -377,7 +377,7 @@ const terms = [
 export default function GlossaryPage() {
   return (
     <>
-      <KinematicBackground />
+      <PlasmaBackground intensity="ambient" />
       <main className="relative min-h-screen px-6 py-16 max-w-prose mx-auto" style={{ zIndex: 1 }}>
         <Link
           href="/"

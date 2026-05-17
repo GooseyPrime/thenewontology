@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import KinematicBackground from "@/components/KinematicBackground";
+import PlasmaBackground from "@/components/PlasmaBackground";
 
 export const metadata: Metadata = {
   title: "Bibliography",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 export default function BibliographyPage() {
   return (
     <>
-      <KinematicBackground />
+      <PlasmaBackground intensity="ambient" />
       <main className="relative min-h-screen px-6 py-16 max-w-prose mx-auto" style={{ zIndex: 1 }}>
         <Link href="/the-next-human-ontology" className="section-title inline-flex items-center gap-2 mb-10 hover:text-accent transition-colors no-underline group">
           <span className="group-hover:-translate-x-1 transition-transform">←</span> The Next Human Ontology
@@ -27,7 +27,7 @@ export default function BibliographyPage() {
         <p className="section-title">Bibliography</p>
         <h1 className="font-sans text-4xl md:text-5xl font-semibold text-text mb-8">Comprehensive Bibliography &amp; Resources</h1>
         <div className="h-px bg-border mb-10" />
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <p>
             The following sources are organized by chapter and represent the foundational research,

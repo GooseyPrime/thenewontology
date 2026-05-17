@@ -37,7 +37,7 @@ export default function Chapter10Page() {
             A Message from the Authors
           </h1>
         </div>
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <p>
             Welcome to Chapter 10, dear explorers! As we wrap up this incredible journey, we want to leave

@@ -1,12 +1,12 @@
 import Link from "next/link";
-import KinematicBackground from "@/components/KinematicBackground";
+import PlasmaBackground from "@/components/PlasmaBackground";
 
 export const metadata = { title: "Chapter 5: Financial Survival in the Interregnum | The Sovereign Mind" };
 
 export default function Chapter5Page() {
   return (
     <>
-      <KinematicBackground />
+      <PlasmaBackground intensity="ambient" />
       <main className="relative min-h-screen px-6 py-16 max-w-prose mx-auto" style={{ zIndex: 1 }}>
         <Link href="/the-sovereign-mind" className="section-title inline-flex items-center gap-2 mb-10 hover:text-accent transition-colors no-underline group">
           <span className="group-hover:-translate-x-1 transition-transform">←</span> The Sovereign Mind
@@ -14,7 +14,7 @@ export default function Chapter5Page() {
         <p className="section-title">Chapter 5</p>
         <h1 className="font-sans text-4xl md:text-5xl font-semibold text-text mb-8">Financial Survival in the Interregnum</h1>
         <div className="h-px bg-border mb-10" />
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <p>
             Standing on the precipice of seismic shifts in global energy and economic paradigms, the question isn't <em>if</em> change is coming, but how you will navigate it. This chapter is your tactical guide to maneuvering through the complexities of financial survival during an interregnum — a transitional period where old systems crumble and new ones are yet to be born. We dissect the multi-trillion-dollar stranded asset dilemma in fossil fuels, the paradox of defense contractors thriving amid geopolitical chaos, strategies for hedging against paradigm shifts, and the duality of surviving the transition versus thriving in a potential post-scarcity world.

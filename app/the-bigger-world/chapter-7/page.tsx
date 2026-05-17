@@ -37,7 +37,7 @@ export default function Chapter7Page() {
             Building Your Superpower Toolkit
           </h1>
         </div>
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <p>
             Welcome, young adventurers, to a chapter that could change the way you see the world! Imagine

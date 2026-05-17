@@ -37,7 +37,7 @@ export default function Chapter5Page() {
             How to Think When Nobody Has the Answers
           </h1>
         </div>
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <h2>Introduction: Embracing the Grey Zones of Life</h2>
           <p>

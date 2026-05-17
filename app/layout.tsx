@@ -3,6 +3,7 @@ import Script from "next/script";
 import "./globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import GlobalNav from "@/components/GlobalNav";
+import Footer from "@/components/Footer";
 
 const GTM_ID = "GTM-W3985XV3";
 const GA_ID2 = "G-PEPEGCGN9F";
@@ -137,7 +138,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             }),
           }}
         />
-        {children}
+        <div className="flex flex-col min-h-screen">
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );

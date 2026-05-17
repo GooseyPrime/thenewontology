@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import KinematicBackground from "@/components/KinematicBackground";
+import PlasmaBackground from "@/components/PlasmaBackground";
 
 export const metadata: Metadata = {
   title: "The Great Convergence — Humanity at the Threshold of Multiple Singularities",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 export default function TheGreatConvergencePage() {
   return (
     <>
-      <KinematicBackground />
+      <PlasmaBackground intensity="ambient" />
       <main className="relative min-h-screen px-6 py-16 max-w-prose mx-auto" style={{ zIndex: 1 }}>
         <Link
           href="/"
@@ -35,7 +35,7 @@ export default function TheGreatConvergencePage() {
           Humanity at the Threshold of Multiple Singularities
         </h2>
         <div className="h-px bg-border mb-10" />
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <p>
             The next decade may compress more civilizational change into a shorter span than any period since the agricultural revolution. <strong>Three categories of non-human intelligence — artificial, potentially extraterrestrial, and possibly consciousness itself — are simultaneously demanding humanity&apos;s attention</strong>, each carrying the power to individually reshape civilization and collectively to transform it beyond recognition. This is not speculative fringe territory anymore: the U.S. Congress has legislated on UAP disclosure for three consecutive years, frontier AI models are approaching expert-level performance across most cognitive domains, and peer-reviewed consciousness research published in 2025 presents experimental evidence for quantum coherence in living brains. The convergence of these forces creates what the newly formed AI × NHI Convergence Summit (March 2026, State of the World Forum) calls &quot;a challenge to governance, ontology, and species identity simultaneously.&quot; What follows is a synthesis of where each thread stands and what their intersection portends.

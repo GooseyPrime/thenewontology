@@ -1,5 +1,5 @@
 import Link from "next/link";
-import KinematicBackground from "@/components/KinematicBackground";
+import PlasmaBackground from "@/components/PlasmaBackground";
 import May2026Update from "@/components/content/May2026Update";
 
 export const metadata = { title: "Chapter 2: Information Warfare and Epistemic Self-Defense | The Sovereign Mind" };
@@ -7,7 +7,7 @@ export const metadata = { title: "Chapter 2: Information Warfare and Epistemic S
 export default function Chapter2Page() {
   return (
     <>
-      <KinematicBackground />
+      <PlasmaBackground intensity="ambient" />
       <main className="relative min-h-screen px-6 py-16 max-w-prose mx-auto" style={{ zIndex: 1 }}>
         <Link href="/the-sovereign-mind" className="section-title inline-flex items-center gap-2 mb-10 hover:text-accent transition-colors no-underline group">
           <span className="group-hover:-translate-x-1 transition-transform">←</span> The Sovereign Mind
@@ -15,7 +15,7 @@ export default function Chapter2Page() {
         <p className="section-title">Chapter 2</p>
         <h1 className="font-sans text-4xl md:text-5xl font-semibold text-text mb-8">Information Warfare and Epistemic Self-Defense</h1>
         <div className="h-px bg-border mb-10" />
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <h2>Context and Relevance</h2>
           <p>
@@ -116,7 +116,7 @@ export default function Chapter2Page() {
               <h4 className="font-sans text-lg font-semibold text-text mb-4">
                 Case Study: The &quot;Project Anchor&quot; Inoculation Pattern
               </h4>
-              <div className="prose prose-invert prose-sm max-w-none">
+              <div className="prose-warm prose-sm max-w-none">
                 <p>
                   In April–May 2026, a viral narrative spread across TikTok, X, and short-form video platforms claiming that on{" "}
                   <Link href="/timeline" className="text-accent hover:underline underline-offset-4">August 12, 2026</Link>, at 14:33 UTC, the gravitational waves from two distant colliding black holes would intersect Earth and trigger a 7.3-second total loss of gravity. The narrative claimed the source was a leaked $89 billion NASA document titled &quot;Project Anchor.&quot; The narrative warned that anything not anchored — people, vehicles, ocean water — would rise 15–20 meters into the air, with predicted casualties of 40–60 million.

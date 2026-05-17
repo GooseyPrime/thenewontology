@@ -37,7 +37,7 @@ export default function BibliographyPage() {
             Comprehensive Bibliography &amp; Resources
           </h1>
         </div>
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <p>
             The following resources are organised by chapter and provide further reading, key concepts,

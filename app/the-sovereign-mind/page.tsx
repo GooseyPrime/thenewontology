@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import KinematicBackground from "@/components/KinematicBackground";
+import PlasmaBackground from "@/components/PlasmaBackground";
 
 export const metadata: Metadata = {
   title: "The Sovereign Mind",
@@ -58,7 +58,7 @@ const parts = [
 export default function TheSovereignMindPage() {
   return (
     <>
-      <KinematicBackground />
+      <PlasmaBackground intensity="ambient" />
       <main className="relative min-h-screen px-6 py-16 max-w-prose mx-auto" style={{ zIndex: 1 }}>
         <Link href="/" className="section-title inline-flex items-center gap-2 mb-10 hover:text-accent transition-colors no-underline group">
           <span className="group-hover:-translate-x-1 transition-transform">←</span> Back
@@ -69,7 +69,7 @@ export default function TheSovereignMindPage() {
         <p className="font-serif text-muted text-lg mb-8">How to Survive, Adapt, and Thrive in the Age of Non-Human Intelligence — A Practical Guide for Adults</p>
         <div className="h-px bg-border mb-10" />
 
-        <div className="prose prose-invert mb-12">
+        <div className="prose-warm mb-12">
           <p>Where Volume I maps the territory, Volume II equips you to navigate it. This book assumes the reader has internalized the core thesis: non-human intelligence exists, artificial superintelligence is arriving, consciousness is more fundamental than matter, and the institutional structures governing human civilization are approaching a phase transition. The question is no longer <em>what is happening</em>. The question is <em>what you do about it</em>.</p>
           <p className="text-muted text-sm italic">Target audience: Adults 18+. No prior UAP/AI expertise required. Tone: direct, unsentimental, action-oriented — Nassim Taleb meets Carl Sagan meets a wilderness survival manual.</p>
         </div>

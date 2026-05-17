@@ -37,7 +37,7 @@ export default function Chapter8Page() {
             Humans and Other Intelligences — A History
           </h1>
         </div>
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <h2>8.1 The Intelligence All Around You</h2>
 

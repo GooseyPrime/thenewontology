@@ -37,7 +37,7 @@ export default function Chapter3Page() {
             The Unexplained Things in the Sky
           </h1>
         </div>
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <p>
             Welcome! Get ready to embark on an awe-inspiring journey into the mysteries that swirl above us.

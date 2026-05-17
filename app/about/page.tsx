@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import KinematicBackground from "@/components/KinematicBackground";
+import PlasmaBackground from "@/components/PlasmaBackground";
 
 export const metadata: Metadata = {
   title: "About the Author | The New Ontology",
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
-      <KinematicBackground />
+      <PlasmaBackground intensity="ambient" />
       <main className="relative min-h-screen px-6 py-16 max-w-prose mx-auto" style={{ zIndex: 1 }}>
         <Link
           href="/"
@@ -25,7 +25,7 @@ export default function AboutPage() {
           Michael Brandon Lane
         </h1>
         <div className="h-px bg-border mb-10" />
-        <div className="prose prose-invert">
+        <div className="prose-warm">
           <p>
             Michael Brandon Lane holds a Bachelor of Science in Chemical Engineering from Virginia Tech
             and a Master of Science in Chemistry from the University of North Carolina at Greensboro.

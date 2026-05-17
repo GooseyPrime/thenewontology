@@ -37,7 +37,7 @@ export default function Chapter9Page() {
             What Kind of World Do You Want to Build?
           </h1>
         </div>
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <p>
             Welcome to a world of possibilities, where you hold the key to shaping the future! In this chapter,

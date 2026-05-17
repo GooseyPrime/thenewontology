@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import KinematicBackground from "@/components/KinematicBackground";
+import PlasmaBackground from "@/components/PlasmaBackground";
 
 export const metadata: Metadata = {
   title: "How to Use This Site | The New Ontology",
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function ReadingGuidePage() {
   return (
     <>
-      <KinematicBackground />
+      <PlasmaBackground intensity="ambient" />
       <main className="relative min-h-screen px-6 py-16 max-w-prose mx-auto" style={{ zIndex: 1 }}>
         <Link
           href="/"
@@ -25,7 +25,7 @@ export default function ReadingGuidePage() {
           How to Use This Site
         </h1>
         <div className="h-px bg-border mb-10" />
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <h2>The Three Volumes</h2>
           <p>

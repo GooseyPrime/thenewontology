@@ -37,7 +37,7 @@ export default function Chapter4Page() {
             Your Amazing, Mysterious Brain
           </h1>
         </div>
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <p>
             Welcome to the most mysterious part of the universe that you will ever carry with you: your own

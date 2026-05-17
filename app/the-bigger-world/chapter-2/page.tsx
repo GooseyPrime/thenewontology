@@ -37,7 +37,7 @@ export default function Chapter2Page() {
             The Architecture of Secrecy
           </h1>
         </div>
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <h2>Introduction: The Puzzle of Secrets</h2>
           <p>

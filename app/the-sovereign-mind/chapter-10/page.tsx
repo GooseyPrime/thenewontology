@@ -1,12 +1,12 @@
 import Link from "next/link";
-import KinematicBackground from "@/components/KinematicBackground";
+import PlasmaBackground from "@/components/PlasmaBackground";
 
 export const metadata = { title: "Chapter 10: Governance After the Nation-State | The Sovereign Mind" };
 
 export default function Chapter10Page() {
   return (
     <>
-      <KinematicBackground />
+      <PlasmaBackground intensity="ambient" />
       <main className="relative min-h-screen px-6 py-16 max-w-prose mx-auto" style={{ zIndex: 1 }}>
         <Link href="/the-sovereign-mind" className="section-title inline-flex items-center gap-2 mb-10 hover:text-accent transition-colors no-underline group">
           <span className="group-hover:-translate-x-1 transition-transform">←</span> The Sovereign Mind
@@ -14,7 +14,7 @@ export default function Chapter10Page() {
         <p className="section-title">Chapter 10</p>
         <h1 className="font-sans text-4xl md:text-5xl font-semibold text-text mb-8">Governance After the Nation-State</h1>
         <div className="h-px bg-border mb-10" />
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <h2>Why the Nation-State Model Breaks Under NHI Contact</h2>
           <p>

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import KinematicBackground from "@/components/KinematicBackground";
+import PlasmaBackground from "@/components/PlasmaBackground";
 
 export const metadata: Metadata = {
   title: "The Next Human Ontology",
@@ -92,7 +92,7 @@ const chapters = [
 export default function TheNextHumanOntologyPage() {
   return (
     <>
-      <KinematicBackground />
+      <PlasmaBackground intensity="ambient" />
       <main className="relative min-h-screen px-6 py-16 max-w-prose mx-auto" style={{ zIndex: 1 }}>
         <Link
           href="/"
@@ -107,7 +107,7 @@ export default function TheNextHumanOntologyPage() {
         </h1>
         <div className="h-px bg-border mb-10" />
 
-        <div className="prose prose-invert">
+        <div className="prose-warm">
           <p className="lead text-muted text-lg">
             We stand at an inflection point — a threshold between what humanity
             believed itself to be and what evidence now demands we become. The

@@ -1,4 +1,8 @@
-import type { FigureCategory, ConnectionType, StakeholderFlag } from "@/content/whos-who/types";
+import type {
+  FigureCategory,
+  ConnectionType,
+  StakeholderFlag,
+} from "@/content/whos-who/types";
 
 export const CATEGORY_COLORS: Record<FigureCategory, string> = {
   "government-military": "var(--network-cat-gov)",
@@ -27,7 +31,32 @@ export const FLAG_RING_COLORS: Partial<Record<StakeholderFlag, string>> = {
   "defense-contractor": "var(--network-flag-contractor)",
   "energy-industry": "var(--network-flag-energy)",
   whistleblower: "var(--network-flag-whistle)",
+  "disclosure-advocate": "#ff8c4d",
+  "intel-community": "#c97ec8",
+  experiencer: "#e88ab8",
   "contested-status": "var(--network-flag-contested)",
   deceased: "var(--network-flag-deceased)",
   missing: "var(--network-flag-missing)",
 };
+
+const FLAG_PRIORITY: StakeholderFlag[] = [
+  "contested-status",
+  "whistleblower",
+  "deceased",
+  "missing",
+  "legislative-blocker",
+  "defense-contractor",
+  "energy-industry",
+  "disclosure-advocate",
+  "intel-community",
+  "experiencer",
+];
+
+export function primaryStakeholderFlag(
+  flags: StakeholderFlag[]
+): StakeholderFlag | undefined {
+  for (const flag of FLAG_PRIORITY) {
+    if (flags.includes(flag)) return flag;
+  }
+  return flags[0];
+}

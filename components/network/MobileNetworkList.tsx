@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { figures } from "@/content/whos-who/figures";
 import { CATEGORY_LABELS, type FigureCategory } from "@/content/whos-who/types";
-import { CATEGORY_COLORS } from "@/lib/network/graph-styles";
+import { CATEGORY_COLORS, FLAG_RING_COLORS, primaryStakeholderFlag } from "@/lib/network/graph-styles";
+import { orgColor } from "@/lib/network/org-colors";
 
 const CATEGORY_ORDER: FigureCategory[] = [
   "government-military",
@@ -52,13 +53,43 @@ export default function MobileNetworkList() {
           <h2 className="section-title mb-3">{aff}</h2>
           <ul className="space-y-4">
             {[...members].sort(byLastName).map((f) => (
-              <li key={f.id} id={f.id} className="border-l border-border pl-4">
-                <Link href={`/whos-who#${f.id}`} className="font-sans text-sm font-semibold text-accent">
+              <li
+                key={f.id}
+                id={f.id}
+                className="border-l-2 pl-4"
+                style={{ borderColor: CATEGORY_COLORS[f.category] }}
+              >
+                <Link href={`/whos-who#${f.id}`} className="font-sans text-sm font-semibold text-accent no-underline hover:underline">
                   {f.name}
                 </Link>
-                <p className="text-[10px] text-muted uppercase tracking-wide mt-0.5">
-                  {CATEGORY_LABELS[f.category]}
-                </p>
+                <div className="flex flex-wrap gap-1 mt-1">
+                  <span
+                    className="text-[10px] px-1.5 py-0.5 rounded uppercase tracking-wide"
+                    style={{ color: CATEGORY_COLORS[f.category] }}
+                  >
+                    {CATEGORY_LABELS[f.category]}
+                  </span>
+                  {f.affiliations[0] && (
+                    <span
+                      className="text-[10px] px-1.5 py-0.5 rounded border border-border"
+                      style={{ color: orgColor(f.affiliations[0]) }}
+                    >
+                      {f.affiliations[0]}
+                    </span>
+                  )}
+                  {primaryStakeholderFlag(f.stakeholderFlags) && (
+                    <span
+                      className="text-[10px] px-1.5 py-0.5 rounded border"
+                      style={{
+                        borderColor:
+                          FLAG_RING_COLORS[primaryStakeholderFlag(f.stakeholderFlags)!] ??
+                          "var(--border)",
+                      }}
+                    >
+                      {primaryStakeholderFlag(f.stakeholderFlags)!.replace(/-/g, " ")}
+                    </span>
+                  )}
+                </div>
                 <p className="font-serif text-xs text-text mt-1 leading-relaxed">{f.role}</p>
               </li>
             ))}

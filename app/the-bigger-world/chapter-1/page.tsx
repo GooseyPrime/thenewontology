@@ -37,7 +37,7 @@ export default function Chapter1Page() {
             The Triple Singularity &amp; The Ontological Shock
           </h1>
         </div>
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <h2>1.1 The Three Big Shifts</h2>
 

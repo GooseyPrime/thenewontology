@@ -1,12 +1,12 @@
 import Link from "next/link";
-import KinematicBackground from "@/components/KinematicBackground";
+import PlasmaBackground from "@/components/PlasmaBackground";
 
 export const metadata = { title: "Chapter 12: What We Owe Each Other | The Sovereign Mind" };
 
 export default function Chapter12Page() {
   return (
     <>
-      <KinematicBackground />
+      <PlasmaBackground intensity="ambient" />
       <main className="relative min-h-screen px-6 py-16 max-w-prose mx-auto" style={{ zIndex: 1 }}>
         <Link href="/the-sovereign-mind" className="section-title inline-flex items-center gap-2 mb-10 hover:text-accent transition-colors no-underline group">
           <span className="group-hover:-translate-x-1 transition-transform">←</span> The Sovereign Mind
@@ -14,7 +14,7 @@ export default function Chapter12Page() {
         <p className="section-title">Chapter 12</p>
         <h1 className="font-sans text-4xl md:text-5xl font-semibold text-text mb-8">What We Owe Each Other</h1>
         <div className="h-px bg-border mb-10" />
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <h2>The Expansion of the Moral Circle to Include NHI and AI</h2>
           <p>

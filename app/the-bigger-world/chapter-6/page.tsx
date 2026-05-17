@@ -37,7 +37,7 @@ export default function Chapter6Page() {
             Feelings Are Data Too
           </h1>
         </div>
-        <div className="prose prose-invert">
+        <div className="prose-warm">
 
           <h2>6.1 It's Okay to Feel Weird About All This</h2>
 
