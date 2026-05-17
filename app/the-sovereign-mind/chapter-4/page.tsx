@@ -1,5 +1,6 @@
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
+import May2026Update from "@/components/content/May2026Update";
 
 export const metadata = { title: "Chapter 4: The Energy Transition You Won't See Coming | The Sovereign Mind" };
 
@@ -72,6 +73,25 @@ export default function Chapter4Page() {
           <p>
             Champion decentralized energy production policies at every level of government. Build local task forces for regulatory updates. Create risk assessments for disruptive energy breakthroughs and prepare contingency plans. The political and institutional capacity for managing rapid energy transition is strained — this demands sustained engagement and communication from every stakeholder who understands what is coming.
           </p>
+
+          <May2026Update>
+            <p>
+              The chapter&apos;s structural argument — that the petrodollar system creates a financial-political reason for advanced energy technologies to be classified rather than developed — does not require revision. What has changed in the period since the chapter was written is the public-record status of two of its discussed threads.
+            </p>
+            <p>
+              First, on the LENR (low-energy nuclear reactions) front: the August 2025 UBC LENR results published in <em>Nature</em> — discussed in the chapter — have been followed by ARPA-E&apos;s continued program funding through 2025–2026. The field, while still contested, has moved from &quot;fringe-and-discredited&quot; to &quot;fringe-but-officially-funded.&quot; The chapter&apos;s prediction that LENR would gain institutional re-engagement is bearing out. <em>IEEE Spectrum</em>&apos;s 2026 reporting on U.S.-Japan LENR collaboration represents a level of mainstream technical-press coverage the field has not received in decades.
+            </p>
+            <p>
+              Second, on the discussed pattern of advanced-energy researcher attrition: in April 2026, House Oversight Committee Chair{" "}
+              <Link href="/whos-who#james-comer" className="text-accent hover:underline underline-offset-4">James Comer</Link> and Rep.{" "}
+              <Link href="/whos-who#eric-burlison" className="text-accent hover:underline underline-offset-4">Eric Burlison</Link> announced an investigation into the pattern of deaths and disappearances among nuclear and aerospace scientists in 2024–2026. The investigation itself does not validate the conspiracy framing of the deaths — and prominent voices including{" "}
+              <Link href="/whos-who#avi-loeb" className="text-accent hover:underline underline-offset-4">Avi Loeb</Link> have explicitly pushed back on that framing, arguing the better diagnosis is a &quot;missing science problem, not a missing scientists problem.&quot; But the announcement of a formal Congressional investigation establishes that the pattern is sufficiently anomalous to merit official inquiry. Readers building their energy-transition mental models should track the investigation&apos;s findings.
+            </p>
+            <p>
+              The chapter&apos;s core instruction — that energy independence at the household and community level is the reader&apos;s actionable response to a system in which advanced-energy progress is intermittently suppressed — remains the operational guidance.
+            </p>
+          </May2026Update>
+
 
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">
