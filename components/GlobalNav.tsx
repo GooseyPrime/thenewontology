@@ -8,7 +8,10 @@ const navLinks = [
   { href: "/the-next-human-ontology", label: "Vol I" },
   { href: "/the-sovereign-mind", label: "Vol II" },
   { href: "/the-bigger-world", label: "Vol III" },
+  { href: "/the-great-convergence", label: "Convergence" },
   { href: "/timeline", label: "Timeline" },
+  { href: "/whos-who", label: "Who's Who" },
+  { href: "/network", label: "Network" },
   { href: "/glossary", label: "Glossary" },
   { href: "/about", label: "About" },
 ];
@@ -27,7 +30,6 @@ export default function GlobalNav() {
       }}
     >
       <div className="max-w-5xl mx-auto px-6 flex items-center justify-between h-14">
-        {/* Logo */}
         <Link
           href="/"
           className="font-sans text-sm font-semibold tracking-widest text-accent/80 hover:text-accent transition-colors no-underline uppercase"
@@ -35,8 +37,7 @@ export default function GlobalNav() {
           thenewontology.life
         </Link>
 
-        {/* Desktop links */}
-        <div className="hidden md:flex items-center gap-6">
+        <div className="hidden lg:flex items-center gap-5">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -48,9 +49,8 @@ export default function GlobalNav() {
           ))}
         </div>
 
-        {/* Hamburger */}
         <button
-          className="md:hidden flex flex-col gap-1.5 p-1"
+          className="lg:hidden flex flex-col gap-1.5 p-1"
           onClick={() => setOpen((v) => !v)}
           aria-label="Toggle navigation menu"
         >
@@ -66,10 +66,9 @@ export default function GlobalNav() {
         </button>
       </div>
 
-      {/* Mobile menu */}
       {open && (
         <div
-          className="md:hidden px-6 pb-5 pt-2 flex flex-col gap-4"
+          className="lg:hidden px-6 pb-5 pt-2 flex flex-col gap-4"
           style={{ borderTop: "1px solid rgba(155,188,255,0.08)" }}
         >
           {navLinks.map((link) => (
