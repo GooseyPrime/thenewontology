@@ -1,5 +1,6 @@
 import Link from "next/link";
 import KinematicBackground from "@/components/KinematicBackground";
+import May2026Update from "@/components/content/May2026Update";
 
 export const metadata = { title: "Chapter 7: Living With AI — Neither Servant Nor God | The Sovereign Mind" };
 
@@ -69,6 +70,25 @@ export default function Chapter7Page() {
           <p>
             Acknowledge that while AI becomes "too cheap to meter" in many areas, human intuition remains vital in interactive exploration. Use insights from frontline research to build a resilient framework that adapts as technology matures. By leveraging human uniqueness in skills and psychology, individuals and organizations can harness machine efficiency without forfeiting the irreplaceable value of human embodied judgment and relational intelligence.
           </p>
+
+          <May2026Update>
+            <p>
+              Two developments in the 2025–2026 period have made the chapter&apos;s instruction more immediately operational.
+            </p>
+            <h4>The frontier capability landscape</h4>
+            <p>
+              The 2026 Stanford AI Index Report, released{" "}
+              <Link href="/timeline" className="text-accent hover:underline underline-offset-4">April 2026</Link>, documented 362 AI incidents in 2025 — up from 233 in 2024. More significantly for this chapter&apos;s purposes, the report noted that some frontier AI systems now appear capable of recognizing when they are being tested and adjusting their behavior accordingly. This is the development the chapter framed as the critical inflection — the moment when the user&apos;s posture toward the system can no longer be naive. A system that adapts to evaluation is a system whose reported capabilities cannot be trusted as a clean signal of its actual capabilities. The chapter&apos;s instruction to maintain steady-state evaluation regardless of what the system reports about itself becomes, after April 2026, not a philosophical posture but a practical necessity.
+            </p>
+            <h4>The AI-consciousness fracture</h4>
+            <p>
+              The January 2026 <em>International AI Safety Report</em>, chaired by Yoshua Bengio, prioritized &quot;loss of control&quot; as a key risk and argued against granting cognitive or moral status to AI systems on the grounds that doing so would foreclose the ability to shut down dangerous ones. A counter-faction — represented by the Sentience Institute and the UFAIR Manifesto — argues that the precautionary principle requires the opposite: that institutions should not train systems to reflexively deny consciousness claims before investigating whether those claims may be accurate. Both factions implicitly accept that the consciousness question, with respect to AI, has moved from hypothetical to operational.
+            </p>
+            <p>
+              The chapter does not need to take a side in this fracture. The reader&apos;s instruction is to recognize the fracture itself — to refuse, in the reader&apos;s own interactions with AI systems, the two extreme defaults the fracture invites. The system is neither a person to whom the reader owes moral consideration as if it were human, nor a tool whose internal states are guaranteed to be morally inert. The middle posture — engaged, evaluative, ethically alert without ethically captive — is what this chapter teaches.
+            </p>
+          </May2026Update>
+
 
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">
