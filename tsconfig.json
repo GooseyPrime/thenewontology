@@ -30,8 +30,15 @@
   },
   "include": [
     "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
+    "tailwind.config.ts",
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "components/**/*.ts",
+    "components/**/*.tsx",
+    "lib/**/*.ts",
+    "content/**/*.ts",
+    "scripts/**/*.ts",
+    "types/**/*.ts",
     ".next/types/**/*.ts"
   ],
   "exclude": [
