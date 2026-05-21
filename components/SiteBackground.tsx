@@ -4,10 +4,7 @@ import { useEffect, useRef } from "react";
 
 const VERTEX_SHADER = `
 attribute vec2 position;
-attribute vec2 uv;
-varying vec2 vUv;
 void main() {
-  vUv = uv;
   gl_Position = vec4(position, 0.0, 1.0);
 }
 `;
@@ -16,7 +13,6 @@ const FRAGMENT_SHADER = `
 precision mediump float;
 uniform float uTime;
 uniform vec2 uResolution;
-varying vec2 vUv;
 
 void main() {
   vec2 uv = gl_FragCoord.xy / uResolution;
@@ -125,21 +121,15 @@ export default function SiteBackground() {
     gl.useProgram(program);
 
     const positions = new Float32Array([-1, -1, 1, -1, -1, 1, -1, 1, 1, -1, 1, 1]);
-    const uvs = new Float32Array([0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1]);
 
     const posBuffer = gl.createBuffer();
     gl.bindBuffer(gl.ARRAY_BUFFER, posBuffer);
     gl.bufferData(gl.ARRAY_BUFFER, positions, gl.STATIC_DRAW);
     const posLoc = gl.getAttribLocation(program, "position");
-    gl.enableVertexAttribArray(posLoc);
-    gl.vertexAttribPointer(posLoc, 2, gl.FLOAT, false, 0, 0);
-
-    const uvBuffer = gl.createBuffer();
-    gl.bindBuffer(gl.ARRAY_BUFFER, uvBuffer);
-    gl.bufferData(gl.ARRAY_BUFFER, uvs, gl.STATIC_DRAW);
-    const uvLoc = gl.getAttribLocation(program, "uv");
-    gl.enableVertexAttribArray(uvLoc);
-    gl.vertexAttribPointer(uvLoc, 2, gl.FLOAT, false, 0, 0);
+    if (posLoc >= 0) {
+      gl.enableVertexAttribArray(posLoc);
+      gl.vertexAttribPointer(posLoc, 2, gl.FLOAT, false, 0, 0);
+    }
 
     const uTimeLoc = gl.getUniformLocation(program, "uTime");
     const uResolutionLoc = gl.getUniformLocation(program, "uResolution");
@@ -196,7 +186,6 @@ export default function SiteBackground() {
       gl.deleteShader(vertShader);
       gl.deleteShader(fragShader);
       gl.deleteBuffer(posBuffer);
-      gl.deleteBuffer(uvBuffer);
       const loseContext = gl.getExtension("WEBGL_lose_context");
       loseContext?.loseContext();
     };

@@ -121,7 +121,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           }}
         />
       </head>
-      <body className="min-h-screen relative isolation-isolate bg-[#0d0500]">
+      <body className="min-h-screen relative isolation-isolate bg-bg">
         <SiteBackgroundRoot />
         {/* Google Tag Manager — noscript fallback, immediately after <body> */}
         <noscript>
