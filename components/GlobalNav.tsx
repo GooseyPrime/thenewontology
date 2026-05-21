@@ -20,19 +20,11 @@ export default function GlobalNav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav
-      className="fixed top-0 left-0 right-0 z-50"
-      style={{
-        background: "rgba(5,5,15,0.82)",
-        backdropFilter: "blur(14px)",
-        WebkitBackdropFilter: "blur(14px)",
-        borderBottom: "1px solid rgba(155,188,255,0.10)",
-      }}
-    >
+    <nav className="fixed top-0 left-0 right-0 z-50 glass-nav">
       <div className="max-w-5xl mx-auto px-6 flex items-center justify-between h-14">
         <Link
           href="/"
-          className="font-sans text-sm font-semibold tracking-widest text-accent/80 hover:text-accent transition-colors no-underline uppercase"
+          className="font-sans text-xl font-semibold tracking-widest text-accent/80 hover:text-accent transition-colors no-underline uppercase"
         >
           thenewontology.life
         </Link>
@@ -42,7 +34,7 @@ export default function GlobalNav() {
             <Link
               key={link.href}
               href={link.href}
-              className="font-sans text-xs tracking-wide text-muted hover:text-accent transition-colors no-underline uppercase"
+              className="font-sans text-[0.7rem] tracking-wide text-muted hover:text-accent transition-colors no-underline uppercase"
             >
               {link.label}
             </Link>
@@ -76,7 +68,7 @@ export default function GlobalNav() {
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
-              className="font-sans text-sm tracking-wide text-muted hover:text-accent transition-colors no-underline"
+              className="font-sans text-[1.2rem] tracking-wide text-muted hover:text-accent transition-colors no-underline"
             >
               {link.label}
             </Link>

@@ -13,19 +13,19 @@ export default function AboutPage() {
   return (
     <>
       <KinematicBackground />
-      <main className="relative min-h-screen px-6 py-16 max-w-prose mx-auto" style={{ zIndex: 1 }}>
+      <main className="relative min-h-screen px-6 py-16 max-w-prose mx-auto glass-panel my-8 p-8 text-[80%]" style={{ zIndex: 1 }}>
         <Link
           href="/"
-          className="section-title inline-flex items-center gap-2 mb-10 hover:text-accent transition-colors no-underline group"
+          className="section-title !text-[0.6rem] inline-flex items-center gap-2 mb-10 hover:text-accent transition-colors no-underline group"
         >
           <span className="group-hover:-translate-x-1 transition-transform">←</span> Home
         </Link>
-        <p className="section-title">About the Author</p>
-        <h1 className="font-sans text-4xl md:text-5xl font-semibold text-text mb-8">
+        <p className="section-title !text-[0.6rem]">About the Author</p>
+        <h1 className="font-sans text-[1.8rem] md:text-[2.4rem] font-semibold text-text mb-8">
           Michael Brandon Lane
         </h1>
         <div className="h-px bg-border mb-10" />
-        <div className="prose prose-invert">
+        <div className="prose prose-invert text-[0.9rem] leading-[1.48]">
           <p>
             Michael Brandon Lane holds a Bachelor of Science in Chemical Engineering from Virginia Tech
             and a Master of Science in Chemistry from the University of North Carolina at Greensboro.
@@ -85,7 +85,7 @@ export default function AboutPage() {
         <div className="mt-16 pt-8 border-t border-border">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4"
+            className="inline-flex items-center gap-2 font-sans text-[0.7rem] text-accent hover:underline underline-offset-4"
           >
             <span>←</span> Back to Library
           </Link>

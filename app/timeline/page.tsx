@@ -81,7 +81,8 @@ export default function TimelinePage() {
   return (
     <>
       <KinematicBackground />
-      <main className="relative min-h-screen px-6 py-16 max-w-3xl mx-auto" style={{ zIndex: 1 }}>
+      <main className="relative min-h-screen px-6 py-16 max-w-3xl mx-auto my-8" style={{ zIndex: 1 }}>
+        <div className="glass-panel p-8">
         <Link
           href="/"
           className="section-title inline-flex items-center gap-2 mb-10 hover:text-accent transition-colors no-underline group"
@@ -149,6 +150,7 @@ export default function TimelinePage() {
           <Link href="/the-great-convergence" className="inline-flex items-center gap-2 font-sans text-accent hover:underline underline-offset-4">
             The Great Convergence →
           </Link>
+        </div>
         </div>
       </main>
     </>

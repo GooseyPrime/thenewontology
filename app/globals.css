@@ -28,19 +28,27 @@
   }
 
   html {
+    font-size: 17px;
     @apply bg-bg text-text antialiased;
     text-rendering: optimizeLegibility;
   }
 
-  body { @apply min-h-screen font-serif; }
+  body {
+    @apply min-h-screen font-sans text-body text-text leading-relaxed antialiased;
+  }
 
   ::selection { background: rgba(155, 188, 255, 0.35); }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-sans font-semibold tracking-tight text-text;
+    @apply font-serif tracking-tight text-text;
+    letter-spacing: -0.02em;
   }
 
-  p { @apply leading-relaxed; }
+  h1 { @apply text-5xl md:text-6xl font-semibold; }
+  h2 { @apply text-3xl md:text-4xl font-medium; }
+  h3 { @apply text-2xl font-medium; }
+  h4 { @apply text-xl font-normal text-muted; }
+  p  { @apply text-body leading-[1.85]; }
 
   a { @apply text-accent no-underline; }
   a:hover { @apply underline underline-offset-4; }
@@ -71,7 +79,47 @@
   .callout--success { border-left-color: theme(colors.success); }
 
   .section-title {
-    @apply font-sans text-muted uppercase tracking-[0.14em] text-xs mb-2;
+    @apply font-mono text-xs text-muted uppercase tracking-[0.18em] mb-2;
+  }
+
+  /* Smoky glass panel — primary content blocks */
+  .glass-panel {
+    background: rgba(10, 3, 0, 0.72);
+    backdrop-filter: blur(18px) saturate(140%);
+    -webkit-backdrop-filter: blur(18px) saturate(140%);
+    border: 1px solid rgba(180, 80, 20, 0.18);
+    border-radius: 0.75rem;
+  }
+
+  /* Lighter glass for navigation and secondary UI */
+  .glass-nav {
+    background: rgba(8, 2, 0, 0.80);
+    backdrop-filter: blur(24px) saturate(160%);
+    -webkit-backdrop-filter: blur(24px) saturate(160%);
+    border-bottom: 1px solid rgba(180, 80, 20, 0.14);
+  }
+
+  /* Inline content card (e.g., chapter link cards) */
+  .glass-card {
+    background: rgba(15, 5, 0, 0.65);
+    backdrop-filter: blur(12px) saturate(130%);
+    -webkit-backdrop-filter: blur(12px) saturate(130%);
+    border: 1px solid rgba(180, 80, 20, 0.14);
+    border-radius: 0.65rem;
+    transition: border-color 0.25s ease, background 0.25s ease;
+  }
+
+  .glass-card:hover {
+    background: rgba(20, 7, 0, 0.80);
+    border-color: rgba(196, 65, 28, 0.35);
+  }
+
+  /* Accent highlight glass (notices, blockquotes) */
+  .glass-accent {
+    background: rgba(30, 8, 0, 0.70);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-left: 3px solid #C4411C;
+    border-radius: 0 0.5rem 0.5rem 0;
   }
 }
-
