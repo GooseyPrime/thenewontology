@@ -1,8 +1,32 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Cormorant_Garamond, Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import GlobalNav from "@/components/GlobalNav";
+import SiteBackgroundRoot from "@/components/SiteBackgroundRoot";
+
+const heading = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  variable: "--font-heading",
+  display: "swap",
+});
+
+const body = Inter({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600"],
+  variable: "--font-body",
+  display: "swap",
+});
+
+const mono = JetBrains_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-mono",
+  display: "swap",
+});
 
 const GTM_ID = "GTM-W3985XV3";
 const GA_ID2 = "G-PEPEGCGN9F";
@@ -81,7 +105,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="dark">
+    <html
+      lang="en"
+      className={`dark ${heading.variable} ${body.variable} ${mono.variable}`}
+    >
       <head>
         {/* Google Tag Manager — head script (loads as early as possible) */}
         <script
@@ -94,7 +121,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           }}
         />
       </head>
-      <body>
+      <body className="min-h-screen relative isolation-isolate bg-[#0d0500]">
+        <SiteBackgroundRoot />
         {/* Google Tag Manager — noscript fallback, immediately after <body> */}
         <noscript>
           <iframe
@@ -106,7 +134,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </noscript>
         {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
         <GlobalNav />
-        <div style={{ height: "3.5rem" }} aria-hidden="true" />
+        <div className="h-14 shrink-0" aria-hidden="true" />
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID2}`}
           strategy="afterInteractive"
@@ -137,7 +165,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             }),
           }}
         />
-        {children}
+        <div className="relative z-10 min-h-screen">{children}</div>
       </body>
     </html>
   );

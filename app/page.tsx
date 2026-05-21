@@ -48,7 +48,7 @@ export default function Home() {
         {/* Site title */}
         <header className="mb-14 text-center">
           <p className="section-title mb-3 tracking-widest">thenewontology.life</p>
-          <h1 className="font-sans text-4xl md:text-6xl font-semibold tracking-tight text-text">
+          <h1 className="font-serif text-4xl md:text-6xl font-semibold tracking-tight text-text">
             The New Human Ontology
           </h1>
           <div className="mt-4 h-px w-24 mx-auto bg-border" />
@@ -57,7 +57,7 @@ export default function Home() {
         {/* Disclaimer */}
         <section
           aria-label="Disclaimer"
-          className="panel max-w-2xl w-full p-7 mb-14 border-l-4"
+          className="glass-panel max-w-2xl w-full p-7 mb-14 border-l-4"
           style={{ borderLeftColor: "#9bbcff" }}
         >
           <p className="section-title mb-3">Disclosure &amp; Verification Statement</p>
@@ -69,10 +69,10 @@ export default function Home() {
         {/* Foreword */}
         <section
           aria-label="Foreword"
-          className="panel max-w-2xl w-full p-8 mb-14"
+          className="glass-panel max-w-2xl w-full p-8 mb-14"
         >
           <p className="section-title mb-5 tracking-widest">Foreword</p>
-          <div className="font-serif text-text leading-loose text-sm md:text-base space-y-5">
+          <div className="font-serif text-text leading-[1.9] text-base md:text-lg space-y-5">
             <p>
               I never imagined that, in my lifetime, I would be able to gather tools and resources
               powerful enough to trace truth as it slipped, thread by thread, through a field of
@@ -130,16 +130,11 @@ export default function Home() {
             <Link
               key={book.href}
               href={book.href}
-              className="group relative flex items-start gap-6 panel px-7 py-6 
+              className="group relative flex items-start gap-6 glass-card px-7 py-6 
                          transition-all duration-300
                          hover:border-accent/60 hover:shadow-[0_0_30px_rgba(155,188,255,0.12)]
                          focus-visible:ring-2 focus-visible:ring-accent/70 focus-visible:ring-offset-2 focus-visible:ring-offset-bg
                          no-underline"
-              style={{
-                background: "rgba(0,0,0,0.55)",
-                backdropFilter: "blur(12px)",
-                WebkitBackdropFilter: "blur(12px)",
-              }}
             >
               <span className="font-sans text-2xl font-bold text-accent/40 group-hover:text-accent/70 transition-colors mt-0.5 select-none">
                 {book.number}
@@ -163,16 +158,11 @@ export default function Home() {
         <div className="w-full max-w-2xl mt-6">
           <Link
             href="/the-great-convergence"
-            className="group relative flex flex-col panel px-7 py-6
+            className="group relative flex flex-col glass-card px-7 py-6
                        transition-all duration-300
                        hover:border-accent/60 hover:shadow-[0_0_30px_rgba(155,188,255,0.12)]
                        focus-visible:ring-2 focus-visible:ring-accent/70 focus-visible:ring-offset-2 focus-visible:ring-offset-bg
                        no-underline"
-            style={{
-              background: "rgba(0,0,0,0.55)",
-              backdropFilter: "blur(12px)",
-              WebkitBackdropFilter: "blur(12px)",
-            }}
           >
             <span className="section-title mb-2 text-xs">Featured Essay</span>
             <h2 className="font-sans text-lg md:text-xl font-semibold text-text group-hover:text-accent transition-colors mb-1">

@@ -8,7 +8,7 @@ export default function Chapter9Page() {
   return (
     <>
       <KinematicBackground />
-      <main className="relative min-h-screen px-6 py-16 max-w-prose mx-auto" style={{ zIndex: 1 }}>
+      <main className="relative min-h-screen px-6 py-16 max-w-prose mx-auto glass-panel my-8 p-8" style={{ zIndex: 1 }}>
         <Link href="/the-sovereign-mind" className="section-title inline-flex items-center gap-2 mb-10 hover:text-accent transition-colors no-underline group">
           <span className="group-hover:-translate-x-1 transition-transform">←</span> The Sovereign Mind
         </Link>
