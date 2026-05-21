@@ -34,7 +34,7 @@ export default function GlobalNav() {
             <Link
               key={link.href}
               href={link.href}
-              className="font-sans text-sm tracking-wide text-muted hover:text-accent transition-colors no-underline uppercase"
+              className="font-sans text-[0.7rem] tracking-wide text-muted hover:text-accent transition-colors no-underline uppercase"
             >
               {link.label}
             </Link>
@@ -68,7 +68,7 @@ export default function GlobalNav() {
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
-              className="font-sans text-2xl tracking-wide text-muted hover:text-accent transition-colors no-underline"
+              className="font-sans text-[1.2rem] tracking-wide text-muted hover:text-accent transition-colors no-underline"
             >
               {link.label}
             </Link>
