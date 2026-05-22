@@ -26,8 +26,8 @@
 | Item | Status | Notes |
 |------|--------|-------|
 | Glossary: PURSUE | **done** | `app/glossary/page.tsx` |
-| Who's Who: tim-gallaudet | **partial** | `figures-original.ts` — update bio for May 2026 HO-NHI / DF roles |
-| Who's Who: hunt-willis | **missing** | Add to `figures-added.ts` |
+| Who's Who: tim-gallaudet | **done** | `figures-original.ts` — May 2026 HO-NHI / DF roles updated |
+| Who's Who: hunt-willis | **done** | `figures-added.ts` |
 | May2026Update on 11 chapters | **done** (prior P4/P5) | TNHO 1,2,4,5,9,10; TSM 1,2,4,7,9 |
 | Landing page `app/page.tsx` | **frozen** | Never edit this cycle |
 | Vol III inline May 17 blocks | **partial** | TBW has inline updates; Tier 4 adds `MayUpdateYouth` + May 21 content |
