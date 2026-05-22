@@ -8,6 +8,10 @@ globs:
 
 # Site content updates (PR9)
 
+## Git (mandatory)
+
+Never commit or push to `main` unless the user explicitly says so. Use a feature branch and open a PR.
+
 Read **`docs/site-update/Site_Update_PR_9.md`** before editing. Full item list: `docs/site-update/source/section-3-chapters.txt`, `section-4-aux.txt`, `section-5-ops.txt`.
 
 ## Hard rules

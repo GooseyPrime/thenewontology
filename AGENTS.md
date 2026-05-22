@@ -1,5 +1,11 @@
 # AGENTS.md
 
+## Git workflow (mandatory)
+
+- **Never commit or push directly to `main`** unless the user explicitly instructs you to do so.
+- **Always** create a feature branch (`feat/...` or `fix/...`), complete work there, push the branch, and open a PR for review.
+- If you accidentally committed to `main`, stop — do not push further to `main`; notify the user and use a feature branch for all remaining work.
+
 ## Cursor Cloud specific instructions
 
 This is a static Next.js 15 content website with no backend, database, or external services.
