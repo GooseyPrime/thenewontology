@@ -9,8 +9,10 @@ import { FIGURE_CATEGORIES, type Figure, type FigureCategory, type StakeholderFl
 import { CATEGORY_LABELS } from "@/content/whos-who/types";
 import { buildCytoscapeElements } from "@/lib/network/build-cytoscape-elements";
 import {
+  AFFILIATION_EDGE_COLOR,
   CATEGORY_COLORS,
   EDGE_STYLES,
+  FIGURE_NODE_BORDER,
   FLAG_RING_COLORS,
 } from "@/lib/network/graph-styles";
 import NetworkLegend from "@/components/network/NetworkLegend";
@@ -58,8 +60,8 @@ export default function NetworkGraph() {
     return affiliations.map((aff) => {
       const id = `org-${aff.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`;
       const node = nodes.find((n) => n.data.id === id);
-      const fill = (node?.data.orgFill as string) ?? "rgba(255,140,0,0.12)";
-      const color = (node?.data.orgColor as string) ?? "#ff8c4d";
+      const fill = (node?.data.orgFill as string) ?? "hsla(220, 28%, 8%, 0.92)";
+      const color = (node?.data.orgColor as string) ?? "hsl(220, 32%, 48%)";
       return { id, aff, fill, color };
     });
   }, [affiliations, nodes]);
@@ -71,10 +73,11 @@ export default function NetworkGraph() {
         style: {
           "background-color": "data(orgFill)",
           "border-color": "data(orgColor)",
-          "border-width": 2,
+          "border-width": 1.5,
           shape: "round-rectangle",
           label: "data(label)",
           color: "data(orgColor)",
+          opacity: 1,
           "font-size": 11,
           "font-weight": 600,
           "text-transform": "uppercase",
@@ -102,14 +105,15 @@ export default function NetworkGraph() {
           color: "#e6e8ec",
           "text-valign": "bottom",
           "text-margin-y": 8,
+          "border-color": FIGURE_NODE_BORDER,
           "border-width": 3,
+          "background-opacity": 1,
         },
       },
       ...FIGURE_CATEGORIES.map((cat) => ({
         selector: `node.cat-${cat}`,
         style: {
           "background-color": CATEGORY_COLORS[cat],
-          "border-color": CATEGORY_COLORS[cat],
         },
       })),
       ...Object.keys(FLAG_RING_COLORS).map((flag) => ({
@@ -126,10 +130,10 @@ export default function NetworkGraph() {
       {
         selector: "edge",
         style: {
-          width: 1.5,
+          width: 2,
           "curve-style": "bezier",
           "target-arrow-shape": "none",
-          opacity: 0.65,
+          opacity: 0.88,
         },
       },
       ...Object.entries(EDGE_STYLES).map(([type, s]) => ({
@@ -137,14 +141,17 @@ export default function NetworkGraph() {
         style: {
           "line-color": s.color,
           "line-style": s.lineStyle,
+          width: 2.25,
+          opacity: 1,
         },
       })),
       {
         selector: "edge.affiliation-edge",
         style: {
-          "line-color": "rgba(155, 188, 255, 0.35)",
+          "line-color": AFFILIATION_EDGE_COLOR,
           "line-style": "dotted",
-          width: 1,
+          width: 1.5,
+          opacity: 0.75,
         },
       },
       {
@@ -403,7 +410,7 @@ export default function NetworkGraph() {
       <div className="flex flex-col xl:flex-row gap-6">
         <div
           ref={containerRef}
-          className="relative flex-1 border border-border rounded-xl overflow-hidden bg-panel/40"
+          className="relative flex-1 border border-border rounded-xl overflow-hidden bg-[#060302]/80"
           style={{ height: graphHeight }}
         >
           <CytoscapeComponent

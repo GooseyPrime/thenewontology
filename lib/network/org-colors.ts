@@ -1,18 +1,20 @@
-/** Deterministic warm hue per affiliation label — stable across sessions. */
-export function orgColor(affiliation: string): string {
+/** Deterministic hue per affiliation — stable across sessions. */
+function orgHue(affiliation: string): number {
   let hash = 0;
   for (let i = 0; i < affiliation.length; i++) {
     hash = affiliation.charCodeAt(i) + ((hash << 5) - hash);
   }
-  const hue = 18 + (Math.abs(hash) % 42);
-  return `hsl(${hue}, 72%, 52%)`;
+  return 215 + (Math.abs(hash) % 45);
 }
 
-export function orgFill(affiliation: string, alpha = 0.14): string {
-  let hash = 0;
-  for (let i = 0; i < affiliation.length; i++) {
-    hash = affiliation.charCodeAt(i) + ((hash << 5) - hash);
-  }
-  const hue = 18 + (Math.abs(hash) % 42);
-  return `hsla(${hue}, 65%, 45%, ${alpha})`;
+/** Muted rim + label color for organization compound nodes. */
+export function orgColor(affiliation: string): string {
+  const hue = orgHue(affiliation);
+  return `hsl(${hue}, 32%, 48%)`;
+}
+
+/** Dark fill so person nodes read clearly on top of org clusters. */
+export function orgFill(affiliation: string): string {
+  const hue = orgHue(affiliation);
+  return `hsla(${hue}, 28%, 8%, 0.92)`;
 }

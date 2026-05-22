@@ -5,19 +5,19 @@
 @layer base {
   :root {
     color-scheme: dark;
-    --network-cat-gov: #6b9fd4;
-    --network-cat-ic: #8b7ec8;
-    --network-cat-leg: #c9a86c;
-    --network-cat-sci: #5cb8a8;
-    --network-cat-wit: #d48ab0;
-    --network-cat-jour: #9eb56a;
-    --network-edge-coauth: #5b8fd4;
-    --network-edge-cofound: #9b7ed8;
-    --network-edge-cotest: #5ec9e8;
-    --network-edge-invest: #4db8a8;
-    --network-edge-dispute: #e07070;
-    --network-edge-mentor: #d4b85c;
-    --network-edge-funded: #e8a050;
+    --network-cat-gov: #6eb8ff;
+    --network-cat-ic: #b49aff;
+    --network-cat-leg: #e8c06a;
+    --network-cat-sci: #5ee0c8;
+    --network-cat-wit: #f592c8;
+    --network-cat-jour: #b8e070;
+    --network-edge-coauth: #8ec0ff;
+    --network-edge-cofound: #c4a8ff;
+    --network-edge-cotest: #7ee8ff;
+    --network-edge-invest: #6ee8c8;
+    --network-edge-dispute: #ff8a8a;
+    --network-edge-mentor: #f0d070;
+    --network-edge-funded: #ffb86a;
     --network-flag-blocker: #e07070;
     --network-flag-contractor: #b8956a;
     --network-flag-energy: #e8b050;

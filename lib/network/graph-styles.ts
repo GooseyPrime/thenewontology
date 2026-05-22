@@ -4,39 +4,44 @@ import type {
   StakeholderFlag,
 } from "@/content/whos-who/types";
 
+/** Bright fills for person nodes — high contrast on dark org backgrounds. */
 export const CATEGORY_COLORS: Record<FigureCategory, string> = {
-  "government-military": "var(--network-cat-gov)",
-  "intelligence-community": "var(--network-cat-ic)",
-  legislator: "var(--network-cat-leg)",
-  "scientist-academic": "var(--network-cat-sci)",
-  "witness-experiencer": "var(--network-cat-wit)",
-  "journalist-investigator": "var(--network-cat-jour)",
+  "government-military": "#6eb8ff",
+  "intelligence-community": "#b49aff",
+  legislator: "#e8c06a",
+  "scientist-academic": "#5ee0c8",
+  "witness-experiencer": "#f592c8",
+  "journalist-investigator": "#b8e070",
 };
+
+export const FIGURE_NODE_BORDER = "#f4f6fb";
 
 export const EDGE_STYLES: Record<
   ConnectionType,
   { color: string; lineStyle: "solid" | "dashed" | "dotted" }
 > = {
-  "co-authored": { color: "var(--network-edge-coauth)", lineStyle: "solid" },
-  "co-founded": { color: "var(--network-edge-cofound)", lineStyle: "solid" },
-  "co-testified": { color: "var(--network-edge-cotest)", lineStyle: "dashed" },
-  "investigated-together": { color: "var(--network-edge-invest)", lineStyle: "solid" },
-  "public-dispute": { color: "var(--network-edge-dispute)", lineStyle: "solid" },
-  "mentor-mentee": { color: "var(--network-edge-mentor)", lineStyle: "dotted" },
-  funded: { color: "var(--network-edge-funded)", lineStyle: "dashed" },
+  "co-authored": { color: "#8ec0ff", lineStyle: "solid" },
+  "co-founded": { color: "#c4a8ff", lineStyle: "solid" },
+  "co-testified": { color: "#7ee8ff", lineStyle: "dashed" },
+  "investigated-together": { color: "#6ee8c8", lineStyle: "solid" },
+  "public-dispute": { color: "#ff8a8a", lineStyle: "solid" },
+  "mentor-mentee": { color: "#f0d070", lineStyle: "dotted" },
+  funded: { color: "#ffb86a", lineStyle: "dashed" },
 };
 
+export const AFFILIATION_EDGE_COLOR = "rgba(186, 204, 230, 0.55)";
+
 export const FLAG_RING_COLORS: Partial<Record<StakeholderFlag, string>> = {
-  "legislative-blocker": "var(--network-flag-blocker)",
-  "defense-contractor": "var(--network-flag-contractor)",
-  "energy-industry": "var(--network-flag-energy)",
-  whistleblower: "var(--network-flag-whistle)",
-  "disclosure-advocate": "#ff8c4d",
-  "intel-community": "#c97ec8",
-  experiencer: "#e88ab8",
-  "contested-status": "var(--network-flag-contested)",
-  deceased: "var(--network-flag-deceased)",
-  missing: "var(--network-flag-missing)",
+  "legislative-blocker": "#ff7a7a",
+  "defense-contractor": "#d4a86a",
+  "energy-industry": "#ffc060",
+  whistleblower: "#6ee89a",
+  "disclosure-advocate": "#ffa060",
+  "intel-community": "#c49aff",
+  experiencer: "#f592c8",
+  "contested-status": "#b8c4d8",
+  deceased: "#8a9098",
+  missing: "#a8b0bc",
 };
 
 const FLAG_PRIORITY: StakeholderFlag[] = [
