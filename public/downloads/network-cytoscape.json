@@ -6,162 +6,216 @@
           "id": "org-aaro-all-domain-anomaly-resolution-office",
           "label": "AARO (All-domain Anomaly Resolution Office)",
           "isCompound": true,
-          "isOrg": true
+          "isOrg": true,
+          "affiliation": "AARO (All-domain Anomaly Resolution Office)",
+          "orgColor": "hsl(31, 72%, 52%)",
+          "orgFill": "hsla(31, 65%, 45%, 0.14)"
         },
-        "classes": "compound-parent"
+        "classes": "compound-parent org-node"
       },
       {
         "data": {
           "id": "org-aawsap-baass",
           "label": "AAWSAP / BAASS",
           "isCompound": true,
-          "isOrg": true
+          "isOrg": true,
+          "affiliation": "AAWSAP / BAASS",
+          "orgColor": "hsl(42, 72%, 52%)",
+          "orgFill": "hsla(42, 65%, 45%, 0.14)"
         },
-        "classes": "compound-parent"
+        "classes": "compound-parent org-node"
       },
       {
         "data": {
           "id": "org-department-of-war-formerly-dod",
           "label": "Department of War (formerly DoD)",
           "isCompound": true,
-          "isOrg": true
+          "isOrg": true,
+          "affiliation": "Department of War (formerly DoD)",
+          "orgColor": "hsl(57, 72%, 52%)",
+          "orgFill": "hsla(57, 65%, 45%, 0.14)"
         },
-        "classes": "compound-parent"
+        "classes": "compound-parent org-node"
       },
       {
         "data": {
           "id": "org-disclosure-project",
           "label": "Disclosure Project",
           "isCompound": true,
-          "isOrg": true
+          "isOrg": true,
+          "affiliation": "Disclosure Project",
+          "orgColor": "hsl(28, 72%, 52%)",
+          "orgFill": "hsla(28, 65%, 45%, 0.14)"
         },
-        "classes": "compound-parent"
+        "classes": "compound-parent org-node"
       },
       {
         "data": {
           "id": "org-galileo-project",
           "label": "Galileo Project",
           "isCompound": true,
-          "isOrg": true
+          "isOrg": true,
+          "affiliation": "Galileo Project",
+          "orgColor": "hsl(32, 72%, 52%)",
+          "orgFill": "hsla(32, 65%, 45%, 0.14)"
         },
-        "classes": "compound-parent"
+        "classes": "compound-parent org-node"
       },
       {
         "data": {
           "id": "org-house-uap-caucus",
           "label": "House UAP Caucus",
           "isCompound": true,
-          "isOrg": true
+          "isOrg": true,
+          "affiliation": "House UAP Caucus",
+          "orgColor": "hsl(44, 72%, 52%)",
+          "orgFill": "hsla(44, 65%, 45%, 0.14)"
         },
-        "classes": "compound-parent"
+        "classes": "compound-parent org-node"
       },
       {
         "data": {
           "id": "org-january-23-2026-congressional-hearing",
           "label": "January 23, 2026 Congressional Hearing",
           "isCompound": true,
-          "isOrg": true
+          "isOrg": true,
+          "affiliation": "January 23, 2026 Congressional Hearing",
+          "orgColor": "hsl(28, 72%, 52%)",
+          "orgFill": "hsla(28, 65%, 45%, 0.14)"
         },
-        "classes": "compound-parent"
+        "classes": "compound-parent org-node"
       },
       {
         "data": {
           "id": "org-japan-diet-uap-parliamentary-group",
           "label": "Japan Diet UAP Parliamentary Group",
           "isCompound": true,
-          "isOrg": true
+          "isOrg": true,
+          "affiliation": "Japan Diet UAP Parliamentary Group",
+          "orgColor": "hsl(24, 72%, 52%)",
+          "orgFill": "hsla(24, 65%, 45%, 0.14)"
         },
-        "classes": "compound-parent"
+        "classes": "compound-parent org-node"
       },
       {
         "data": {
           "id": "org-pursue-presidential-unsealing-and-reporting-system-for-uap-encounters",
           "label": "PURSUE (Presidential Unsealing and Reporting System for UAP Encounters)",
           "isCompound": true,
-          "isOrg": true
+          "isOrg": true,
+          "affiliation": "PURSUE (Presidential Unsealing and Reporting System for UAP Encounters)",
+          "orgColor": "hsl(34, 72%, 52%)",
+          "orgFill": "hsla(34, 65%, 45%, 0.14)"
         },
-        "classes": "compound-parent"
+        "classes": "compound-parent org-node"
       },
       {
         "data": {
           "id": "org-project-stargate-sri",
           "label": "Project Stargate (SRI)",
           "isCompound": true,
-          "isOrg": true
+          "isOrg": true,
+          "affiliation": "Project Stargate (SRI)",
+          "orgColor": "hsl(23, 72%, 52%)",
+          "orgFill": "hsla(23, 65%, 45%, 0.14)"
         },
-        "classes": "compound-parent"
+        "classes": "compound-parent org-node"
       },
       {
         "data": {
           "id": "org-senate-uapda-sponsors",
           "label": "Senate UAPDA Sponsors",
           "isCompound": true,
-          "isOrg": true
+          "isOrg": true,
+          "affiliation": "Senate UAPDA Sponsors",
+          "orgColor": "hsl(56, 72%, 52%)",
+          "orgFill": "hsla(56, 65%, 45%, 0.14)"
         },
-        "classes": "compound-parent"
+        "classes": "compound-parent org-node"
       },
       {
         "data": {
           "id": "org-september-9-2025-congressional-hearing",
           "label": "September 9, 2025 Congressional Hearing",
           "isCompound": true,
-          "isOrg": true
+          "isOrg": true,
+          "affiliation": "September 9, 2025 Congressional Hearing",
+          "orgColor": "hsl(18, 72%, 52%)",
+          "orgFill": "hsla(18, 65%, 45%, 0.14)"
         },
-        "classes": "compound-parent"
+        "classes": "compound-parent org-node"
       },
       {
         "data": {
           "id": "org-skinwalker-ranch",
           "label": "Skinwalker Ranch",
           "isCompound": true,
-          "isOrg": true
+          "isOrg": true,
+          "affiliation": "Skinwalker Ranch",
+          "orgColor": "hsl(21, 72%, 52%)",
+          "orgFill": "hsla(21, 65%, 45%, 0.14)"
         },
-        "classes": "compound-parent"
+        "classes": "compound-parent org-node"
       },
       {
         "data": {
           "id": "org-sol-foundation",
           "label": "Sol Foundation",
           "isCompound": true,
-          "isOrg": true
+          "isOrg": true,
+          "affiliation": "Sol Foundation",
+          "orgColor": "hsl(19, 72%, 52%)",
+          "orgFill": "hsla(19, 65%, 45%, 0.14)"
         },
-        "classes": "compound-parent"
+        "classes": "compound-parent org-node"
       },
       {
         "data": {
           "id": "org-sol-foundation-2025-italy-symposium",
           "label": "Sol Foundation 2025 Italy Symposium",
           "isCompound": true,
-          "isOrg": true
+          "isOrg": true,
+          "affiliation": "Sol Foundation 2025 Italy Symposium",
+          "orgColor": "hsl(43, 72%, 52%)",
+          "orgFill": "hsla(43, 65%, 45%, 0.14)"
         },
-        "classes": "compound-parent"
+        "classes": "compound-parent org-node"
       },
       {
         "data": {
           "id": "org-the-age-of-disclosure-2025",
           "label": "The Age of Disclosure (2025)",
           "isCompound": true,
-          "isOrg": true
+          "isOrg": true,
+          "affiliation": "The Age of Disclosure (2025)",
+          "orgColor": "hsl(24, 72%, 52%)",
+          "orgFill": "hsla(24, 65%, 45%, 0.14)"
         },
-        "classes": "compound-parent"
+        "classes": "compound-parent org-node"
       },
       {
         "data": {
           "id": "org-to-the-stars-academy-ttsa",
           "label": "To The Stars Academy (TTSA)",
           "isCompound": true,
-          "isOrg": true
+          "isOrg": true,
+          "affiliation": "To The Stars Academy (TTSA)",
+          "orgColor": "hsl(58, 72%, 52%)",
+          "orgFill": "hsla(58, 65%, 45%, 0.14)"
         },
-        "classes": "compound-parent"
+        "classes": "compound-parent org-node"
       },
       {
         "data": {
           "id": "org-uaptf-unidentified-aerial-phenomena-task-force-2020-2022",
           "label": "UAPTF (Unidentified Aerial Phenomena Task Force, 2020–2022)",
           "isCompound": true,
-          "isOrg": true
+          "isOrg": true,
+          "affiliation": "UAPTF (Unidentified Aerial Phenomena Task Force, 2020–2022)",
+          "orgColor": "hsl(57, 72%, 52%)",
+          "orgFill": "hsla(57, 65%, 45%, 0.14)"
         },
-        "classes": "compound-parent"
+        "classes": "compound-parent org-node"
       },
       {
         "data": {
@@ -181,7 +235,11 @@
             "bio": "Retired U.S. Army Colonel; former head of the Pentagon's non-lethal weapons program. Author of UFOs: Myths, Conspiracies, and Realities (2011). A rare insider who investigated UAP phenomena through official channels and concluded they are real but resisted simple explanation.",
             "stakeholderFlags": [],
             "status": "retired"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "retired"
         },
         "classes": "figure-node cat-government-military"
       },
@@ -207,9 +265,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 2,
+          "nodeSize": 40,
+          "primaryFlag": "defense-contractor",
+          "status": "active"
         },
-        "classes": "figure-node cat-witness-experiencer"
+        "classes": "figure-node cat-witness-experiencer flag-defense-contractor"
       },
       {
         "data": {
@@ -228,9 +290,13 @@
               "experiencer"
             ],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "experiencer",
+          "status": "active"
         },
-        "classes": "figure-node cat-witness-experiencer"
+        "classes": "figure-node cat-witness-experiencer flag-experiencer"
       },
       {
         "data": {
@@ -254,9 +320,13 @@
             ],
             "status": "active",
             "calibrationNote": "The Wilson-Davis memo has been entered into the Congressional Record but has not been officially confirmed or denied by Davis or Wilson. Its contents remain contested evidence, not established fact."
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "contested-status",
+          "status": "active"
         },
-        "classes": "figure-node cat-intelligence-community"
+        "classes": "figure-node cat-intelligence-community flag-contested-status"
       },
       {
         "data": {
@@ -281,9 +351,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 6,
+          "nodeSize": 48,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-intelligence-community"
+        "classes": "figure-node cat-intelligence-community flag-disclosure-advocate"
       },
       {
         "data": {
@@ -307,9 +381,13 @@
               "disclosure-advocate"
             ],
             "status": "retired"
-          }
+          },
+          "degree": 4,
+          "nodeSize": 44,
+          "primaryFlag": "disclosure-advocate",
+          "status": "retired"
         },
-        "classes": "figure-node cat-government-military"
+        "classes": "figure-node cat-government-military flag-disclosure-advocate"
       },
       {
         "data": {
@@ -333,9 +411,13 @@
               "whistleblower"
             ],
             "status": "active"
-          }
+          },
+          "degree": 1,
+          "nodeSize": 38,
+          "primaryFlag": "whistleblower",
+          "status": "active"
         },
-        "classes": "figure-node cat-intelligence-community"
+        "classes": "figure-node cat-intelligence-community flag-whistleblower"
       },
       {
         "data": {
@@ -352,7 +434,11 @@
             "bio": "Anesthesiologist and consciousness researcher at the University of Arizona. Co-developer with Roger Penrose of Orchestrated Objective Reduction (Orch-OR), which proposes consciousness arises from quantum computations in neural microtubules. Has actively integrated experimental evidence from microtubule anesthetic studies since 2015.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 1,
+          "nodeSize": 38,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-scientist-academic"
       },
@@ -371,7 +457,11 @@
             "bio": "Cognitive scientist at UC Irvine. Developed the Interface Theory of Perception and Conscious Realism through extensive evolutionary game theory modeling. Author of The Case Against Reality (W.W. Norton, 2019). His work implies UAP 'violations of physical law' may represent operations at a level more fundamental than the perceptual interface.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-scientist-academic"
       },
@@ -394,7 +484,11 @@
             "bio": "Molecular biologist; lead scientist at BAASS/NIDSci during the Skinwalker Ranch investigation (1996–2004, 2008–2010). Co-author of Hunt for the Skinwalker (2005) with George Knapp. Documented the hitchhiker effect — post-encounter anomalous phenomena following witnesses off-site — in systematic detail.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 6,
+          "nodeSize": 48,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-scientist-academic"
       },
@@ -419,9 +513,13 @@
             ],
             "status": "retired",
             "calibrationNote": "Representative Luna's 'documented liar' characterization is on the Congressional record. Kirkpatrick maintains his AARO findings are accurate and has publicly critiqued PURSUE Release 01 as light on substantive content. Both positions are on the public record."
-          }
+          },
+          "degree": 3,
+          "nodeSize": 42,
+          "primaryFlag": "contested-status",
+          "status": "retired"
         },
-        "classes": "figure-node cat-intelligence-community"
+        "classes": "figure-node cat-intelligence-community flag-contested-status"
       },
       {
         "data": {
@@ -441,7 +539,11 @@
             "bio": "Successor to Sean Kirkpatrick as AARO Director; NSA researcher with quantum optics background. Acknowledged 21 UAP cases his physics and engineering background cannot explain — a markedly different posture than his predecessor's categorical denial.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-government-military"
       },
@@ -465,9 +567,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 1,
+          "nodeSize": 38,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-scientist-academic"
+        "classes": "figure-node cat-scientist-academic flag-disclosure-advocate"
       },
       {
         "data": {
@@ -489,9 +595,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 1,
+          "nodeSize": 38,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-legislator"
+        "classes": "figure-node cat-legislator flag-disclosure-advocate"
       },
       {
         "data": {
@@ -514,9 +624,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-legislator"
+        "classes": "figure-node cat-legislator flag-disclosure-advocate"
       },
       {
         "data": {
@@ -538,9 +652,13 @@
               "intel-community"
             ],
             "status": "retired"
-          }
+          },
+          "degree": 1,
+          "nodeSize": 38,
+          "primaryFlag": "intel-community",
+          "status": "retired"
         },
-        "classes": "figure-node cat-witness-experiencer"
+        "classes": "figure-node cat-witness-experiencer flag-intel-community"
       },
       {
         "data": {
@@ -565,9 +683,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 8,
+          "nodeSize": 52,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-intelligence-community"
+        "classes": "figure-node cat-intelligence-community flag-disclosure-advocate"
       },
       {
         "data": {
@@ -590,9 +712,13 @@
               "disclosure-advocate"
             ],
             "status": "retired"
-          }
+          },
+          "degree": 1,
+          "nodeSize": 38,
+          "primaryFlag": "disclosure-advocate",
+          "status": "retired"
         },
-        "classes": "figure-node cat-government-military"
+        "classes": "figure-node cat-government-military flag-disclosure-advocate"
       },
       {
         "data": {
@@ -615,9 +741,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 5,
+          "nodeSize": 46,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-scientist-academic"
+        "classes": "figure-node cat-scientist-academic flag-disclosure-advocate"
       },
       {
         "data": {
@@ -636,9 +766,13 @@
               "experiencer"
             ],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "experiencer",
+          "status": "active"
         },
-        "classes": "figure-node cat-scientist-academic"
+        "classes": "figure-node cat-scientist-academic flag-experiencer"
       },
       {
         "data": {
@@ -662,9 +796,13 @@
               "intel-community"
             ],
             "status": "active"
-          }
+          },
+          "degree": 2,
+          "nodeSize": 40,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-intelligence-community"
+        "classes": "figure-node cat-intelligence-community flag-disclosure-advocate"
       },
       {
         "data": {
@@ -687,9 +825,13 @@
               "defense-contractor"
             ],
             "status": "retired"
-          }
+          },
+          "degree": 1,
+          "nodeSize": 38,
+          "primaryFlag": "legislative-blocker",
+          "status": "retired"
         },
-        "classes": "figure-node cat-legislator"
+        "classes": "figure-node cat-legislator flag-legislative-blocker"
       },
       {
         "data": {
@@ -711,9 +853,13 @@
               "disclosure-advocate"
             ],
             "status": "retired"
-          }
+          },
+          "degree": 1,
+          "nodeSize": 38,
+          "primaryFlag": "disclosure-advocate",
+          "status": "retired"
         },
-        "classes": "figure-node cat-intelligence-community"
+        "classes": "figure-node cat-intelligence-community flag-disclosure-advocate"
       },
       {
         "data": {
@@ -730,7 +876,11 @@
             "bio": "Professor of nanotechnology at Uppsala University; one of Europe's most-cited applied physics researchers. Published 'A Field Theory of Consciousness' in AIP Advances (November 2025), selected as best paper of the issue. Proposes consciousness as a fundamental physical field prior to and generative of spacetime — with testable predictions.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-scientist-academic"
       },
@@ -754,9 +904,13 @@
               "intel-community"
             ],
             "status": "deceased"
-          }
+          },
+          "degree": 2,
+          "nodeSize": 40,
+          "primaryFlag": "intel-community",
+          "status": "deceased"
         },
-        "classes": "figure-node cat-witness-experiencer"
+        "classes": "figure-node cat-witness-experiencer flag-intel-community status-deceased"
       },
       {
         "data": {
@@ -773,7 +927,11 @@
             "bio": "Physicist at the University at Albany (SUNY); developer of the NEST radiation detection simulation. Applied statistical modeling to UAP disclosure scenarios in a series of papers in Limina: The Journal of UAP Studies, estimating mean catastrophic disclosure year at 2040 based on surveillance technology proliferation.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-scientist-academic"
       },
@@ -798,9 +956,13 @@
               "defense-contractor"
             ],
             "status": "active"
-          }
+          },
+          "degree": 1,
+          "nodeSize": 38,
+          "primaryFlag": "legislative-blocker",
+          "status": "active"
         },
-        "classes": "figure-node cat-legislator"
+        "classes": "figure-node cat-legislator flag-legislative-blocker"
       },
       {
         "data": {
@@ -823,9 +985,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 5,
+          "nodeSize": 46,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-scientist-academic"
+        "classes": "figure-node cat-scientist-academic flag-disclosure-advocate"
       },
       {
         "data": {
@@ -842,7 +1008,11 @@
             "bio": "Vice Admiral (Ret.); former Director of the Defense Intelligence Agency (1999–2002). Central figure in the Wilson-Davis memo, which alleges he was denied access to a contractor-held UAP program despite his position. Wilson has publicly denied the meeting occurred. The memo was entered into the Congressional Record as SD001 in November 2024.",
             "stakeholderFlags": [],
             "status": "retired"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "retired"
         },
         "classes": "figure-node cat-government-military"
       },
@@ -861,7 +1031,11 @@
             "bio": "Mathematical physicist; Nobel Prize laureate (2020); emeritus professor at Oxford. Co-developer (with Stuart Hameroff) of Orchestrated Objective Reduction (Orch-OR). Author of The Emperor's New Mind (1989) and Shadows of the Mind (1994), arguing consciousness involves non-computable quantum processes beyond algorithmic replication.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 1,
+          "nodeSize": 38,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-scientist-academic"
       },
@@ -888,9 +1062,13 @@
               "intel-community"
             ],
             "status": "retired"
-          }
+          },
+          "degree": 1,
+          "nodeSize": 38,
+          "primaryFlag": "disclosure-advocate",
+          "status": "retired"
         },
-        "classes": "figure-node cat-intelligence-community"
+        "classes": "figure-node cat-intelligence-community flag-disclosure-advocate"
       },
       {
         "data": {
@@ -913,9 +1091,13 @@
               "experiencer"
             ],
             "status": "retired"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "retired"
         },
-        "classes": "figure-node cat-government-military"
+        "classes": "figure-node cat-government-military flag-disclosure-advocate"
       },
       {
         "data": {
@@ -938,9 +1120,13 @@
               "experiencer"
             ],
             "status": "retired"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "retired"
         },
-        "classes": "figure-node cat-government-military"
+        "classes": "figure-node cat-government-military flag-disclosure-advocate"
       },
       {
         "data": {
@@ -960,9 +1146,13 @@
               "disclosure-advocate"
             ],
             "status": "retired"
-          }
+          },
+          "degree": 1,
+          "nodeSize": 38,
+          "primaryFlag": "whistleblower",
+          "status": "retired"
         },
-        "classes": "figure-node cat-government-military"
+        "classes": "figure-node cat-government-military flag-whistleblower"
       },
       {
         "data": {
@@ -989,9 +1179,13 @@
               "https://www.war.gov/UFO",
               "CBS coverage of May 8, 2026 release"
             ]
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-government-military"
+        "classes": "figure-node cat-government-military flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1013,9 +1207,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-government-military"
+        "classes": "figure-node cat-government-military flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1040,9 +1238,13 @@
               "intel-community"
             ],
             "status": "active"
-          }
+          },
+          "degree": 1,
+          "nodeSize": 38,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-scientist-academic"
+        "classes": "figure-node cat-scientist-academic flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1066,9 +1268,13 @@
             ],
             "status": "missing",
             "calibrationNote": "McCasland's disappearance is a real and unresolved missing-persons case. The framing of his disappearance as part of a coordinated state-sponsored neutralization of disclosure-adjacent figures is contested. Multiple credible voices — including Avi Loeb (\"We have a Missing Science problem, not a Missing Scientists problem,\" April 2026) and President Trump himself — have publicly disputed the linkage. The investigation is ongoing."
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "contested-status",
+          "status": "missing"
         },
-        "classes": "figure-node cat-government-military"
+        "classes": "figure-node cat-government-military flag-contested-status status-missing"
       },
       {
         "data": {
@@ -1090,9 +1296,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-legislator"
+        "classes": "figure-node cat-legislator flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1114,9 +1324,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-legislator"
+        "classes": "figure-node cat-legislator flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1138,9 +1352,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-legislator"
+        "classes": "figure-node cat-legislator flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1163,9 +1381,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-legislator"
+        "classes": "figure-node cat-legislator flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1188,9 +1410,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-legislator"
+        "classes": "figure-node cat-legislator flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1212,9 +1438,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-legislator"
+        "classes": "figure-node cat-legislator flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1238,9 +1468,13 @@
             ],
             "status": "retired",
             "calibrationNote": "McConnell and his office have not responded to direct inquiries from Liberation Times or other outlets seeking comment on these allegations. Attribution rests on multi-source congressional insider accounts and Burlison's public statements; the legislative record itself shows only that the UAPDA was repeatedly stripped during conference, without identifying the specific staff or member responsible."
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "contested-status",
+          "status": "retired"
         },
-        "classes": "figure-node cat-legislator"
+        "classes": "figure-node cat-legislator flag-contested-status"
       },
       {
         "data": {
@@ -1264,9 +1498,13 @@
             ],
             "status": "active",
             "calibrationNote": "Attribution sourced to Liberation Times Jan 2026 reporting and Rep. Burlison's December 18, 2025 statement on the Ask a Pol UAP podcast. Carmack has not publicly responded. The blocking action itself — UAPDA repeatedly stripped — is documented in the legislative record; the specific identification of Carmack as the blocking actor remains insider testimony."
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "contested-status",
+          "status": "active"
         },
-        "classes": "figure-node cat-legislator"
+        "classes": "figure-node cat-legislator flag-contested-status"
       },
       {
         "data": {
@@ -1288,9 +1526,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-legislator"
+        "classes": "figure-node cat-legislator flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1312,9 +1554,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-legislator"
+        "classes": "figure-node cat-legislator flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1338,9 +1584,13 @@
             ],
             "status": "active",
             "calibrationNote": "Executive directives can be reversed, narrowed, or selectively implemented. The PURSUE Release 01 was widely characterized — including by AARO's former director Sean Kirkpatrick — as light on substantive content. The 46 specific UAP videos demanded by Luna in March 2026 were not included in Release 01."
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-legislator"
+        "classes": "figure-node cat-legislator flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1362,9 +1612,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-journalist-investigator"
+        "classes": "figure-node cat-journalist-investigator flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1387,9 +1641,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-legislator"
+        "classes": "figure-node cat-legislator flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1410,7 +1668,11 @@
             "bio": "U.S. Representative (R-TX), former Navy SEAL, and House Intelligence Committee member. On-camera in The Age of Disclosure, contributing a special-operations and intelligence-committee perspective to the documentary's senior-official testimony roster.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-legislator"
       },
@@ -1433,7 +1695,11 @@
             "bio": "Former U.S. Representative (R-WI) and former House Armed Services UAP-adjacent voice. On-camera in The Age of Disclosure as part of the legislative cohort documenting Congressional engagement with UAP transparency.",
             "stakeholderFlags": [],
             "status": "retired"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "retired"
         },
         "classes": "figure-node cat-legislator"
       },
@@ -1457,9 +1723,13 @@
               "disclosure-advocate"
             ],
             "status": "retired"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "retired"
         },
-        "classes": "figure-node cat-intelligence-community"
+        "classes": "figure-node cat-intelligence-community flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1483,9 +1753,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 2,
+          "nodeSize": 40,
+          "primaryFlag": "whistleblower",
+          "status": "active"
         },
-        "classes": "figure-node cat-government-military"
+        "classes": "figure-node cat-government-military flag-whistleblower"
       },
       {
         "data": {
@@ -1509,9 +1783,13 @@
               "disclosure-advocate"
             ],
             "status": "retired"
-          }
+          },
+          "degree": 2,
+          "nodeSize": 40,
+          "primaryFlag": "whistleblower",
+          "status": "retired"
         },
-        "classes": "figure-node cat-government-military"
+        "classes": "figure-node cat-government-military flag-whistleblower"
       },
       {
         "data": {
@@ -1533,9 +1811,13 @@
               "whistleblower"
             ],
             "status": "active"
-          }
+          },
+          "degree": 1,
+          "nodeSize": 38,
+          "primaryFlag": "whistleblower",
+          "status": "active"
         },
-        "classes": "figure-node cat-government-military"
+        "classes": "figure-node cat-government-military flag-whistleblower"
       },
       {
         "data": {
@@ -1559,9 +1841,13 @@
             ],
             "status": "active",
             "calibrationNote": "The Immaculate Constellation program's existence has been alleged but not officially confirmed. The document entered into the Congressional Record is a 12-page summary, not the underlying source records."
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "contested-status",
+          "status": "active"
         },
-        "classes": "figure-node cat-intelligence-community"
+        "classes": "figure-node cat-intelligence-community flag-contested-status"
       },
       {
         "data": {
@@ -1583,9 +1869,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 2,
+          "nodeSize": 40,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-journalist-investigator"
+        "classes": "figure-node cat-journalist-investigator flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1607,9 +1897,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-legislator"
+        "classes": "figure-node cat-legislator flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1629,7 +1923,11 @@
             "bio": "House of Representatives member, former Minister of the Environment, and Secretary-General of the Diet UAP caucus. Son of former Prime Minister Junichiro Koizumi, bringing institutional credibility and Japan's mainstream center-right political weight to the caucus.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-legislator"
       },
@@ -1651,7 +1949,11 @@
             "bio": "House of Representatives member, former State Minister of Defense, and founding member of the Diet UAP caucus. Long-running advocate for Japan's information-gathering capabilities on UAP; re-elected February 2026 (Kinki proportional representation block).",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-legislator"
       },
@@ -1673,7 +1975,11 @@
             "bio": "House of Representatives member (opposition) and caucus founding voice. On record in June 2024 framing AARO's 2023 designation of western Japan as a UAP \"hotspot\" as the moment Japan recognized institutional asymmetry with the United States on anomalous phenomena intelligence.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-legislator"
       },
@@ -1695,7 +2001,11 @@
             "bio": "Former Prime Minister of Japan (until October 2025) and career-long defense-policy figure who served as Minister of Defense. Caucus founding member whose premiership elevated the Diet UAP group's standing within Japan's national-security establishment.",
             "stakeholderFlags": [],
             "status": "retired"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "retired"
         },
         "classes": "figure-node cat-legislator"
       },
@@ -1717,7 +2027,11 @@
             "bio": "Prime Minister of Japan since October 21, 2025, who won the February 2026 snap election. Not a member of the UAP caucus but the executive authority through whom the caucus's March 2026 intelligence-body proposal must move.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-legislator"
       },
@@ -1742,9 +2056,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-scientist-academic"
+        "classes": "figure-node cat-scientist-academic flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1764,7 +2082,11 @@
             "bio": "Brigadier General (Ret.) of the French Armée de l'Air and COMETA report co-author (1999). Spoke at Sol 2025 on \"Revisiting the COMETA Report.\" COMETA's conclusion — that UAP are \"almost certain physical reality\" — predated the modern U.S. disclosure cycle by two decades.",
             "stakeholderFlags": [],
             "status": "retired"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "retired"
         },
         "classes": "figure-node cat-government-military"
       },
@@ -1786,7 +2108,11 @@
             "bio": "Italian UAP historian who spoke at Sol 2025 on Italy's UAP history (\"From Magenta to Project Titan\"). Long-running Italian-language disclosure researcher connecting European archival cases to contemporary transparency debates.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-journalist-investigator"
       },
@@ -1808,7 +2134,11 @@
             "bio": "Aerospace engineer with France's 3AF and Sigma2 specializing in physical observables of UAP. Spoke at Sol 2025 on the Sigma2 methodology for structuring anomalous aerospace data within engineering frameworks.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-scientist-academic"
       },
@@ -1830,7 +2160,11 @@
             "bio": "Representative of GEIPAN (Groupe d'Études et d'Informations sur les Phénomènes Aérospatiaux Non identifiés), France's civilian-aerospace UAP body. Spoke at Sol 2025 on two decades of UAP investigations at the longest-running official UAP investigation framework in the world.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-government-military"
       },
@@ -1852,7 +2186,11 @@
             "bio": "Astrobiologist at the Blue Marble Space Institute of Science. Spoke at Sol 2025 on situating UAP within the scientific search for extraterrestrial intelligence, bridging anomalous-phenomena reporting and mainstream astrobiology methods.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-scientist-academic"
       },
@@ -1877,9 +2215,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-scientist-academic"
+        "classes": "figure-node cat-scientist-academic flag-disclosure-advocate"
       },
       {
         "data": {
@@ -1899,7 +2241,11 @@
             "bio": "Physicist at the University at Albany (SUNY) who has worked with Matthew Szydagis on UAP statistical modeling. Contributed quantitative disclosure-scenario analysis to the academic UAP literature through peer-reviewed and specialist-journal channels.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-scientist-academic"
       },
@@ -1921,7 +2267,11 @@
             "bio": "Defense and drone analyst who spoke at Sol 2025 on the UAP and drone overlap, examining how proliferating unmanned systems complicate identification, sensor interpretation, and public reporting of anomalous aerial events.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-journalist-investigator"
       },
@@ -1943,7 +2293,11 @@
             "cites": [
               "https://doi.org/10.1093/nc/niaf011"
             ]
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-scientist-academic"
       },
@@ -1962,7 +2316,11 @@
             "bio": "Lead researcher (MIT; formerly NIMS Tsukuba) whose group demonstrated warm-temperature quantum vibrations in brain microtubules — among the experimental findings most cited as corroborating Orch-OR's proposed biological substrate for consciousness.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-scientist-academic"
       },
@@ -1981,7 +2339,11 @@
             "bio": "Consciousness researcher and former chief scientist at the Allen Institute; longtime collaborator with Francis Crick. Lost his 1998 bet with David Chalmers in April 2025 — the bet held that neural correlates of consciousness would be identified within 25 years.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-scientist-academic"
       },
@@ -2000,7 +2362,11 @@
             "bio": "Philosopher of mind at NYU who coined \"the hard problem of consciousness.\" Won his 1998 bet with Christof Koch in April 2025, reflecting ongoing debate over whether neural correlates alone suffice to explain subjective experience.",
             "stakeholderFlags": [],
             "status": "active"
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
         },
         "classes": "figure-node cat-scientist-academic"
       },
@@ -2023,9 +2389,13 @@
             ],
             "status": "active",
             "calibrationNote": "The \"Tic-Tac is Lockheed Martin\" claim sourced to Coulthart's confidential reporting has not been independently corroborated. Coulthart has maintained the claim publicly; multiple other UAP-beat journalists (including those at DefenseScoop and the Disclosure Foundation) have not adopted it."
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "contested-status",
+          "status": "active"
         },
-        "classes": "figure-node cat-journalist-investigator"
+        "classes": "figure-node cat-journalist-investigator flag-contested-status"
       },
       {
         "data": {
@@ -2048,9 +2418,13 @@
               "disclosure-advocate"
             ],
             "status": "active"
-          }
+          },
+          "degree": 5,
+          "nodeSize": 46,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
         },
-        "classes": "figure-node cat-journalist-investigator"
+        "classes": "figure-node cat-journalist-investigator flag-disclosure-advocate"
       },
       {
         "data": {
@@ -2074,9 +2448,13 @@
             ],
             "status": "active",
             "calibrationNote": "Lazar's claimed credentials (MIT, Caltech) have never been verified through the institutions themselves. Supporters point to his demonstrable specialized knowledge of element 115 and propulsion concepts that predated public discussion. Critics point to the absence of independent corroboration. Treat as a primary historical-narrative figure whose evidentiary weight is contested."
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "contested-status",
+          "status": "active"
         },
-        "classes": "figure-node cat-witness-experiencer"
+        "classes": "figure-node cat-witness-experiencer flag-contested-status"
       },
       {
         "data": {
@@ -2101,9 +2479,13 @@
             ],
             "status": "active",
             "calibrationNote": "Greer is a major movement figure with a long public record; he has also drawn substantial within-community criticism for selling CE-5 training and for some specific claims (e.g., the Atacama specimen). His convening role is genuine; specific factual claims should be evaluated case by case."
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "contested-status",
+          "status": "active"
         },
-        "classes": "figure-node cat-witness-experiencer"
+        "classes": "figure-node cat-witness-experiencer flag-contested-status"
       },
       {
         "data": {
@@ -2126,9 +2508,13 @@
             ],
             "status": "active",
             "calibrationNote": "Maussan's Nazca specimens have been the subject of substantial scientific dispute. Treat associated claims as requiring independent verification."
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "contested-status",
+          "status": "active"
         },
-        "classes": "figure-node cat-journalist-investigator"
+        "classes": "figure-node cat-journalist-investigator flag-contested-status"
       },
       {
         "data": {
@@ -2150,9 +2536,13 @@
             "status": "deceased",
             "dateOfEvent": "2022-06-11",
             "calibrationNote": "The official cause of death is suicide. The conspiracy framing rests on uncorroborated reports of her pre-event statements warning of a fabricated cover story. No independent investigation has reopened the case."
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "contested-status",
+          "status": "deceased"
         },
-        "classes": "figure-node cat-scientist-academic"
+        "classes": "figure-node cat-scientist-academic flag-contested-status status-deceased"
       },
       {
         "data": {
@@ -2174,9 +2564,13 @@
             "status": "deceased",
             "dateOfEvent": "2025-12-16",
             "calibrationNote": "Loureiro's death was a documented homicide by an identified individual with a documented academic relationship to the victim. The framing of this homicide as part of a coordinated suppression of UAP-adjacent science is not supported by the public record of the case."
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "contested-status",
+          "status": "deceased"
         },
-        "classes": "figure-node cat-scientist-academic"
+        "classes": "figure-node cat-scientist-academic flag-contested-status status-deceased"
       },
       {
         "data": {
@@ -2198,9 +2592,13 @@
             "status": "deceased",
             "dateOfEvent": "2021-07-27",
             "calibrationNote": "The 2014 accident was on the public record and the death from Alzheimer's came years later. The framing of these events as suspicious is a narrative overlay, not an investigative finding."
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "contested-status",
+          "status": "deceased"
         },
-        "classes": "figure-node cat-scientist-academic"
+        "classes": "figure-node cat-scientist-academic flag-contested-status status-deceased"
       },
       {
         "data": {
@@ -2222,9 +2620,13 @@
             "status": "missing",
             "dateOfEvent": "2025-06-22",
             "calibrationNote": "This is a real and unresolved missing-persons case. The framing as suspicious within a broader pattern is narrative; the case itself is open."
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "contested-status",
+          "status": "missing"
         },
-        "classes": "figure-node cat-scientist-academic"
+        "classes": "figure-node cat-scientist-academic flag-contested-status status-missing"
       },
       {
         "data": {
@@ -2245,9 +2647,13 @@
             ],
             "status": "deceased",
             "calibrationNote": "Grillmair's death is documented; the framing of it as part of a coordinated suppression pattern is contested and not supported by an independent investigative finding on the public record."
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "contested-status",
+          "status": "deceased"
         },
-        "classes": "figure-node cat-scientist-academic"
+        "classes": "figure-node cat-scientist-academic flag-contested-status status-deceased"
       },
       {
         "data": {
@@ -2269,9 +2675,13 @@
             "status": "deceased",
             "dateOfEvent": "2023-07-30",
             "calibrationNote": "Hicks's death is on the public record. The framing of it as suspicious within a broader coordinated pattern is narrative overlay, not an established investigative finding."
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "contested-status",
+          "status": "deceased"
         },
-        "classes": "figure-node cat-scientist-academic"
+        "classes": "figure-node cat-scientist-academic flag-contested-status status-deceased"
       },
       {
         "data": {
@@ -2293,9 +2703,13 @@
             "status": "deceased",
             "dateOfEvent": "2024-07-04",
             "calibrationNote": "Maiwald's death is documented. The framing of it as part of a coordinated suppression pattern is contested and not supported by an independent investigative finding on the public record."
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "contested-status",
+          "status": "deceased"
         },
-        "classes": "figure-node cat-scientist-academic"
+        "classes": "figure-node cat-scientist-academic flag-contested-status status-deceased"
       },
       {
         "data": {
@@ -2317,9 +2731,13 @@
             "status": "deceased",
             "dateOfEvent": "2026-04-20",
             "calibrationNote": "Wilcock's death is officially recorded as suicide. His family's published statement explicitly attributes the cause to depression and financial circumstances. The conspiracy framing of his death is widespread on social media but is directly disputed by both his family and the Boulder County Sheriff's investigative record."
-          }
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "contested-status",
+          "status": "deceased"
         },
-        "classes": "figure-node cat-journalist-investigator"
+        "classes": "figure-node cat-journalist-investigator flag-contested-status status-deceased"
       }
     ],
     "edges": [
