@@ -150,6 +150,11 @@ export default function Chapter2Page() {
                 </p>
               </div>
             </div>
+
+            <h4>PURSUE epistemic case study — May 14, 2026</h4>
+            <p>
+              <Link href="/timeline#evt-62" className="text-accent hover:underline underline-offset-4">DefenseScoop&apos;s synthesis</Link> of post-Release 01 critique is a field manual for the chapter&apos;s epistemic self-defense: demand metadata, chain-of-custody, and named-video delivery; treat redaction speed as evidence selective disclosure is operationally easy. Bastos &amp; Duarte (2026, DOI 10.1080/1369118x.2026.2645882) documents how online communities bifurcate between transparency and conspiracy frames after government releases.
+            </p>
           </May2026Update>
 
 

@@ -194,6 +194,10 @@ export default function BibliographyPage() {
               <li>AI × NHI Convergence Summit. March 22, 2026.</li>
               <li>Nell, Karl. Timeline for projected policy roadmaps on NHI disclosure. Sol Foundation symposium, Stanford University.</li>
               <li>Legislative proposals on AI alignment research and documented secrecy orders (6,543 active). USPTO Annual Reports.</li>
+              <li>Bastos, M., &amp; Duarte, M. (2026). Between Disclosure and Conspiracy: The Transparency Effect on r/UFO and r/UAP Subreddits. <em>Information, Communication &amp; Society</em>. DOI 10.1080/1369118x.2026.2645882.</li>
+              <li>Connecticut General Assembly. (2026). HB 5422 — An Act Concerning a Study of Unidentified Aerial Phenomena.</li>
+              <li>Anthropic. (2026). Claude Opus 4.6 System Card. February 2026.</li>
+              <li>Wiest, M. C. (2025). Neuroscience of Consciousness, 2025(1), niaf011. DOI 10.1093/nc/niaf011.</li>
             </ul>
           </section>
 

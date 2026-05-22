@@ -1,4 +1,5 @@
 import Link from "next/link";
+import May2026Update from "@/components/content/May2026Update";
 import KinematicBackground from "@/components/KinematicBackground";
 
 export const metadata = { title: "Chapter 10: Governance After the Nation-State | The Sovereign Mind" };
@@ -64,6 +65,17 @@ export default function Chapter10Page() {
           <p>
             The AI and NHI convergence demands a radical rethinking of governance. By adopting the outlined strategies, engaging in resilience training, and relying on measurable data, individuals and communities can navigate the challenges of this new era. This chapter offers both a theoretical framework and practical steps to build a world where governance is adaptive, decentralized, and reflective of our evolving reality.
           </p>
+
+          <May2026Update date="May 21, 2026">
+            <h4>Connecticut HB 5422 — state-level governance</h4>
+            <p>
+              <Link href="/timeline#evt-50" className="text-accent hover:underline underline-offset-4">Connecticut&apos;s 2026 UAP study bill</Link> is the first state-level study mandate in the U.S. — a governance layer beneath federal PURSUE and parallel to FOIA litigation on NSA archives. Build local civic literacy to participate when state reports land (target July 2027 per bill language).
+            </p>
+            <h4>Japan Diet office proposal</h4>
+            <p>
+              Track whether Japan&apos;s March 30 caucus proposal for a Cabinet Office UAP intelligence unit advances — a foreign comparator for decentralized governance models in this chapter.
+            </p>
+          </May2026Update>
 
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">

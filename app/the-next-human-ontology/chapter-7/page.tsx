@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import May2026Update from "@/components/content/May2026Update";
 import KinematicBackground from "@/components/KinematicBackground";
 
 export const metadata: Metadata = {
@@ -192,6 +193,17 @@ export default function Chapter7Page() {
             sustained, serious, and expensive. Governments do not spend money at this level on phenomena they
             believe to be illusory.
           </p>
+
+          <May2026Update date="May 21, 2026">
+            <h4>Skinwalker Ranch instrumentation (2026 reports)</h4>
+            <p>
+              Secondary reporting (April 2026) describes expanded federal cost-share instrumentation at Skinwalker Ranch — muon arrays, Ka-band micro-Doppler radar, LiDAR fenceline, atmospheric tritium/neutron counters. <em>Credible report pending corroboration:</em> treat as operational rumor until primary contract or agency statement is indexed; cross-link <Link href="/the-next-human-ontology/chapter-2#may-2026-update" className="text-accent hover:underline underline-offset-4">Chapter 2</Link> secrecy architecture.
+            </p>
+            <h4>Greer National Press Club briefing (May 8, 2026)</h4>
+            <p>
+              <Link href="/timeline#evt-60" className="text-accent hover:underline underline-offset-4">May 8, 2026</Link> — <Link href="/whos-who#steven-greer" className="text-accent hover:underline underline-offset-4">Steven Greer</Link>&apos;s 25th-anniversary Disclosure Project briefing presented Buga Sphere analysis alongside new whistleblower claims. <em>Credible testimony / contested material claims:</em> pair with Chapter 4 Buga subsection.
+            </p>
+          </May2026Update>
 
           <h2>Conclusion</h2>
 

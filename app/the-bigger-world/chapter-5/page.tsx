@@ -1,4 +1,5 @@
 import Link from "next/link";
+import MayUpdateYouth from "@/components/content/MayUpdateYouth";
 
 export const metadata = { title: "Chapter 5: How to Think When Nobody Has the Answers | The Bigger World" };
 
@@ -167,6 +168,13 @@ export default function Chapter5Page() {
             examples from daily life and how they might mislead. Connect discussions to subjects like science
             or social studies, evaluating evidence for or against a hypothesis using the confidence scale.
           </p>
+
+          
+          <MayUpdateYouth>
+            <p>
+              A lot happened after May 8. On <Link href="/timeline#evt-64">May 18–20, 2026</Link>, old spy-agency files about UFOs came out after a lawsuit that took decades — some were labeled <Link href="/glossary">TOP SECRET UMBRA</Link>, which means they were among the most secret kinds of government messages. That is a second kind of &quot;the government is talking about this&quot; moment, not just the May 8 website. If the headlines feel like too much, read one update at a time, talk to a trusted adult, and use <Link href="/the-bigger-world/chapter-7">Chapter 7&apos;s toolkit</Link> for calming practices.
+            </p>
+          </MayUpdateYouth>
 
           <h2>Conclusion</h2>
           <p>

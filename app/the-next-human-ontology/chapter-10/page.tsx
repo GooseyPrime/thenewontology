@@ -382,6 +382,11 @@ export default function Chapter10Page() {
               <li><strong>Japan&apos;s UAP office</strong> — whether the March 30 caucus proposal advances to legislative implementation, and on what timeline</li>
               <li><strong>The FY2027 NDAA</strong> — whether the UAPDA finally clears the legislative obstacles that have blocked it through three consecutive NDAAs</li>
             </ul>
+
+            <h4>Bifurcated disclosure (May 21, 2026)</h4>
+            <p>
+              PURSUE (<Link href="/timeline#evt-59" className="text-accent hover:underline underline-offset-4">May 8</Link>), NSA UMBRA litigation (<Link href="/timeline#evt-64" className="text-accent hover:underline underline-offset-4">May 18–20</Link>), and <Link href="/timeline#evt-50" className="text-accent hover:underline underline-offset-4">Connecticut HB 5422</Link> show disclosure splitting across executive release, judicial compulsion, and state study — not a single federal valve. See <Link href="/the-great-convergence" className="text-accent hover:underline underline-offset-4">Great Convergence May 21 postscript</Link>.
+            </p>
           </May2026Update>
 
           <h2>Strategic Recommendations and Conclusion</h2>

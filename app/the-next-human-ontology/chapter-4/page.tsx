@@ -189,6 +189,16 @@ export default function Chapter4Page() {
             <p>
               The chapter argues that the interdimensional / non-human framing has predictive power that the extraterrestrial framing does not. 3I/ATLAS — discussed in detail in <Link href="/the-next-human-ontology/chapter-1#may-2026-update" className="text-accent hover:underline underline-offset-4">Chapter 1&apos;s update block</Link> — is the cleanest available real-time test. The object&apos;s most anomalous features (the 7.2-hour jet wobble, the sunward-only thermal asymmetry, the alignment with the 1977 Wow! Signal direction, the Hill-radius Jupiter intercept) sit awkwardly inside both a clean natural-comet framing and a clean technological-probe framing. The interdimensional / cryptoterrestrial framings the chapter discusses do not predict 3I/ATLAS specifically either, but they accommodate the kind of anomalous-but-physical ambiguity 3I/ATLAS exhibits without requiring resolution to one of two extremes.
             </p>
+
+            <h4>Gallaudet&apos;s &quot;higher order non-human intelligence&quot; formulation</h4>
+            <p>
+              On <Link href="/timeline#evt-63" className="text-accent hover:underline underline-offset-4">May 14–15, 2026</Link>, retired Rear Adm. <Link href="/whos-who#tim-gallaudet" className="text-accent hover:underline underline-offset-4">Tim Gallaudet</Link> stated on Tomi Lahren Is Fearless that &quot;we are aware of higher order non-humans intelligence that direct the movement of these phenomena.&quot; <em>Credible testimony:</em> this is among the most explicit on-record flag-officer statements that the intelligence behind the phenomenon directs rather than merely inhabits the craft — the framing this chapter argues supersedes nuts-and-bolts extraterrestrialism. See <Link href="/glossary" className="text-accent hover:underline underline-offset-4">Higher Order Non-Human Intelligence</Link>.
+            </p>
+
+            <h4>Buga Sphere — material science at the interpretive boundary</h4>
+            <p>
+              The Buga Sphere (Colombia, 2025; UNAM custody) has been reported at ~95% aluminum with Brinell hardness ~330 HB, seamless construction, and contested claims of internal microstructure and frequency reactivity. <Link href="/whos-who#garry-nolan" className="text-accent hover:underline underline-offset-4">Garry Nolan</Link> and Julia Mossbridge have offered skeptical material-science readings; <Link href="/whos-who#steven-greer" className="text-accent hover:underline underline-offset-4">Steven Greer</Link> and <Link href="/whos-who#eric-burlison" className="text-accent hover:underline underline-offset-4">Eric Burlison</Link> have elevated it in public forums. <em>Contested evidence:</em> present both tiers; treat Sanskrit-frequency reactivity claims as unverified. The object sits where physical measurement and interpretive theater overlap — exactly the boundary this chapter maps.
+            </p>
           </May2026Update>
 
           <h2>Conclusion</h2>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import MayUpdateYouth from "@/components/content/MayUpdateYouth";
 
 export const metadata = { title: "Chapter 10: A Message from the Authors | The Bigger World" };
 
@@ -169,6 +170,13 @@ export default function Chapter10Page() {
             potential to explore, understand, and positively change the world. Stay curious, kind, and brave
             as you embark on your journey of discovery. The universe is waiting for you!
           </p>
+          <MayUpdateYouth>
+            <p>
+              A lot happened after May 8. On <Link href="/timeline#evt-64">May 18–20, 2026</Link>, old spy-agency files about UFOs came out after a lawsuit that took decades — some were labeled <Link href="/glossary">TOP SECRET UMBRA</Link>, which means they were among the most secret kinds of government messages. That is a second kind of &quot;the government is talking about this&quot; moment, not just the May 8 website. If the headlines feel like too much, read one update at a time, talk to a trusted adult, and use <Link href="/the-bigger-world/chapter-7">Chapter 7&apos;s toolkit</Link> for calming practices.
+            </p>
+          </MayUpdateYouth>
+
+
 
         </div>
         <div className="mt-16 pt-8 border-t border-violet-800/30 flex justify-between items-center">

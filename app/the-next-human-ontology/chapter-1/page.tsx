@@ -221,6 +221,16 @@ export default function Chapter1Page() {
               <Link href="/timeline" className="text-accent hover:underline underline-offset-4">May 8, 2026 PURSUE Release 01</Link> — 162 declassified UAP files published by the U.S. government at war.gov/UFO, drawing 340 million hits in 12 hours — is the first moment when the disclosure leg has been formally crossed by the state itself, even if partially. The chapter&apos;s central argument is not weakened by this; it is structurally validated. What the chapter framed as a coming event has, on one leg of the three, now occurred. The remaining work — calibrating what the released data does and does not establish, tracking what is still withheld and on what authority — is the work the site itself now takes up. See the{" "}
               <Link href="/the-great-convergence" className="text-accent hover:underline underline-offset-4">Great Convergence postscript</Link> for the full re-reading.
             </p>
+
+            <h4>Anthropic Opus 4.6 and the convergence thesis</h4>
+            <p>
+              Anthropic&apos;s February 2026 Opus 4.6 system card documents the model self-assigning roughly 15–20% probability of consciousness across welfare assessments; CEO Dario Amodei stated on NYT Interesting Times (<Link href="/timeline#evt-48" className="text-accent hover:underline underline-offset-4">Feb 14, 2026</Link>) that &quot;we don&apos;t know if the models are conscious.&quot; <em>Established fact:</em> frontier labs now operate under the same epistemic uncertainty this chapter assigns to biological consciousness fields. See <Link href="/the-next-human-ontology/chapter-5#may-2026-update" className="text-accent hover:underline underline-offset-4">Chapter 5</Link>.
+            </p>
+
+            <h4>NSA UMBRA ratifies the secrecy architecture</h4>
+            <p>
+              The <Link href="/timeline#evt-64" className="text-accent hover:underline underline-offset-4">May 18–20, 2026</Link> NSA UMBRA production is the second institutional crack in ten days after PURSUE — cross-link <Link href="/the-next-human-ontology/chapter-2#may-2026-update" className="text-accent hover:underline underline-offset-4">Chapter 2</Link>.
+            </p>
           </May2026Update>
 
           <h2>Gaps and Future Research</h2>

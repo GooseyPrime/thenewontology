@@ -287,6 +287,21 @@ export default function Chapter5Page() {
             <p>
               This is, to this site&apos;s knowledge, the first published peer-reviewed paper that explicitly assembles the three frameworks this chapter holds together. The site&apos;s narrative argument that these three frameworks converge has now appeared as an academic claim in the peer-reviewed literature. The Burgos-Salcedo paper does not validate the underlying physics. It validates that the synthesis is a legitimate object of scholarly inquiry.
             </p>
+
+            <h4>Wiest May 2025 paper — direct citation</h4>
+            <p>
+              Wiest, M. C. (2025). &quot;A quantum microtubule substrate of consciousness is experimentally supported and solves the binding and epiphenomenalism problems.&quot; <em>Neuroscience of Consciousness</em>, 2025(1), niaf011. DOI <a href="https://doi.org/10.1093/nc/niaf011" className="text-accent hover:underline underline-offset-4" target="_blank" rel="noopener noreferrer">10.1093/nc/niaf011</a> — the load-bearing Orch-OR publication. Aug 18, 2025 follow-up on ResearchGate bridges anesthetic disruption of collective microtubule states.
+            </p>
+
+            <h4>Khan et al. 2024 eneuro — microtubule anesthetic delay</h4>
+            <p>
+              Khan, S., Huang, Y., Timuçin, D., et al. (2024). Microtubule-Stabilizer Epothilone B Delays Anesthetic-Induced Unconsciousness in Rats. <em>eNeuro</em>, 11(8). DOI <a href="https://doi.org/10.1523/ENEURO.0291-24.2024" className="text-accent hover:underline underline-offset-4" target="_blank" rel="noopener noreferrer">10.1523/ENEURO.0291-24.2024</a>. <em>Peer-reviewed.</em>
+            </p>
+
+            <h4>Anthropic Opus 4.6 — AI-side convergence</h4>
+            <p>
+              Anthropic&apos;s February 2026 system card and <Link href="/timeline#evt-48" className="text-accent hover:underline underline-offset-4">Amodei&apos;s public uncertainty</Link> operationalize the same consciousness-uncertainty posture as Strømme&apos;s field thesis — see <Link href="/the-great-convergence" className="text-accent hover:underline underline-offset-4">Great Convergence</Link>.
+            </p>
           </May2026Update>
 
           <h2>Synthesis</h2>

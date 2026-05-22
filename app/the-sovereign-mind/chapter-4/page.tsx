@@ -90,6 +90,10 @@ export default function Chapter4Page() {
             <p>
               The chapter&apos;s core instruction — that energy independence at the household and community level is the reader&apos;s actionable response to a system in which advanced-energy progress is intermittently suppressed — remains the operational guidance.
             </p>
+            <h4>LENR status May 2026</h4>
+            <p>
+              Track ARPA-E mid-program publications and UBC <em>Nature</em> follow-ons alongside <Link href="/the-next-human-ontology/chapter-3#may-2026-update" className="text-accent hover:underline underline-offset-4">Volume I Chapter 3</Link> for the institutional-suppression frame — funding does not equal paradigm shift until excess-heat replication standards change.
+            </p>
           </May2026Update>
 
 

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import May2026Update from "@/components/content/May2026Update";
 import KinematicBackground from "@/components/KinematicBackground";
 
 export const metadata: Metadata = {
@@ -342,6 +343,17 @@ export default function Chapter8Page() {
             These are not rhetorical questions. They are research priorities with civilizational stakes.
             The cycles do not pause while the questions are being asked.
           </p>
+
+          <May2026Update date="May 21, 2026">
+            <h4>3I/ATLAS post-perihelion (2026)</h4>
+            <p>
+              As of spring 2026, 3I/ATLAS continues to exhibit anomalies (jet wobble, Hill-radius Jupiter intercept, polarization outliers) documented on the <Link href="/timeline" className="text-accent hover:underline underline-offset-4">timeline</Link> and in <Link href="/the-next-human-ontology/chapter-4#may-2026-update" className="text-accent hover:underline underline-offset-4">Chapter 4</Link>. <em>Peer-reviewed / preprint mix.</em>
+            </p>
+            <h4>AI Great Filter — Garrett (2024)</h4>
+            <p>
+              Garrett, M. A. (2024). &quot;Is artificial intelligence the great filter…?&quot; <em>Acta Astronautica</em>. DOI 10.1016/j.actaastro.2024.03.052 — load-bearing estimate that post-AI civilizational longevity may be under 200 years, relevant to cyclical-reset framing. <em>Peer-reviewed.</em>
+            </p>
+          </May2026Update>
 
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">

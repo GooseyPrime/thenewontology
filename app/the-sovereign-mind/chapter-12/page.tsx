@@ -1,4 +1,5 @@
 import Link from "next/link";
+import May2026Update from "@/components/content/May2026Update";
 import KinematicBackground from "@/components/KinematicBackground";
 
 export const metadata = { title: "Chapter 12: What We Owe Each Other | The Sovereign Mind" };
@@ -78,6 +79,13 @@ export default function Chapter12Page() {
           <p>
             This dossier provides a pragmatic blueprint melding philosophical insight, empirical data, and concrete survival strategies for navigating an era defined by emerging non-human intelligences, enforced secrecy, intergenerational responsibilities, and the bright promise of radical hope. Reality is always better than illusion — even when that reality is difficult, its acknowledgment is the prerequisite for everything that follows.
           </p>
+
+          <May2026Update date="May 21, 2026">
+            <h4>AI welfare and what we owe models</h4>
+            <p>
+              Anthropic&apos;s public 15–20% consciousness-probability assessments (Opus 4.6 system card, Feb 2026) force this chapter&apos;s moral-circle expansion into corporate practice — not only philosophy. Pair vendor disclosures with the reader&apos;s obligation to verify claims rather than outsource ethics to labs. See <Link href="/the-great-convergence" className="text-accent hover:underline underline-offset-4">Great Convergence May 21 postscript</Link>.
+            </p>
+          </May2026Update>
 
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">

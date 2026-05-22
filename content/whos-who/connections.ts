@@ -35,4 +35,8 @@ export const connections: Connection[] = [
   { source: "ingo-swann", target: "joe-mcmoneagle", type: "mentor-mentee", note: "Stargate operational lineage", year: "1980s" },
   { source: "robert-bigelow", target: "colm-kelleher", type: "funded", note: "BAASS / DIA AAWSAP $22M Skinwalker program", year: "2008" },
   { source: "mike-turner", target: "mike-rogers", type: "public-dispute", note: "Both cited as UAPDA legislative blockers in insider accounts", year: "2025" },
+  { source: "hunt-willis", target: "chris-mellon", type: "investigated-together", note: "Disclosure Foundation FOIA litigation on NSA UMBRA records", year: "2026" },
+  { source: "tim-gallaudet", target: "hunt-willis", type: "investigated-together", note: "Disclosure Foundation advisory / testimony ecosystem", year: "2026" },
+  { source: "hal-puthoff", target: "chris-mellon", type: "co-founded", note: "Disclosure Foundation Advisory Board, Dec 2025", year: "2025" },
+  { source: "kyle-fish", target: "garry-nolan", type: "investigated-together", note: "AI consciousness / welfare research parallel to NHI materials science", year: "2026" },
 ];

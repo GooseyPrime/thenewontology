@@ -60,20 +60,28 @@ const events = [
   { date: "Dec 2025", event: "FY2026 NDAA passes ($900.6B); three UAP provisions enacted, but the full UAPDA stripped at conference for the third consecutive year" },
   { date: "Dec 2025", event: "3I/ATLAS reaches closest approach to Earth at 269 million kilometers; Hubble imaging reveals three equally-spaced collimated mini-jets with 7.2-hour wobble" },
   { date: "Dec 2025", event: "Loureiro, MIT plasma physicist, killed by former PhD classmate; case later cited within the broader \"missing scientists\" narrative" },
+  { date: "Dec 2025", event: "Dec 9, 2025 — Hal Puthoff and Carlos Eire join the Disclosure Foundation Advisory Board, bringing the Stargate/AAWSAP operational record into the foundation's institutional structure" },
   { date: "Jan 2026", event: "Erich von Däniken dies at 90 (cancer-related)" },
   { date: "Jan 2026", event: "3I/ATLAS reaches rare \"full moon\" Sun-Earth opposition alignment (0.69° offset); Loeb-Barbieri paper documents anti-tail jet anomalies" },
   { date: "Jan 2026", event: "House Oversight subcommittees hold joint hearing \"Unidentified Anomalous Phenomena: Exposing the Truth\"; Immaculate Constellation document entered into the Congressional Record" },
+  { date: "Feb 2026", event: "Feb 14, 2026 — Anthropic CEO Dario Amodei on NYT Interesting Times: \"We don't know if the models are conscious\"; Claude Opus 4.6 system card documents 15–20% self-assigned consciousness probability in welfare assessments" },
   { date: "Feb 2026", event: "Feb 19, 2026 — Trump directs federal agencies to declassify UAP records; Department of War rebrands DoD; war.gov/UFO portal goes live" },
+  { date: "Feb 2026", event: "Feb 25, 2026 — Secretary of War Pete Hegseth states AARO caseload exceeds 2,000 reports" },
+  { date: "Feb–Mar 2026", event: "Feb–Mar 2026 — Connecticut General Assembly advances HB 5422 (An Act Concerning a Study of Unidentified Aerial Phenomena); UConn College of Engineering named study lead; testimony from Tim Gallaudet, Chris Mellon, Michael Gold, and Kirk McConnell" },
+  { date: "Mar 2026", event: "Mar 10, 2026 — Disclosure Foundation issues public call for review of arXiv's handling of peer-reviewed UAP-related research" },
   { date: "Mar 2026", event: "Mar 16, 2026 — 3I/ATLAS reaches closest approach to Jupiter at 53.6 million km, precisely the Hill radius boundary" },
   { date: "Mar 2026", event: "Mar 22, 2026 — Luna formally recommends to DOGE that AARO be disbanded and defunded; same week, AARO announces it is coordinating PURSUE declassification" },
   { date: "Mar 2026", event: "Mar 30, 2026 — Japan Diet UAP caucus formalizes proposal for a national UAP intelligence office under the Deputy Chief Cabinet Secretary for Crisis Management" },
   { date: "Apr 2026", event: "Lazar returns to Joe Rogan; new S-4 documentary released" },
   { date: "Apr 2026", event: "Apr 20, 2026 — David Wilcock dies in Boulder County, Colorado; family attributes cause to depression and financial circumstances; death amplifies the missing-scientists narrative regardless of underlying causation" },
+  { date: "Apr 2026", event: "Apr 4, 2026 — Cann arXiv preprint (2604.06234) reports dose-dependent geomagnetic-storm suppression of VASCO Palomar transient detections (Z = −3.391, p = 0.0007)" },
   { date: "Apr 2026", event: "Apr 25, 2026 — Avi Loeb publishes \"We have a Missing Science problem, not a Missing Scientists problem,\" pushing back on the conspiracy framing of the scientist-death cluster" },
   { date: "May 2026", event: "May 8, 2026 — PURSUE Release 01: 162 declassified files (120 PDFs, 28 videos, 14 images) published at war.gov/UFO; 340 million hits in the first 12 hours; sources span FBI, Department of War, NASA, State Department" },
   { date: "May 2026", event: "May 8, 2026 — Steven Greer holds 25th-anniversary Disclosure Project briefing at the National Press Club; new whistleblower testimony on Indiana underground facility and 29 Palms triangular craft; Buga Sphere analysis presented" },
-  { date: "May 2026", event: "May 2026 — UAP research community responds: \"data alone is not disclosure\"; the 46 specific UAP videos demanded by Luna in March are not included in Release 01" },
   { date: "May 2026", event: "May 11, 2026 — Chief Cabinet Secretary of Japan confirms PURSUE Release 01 contains files referencing Japanese airspace and the East China Sea" },
+  { date: "May 2026", event: "May 14, 2026 — DefenseScoop: senior UAP figures converge on \"data alone is not disclosure\" critique of PURSUE Release 01 (redactions, missing metadata, 46 Luna-requested videos not included)" },
+  { date: "May 2026", event: "May 14–15, 2026 — Rear Adm. Tim Gallaudet (Ret.) on Tomi Lahren Is Fearless: \"We are aware of higher order non-humans intelligence that direct the movement of these phenomena\"" },
+  { date: "May 2026", event: "May 18–20, 2026 — NSA produces 300+ pages of historical UAP records after Disclosure Foundation FOIA appeal; many pages previously classified TOP SECRET UMBRA" },
   { date: "Aug 12, 2026", event: "Aug 12, 2026 — Total Solar Eclipse traverses Arctic Circle, Greenland, Iceland, and northern Spain" },
 ];
 
@@ -109,6 +117,7 @@ export default function TimelinePage() {
           <ol className="space-y-0">
             {events.map((item, idx) => (
               <li
+                id={`evt-${idx}`}
                 key={idx}
                 className="relative flex items-start gap-0 group"
               >

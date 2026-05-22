@@ -120,6 +120,10 @@ export default function Chapter9Page() {
             <p>
               This is the chapter&apos;s central instruction operationalized. A reader practicing contact-readiness in 2026 must hold several things at once: contact experience may be real; movement leaders presenting contact narratives may be partly accurate and partly mistaken; institutional release programs like PURSUE may be partly substantive and partly performative; one&apos;s own contact experience, if it occurs, is data that must be integrated without being immediately interpretable. Patience and individual evaluation are not the absence of conviction. They are the discipline that allows conviction, when it forms, to rest on something firmer than charisma.
             </p>
+            <h4>Gallaudet HO-NHI language</h4>
+            <p>
+              <Link href="/whos-who#tim-gallaudet" className="text-accent hover:underline underline-offset-4">Tim Gallaudet</Link>&apos;s <Link href="/timeline#evt-63" className="text-accent hover:underline underline-offset-4">May 14–15, 2026</Link> statement that higher-order non-human intelligence directs phenomena shifts first-contact framing from craft identification to relationship with directing intelligence — apply the chapter&apos;s non-aggression protocols accordingly.
+            </p>
           </May2026Update>
 
 

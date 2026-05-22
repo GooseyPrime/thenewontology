@@ -87,6 +87,15 @@ export default function ReadingGuidePage() {
             parenting through an unprecedented informational environment.
           </p>
 
+          <h3>May 2026 headline path (post–May 17)</h3>
+          <p>
+            If you need the site current through <strong>May 21, 2026</strong>: start with the{" "}
+            <Link href="/the-great-convergence" className="text-accent hover:underline underline-offset-4">Great Convergence</Link> May 21 postscript, then{" "}
+            <Link href="/timeline#evt-64" className="text-accent hover:underline underline-offset-4">NSA UMBRA timeline entry</Link>,{" "}
+            <Link href="/the-next-human-ontology/chapter-2#may-2026-update" className="text-accent hover:underline underline-offset-4">Volume I Chapter 2 update</Link>, and the{" "}
+            <Link href="/glossary" className="text-accent hover:underline underline-offset-4">glossary</Link> entries for PURSUE, TOP SECRET UMBRA, and Higher Order Non-Human Intelligence.
+          </p>
+
           <h3>For Journalists and Congressional Staff</h3>
           <p>
             Begin with <Link href="/the-next-human-ontology/chapter-2" className="text-accent hover:underline underline-offset-4">Volume I, Chapter 2</Link> (Architecture of Secrecy) for the

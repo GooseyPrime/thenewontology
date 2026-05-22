@@ -1,4 +1,5 @@
 import Link from "next/link";
+import May2026Update from "@/components/content/May2026Update";
 import KinematicBackground from "@/components/KinematicBackground";
 
 export const metadata = { title: "Chapter 8: The Consciousness Toolkit | The Sovereign Mind" };
@@ -88,6 +89,13 @@ export default function Chapter8Page() {
           <p>
             Melding mindful meditation, guided exploration via Hemi-Sync, lucid dreaming practices, and intuition training creates a comprehensive survival toolkit. These practices interconnect, enhancing your ability to navigate and integrate non-ordinary experiences. Continuously update personal practices with new research findings. Use this toolkit not only for survival but to flourish amidst high-strangeness encounters and the expanding frontier of consciousness.
           </p>
+
+          <May2026Update date="May 21, 2026">
+            <h4>Wiest 2025 — practice implications</h4>
+            <p>
+              Experimental support for microtubule-centric consciousness (Wiest 2025, DOI 10.1093/nc/niaf011) does not validate any single technique in this toolkit, but it strengthens the rationale for somatic practices that alter anesthesia-like states — breathwork, Hemi-Sync, disciplined sleep protocols — as serious rather than decorative. Cross-link <Link href="/the-next-human-ontology/chapter-5#may-2026-update" className="text-accent hover:underline underline-offset-4">Volume I Chapter 5</Link>.
+            </p>
+          </May2026Update>
 
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">

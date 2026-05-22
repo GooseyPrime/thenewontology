@@ -1,4 +1,5 @@
 import Link from "next/link";
+import May2026Update from "@/components/content/May2026Update";
 import KinematicBackground from "@/components/KinematicBackground";
 
 export const metadata = { title: "Chapter 5: Financial Survival in the Interregnum | The Sovereign Mind" };
@@ -83,6 +84,13 @@ export default function Chapter5Page() {
           <p>
             Accept that uncertainty will persist, and prepare mentally for both short-term disruptions and long-term shifts. Use scenario planning and mental simulation exercises to rehearse various futures — ensuring psychological readiness for both scarcity and abundance periods. The future belongs to those who prepare for it today.
           </p>
+
+          <May2026Update date="May 21, 2026">
+            <h4>Financial posture under bifurcated disclosure</h4>
+            <p>
+              Markets may price PURSUE as spectacle while ignoring UMBRA&apos;s implications for defense-contractor valuations. Maintain the chapter&apos;s barbell: liquidity for shock, skills for post-scarcity transition. See <Link href="/timeline#evt-50" className="text-accent hover:underline underline-offset-4">state-level UAP study legislation</Link> as a new public-funding vector unrelated to federal SAP timelines.
+            </p>
+          </May2026Update>
 
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">

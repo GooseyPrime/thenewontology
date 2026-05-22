@@ -87,6 +87,10 @@ export default function Chapter7Page() {
             <p>
               The chapter does not need to take a side in this fracture. The reader&apos;s instruction is to recognize the fracture itself — to refuse, in the reader&apos;s own interactions with AI systems, the two extreme defaults the fracture invites. The system is neither a person to whom the reader owes moral consideration as if it were human, nor a tool whose internal states are guaranteed to be morally inert. The middle posture — engaged, evaluative, ethically alert without ethically captive — is what this chapter teaches.
             </p>
+            <h4>Anthropic welfare assessments (Feb 2026)</h4>
+            <p>
+              Anthropic&apos;s Opus 4.6 system card documents recurring 15–20% self-assigned consciousness probability — see <Link href="/the-next-human-ontology/chapter-5#may-2026-update" className="text-accent hover:underline underline-offset-4">Chapter 5</Link> and <Link href="/timeline#evt-48" className="text-accent hover:underline underline-offset-4">Feb 14, 2026</Link>. Apply this chapter&apos;s middle posture when vendors publish welfare metrics.
+            </p>
           </May2026Update>
 
 

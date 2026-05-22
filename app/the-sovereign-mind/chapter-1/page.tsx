@@ -119,6 +119,10 @@ export default function Chapter1Page() {
               <Link href="/whos-who#anna-paulina-luna" className="text-accent hover:underline underline-offset-4">Luna</Link> has named will produce larger ones. Readers who have done this chapter&apos;s work in advance will navigate those shifts more cleanly than readers who have not. For the broader re-reading of the Triple Singularity in light of May 8, see the{" "}
               <Link href="/the-great-convergence" className="text-accent hover:underline underline-offset-4">Great Convergence postscript</Link>.
             </p>
+            <h4>Chronic shock after May 21</h4>
+            <p>
+              The <Link href="/timeline#evt-64" className="text-accent hover:underline underline-offset-4">NSA UMBRA release</Link> widens the shock from &quot;DoD admitted files exist&quot; to &quot;SIGINT archives were litigated open after 46 years.&quot; Integration posture: pace exposure; use the chapter&apos;s grounding toolkit before social-media saturation.
+            </p>
           </May2026Update>
 
         </div>

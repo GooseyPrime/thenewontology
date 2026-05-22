@@ -188,6 +188,23 @@ export default function TheGreatConvergencePage() {
           </p>
           <p className="font-serif text-muted mt-8">— Michael Brandon Lane, May 17, 2026</p>
 
+          <div className="h-px bg-border my-12" />
+          <p className="section-title">Added May 21, 2026</p>
+          <h2>Postscript — May 21, 2026</h2>
+          <h3>The NSA UMBRA release</h3>
+          <p>
+            Thirteen days after <Link href="/timeline#evt-59">PURSUE Release 01</Link>, the <Link href="/whos-who#hunt-willis">Disclosure Foundation</Link> forced production of more than 300 pages of National Security Agency historical UAP records — many previously marked <Link href="/glossary">TOP SECRET UMBRA</Link> — through a FOIA appeal the agency&apos;s own appeals board found had been improperly denied (<Link href="/timeline#evt-64">May 18–20, 2026</Link>). <em>Established fact:</em> disclosure is now arriving on two vectors simultaneously — executive rolling release and judicial compulsion on Cold War-era signals-intelligence archives.
+          </p>
+          <h3>Language that names the intelligence, not the craft</h3>
+          <p>
+            Rear Adm. <Link href="/whos-who#tim-gallaudet">Tim Gallaudet</Link>&apos;s <Link href="/timeline#evt-63">May 14–15 statement</Link> — that higher-order non-human intelligence &quot;direct[s] the movement of these phenomena&quot; — aligns with this essay&apos;s bifurcation: artificial systems, biological non-humans, and consciousness-as-field are converging, but the operative institutional vocabulary is shifting toward <em>intelligence behind the phenomenon</em> rather than extraterrestrial hardware. That shift is now on the public record from a flag officer, not only from researchers.
+          </p>
+          <h3>Bifurcated disclosure</h3>
+          <p>
+            PURSUE proved selective release is operationally feasible; UMBRA proved legacy compartments can be breached by litigation; Connecticut <Link href="/timeline#evt-50">HB 5422</Link> shows state legislatures entering the field. What remains withheld — real-time sensor chains, chain-of-custody for materials, the 46 videos named by <Link href="/whos-who#anna-paulina-luna">Luna</Link> — defines the gap this site now tracks: <em>data</em> versus <em>disclosure</em>, still widening even as both sides of the firewall crack.
+          </p>
+          <p className="font-serif text-muted mt-8">— Michael Brandon Lane, May 21, 2026</p>
+
         </div>
 
         <div className="mt-16 pt-8 border-t border-border flex flex-wrap gap-6 justify-between items-center">

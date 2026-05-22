@@ -160,6 +160,9 @@ export default function BibliographyPage() {
               <li>Confidence scale card game: evidence-based thinking for families.</li>
               <li>Further critical thinking resources: search &quot;Critical Thinking for Kids&quot; for age-appropriate materials.</li>
               <li>Recommended reading — ages 10–12: books on neuroscience and astronomy. Ages 13–16: expanded list featuring Carl Sagan and modern science communicators.</li>
+              <li>U.S. Department of War PURSUE portal — war.gov/UFO (May 8, 2026). A real government site you can visit with your family.</li>
+              <li>Disclosure Foundation — NSA UMBRA records release announcement (May 2026).</li>
+              <li>Bastos &amp; Duarte (2026) — how online communities react when governments release UFO files (simplified summary for teens).</li>
             </ul>
           </section>
 

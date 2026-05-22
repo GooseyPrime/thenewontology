@@ -1,4 +1,5 @@
 import Link from "next/link";
+import May2026Update from "@/components/content/May2026Update";
 import KinematicBackground from "@/components/KinematicBackground";
 
 export const metadata = { title: "Chapter 11: The Spiritual Transition | The Sovereign Mind" };
@@ -79,6 +80,13 @@ export default function Chapter11Page() {
           <p>
             This dossier is a living document — a guide to be continuously refined as new insights emerge. Embrace both theological and psychological resilience to navigate the post-disclosure epoch with clarity and authenticity, safeguarding against exploitation and uncertainty.
           </p>
+
+          <May2026Update date="May 21, 2026">
+            <h4>Indigenous and Eastern readiness — operational proof points</h4>
+            <p>
+              Japan&apos;s institutional UAP office proposal and minimal doctrinal shock in traditions that already encode non-human intelligences (Jinn, Star People, Dreamtime — see <Link href="/the-next-human-ontology/chapter-9#may-2026-update" className="text-accent hover:underline underline-offset-4">Volume I Chapter 9</Link>) reinforce this chapter&apos;s asymmetry thesis. Western literalist communities still face the highest rupture risk when <Link href="/timeline#evt-63" className="text-accent hover:underline underline-offset-4">HO-NHI language</Link> enters mainstream media.
+            </p>
+          </May2026Update>
 
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">

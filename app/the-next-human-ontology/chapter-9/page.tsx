@@ -283,7 +283,12 @@ export default function Chapter9Page() {
 
             <h4>The Vatican&apos;s continued institutional silence</h4>
             <p>
-              The chapter notes the Vatican&apos;s long-running preparation for the disclosure question — Father José Funes&apos; 2008 <em>L&apos;Osservatore Romano</em> discussion of ET as theological &quot;brothers,&quot; Brother Guy Consolmagno&apos;s continued public commentary, the Vatican Observatory&apos;s posture. The period since this chapter was written has produced no comparable formal Vatican statement. Following the <Link href="/timeline" className="text-accent hover:underline underline-offset-4">May 8 PURSUE release</Link>, no public Vatican response was issued; following <em>The Age of Disclosure</em>, none. The institutional silence is itself informative: a tradition that prepared its theological vocabulary two decades ago has, when the question moved into the news cycle, declined to operationalize that vocabulary. The asymmetry the chapter predicts — preparation in advance, hesitation at the moment — is visible.
+              The chapter notes the Vatican&apos;s long-running preparation for the disclosure question — Father José Funes&apos; 2008 <em>L&apos;Osservatore Romano</em> discussion of ET as theological &quot;brothers,&quot; Brother Guy Consolmagno&apos;s continued public commentary, the Vatican Observatory&apos;s posture. The period since this chapter was written has produced no comparable formal Vatican statement. Following the <Link href="/timeline" className="text-accent hover:underline underline-offset-4">May 8 PURSUE release</Link>, no public Vatican response was issued; following <em>The Age of Disclosure</em>, none.               The institutional silence is itself informative: a tradition that prepared its theological vocabulary two decades ago has, when the question moved into the news cycle, declined to operationalize that vocabulary. The asymmetry the chapter predicts — preparation in advance, hesitation at the moment — is visible.
+            </p>
+
+            <h4>Sheehan / legislative blockers — calibration note</h4>
+            <p>
+              <Link href="/whos-who#daniel-sheehan" className="text-accent hover:underline underline-offset-4">Daniel Sheehan</Link>&apos;s public naming of five legislators as UAPDA blockers remains <em>credible testimony</em> aligned with <Link href="/whos-who#eric-burlison" className="text-accent hover:underline underline-offset-4">Burlison</Link>&apos;s staffer narrative; offices named have not uniformly responded on the record.
             </p>
           </May2026Update>
 

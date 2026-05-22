@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import May2026Update from "@/components/content/May2026Update";
 import KinematicBackground from "@/components/KinematicBackground";
 
 export const metadata: Metadata = {
@@ -206,6 +207,21 @@ export default function Chapter3Page() {
           <p>
             <strong>&quot;If it worked, someone would have demonstrated it publicly&quot;:</strong> This assumes that technological demonstration follows linearly from theoretical possibility — an assumption contradicted by the very secrecy architecture documented in <Link href="/the-next-human-ontology/chapter-2" className="text-accent hover:underline underline-offset-4">Chapter 2</Link>. The Invention Secrecy Act provides the legal mechanism, classification provides the institutional mechanism, and the economic interests of the fossil fuel industry provide the financial mechanism for suppression. The absence of public demonstration is not evidence of impossibility; it is evidence consistent with the suppression hypothesis this chapter documents.
           </p>
+
+          <May2026Update date="May 21, 2026">
+            <h4>LENR institutional momentum (2025–2026)</h4>
+            <p>
+              ARPA-E cold-fusion program results, the August 2025 UBC <em>Nature</em> electrochemical-loading paper, and repeated Tohoku University net-energy LENR reports strengthen the empirical case this chapter tracks — while institutional validation criteria still often measure neutron yields suited to hot fusion, not the excess-heat signatures LENR produces. <em>Peer-reviewed + structural argument:</em> funding now flows at scale, but gatekeeping of what counts as confirmation can still prevent transformative acknowledgment. See <Link href="/timeline#evt-57" className="text-accent hover:underline underline-offset-4">Apr 2026 VASCO/Cann</Link> adjacent geophysical catalog work in <Link href="/the-next-human-ontology/chapter-6" className="text-accent hover:underline underline-offset-4">Chapter 6</Link>.
+            </p>
+            <h4>ZPE and the patent ecosystem in 2026</h4>
+            <p>
+              Salvatore Pais Navy patent clusters (2016–2019) have not replicated on open benches; several applications were abandoned. <em>Established fact:</em> that failure does not collapse the chapter&apos;s institutional thesis — the Invention Secrecy Act, John Doe orders, and thousands of active secrecy orders operate independently of any single inventor. <em>Epistemic note:</em> skeptics citing Pais alone miss that the load-bearing claim is systemic suppression, not one device.
+            </p>
+            <h4>Brilliant Light Power / Randell Mills (calibrated sidebar)</h4>
+            <p>
+              Mills&apos;s hydrino program remains <em>contested evidence</em>: commercial deadlines missed, narrow peer-reviewed footprint, but the sub-ground-state hydrogen question is not closed experimentally. Treat as sidebar, not pillar.
+            </p>
+          </May2026Update>
 
           <h2>Conclusion</h2>
           <p>

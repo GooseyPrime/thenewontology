@@ -1,0 +1,34 @@
+---
+description: May 2026 site content update cycle (PR9) — editorial inserts only
+globs:
+  - app/**
+  - components/content/**
+  - content/whos-who/**
+---
+
+# Site content updates (PR9)
+
+Read **`docs/site-update/Site_Update_PR_9.md`** before editing. Full item list: `docs/site-update/source/section-3-chapters.txt`, `section-4-aux.txt`, `section-5-ops.txt`.
+
+## Hard rules
+
+1. **Never modify** `app/page.tsx` (landing / foreword / home disclosure).
+2. **Build gate:** `npm run build` must pass before marking a tier complete.
+3. **Execute tiers in order:** Tier 1 → user review → Tier 2 … Tier 5.
+4. **Citations:** Omit any claim you cannot verify; label evidence tier inline (established fact, peer-reviewed, credible testimony, contested, speculative).
+5. **One `<May2026Update>` per TNHO/TSM chapter** — append new `<h4>` subsections; do not add a second block.
+6. **New blocks** use `date="May 21, 2026"` on `May2026Update`; existing May 17 blocks stay dated May 17.
+7. **Cross-links:** Every new subsection needs ≥1 `<Link>` to timeline, who's who, glossary, or related chapter.
+8. **No prose duplication** — link to canonical timeline / Great Convergence / existing update instead of restating.
+9. **Additive only** — do not delete or rewrite existing chapter body except explicit calibration items in PR9 Section 3.
+10. **No new npm dependencies** except creating `components/content/MayUpdateYouth.tsx` (no extra packages).
+
+## Placement
+
+- TNHO/TSM: insert `<May2026Update>` immediately before `<h2>Conclusion</h2>`.
+- TBW: use `<MayUpdateYouth>` before final paragraph or Conclusion (see PR9 Section 5 B).
+- Timeline: add `id={\`evt-${idx}\`}` on each event `<li>` for deep links.
+
+## Reasoning (Section 5 E)
+
+Preserve structural arguments on secrecy/suppression when peer-reviewed confirmation is absent. Integrate specific skeptical methodological points without wholesale debunk framing. Maintain **NHI ≠ extraterrestrial**.

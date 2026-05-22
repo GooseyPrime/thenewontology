@@ -205,6 +205,26 @@ export default function Chapter2Page() {
             <p>
               In early 2026, Trump signed an executive order rebranding the Department of Defense as the Department of War. Throughout this chapter, references to &quot;DoD&quot; remain accurate to the historical record at time of writing; in current discussion, the same institution operates under the name &quot;Department of War&quot; (DoW). The PURSUE program (<Link href="/timeline" className="text-accent hover:underline underline-offset-4">May 8, 2026</Link>, war.gov/UFO) was executed under the DoW name. <Link href="/whos-who#pete-hegseth" className="text-accent hover:underline underline-offset-4">Pete Hegseth</Link>, as Secretary of War, is the operational point person for the program&apos;s rolling-release cadence.
             </p>
+
+            <h4>NSA TOP SECRET UMBRA: the second institutional crack</h4>
+            <p>
+              On <Link href="/timeline#evt-64" className="text-accent hover:underline underline-offset-4">May 18–20, 2026</Link>, the National Security Agency produced more than 300 pages of historical UAP-related records after the <Link href="/whos-who#hunt-willis" className="text-accent hover:underline underline-offset-4">Disclosure Foundation</Link>&apos;s FOIA appeals authority found the agency&apos;s initial blanket denial improper. Many pages had carried <Link href="/glossary" className="text-accent hover:underline underline-offset-4">TOP SECRET UMBRA</Link> markings — among the most sensitive signals-intelligence classifications. The underlying litigation traces to a 1980 citizen FOIA suit that took decades to yield production. <em>Established fact:</em> the architecture of secrecy is now being stressed through executive declassification (<Link href="/glossary" className="text-accent hover:underline underline-offset-4">PURSUE</Link>) and through judicial leverage on legacy classified holdings — different attack vectors on the same firewall.
+            </p>
+
+            <h4>Connecticut HB 5422 — disclosure drops to the state level</h4>
+            <p>
+              Connecticut&apos;s <Link href="/timeline#evt-50" className="text-accent hover:underline underline-offset-4">HB 5422</Link> (2026 session; substitute bill effective October 1, 2026) tasks the UConn College of Engineering with studying feasibility of a state UAP center — the first U.S. state-level UAP study legislation on record, with testimony from <Link href="/whos-who#tim-gallaudet" className="text-accent hover:underline underline-offset-4">Tim Gallaudet</Link>, <Link href="/whos-who#chris-mellon" className="text-accent hover:underline underline-offset-4">Chris Mellon</Link>, <Link href="/whos-who#mike-gold" className="text-accent hover:underline underline-offset-4">Mike Gold</Link>, and Kirk McConnell. <em>Established fact:</em> a parallel disclosure pathway is forming beneath federal special-access program logic.
+            </p>
+
+            <h4>&quot;Data alone is not disclosure&quot; — the post-PURSUE consensus</h4>
+            <p>
+              By <Link href="/timeline#evt-62" className="text-accent hover:underline underline-offset-4">May 14, 2026</Link>, senior figures including Gallaudet, Gold, Mellon, and Sol Foundation&apos;s Peter Skafish converged on a single critique of Release 01: heavy redaction, insufficient forensic metadata on videos, and omission of the 46 specific videos <Link href="/whos-who#anna-paulina-luna" className="text-accent hover:underline underline-offset-4">Anna Paulina Luna</Link> had demanded. Gallaudet stated it was impossible to conclude from the release alone that any object was truly anomalous. <em>Established fact + credible testimony:</em> managed disclosure remains a negotiation, not transparency — the frame the release induces (&quot;decide for yourself&quot;) can be the information operation.
+            </p>
+
+            <h4>arXiv as part of the firewall</h4>
+            <p>
+              The Disclosure Foundation&apos;s <Link href="/timeline#evt-51" className="text-accent hover:underline underline-offset-4">March 10, 2026</Link> call for review of arXiv&apos;s handling of peer-reviewed UAP research parallels the publication-gatekeeping dynamic this chapter pairs with legal classification — refusal at the indexing layer keeps serious work out of the citation graph. <em>Contested institutional claim:</em> the foundation&apos;s framing; arXiv has not issued a public response aligned with that narrative at time of writing.
+            </p>
           </May2026Update>
 
           <h2>Conclusion</h2>

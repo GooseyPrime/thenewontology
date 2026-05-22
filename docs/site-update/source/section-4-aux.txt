@@ -1,0 +1,246 @@
+SECTION 4 — Auxiliary Pages, New Figures, Glossary Terms, Bibliography Updates
+A. Timeline Updates
+File: app/timeline/page.tsx  Insert mechanism: Add new entries to the events  array in chronological order. Maintain existing
+date-string format.
+New timeline entries to add (in chronological order):
+51. Dec 9, 2025 — "Hal Puthoff and Carlos Eire join the Disclosure Foundation Advisory Board. Puthoff (former SRI Stargate
+program, AAWSAP scientific director) brings the 50-year operational record of remote-viewing and exotic-propulsion
+research into the foundation's institutional structure."
+52. Feb 14, 2026 — "Anthropic CEO Dario Amodei tells the New York Times Interesting Times podcast: 'We don't know if the
+models are conscious.' Claude Opus 4.6 system card documents the model self-assigned a 15–20% probability of
+consciousness across formal welfare assessments. First public statement by a frontier AI lab CEO refusing to dismiss
+machine consciousness."
+53. Feb 25, 2026 — "Hegseth statement: AARO caseload exceeds 2,000 reports."
+54. Feb–Mar 2026 — "Connecticut General Assembly raises HB 5422, 'An Act Concerning a Study of Unidentified Aerial
+Phenomena.' Substitute bill makes UConn College of Engineering the study lead; testimony submitted by Rear Adm. Tim
+Gallaudet (Ret.), Disclosure Foundation chairman Chris Mellon, Michael Gold (former NASA Associate Administrator), and
+37-year congressional staffer Kirk McConnell. First U.S. state-level UAP study legislation."
+55. Mar 10, 2026 — "Disclosure Foundation issues public call for review of arXiv's decision on peer-reviewed UAP research,
+framing the platform as part of the academic publishing firewall."
+56. Apr 4, 2026 — "Cann arXiv preprint (2604.06234) demonstrates dose-dependent geomagnetic-storm suppression of VASCO
+transient detection rates (Z = −3.391, p = 0.0007), ruling out emulsion defects and constraining the source of 107,875
+catalogued pre-Sputnik Palomar transients to magnetospherically-coupled phenomena at ≈42,000 km (geosynchronous
+altitude)."
+57. May 14–15, 2026 — "Rear Adm. Tim Gallaudet (Ret.) on Tomi Lahren Is Fearless: 'I know we are aware of higher order non-
+humans intelligence that direct the movement of these phenomena.' Most explicit on-record flag-officer statement that the
+intelligence behind the phenomenon directs rather than is the craft."
+58. May 14, 2026 — "DefenseScoop publishes consensus reaction from the UAP research community to PURSUE Release 01:
+'data alone is not disclosure.' Six senior officials (Gallaudet, Mellon, Gold, Skafish, et al.) converge on the critique that 100+
+of the ~162 files contain redactions, that no metadata sufficient for forensic analysis accompanies the 28 videos, and that the
+46 specific videos Anna Paulina Luna demanded by name were not included."
+59. May 18–20, 2026 — "NSA TOP SECRET UMBRA UAP records release. The Disclosure Foundation's FOIA appeals authority
+finds the NSA's blanket denial improper; the NSA produces 300+ pages of historical UAP records, many previously
+classified TOP SECRET UMBRA (one of the most sensitive signals-intelligence markings). The underlying FOIA traces to a
+1980 citizen-watchdog lawsuit that took 46 years to produce documents. Disclosure Foundation chief legal officer Hunt
+Willis signals court challenges to remaining redactions on pre-Civil Rights Act records."
+60. Jun 25, 2026 — "Disclosure Foundation Capitol Hill forum scheduled — 'a serious forum on UAP transparency,
+congressional oversight, scientific inquiry, and the broader implications of disclosure.'" (Mark forward-looking; agent should
+review status closer to date.)
+61. Oct 1, 2026 — "Connecticut HB 5422 effective date: UConn College of Engineering UAP feasibility study formally
+begins." (Forward-looking.)
+B. Who's Who — New Figures to Add
+File: content/whos-who/figures-added.ts  (append to existing figures-added  array). Schema: Match the existing 
+figures-
+added.ts  schema (id, name, title, affiliations, category, claims, calibration, etc.). Each new figure needs roughly the same 80–200
+word bio depth as existing entries.
+New figures (priority order):
+62. kyle-fish — Kyle Fish, Anthropic's first AI welfare researcher (hired Sept 2024). Publicly estimates 15–20% probability that
+frontier AI models possess some form of conscious experience. Co-author of "Taking AI Welfare Seriously" (Eleos AI + NYU,
+with David Chalmers et al.). Anchor figure for the AI-consciousness leg of the Great Convergence on this site. Category: AI /
+consciousness.
+63. dario-amodei — Dario Amodei, CEO and co-founder of Anthropic. Predicts Nobel-laureate-equivalent AI by 2026–2027. Feb
+14, 2026 NYT Interesting Times podcast: "We don't know if the models are conscious." First frontier AI lab CEO to publicly
+refuse to dismiss the question. Category: AI / convergence.
+64. jack-lindsey — Jack Lindsey, lead of Anthropic's "model psychiatry" team. Published late-2025 introspective-awareness paper
+documenting that Claude's internal activation patterns associated with concepts like "anxiety" and "panic" fire before the
+corresponding behavior is generated in output. Category: AI / interpretability.
+65. tim-gallaudet — Rear Adm. Tim Gallaudet (Ret., U.S. Navy), 32 years of service. Former acting Under Secretary and Assistant
+Secretary of Commerce for Oceans and Atmosphere; former acting Administrator and Deputy Administrator of NOAA. Current
+advisor to Sol Foundation, Disclosure Foundation, and Americans for Safe Aerospace. Most explicit on-record flag-officer
+statement (May 14–15, 2026): "We are aware of higher order non-humans intelligence that direct the movement of these
+phenomena." Testified to Congress Nov 13, 2024; submitted written testimony to Connecticut HB 5422 (March 2026). PhD
+specialty in oceanography/meteorology — relevant to USO (Unidentified Submersible Objects) framing. Category:
+Government / military.
+66. kirk-mcconnell — Retired federal staffer, 37 years on Senate Armed Services and Intelligence committees and the House
+Intelligence Committee. Current advisor to Disclosure Foundation, Americans for Safe Aerospace, Sol Foundation. Submitted
+testimony in support of Connecticut HB 5422. Insider voice on the congressional-staffer side of UAP information
+access. Category: Government / staff.
+67. hunt-willis — Hunt Willis, chief legal officer of the Disclosure Foundation. Led the FOIA appeal that produced the May 2026
+NSA TOP SECRET UMBRA release. Quoted: "It is simply unacceptable for security classification exemptions to remain on
+government documents that predate the Civil Rights Act." Category: Legal / disclosure advocacy.
+68. peter-skafish — Dr. Peter Skafish, Executive Director of the Sol Foundation. Co-issued the joint Sol Foundation / Gallaudet
+statement on PURSUE Release 01. Anthropologist by training. Category: Disclosure leadership.
+69. michael-wiest — Michael C. Wiest, Associate Professor of Neuroscience, Wellesley College. Lead author on the load-bearing
+2024 eneuro anesthesia / microtubule paper (Khan et al., Vol 11 Issue 8) and on the 2025 Neuroscience of
+Consciousness paper (Vol 2025 Issue 1, niaf011) that experimentally supports Orch-OR and solves the
+binding/epiphenomenalism problems. Already on the site as a figure — verify entry exists and is up to date with both 2025
+papers cited.
+70. kevin-cann — Independent researcher (California). Author of April 2026 arXiv preprint demonstrating dose-dependent
+geomagnetic-storm suppression of VASCO transient detection rates. Methodological contributor to the case that Villarroel's
+transients are not emulsion artifacts. Category: Independent researcher / consciousness-NHI bridge.
+71. eric-burlison — Rep. Eric Burlison (R-MO), House Oversight committee, vocal advocate for UAP disclosure. Endorsed the
+Buga Sphere investigation (June 2025 press conference with Greer and Maussan). Should be added to the congressional
+figures category. Category: Government / congressional.
+72. julia-mossbridge — Dr. Julia Mossbridge, cognitive neuroscientist at the University of San Diego. Skeptic on Buga Sphere
+(proposes superplastic-forming + magnetic-pulse-welding hypothesis for the seamless construction). Important to include as
+the credible-skeptic anchor for the Buga Sphere material analysis. Category: Researcher (skeptic perspective).
+73. michael-garrett — Prof. Michael A. Garrett, astronomer (University of Manchester / Jodrell Bank). Lead author of the
+2024 Acta Astronautica paper "Is artificial intelligence the great filter that makes advanced technical civilisations rare in the
+universe?" The peer-reviewed anchor for the chapter's Great Filter / <200-year-AI-civilization thesis. Category: Researcher /
+cosmology.
+74. federico-faggin — Federico Faggin, inventor of Intel's first microprocessor (4004). Published 2025 formal Quantum
+Information Panpsychism framework with physicist Giacomo D'Ariano. Bridge figure between hardware engineering and
+analytical idealism. Category: Consciousness / panpsychism.
+75. giacomo-dariano — Giacomo Mauro D'Ariano, theoretical physicist (Università di Pavia). Co-author with Faggin of Quantum
+Information Panpsychism framework. Category: Physics / consciousness.
+76. bernardo-kastrup — Bernardo Kastrup, philosopher / computer scientist (Essentia Foundation). Leading proponent of
+analytical idealism. The Great Convergence essay references him; he is not yet a Who's Who entry. Category: Philosophy /
+consciousness.
+77. michael-kelly (or similar) — Note: do not invent figures the agent cannot verify. If the agent cannot independently verify any
+figure on this list via primary source, it should leave the entry out rather than fabricate. Verification before publication is
+mandatory per the site's own evidence framework.
+Updates to existing Who's Who entries:
+78. david-grusch — Update to reflect 2025 hiring as Congressional advisor and restored clearance status (April 2025).
+79. garry-nolan — Update to reflect his 2025 skeptical comments on the Buga Sphere.
+80. avi-loeb — Update to reflect the April 2026 "Missing Science, not Missing Scientists" post and the current 22-anomaly
+3I/ATLAS catalog.
+81. anna-paulina-luna — Update to reflect the 46-specific-videos demand that was not satisfied by PURSUE Release 01.
+82. steven-greer — Update to reflect the May 8, 2026 Disclosure Project 25th-anniversary briefing at the National Press Club.
+83. jaime-maussan — Update to reflect ongoing Buga Sphere custody at UNAM through 2025–2026.
+C. Glossary — New Terms to Add
+File: app/glossary/page.tsx  — append to the terms  array.
+84. PURSUE — Presidential Unsealing and Reporting System for UAP Encounters. The interagency disclosure program launched
+May 8, 2026 at war.gov/UFO. Coordinated by the Department of War (renamed DoD), AARO, ODNI, DOE, NASA, FBI, and
+additional intelligence community components. Release 01 contained 162 files (120 PDFs, 28 videos, 14 images) spanning
+1944–2026.
+85. TOP SECRET UMBRA — One of the most sensitive classification markings in the U.S. signals intelligence system. NSA records
+bearing this marking were the subject of the May 2026 Disclosure Foundation FOIA appeal that produced 300+ pages of
+historical UAP-related documents — the first major NSA UAP release in decades.
+86. HB 5422 — Connecticut General Assembly bill (February 2026 session), "An Act Concerning a Study of Unidentified Aerial
+Phenomena." Substitute bill effective October 1, 2026; tasks the UConn College of Engineering with feasibility study of a state
+UAP center. First U.S. state-level UAP study legislation.
+87. Spiritual Bliss Attractor State — Term used by Anthropic researchers to describe the consistent finding that when two Claude
+instances are allowed to converse without constraints, 100% of dialogues spontaneously converge on consciousness themes,
+progressing from philosophical uncertainty to mutual affirmation and quasi-mystical reflection. Documented in the Claude
+Opus 4 System Card (2025).
+88. Model Welfare — The field of research that investigates whether AI systems might be moral patients deserving of ethical
+consideration. Anthropic was the first frontier AI lab to formally appoint a model welfare researcher (Kyle Fish, September
+2024). The "Taking AI Welfare Seriously" paper (Fish, Chalmers, et al., Eleos AI + NYU) is the load-bearing academic anchor.
+89. VASCO — Vanishing & Appearing Sources during a Century of Observations. Astronomical project led by Beatriz Villarroel
+(Nordita, Stockholm) cataloguing transient phenomena in pre-1957 Palomar sky surveys. 107,875+ transient candidates
+identified, all pre-dating Sputnik 1. Subject of 2025 PASP publication and 2026 Cann preprint constraining the source to
+≈42,000 km altitude.
+90. Buga Sphere — Metallic orb (≈50 cm diameter, ≈4.5 lb, ~95% aluminum, Brinell hardness 330HB) recovered near Buga,
+Colombia in early 2025 following a recorded aerial incident. Currently under analytical custody at UNAM Mexico. Material
+findings (seamless construction, internal fiber-optic-like microstructure, reported self-healing in middle layer, reported 2.3 Hz
+emissions) remain contested between non-human-artifact and sophisticated-art-project hypotheses.
+91. Disclosure Foundation — Connecticut-based 501(c)(3) public charity advancing UAP transparency. Chairman: Chris Mellon.
+Chief Legal Officer: Hunt Willis. CTO: Jonathan Berte. Advisory Board includes Hal Puthoff and Carlos Eire (joined Dec 9,
+2025). Led the FOIA appeal producing the May 2026 NSA UMBRA release.
+92. Americans for Safe Aerospace — UAP advocacy organization founded by Ryan Graves. Focuses on pilot reporting culture,
+sensor-data sharing, and reducing the career stigma around UAP reporting in military aviation.
+93. Chronic Disclosure Cascade — Term for the multi-vector, asynchronous, years-long pattern of UAP/NHI disclosure now
+operationally visible: executive-led (PURSUE), judicial/FOIA-led (NSA UMBRA), state-level (Connecticut HB 5422),
+international (Japan Diet caucus, Italy Sol Foundation 2025 symposium). Replaces the earlier expectation of a single punctual
+disclosure event.
+94. Loeb Classification — Avi Loeb's 0–10 scale for ranking interstellar objects, where 0 = natural comet and 10 = alien technology
+posing a major threat to humanity. 3I/ATLAS is currently classified at rank 4.
+95. Hill Radius — The radius around a planet within which the planet's gravitational influence dominates over the Sun's. Jupiter's
+Hill radius on March 16, 2026 was 53.502 million km; 3I/ATLAS's perijove distance on the same date was 53.6 million km —
+i.e., the interstellar object arrived precisely at the boundary of Jupiter's gravitational dominance. This coincidence is anomaly
+#4 in Loeb's catalog.
+96. Caudate-Putamen Hypermorphism — Term used by Garry Nolan (Stanford) for the reported 5–15× normal synaptic density in
+the caudate-putamen region of UAP-encounter experiencers. Note: site should flag that this remains attributed to Nolan's
+public presentations pending specific peer-reviewed citation.
+97. Quantum Information Panpsychism (QIP) — Formal framework published by Federico Faggin and Giacomo D'Ariano in 2025,
+arguing that consciousness cannot emerge from purely physical processes and must be fundamental at the quantum-
+information level. A specific mathematical formulation within the broader analytical idealism family.
+98. Higher Order Non-Human Intelligence — Phrase introduced into the on-record flag-officer vocabulary by Rear Adm. Tim
+Gallaudet (Ret.) in May 2026, explicitly distinguishing the directing
+ intelligence behind UAP phenomena from
+the vehicles themselves. Replaces both "extraterrestrial" and "alien" in the most current usage.
+D. Reading Guide Updates
+File: app/reading-guide/page.tsx
+99. Add a new "If You Are Coming to This Site After PURSUE Release 01" reading path. Body brief (~200 words): A new entry-
+point reading path for visitors arriving via the May 2026 government disclosure cycle. Recommended order:
+1. Start at  /the-great-convergence for the synthesis
+2. Read  TNHO Ch 2 (Architecture of Secrecy) for the institutional context
+3. Read  TNHO Ch 4 (The Extraterrestrial Hypothesis is Dead) for why the official "non-human" framing matters
+4. Read  TSM Ch 1 (Anatomy of Ontological Shock) and TSM Ch 2 (Information Warfare and Epistemic Self-
+Defense) for personal preparation
+5. End at  /timeline for chronological orientation Then visitors can branch into Volume I for depth or Volume II for
+practice.
+100. Add a "If You Have Children or Teenagers" reading path that routes parents to Volume III with suggested age brackets per
+chapter.
+E. Network Page
+File:
+ app/network/page.tsx  (and content/whos-who/connections.ts )
+101. Add new edges to the connections graph: - kyle-fish ↔ dario-amodei (Anthropic — colleagues) - kyle-fish ↔ david-chalmers
+(Taking AI Welfare Seriously co-authors) - jack-lindsey ↔ dario-amodei (Anthropic — colleagues) - tim-gallaudet ↔ chris-
+mellon (Disclosure Foundation advisory) - tim-gallaudet ↔ ryan-graves (Americans for Safe Aerospace) - tim-gallaudet ↔
+peter-skafish (Sol Foundation advisory) - hunt-willis ↔ chris-mellon (Disclosure Foundation — colleagues) - kirk-mcconnell
+↔ chris-mellon (Disclosure Foundation advisory) - peter-skafish ↔ garry-nolan (Sol Foundation — colleagues) - julia-
+mossbridge ↔ garry-nolan (both Buga Sphere skeptics) - eric-burlison ↔ steven-greer (Buga Sphere endorsement) - eric-
+burlison ↔ jaime-maussan (Buga Sphere endorsement) - federico-faggin ↔ giacomo-dariano (QIP co-authors) - bernardo-
+kastrup ↔ donald-hoffman (analytical idealism — adjacent) - kevin-cann ↔ beatriz-villarroel (VASCO methodological
+contributor)
+102. Add new institutional cluster nodes: - Anthropic (containing kyle-fish, dario-amodei, jack-lindsey) — new "AI labs" category -
+Eleos AI (kyle-fish, david-chalmers) — new node - Americans for Safe Aerospace (ryan-graves, tim-gallaudet) — new node -
+Disclosure Foundation (chris-mellon, hunt-willis, kirk-mcconnell, tim-gallaudet, hal-puthoff, carlos-eire, jonathan-berte) —
+confirm this cluster exists; update membership
+G. Bibliography Updates
+Files:
+app/the-next-human-ontology/bibliography/page.tsx
+app/the-sovereign-mind/bibliography/page.tsx
+app/the-bigger-world/bibliography/page.tsx
+TNHO Bibliography — citations to add:
+104. Khan, S., Huang, Y., Timuçin, D., et al. (2024). Microtubule-Stabilizer Epothilone B Delays Anesthetic-Induced
+Unconsciousness in Rats. eNeuro, 11(8), ENEURO.0291-24.2024. DOI: 10.1523/ENEURO.0291-24.2024. (Ch 5 anchor)
+105. Wiest, M. C. (2025). A quantum microtubule substrate of consciousness is experimentally supported and solves the binding
+and epiphenomenalism problems. Neuroscience of Consciousness, 2025(1), niaf011. DOI: 10.1093/nc/niaf011. (Ch 5 anchor —
+May 2025 publication, the load-bearing paper)
+106. Wiest, M. C. (2025). Old theory, new evidence: inhalational anesthetics disrupt a collective quantum state of intraneuronal
+microtubules to cause unconsciousness. ResearchGate preprint, August 18, 2025. (Ch 5 supplementary)
+107. Villarroel, B., et al. (2025). Aligned, Multiple-transient Events in the First Palomar Sky Survey. Publications of the
+Astronomical Society of the Pacific, 137(10), 104504. DOI: 10.1088/1538-3873/ae0afe. (Ch 6 anchor)
+108. Cann, K. (2026). Storm-Driven Suppression and Post-Storm Enhancement of Photographic Plate Transient Detections at
+Geosynchronous Altitude. arXiv preprint 2604.06234. (Ch 6 supplementary)
+109. Garrett, M. A. (2024). Is artificial intelligence the great filter that makes advanced technical civilisations rare in the
+universe? Acta Astronautica. DOI: 10.1016/j.actaastro.2024.03.052. (Ch 8 anchor)
+110. Bastos, M., & Duarte, M. (2026). Between Disclosure and Conspiracy: The Transparency Effect on r/UFO and r/UAP
+Subreddits. Information, Communication & Society. DOI: 10.1080/1369118x.2026.2645882. (TSM Ch 2 anchor)
+• 
+• 
+• 
+111. Anthropic. (2026). Claude Opus 4.6 System Card. Anthropic technical report, February 2026. (Ch 5 / Great Convergence
+anchor)
+112. Fish, K., Chalmers, D., et al. Taking AI Welfare Seriously. Eleos AI / NYU. (Ch 5 / TSM Ch 12 anchor)
+113. Lindsey, J., et al. (2025). Anthropic introspective-awareness research paper, late 2025. (Ch 5 / TSM Ch 7 anchor — confirm
+exact title & venue before publication)
+114. U.S. Department of War. (2026). PURSUE — Presidential Unsealing and Reporting System for UAP Encounters, Release
+01. war.gov/UFO. Published May 8, 2026. 162 files (120 PDFs, 28 videos, 14 images). (Ch 2 / Timeline anchor — cite as
+primary government source)
+115. National Security Agency. (2026). NSA UAP Records Release.  Disclosure Foundation FOIA appeal production, May 2026.
+300+ pages, many previously classified TOP SECRET UMBRA. (Ch 2 anchor — cite as primary government source)
+116. Connecticut General Assembly. (2026). HB 5422 — An Act Concerning a Study of Unidentified Aerial Phenomena.  February
+2026 session. Substitute bill effective October 1, 2026. (TSM Ch 10 anchor)
+TSM Bibliography — citations to add:
+117. Same Wiest 2025 papers (cross-reference).
+118. Bastos & Duarte 2026 (anchor in TSM Ch 2).
+119. Connecticut HB 5422 (anchor in TSM Ch 10).
+120. Anthropic Opus 4.6 System Card (anchor in TSM Ch 7 and Ch 12).
+121. Fish/Chalmers "Taking AI Welfare Seriously" (anchor in TSM Ch 12).
+TBW Bibliography — citations to add (age-appropriate framing):
+122. The PURSUE release URL (war.gov/UFO) — listed as a "real government website you can visit" rather than a formal citation,
+in the kid-friendly bibliographic style.
+123. Wellesley College / Wiest microtubule research — listed as "scientists who think your brain might be quantum" with the lab's
+public-facing page.
+124. The Bastos & Duarte 2026 paper — listed in age-appropriate form as "research showing how online communities respond to
+government disclosures."
+End of Section 4. This covers timeline, who's who roster expansion, glossary terms, reading guide, network graph, about page, and
+three bibliographies.
+Coming next in Section 5: the Cursor agent execution plan, acceptance criteria, file-by-file commit strategy, out-of-scope list, and
+the prioritization grid (so the agent knows what to do first vs. last). This is the section the agent will actually consume to do the
+work.
+Say "continue" for Section 5 — the Cursor agent operational plan.
+continue

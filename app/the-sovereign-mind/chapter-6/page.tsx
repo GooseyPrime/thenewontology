@@ -1,4 +1,5 @@
 import Link from "next/link";
+import May2026Update from "@/components/content/May2026Update";
 import KinematicBackground from "@/components/KinematicBackground";
 
 export const metadata = { title: "Chapter 6: Food, Water, and Community Resilience | The Sovereign Mind" };
@@ -93,8 +94,15 @@ export default function Chapter6Page() {
 
           <h2>Integrating Anomalous Phenomena Findings</h2>
           <p>
-            Phenomena reported at high-strangeness sites include intrusive lights and shadowy figures, physical anomalies, and neurological symptoms akin to Havana Syndrome. Disrespectful engagement correlates with higher rates of adverse symptoms. Integrate respectful protocols when encountering unknown phenomena. Develop medical response guidelines and train communities to recognize and document subtle signals of exposure. Frame phenomena within a resilience context rather than a panic context — this is the single most important cognitive reframe for anyone likely to encounter these events.
+            Phenomena reported at high-strangeness sites include intrusive lights and shadowy figures, physical anomalies, and neurological symptoms akin to Havana Syndrome. Disrespectful engagement correlates with higher rates of adverse symptoms. Integrate respectful protocols when encountering unknown phenomena. Develop medical response guidelines and train communities to recognize and document subtle signals of exposure.             Frame phenomena within a resilience context rather than a panic context — this is the single most important cognitive reframe for anyone likely to encounter these events.
           </p>
+
+          <May2026Update date="May 21, 2026">
+            <h4>Community water and grid under disclosure stress</h4>
+            <p>
+              Disclosure headlines can distract municipalities from infrastructure maintenance. Re-run this chapter&apos;s community-resilience checklist when local attention shifts to UAP news cycles — food, water, and neighbor networks remain first-order survival systems.
+            </p>
+          </May2026Update>
 
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">

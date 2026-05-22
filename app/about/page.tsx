@@ -57,6 +57,10 @@ export default function AboutPage() {
             transparent about where evidence is contested, where replication is lacking, and where
             the honest answer is that we do not yet know.
           </p>
+          <h2>Editorial Posture: Calibrated Conviction</h2>
+          <p>
+            As of May 2026, the site&apos;s posture is <strong>verification over demand</strong>: executive releases (PURSUE), judicial production (NSA UMBRA), and state study mandates (Connecticut HB 5422) are tracked as distinct disclosure vectors. Claims are labeled by evidentiary tier — established fact, peer-reviewed, credible testimony, contested evidence, speculative framework — inline in update blocks and chapter addenda. Contributors maintain the May 2026 update spec at <code>docs/site-update/Site_Update_PR_9.md</code> in the repository.
+          </p>
           <p>
             This site is not a platform for the credulous. The same analytical discipline that
             identifies seven decades of institutional dismissal as epistemically lazy must be

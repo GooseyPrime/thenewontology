@@ -8,8 +8,8 @@
           "isCompound": true,
           "isOrg": true,
           "affiliation": "AARO (All-domain Anomaly Resolution Office)",
-          "orgColor": "hsl(31, 72%, 52%)",
-          "orgFill": "hsla(31, 65%, 45%, 0.14)"
+          "orgColor": "hsl(216, 32%, 48%)",
+          "orgFill": "hsla(216, 28%, 8%, 0.92)"
         },
         "classes": "compound-parent org-node"
       },
@@ -20,8 +20,32 @@
           "isCompound": true,
           "isOrg": true,
           "affiliation": "AAWSAP / BAASS",
-          "orgColor": "hsl(42, 72%, 52%)",
-          "orgFill": "hsla(42, 65%, 45%, 0.14)"
+          "orgColor": "hsl(245, 32%, 48%)",
+          "orgFill": "hsla(245, 28%, 8%, 0.92)"
+        },
+        "classes": "compound-parent org-node"
+      },
+      {
+        "data": {
+          "id": "org-americans-for-safe-aerospace",
+          "label": "Americans for Safe Aerospace",
+          "isCompound": true,
+          "isOrg": true,
+          "affiliation": "Americans for Safe Aerospace",
+          "orgColor": "hsl(257, 32%, 48%)",
+          "orgFill": "hsla(257, 28%, 8%, 0.92)"
+        },
+        "classes": "compound-parent org-node"
+      },
+      {
+        "data": {
+          "id": "org-anthropic",
+          "label": "Anthropic",
+          "isCompound": true,
+          "isOrg": true,
+          "affiliation": "Anthropic",
+          "orgColor": "hsl(227, 32%, 48%)",
+          "orgFill": "hsla(227, 28%, 8%, 0.92)"
         },
         "classes": "compound-parent org-node"
       },
@@ -32,8 +56,20 @@
           "isCompound": true,
           "isOrg": true,
           "affiliation": "Department of War (formerly DoD)",
-          "orgColor": "hsl(57, 72%, 52%)",
-          "orgFill": "hsla(57, 65%, 45%, 0.14)"
+          "orgColor": "hsl(233, 32%, 48%)",
+          "orgFill": "hsla(233, 28%, 8%, 0.92)"
+        },
+        "classes": "compound-parent org-node"
+      },
+      {
+        "data": {
+          "id": "org-disclosure-foundation",
+          "label": "Disclosure Foundation",
+          "isCompound": true,
+          "isOrg": true,
+          "affiliation": "Disclosure Foundation",
+          "orgColor": "hsl(259, 32%, 48%)",
+          "orgFill": "hsla(259, 28%, 8%, 0.92)"
         },
         "classes": "compound-parent org-node"
       },
@@ -44,8 +80,20 @@
           "isCompound": true,
           "isOrg": true,
           "affiliation": "Disclosure Project",
-          "orgColor": "hsl(28, 72%, 52%)",
-          "orgFill": "hsla(28, 65%, 45%, 0.14)"
+          "orgColor": "hsl(222, 32%, 48%)",
+          "orgFill": "hsla(222, 28%, 8%, 0.92)"
+        },
+        "classes": "compound-parent org-node"
+      },
+      {
+        "data": {
+          "id": "org-essentia-foundation",
+          "label": "Essentia Foundation",
+          "isCompound": true,
+          "isOrg": true,
+          "affiliation": "Essentia Foundation",
+          "orgColor": "hsl(238, 32%, 48%)",
+          "orgFill": "hsla(238, 28%, 8%, 0.92)"
         },
         "classes": "compound-parent org-node"
       },
@@ -56,8 +104,8 @@
           "isCompound": true,
           "isOrg": true,
           "affiliation": "Galileo Project",
-          "orgColor": "hsl(32, 72%, 52%)",
-          "orgFill": "hsla(32, 65%, 45%, 0.14)"
+          "orgColor": "hsl(238, 32%, 48%)",
+          "orgFill": "hsla(238, 28%, 8%, 0.92)"
         },
         "classes": "compound-parent org-node"
       },
@@ -68,8 +116,8 @@
           "isCompound": true,
           "isOrg": true,
           "affiliation": "House UAP Caucus",
-          "orgColor": "hsl(44, 72%, 52%)",
-          "orgFill": "hsla(44, 65%, 45%, 0.14)"
+          "orgColor": "hsl(217, 32%, 48%)",
+          "orgFill": "hsla(217, 28%, 8%, 0.92)"
         },
         "classes": "compound-parent org-node"
       },
@@ -80,8 +128,8 @@
           "isCompound": true,
           "isOrg": true,
           "affiliation": "January 23, 2026 Congressional Hearing",
-          "orgColor": "hsl(28, 72%, 52%)",
-          "orgFill": "hsla(28, 65%, 45%, 0.14)"
+          "orgColor": "hsl(258, 32%, 48%)",
+          "orgFill": "hsla(258, 28%, 8%, 0.92)"
         },
         "classes": "compound-parent org-node"
       },
@@ -92,8 +140,8 @@
           "isCompound": true,
           "isOrg": true,
           "affiliation": "Japan Diet UAP Parliamentary Group",
-          "orgColor": "hsl(24, 72%, 52%)",
-          "orgFill": "hsla(24, 65%, 45%, 0.14)"
+          "orgColor": "hsl(218, 32%, 48%)",
+          "orgFill": "hsla(218, 28%, 8%, 0.92)"
         },
         "classes": "compound-parent org-node"
       },
@@ -104,8 +152,8 @@
           "isCompound": true,
           "isOrg": true,
           "affiliation": "PURSUE (Presidential Unsealing and Reporting System for UAP Encounters)",
-          "orgColor": "hsl(34, 72%, 52%)",
-          "orgFill": "hsla(34, 65%, 45%, 0.14)"
+          "orgColor": "hsl(219, 32%, 48%)",
+          "orgFill": "hsla(219, 28%, 8%, 0.92)"
         },
         "classes": "compound-parent org-node"
       },
@@ -116,8 +164,8 @@
           "isCompound": true,
           "isOrg": true,
           "affiliation": "Project Stargate (SRI)",
-          "orgColor": "hsl(23, 72%, 52%)",
-          "orgFill": "hsla(23, 65%, 45%, 0.14)"
+          "orgColor": "hsl(247, 32%, 48%)",
+          "orgFill": "hsla(247, 28%, 8%, 0.92)"
         },
         "classes": "compound-parent org-node"
       },
@@ -128,8 +176,8 @@
           "isCompound": true,
           "isOrg": true,
           "affiliation": "Senate UAPDA Sponsors",
-          "orgColor": "hsl(56, 72%, 52%)",
-          "orgFill": "hsla(56, 65%, 45%, 0.14)"
+          "orgColor": "hsl(250, 32%, 48%)",
+          "orgFill": "hsla(250, 28%, 8%, 0.92)"
         },
         "classes": "compound-parent org-node"
       },
@@ -140,8 +188,8 @@
           "isCompound": true,
           "isOrg": true,
           "affiliation": "September 9, 2025 Congressional Hearing",
-          "orgColor": "hsl(18, 72%, 52%)",
-          "orgFill": "hsla(18, 65%, 45%, 0.14)"
+          "orgColor": "hsl(257, 32%, 48%)",
+          "orgFill": "hsla(257, 28%, 8%, 0.92)"
         },
         "classes": "compound-parent org-node"
       },
@@ -152,8 +200,8 @@
           "isCompound": true,
           "isOrg": true,
           "affiliation": "Skinwalker Ranch",
-          "orgColor": "hsl(21, 72%, 52%)",
-          "orgFill": "hsla(21, 65%, 45%, 0.14)"
+          "orgColor": "hsl(230, 32%, 48%)",
+          "orgFill": "hsla(230, 28%, 8%, 0.92)"
         },
         "classes": "compound-parent org-node"
       },
@@ -164,8 +212,8 @@
           "isCompound": true,
           "isOrg": true,
           "affiliation": "Sol Foundation",
-          "orgColor": "hsl(19, 72%, 52%)",
-          "orgFill": "hsla(19, 65%, 45%, 0.14)"
+          "orgColor": "hsl(222, 32%, 48%)",
+          "orgFill": "hsla(222, 28%, 8%, 0.92)"
         },
         "classes": "compound-parent org-node"
       },
@@ -176,8 +224,8 @@
           "isCompound": true,
           "isOrg": true,
           "affiliation": "Sol Foundation 2025 Italy Symposium",
-          "orgColor": "hsl(43, 72%, 52%)",
-          "orgFill": "hsla(43, 65%, 45%, 0.14)"
+          "orgColor": "hsl(240, 32%, 48%)",
+          "orgFill": "hsla(240, 28%, 8%, 0.92)"
         },
         "classes": "compound-parent org-node"
       },
@@ -188,8 +236,8 @@
           "isCompound": true,
           "isOrg": true,
           "affiliation": "The Age of Disclosure (2025)",
-          "orgColor": "hsl(24, 72%, 52%)",
-          "orgFill": "hsla(24, 65%, 45%, 0.14)"
+          "orgColor": "hsl(257, 32%, 48%)",
+          "orgFill": "hsla(257, 28%, 8%, 0.92)"
         },
         "classes": "compound-parent org-node"
       },
@@ -200,8 +248,8 @@
           "isCompound": true,
           "isOrg": true,
           "affiliation": "To The Stars Academy (TTSA)",
-          "orgColor": "hsl(58, 72%, 52%)",
-          "orgFill": "hsla(58, 65%, 45%, 0.14)"
+          "orgColor": "hsl(237, 32%, 48%)",
+          "orgFill": "hsla(237, 28%, 8%, 0.92)"
         },
         "classes": "compound-parent org-node"
       },
@@ -212,8 +260,8 @@
           "isCompound": true,
           "isOrg": true,
           "affiliation": "UAPTF (Unidentified Aerial Phenomena Task Force, 2020–2022)",
-          "orgColor": "hsl(57, 72%, 52%)",
-          "orgFill": "hsla(57, 65%, 45%, 0.14)"
+          "orgColor": "hsl(215, 32%, 48%)",
+          "orgFill": "hsla(215, 28%, 8%, 0.92)"
         },
         "classes": "compound-parent org-node"
       },
@@ -372,18 +420,20 @@
             "category": "government-military",
             "affiliations": [
               "Sol Foundation",
+              "Disclosure Foundation",
+              "Americans for Safe Aerospace",
               "The Age of Disclosure (2025)",
               "January 23, 2026 Congressional Hearing"
             ],
-            "role": "Rear Admiral (Ret.); former Acting NOAA Administrator; Sol Foundation member",
-            "bio": "Rear Admiral (Ret.), U.S. Navy; former Acting NOAA Administrator; oceanographer. Member of the Sol Foundation. Has stated publicly that UAP phenomena are real and have been documented extensively by military platforms. Participated in Japan's 2025 Diet session UAP briefing.",
+            "role": "Rear Admiral (Ret.); former Acting NOAA Administrator; advisor to Sol Foundation and Disclosure Foundation",
+            "bio": "Rear Admiral (Ret.), U.S. Navy; former Acting NOAA Administrator; oceanographer. Advisor to the Sol Foundation, Disclosure Foundation, and Americans for Safe Aerospace. On May 14–15, 2026 stated on Tomi Lahren Is Fearless that \"we are aware of higher order non-humans intelligence that direct the movement of these phenomena\" — among the most explicit on-record flag-officer statements distinguishing directing intelligence from the craft. Participated in Japan's 2025 Diet UAP briefing and Connecticut HB 5422 testimony (2026).",
             "stakeholderFlags": [
               "disclosure-advocate"
             ],
             "status": "retired"
           },
-          "degree": 4,
-          "nodeSize": 44,
+          "degree": 5,
+          "nodeSize": 46,
           "primaryFlag": "disclosure-advocate",
           "status": "retired"
         },
@@ -684,7 +734,7 @@
             ],
             "status": "active"
           },
-          "degree": 8,
+          "degree": 10,
           "nodeSize": 52,
           "primaryFlag": "disclosure-advocate",
           "status": "active"
@@ -742,8 +792,8 @@
             ],
             "status": "active"
           },
-          "degree": 5,
-          "nodeSize": 46,
+          "degree": 6,
+          "nodeSize": 48,
           "primaryFlag": "disclosure-advocate",
           "status": "active"
         },
@@ -797,8 +847,8 @@
             ],
             "status": "active"
           },
-          "degree": 2,
-          "nodeSize": 40,
+          "degree": 3,
+          "nodeSize": 42,
           "primaryFlag": "disclosure-advocate",
           "status": "active"
         },
@@ -2738,6 +2788,91 @@
           "status": "deceased"
         },
         "classes": "figure-node cat-journalist-investigator flag-contested-status status-deceased"
+      },
+      {
+        "data": {
+          "id": "hunt-willis",
+          "label": "Willis",
+          "fullName": "Hunt Willis",
+          "parent": "org-disclosure-foundation",
+          "category": "journalist-investigator",
+          "figure": {
+            "id": "hunt-willis",
+            "name": "Hunt Willis",
+            "category": "journalist-investigator",
+            "affiliations": [
+              "Disclosure Foundation"
+            ],
+            "role": "Chief Legal Officer, Disclosure Foundation; lead on NSA UMBRA FOIA appeal",
+            "bio": "Chief legal officer of the Disclosure Foundation. Led the FOIA appeal that produced the NSA's May 18–20, 2026 release of 300+ pages of historical UAP records, many previously classified TOP SECRET UMBRA. Has stated the foundation will challenge remaining redactions on records predating the Civil Rights Act. Represents the litigation vector on secrecy parallel to executive PURSUE declassification.",
+            "stakeholderFlags": [
+              "disclosure-advocate"
+            ],
+            "status": "active",
+            "cites": [
+              "https://disclosure.org/news/nsa-top-secret-umbra-uap-foia-release"
+            ]
+          },
+          "degree": 2,
+          "nodeSize": 40,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
+        },
+        "classes": "figure-node cat-journalist-investigator flag-disclosure-advocate"
+      },
+      {
+        "data": {
+          "id": "kyle-fish",
+          "label": "Fish",
+          "fullName": "Kyle Fish",
+          "parent": "org-anthropic",
+          "category": "scientist-academic",
+          "figure": {
+            "id": "kyle-fish",
+            "name": "Kyle Fish",
+            "category": "scientist-academic",
+            "affiliations": [
+              "Anthropic"
+            ],
+            "role": "AI welfare researcher, Anthropic",
+            "bio": "Anthropic's AI welfare researcher who has publicly discussed the Claude Opus 4.6 system card's self-assigned 15–20% consciousness probability in welfare assessments (February 2026), placing frontier-lab ethics in the same operational space as consciousness-physics research on this site.",
+            "stakeholderFlags": [
+              "disclosure-advocate"
+            ],
+            "status": "active"
+          },
+          "degree": 1,
+          "nodeSize": 38,
+          "primaryFlag": "disclosure-advocate",
+          "status": "active"
+        },
+        "classes": "figure-node cat-scientist-academic flag-disclosure-advocate"
+      },
+      {
+        "data": {
+          "id": "bernardo-kastrup",
+          "label": "Kastrup",
+          "fullName": "Bernardo Kastrup",
+          "parent": "org-essentia-foundation",
+          "category": "scientist-academic",
+          "figure": {
+            "id": "bernardo-kastrup",
+            "name": "Bernardo Kastrup",
+            "category": "scientist-academic",
+            "affiliations": [
+              "Essentia Foundation"
+            ],
+            "role": "Philosopher; analytical idealism proponent",
+            "bio": "Philosopher and computer scientist associated with the Essentia Foundation, leading proponent of analytical idealism — consciousness as fundamental rather than emergent. Referenced in The Great Convergence essay; provides philosophical parallel to field-theoretic consciousness models.",
+            "stakeholderFlags": [],
+            "status": "active"
+          },
+          "degree": 0,
+          "nodeSize": 36,
+          "primaryFlag": "",
+          "status": "active"
+        },
+        "classes": "figure-node cat-scientist-academic"
       }
     ],
     "edges": [
@@ -2778,6 +2913,26 @@
           "target": "org-january-23-2026-congressional-hearing",
           "type": "affiliation-link",
           "note": "January 23, 2026 Congressional Hearing"
+        },
+        "classes": "affiliation-edge"
+      },
+      {
+        "data": {
+          "id": "aff-tim-gallaudet-org-disclosure-foundation",
+          "source": "tim-gallaudet",
+          "target": "org-disclosure-foundation",
+          "type": "affiliation-link",
+          "note": "Disclosure Foundation"
+        },
+        "classes": "affiliation-edge"
+      },
+      {
+        "data": {
+          "id": "aff-tim-gallaudet-org-americans-for-safe-aerospace",
+          "source": "tim-gallaudet",
+          "target": "org-americans-for-safe-aerospace",
+          "type": "affiliation-link",
+          "note": "Americans for Safe Aerospace"
         },
         "classes": "affiliation-edge"
       },
@@ -3434,6 +3589,50 @@
           "year": "2025"
         },
         "classes": "conn-public-dispute"
+      },
+      {
+        "data": {
+          "id": "conn-hunt-willis-chris-mellon-investigated-together",
+          "source": "hunt-willis",
+          "target": "chris-mellon",
+          "type": "investigated-together",
+          "note": "Disclosure Foundation FOIA litigation on NSA UMBRA records",
+          "year": "2026"
+        },
+        "classes": "conn-investigated-together"
+      },
+      {
+        "data": {
+          "id": "conn-tim-gallaudet-hunt-willis-investigated-together",
+          "source": "tim-gallaudet",
+          "target": "hunt-willis",
+          "type": "investigated-together",
+          "note": "Disclosure Foundation advisory / testimony ecosystem",
+          "year": "2026"
+        },
+        "classes": "conn-investigated-together"
+      },
+      {
+        "data": {
+          "id": "conn-hal-puthoff-chris-mellon-co-founded",
+          "source": "hal-puthoff",
+          "target": "chris-mellon",
+          "type": "co-founded",
+          "note": "Disclosure Foundation Advisory Board, Dec 2025",
+          "year": "2025"
+        },
+        "classes": "conn-co-founded"
+      },
+      {
+        "data": {
+          "id": "conn-kyle-fish-garry-nolan-investigated-together",
+          "source": "kyle-fish",
+          "target": "garry-nolan",
+          "type": "investigated-together",
+          "note": "AI consciousness / welfare research parallel to NHI materials science",
+          "year": "2026"
+        },
+        "classes": "conn-investigated-together"
       }
     ]
   }

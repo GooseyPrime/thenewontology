@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import May2026Update from "@/components/content/May2026Update";
 import KinematicBackground from "@/components/KinematicBackground";
 
 export const metadata: Metadata = {
@@ -255,6 +256,17 @@ export default function Chapter6Page() {
             permeating the quantum vacuum. The hardware exists. The protocols have been mapped. The operational
             results have been documented by the intelligence apparatus of the United States government.
           </p>
+
+          <May2026Update date="May 21, 2026">
+            <h4>VASCO / Villarroel 2025 and Cann 2026</h4>
+            <p>
+              Villarroel et al. (<em>PASP</em> 2025) catalogued aligned multiple-transient events on Palomar plates; Cann&apos;s <Link href="/timeline#evt-57" className="text-accent hover:underline underline-offset-4">Apr 4, 2026</Link> arXiv preprint reports geomagnetic-storm–linked suppression of detection rates (Z = −3.391, p = 0.0007), constraining a magnetospherically coupled source near geosynchronous altitude on pre-Sputnik imagery. <em>Peer-reviewed + preprint:</em> upgrades the contact-mechanics thread beyond anecdote. See glossary <Link href="/glossary">VASCO</Link> when listed.
+            </p>
+            <h4>Nolan caudate-putamen — calibration</h4>
+            <p>
+              <Link href="/whos-who#garry-nolan" className="text-accent hover:underline underline-offset-4">Garry Nolan</Link>&apos;s reported synaptic-density findings remain primarily from conference and interview channels until tied to a specific peer-reviewed imaging publication. <em>Credible testimony / contested replication status:</em> cite presentations explicitly where DOI is unavailable.
+            </p>
+          </May2026Update>
 
           <h2>Conclusion</h2>
 

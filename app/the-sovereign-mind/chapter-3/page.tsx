@@ -1,4 +1,5 @@
 import Link from "next/link";
+import May2026Update from "@/components/content/May2026Update";
 import KinematicBackground from "@/components/KinematicBackground";
 
 export const metadata = { title: "Chapter 3: Emotional Resilience in a Post-Anthropocentric World | The Sovereign Mind" };
@@ -91,6 +92,13 @@ export default function Chapter3Page() {
           <p>
             This survival manual is not static; it's a living document that must evolve as understanding deepens. The integration of practical strategies with robust psychological frameworks ensures that individuals, families, and communities can adapt and thrive amidst the most profound existential challenges of our era.
           </p>
+
+          <May2026Update date="May 21, 2026">
+            <h4>Emotional resilience when the news stack accelerates</h4>
+            <p>
+              May 2026 layered <Link href="/timeline#evt-59" className="text-accent hover:underline underline-offset-4">PURSUE</Link>, <Link href="/timeline#evt-64" className="text-accent hover:underline underline-offset-4">UMBRA</Link>, and <Link href="/timeline#evt-63" className="text-accent hover:underline underline-offset-4">flag-officer HO-NHI language</Link> in under two weeks. Treat headline stacking as a stressor — limit daily intake, anchor in embodied practice (this chapter&apos;s protocols), and defer major life decisions until nervous-system baseline returns.
+            </p>
+          </May2026Update>
 
         </div>
         <div className="mt-16 pt-8 border-t border-border flex justify-between items-center">

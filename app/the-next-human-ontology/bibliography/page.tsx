@@ -310,6 +310,16 @@ export default function BibliographyPage() {
             <li>Finlay, C.C. et al. (2025). <em>Physics of Earth and Planetary Interiors.</em></li>
             <li>COMETA. (1999). &quot;UFOs and Defense: What Should We Prepare For?&quot;</li>
             <li>Green, C. (2010). &quot;Anomalous Acute and Subacute Field Effects on Human Biological Tissues.&quot; DIRD, AAWSAP/AATIP.</li>
+            <li>Khan, S., Huang, Y., Timuçin, D., et al. (2024). Microtubule-Stabilizer Epothilone B Delays Anesthetic-Induced Unconsciousness in Rats. <em>eNeuro</em>, 11(8). DOI 10.1523/ENEURO.0291-24.2024.</li>
+            <li>Wiest, M. C. (2025). A quantum microtubule substrate of consciousness is experimentally supported and solves the binding and epiphenomenalism problems. <em>Neuroscience of Consciousness</em>, 2025(1), niaf011. DOI 10.1093/nc/niaf011.</li>
+            <li>Villarroel, B., et al. (2025). Aligned, Multiple-transient Events in the First Palomar Sky Survey. <em>PASP</em>, 137(10), 104504. DOI 10.1088/1538-3873/ae0afe.</li>
+            <li>Cann, K. (2026). Storm-Driven Suppression and Post-Storm Enhancement of Photographic Plate Transient Detections at Geosynchronous Altitude. arXiv:2604.06234.</li>
+            <li>Garrett, M. A. (2024). Is artificial intelligence the great filter that makes advanced technical civilisations rare in the universe? <em>Acta Astronautica</em>. DOI 10.1016/j.actaastro.2024.03.052.</li>
+            <li>Bastos, M., &amp; Duarte, M. (2026). Between Disclosure and Conspiracy: The Transparency Effect on r/UFO and r/UAP Subreddits. <em>Information, Communication &amp; Society</em>. DOI 10.1080/1369118x.2026.2645882.</li>
+            <li>Anthropic. (2026). Claude Opus 4.6 System Card. Anthropic technical report, February 2026.</li>
+            <li>U.S. Department of War. (2026). PURSUE Release 01. war.gov/UFO. May 8, 2026.</li>
+            <li>National Security Agency / Disclosure Foundation. (2026). NSA UAP records production via FOIA appeal. May 2026.</li>
+            <li>Connecticut General Assembly. (2026). HB 5422 — An Act Concerning a Study of Unidentified Aerial Phenomena.</li>
           </ul>
 
         </div>
