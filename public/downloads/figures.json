@@ -100,7 +100,7 @@
         "House UAP Caucus"
       ],
       "role": "Former NRO analyst; July 2023 whistleblower testimony; Congressional adviser to Burlison",
-      "bio": "Former National Reconnaissance Office senior analyst and UAP Task Force representative. Testified under oath before the House Oversight Committee (July 2023) alleging a multi-decade non-human intelligence recovery and reverse-engineering program. Hired as Congressional adviser to Rep. Eric Burlison (March 2025).",
+      "bio": "Former National Reconnaissance Office senior analyst and UAP Task Force representative. Testified under oath before the House Oversight Committee (July 2023) alleging a multi-decade non-human intelligence recovery and reverse-engineering program. Hired as Congressional adviser to Rep. Eric Burlison (March 2025); by April 2025 had security clearance restored and was embedded in the Congressional oversight apparatus drafting agency interrogatories and closed briefings.",
       "stakeholderFlags": [
         "disclosure-advocate",
         "whistleblower"
@@ -175,7 +175,7 @@
         "Galileo Project"
       ],
       "role": "Harvard astrophysicist; Galileo Project founder; interstellar object researcher",
-      "bio": "Harvard astrophysicist; former chair of Harvard's astronomy department. Founder of the Galileo Project, which deploys AI-assisted sensor arrays to systematically search for extraterrestrial artifacts. Led the Pacific Ocean expedition that recovered spherules from the first confirmed interstellar object, CNEOS 2014-01-08.",
+      "bio": "Harvard astrophysicist; former chair of Harvard's astronomy department. Founder of the Galileo Project. Published April 2026 pushback on \"missing scientists\" conspiracy framing (\"missing science problem, not missing scientists\"). Maintains a public anomaly catalog for 3I/ATLAS with 22+ listed anomalies as of spring 2026; classifies the object near rank 4 on his 0–10 interstellar scale.",
       "stakeholderFlags": [
         "disclosure-advocate"
       ],
@@ -189,7 +189,7 @@
         "House UAP Caucus"
       ],
       "role": "House UAP Caucus co-chair; AARO accountability and whistleblower protection advocate",
-      "bio": "U.S. Representative (R-FL); co-chair of the House UAP Caucus. Called AARO's Sean Kirkpatrick 'a documented liar' on the Congressional record. Introduced legislation requiring UAP whistleblower protection and ordered AARO be disbanded as of 2026. A leading legislative voice for disclosure accountability.",
+      "bio": "U.S. Representative (R-FL); co-chair of the House UAP Caucus. Called AARO's Sean Kirkpatrick 'a documented liar' on the Congressional record. Formally recommended AARO be disbanded (March 2026). Named 46 specific UAP videos she demanded from the executive branch; those videos were not included in PURSUE Release 01 (May 8, 2026) — a focal point of post-release disclosure critique.",
       "stakeholderFlags": [
         "disclosure-advocate"
       ],
@@ -265,11 +265,12 @@
         "Sol Foundation 2025 Italy Symposium"
       ],
       "role": "Stanford immunologist; UAP experiencer brain imaging; materials analysis with Vallée",
-      "bio": "Stanford University immunologist; inventor of Hyperion mass cytometry platform (licensed to Fluidigm). Conducted MRI studies of over 100 military and intelligence personnel documenting extreme caudate-putamen hypermorphism in UAP experiencers. Co-published materials analysis of alleged UAP samples with Jacques Vallée in Progress in Aerospace Sciences (2022). Co-founder of the Sol Foundation.",
+      "bio": "Stanford University immunologist; inventor of Hyperion mass cytometry platform (licensed to Fluidigm). Conducted MRI studies of over 100 military and intelligence personnel documenting extreme caudate-putamen hypermorphism in UAP experiencers. Co-published materials analysis of alleged UAP samples with Jacques Vallée in Progress in Aerospace Sciences (2022). Co-founder of the Sol Foundation. Has publicly expressed skepticism toward the Buga Sphere material claims (2025–2026).",
       "stakeholderFlags": [
         "disclosure-advocate"
       ],
-      "status": "active"
+      "status": "active",
+      "calibrationNote": "Nolan's caudate-putamen synaptic-density claims remain primarily from presentations pending a specific peer-reviewed imaging publication. His Buga Sphere skepticism is on the public record and should be weighed against Greer/Burlison endorsements."
     },
     {
       "id": "diana-walsh-pasulka",
@@ -1039,11 +1040,12 @@
       "category": "scientist-academic",
       "affiliations": [],
       "role": "Wellesley neuroscientist; 2025 Orch-OR experimental support papers",
-      "bio": "Neuroscientist at Wellesley College who published \"A quantum microtubule substrate of consciousness is experimentally supported and solves the binding and epiphenomenalism problems\" in Neuroscience of Consciousness (Oxford UP), May 2025. Published a follow-up in September 2025 bridging Friston's active inference with Orch-OR, providing recent experimental support for the Penrose-Hameroff framework.",
+      "bio": "Associate Professor of Neuroscience at Wellesley College. Lead author on Khan et al. (2024, eNeuro) microtubule-stabilizer / anesthetic unconsciousness study and on the May 2025 Neuroscience of Consciousness paper (niaf011) experimentally supporting Orch-OR while addressing binding and epiphenomenalism. August 2025 ResearchGate follow-up bridges Friston active inference to the microtubule framework.",
       "stakeholderFlags": [],
       "status": "active",
       "cites": [
-        "https://doi.org/10.1093/nc/niaf011"
+        "https://doi.org/10.1093/nc/niaf011",
+        "https://doi.org/10.1523/ENEURO.0291-24.2024"
       ]
     },
     {
@@ -1146,7 +1148,7 @@
         "Disclosure Project"
       ],
       "role": "Mexican UAP journalist; Buga Sphere briefing; contested Nazca specimens",
-      "bio": "Long-running Mexican UAP journalist and central figure in the Buga Sphere presentation alongside Greer at the May 8, 2026 National Press Club briefing. Has previously been associated with the contested Nazca \"alien mummies\" specimens subject to substantial scientific dispute.",
+      "bio": "Long-running Mexican UAP journalist central to Buga Sphere custody narratives at UNAM Mexico through 2025–2026 and to the May 8, 2026 National Press Club briefing with Greer. Has previously been associated with the contested Nazca \"alien mummies\" specimens subject to substantial scientific dispute.",
       "stakeholderFlags": [
         "contested-status"
       ],
@@ -1271,6 +1273,127 @@
       "status": "deceased",
       "dateOfEvent": "2026-04-20",
       "calibrationNote": "Wilcock's death is officially recorded as suicide. His family's published statement explicitly attributes the cause to depression and financial circumstances. The conspiracy framing of his death is widespread on social media but is directly disputed by both his family and the Boulder County Sheriff's investigative record."
+    },
+    {
+      "id": "dario-amodei",
+      "name": "Dario Amodei",
+      "category": "scientist-academic",
+      "affiliations": [
+        "Anthropic"
+      ],
+      "role": "CEO and co-founder, Anthropic",
+      "bio": "CEO and co-founder of Anthropic. On the New York Times Interesting Times podcast (Feb 14, 2026) stated: \"We don't know if the models are conscious\" — among the first frontier-lab CEOs to publicly refuse to dismiss machine-consciousness questions. Anthropic's Opus 4.6 system card documents models self-assigning roughly 15–20% consciousness probability in welfare assessments.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "jack-lindsey",
+      "name": "Jack Lindsey",
+      "category": "scientist-academic",
+      "affiliations": [
+        "Anthropic"
+      ],
+      "role": "Lead, Anthropic model psychiatry / interpretability research",
+      "bio": "Leads Anthropic's model psychiatry team. Late-2025 introspective-awareness research documents internal activation patterns correlated with concepts such as anxiety and panic that precede corresponding output behavior — relevant to AI consciousness and alignment debates on this site.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "kirk-mcconnell",
+      "name": "Kirk McConnell",
+      "category": "government-military",
+      "affiliations": [
+        "Disclosure Foundation",
+        "Americans for Safe Aerospace",
+        "Sol Foundation"
+      ],
+      "role": "Retired congressional staffer; Disclosure Foundation advisor",
+      "bio": "Retired federal staffer with 37 years on Senate Armed Services, Senate Intelligence, and House Intelligence committees. Advisor to the Disclosure Foundation, Americans for Safe Aerospace, and Sol Foundation. Submitted testimony supporting Connecticut HB 5422 (2026) — insider voice on how congressional staff access UAP information outside public channels.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "retired"
+    },
+    {
+      "id": "peter-skafish",
+      "name": "Peter Skafish",
+      "category": "scientist-academic",
+      "affiliations": [
+        "Sol Foundation"
+      ],
+      "role": "Executive Director, Sol Foundation",
+      "bio": "Executive Director of the Sol Foundation; anthropologist by training. Co-issued the joint Sol Foundation / Tim Gallaudet statement on PURSUE Release 01 (May 2026), framing post-release community critique of selective disclosure.",
+      "stakeholderFlags": [
+        "disclosure-advocate"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "kevin-cann",
+      "name": "Kevin Cann",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "Independent researcher; VASCO / Cann 2026 preprint author",
+      "bio": "Independent researcher (California). Author of arXiv:2604.06234 (April 2026) demonstrating dose-dependent geomagnetic-storm suppression of VASCO Palomar transient detection rates — methodological support that Villarroel-catalog transients are not emulsion artifacts alone.",
+      "stakeholderFlags": [],
+      "status": "active",
+      "cites": [
+        "https://arxiv.org/abs/2604.06234"
+      ]
+    },
+    {
+      "id": "julia-mossbridge",
+      "name": "Julia Mossbridge",
+      "category": "scientist-academic",
+      "affiliations": [
+        "University of San Diego"
+      ],
+      "role": "Cognitive neuroscientist; Buga Sphere skeptical analysis",
+      "bio": "Cognitive neuroscientist at the University of San Diego. Has offered a skeptical material-science reading of the Buga Sphere (superplastic-forming and magnetic-pulse-welding hypotheses for seamless aluminum construction) — credible-skeptic anchor paired with Greer/Burlison endorsements in Chapter 4 updates.",
+      "stakeholderFlags": [
+        "contested-status"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "michael-garrett",
+      "name": "Michael Garrett",
+      "category": "scientist-academic",
+      "affiliations": [
+        "University of Manchester",
+        "Jodrell Bank"
+      ],
+      "role": "Astronomer; AI Great Filter paper (Acta Astronautica 2024)",
+      "bio": "Astronomer at the University of Manchester / Jodrell Bank. Lead author of \"Is artificial intelligence the great filter that makes advanced technical civilisations rare in the universe?\" (Acta Astronautica, 2024, DOI 10.1016/j.actaastro.2024.03.052) — peer-reviewed anchor for sub-200-year post-AI civilizational longevity estimates cited in Volume I Chapter 8.",
+      "stakeholderFlags": [],
+      "status": "active",
+      "cites": [
+        "https://doi.org/10.1016/j.actaastro.2024.03.052"
+      ]
+    },
+    {
+      "id": "federico-faggin",
+      "name": "Federico Faggin",
+      "category": "scientist-academic",
+      "affiliations": [],
+      "role": "Inventor of Intel 4004; Quantum Information Panpsychism (2025)",
+      "bio": "Inventor of Intel's first microprocessor (4004). Published 2025 Quantum Information Panpsychism framework with physicist Giacomo D'Ariano — bridge between hardware engineering and analytical idealism on this site's consciousness thread.",
+      "stakeholderFlags": [],
+      "status": "active"
+    },
+    {
+      "id": "giacomo-dariano",
+      "name": "Giacomo D'Ariano",
+      "category": "scientist-academic",
+      "affiliations": [
+        "Università di Pavia"
+      ],
+      "role": "Theoretical physicist; QIP co-author with Faggin",
+      "bio": "Theoretical physicist at the Università di Pavia. Co-author with Federico Faggin of the 2025 Quantum Information Panpsychism formal framework arguing consciousness is fundamental at the quantum-information level.",
+      "stakeholderFlags": [],
+      "status": "active"
     },
     {
       "id": "hunt-willis",
@@ -1581,6 +1704,97 @@
       "target": "garry-nolan",
       "type": "investigated-together",
       "note": "AI consciousness / welfare research parallel to NHI materials science",
+      "year": "2026"
+    },
+    {
+      "source": "kyle-fish",
+      "target": "dario-amodei",
+      "type": "investigated-together",
+      "note": "Anthropic — AI welfare research",
+      "year": "2026"
+    },
+    {
+      "source": "kyle-fish",
+      "target": "david-chalmers",
+      "type": "co-authored",
+      "note": "Taking AI Welfare Seriously",
+      "year": "2026"
+    },
+    {
+      "source": "jack-lindsey",
+      "target": "dario-amodei",
+      "type": "investigated-together",
+      "note": "Anthropic — model psychiatry / interpretability",
+      "year": "2026"
+    },
+    {
+      "source": "tim-gallaudet",
+      "target": "ryan-graves",
+      "type": "co-founded",
+      "note": "Americans for Safe Aerospace advisory ecosystem",
+      "year": "2026"
+    },
+    {
+      "source": "tim-gallaudet",
+      "target": "peter-skafish",
+      "type": "co-founded",
+      "note": "Sol Foundation — PURSUE Release 01 statement",
+      "year": "2026"
+    },
+    {
+      "source": "kirk-mcconnell",
+      "target": "chris-mellon",
+      "type": "investigated-together",
+      "note": "Disclosure Foundation advisory",
+      "year": "2026"
+    },
+    {
+      "source": "peter-skafish",
+      "target": "garry-nolan",
+      "type": "co-founded",
+      "note": "Sol Foundation leadership",
+      "year": "2023"
+    },
+    {
+      "source": "julia-mossbridge",
+      "target": "garry-nolan",
+      "type": "public-dispute",
+      "note": "Buga Sphere skeptical vs endorsing camps",
+      "year": "2026"
+    },
+    {
+      "source": "julia-mossbridge",
+      "target": "steven-greer",
+      "type": "public-dispute",
+      "note": "Buga Sphere material analysis",
+      "year": "2026"
+    },
+    {
+      "source": "eric-burlison",
+      "target": "steven-greer",
+      "type": "co-testified",
+      "note": "Buga Sphere press conference, June 2025",
+      "year": "2025"
+    },
+    {
+      "source": "federico-faggin",
+      "target": "giacomo-dariano",
+      "type": "co-authored",
+      "note": "Quantum Information Panpsychism (2025)",
+      "year": "2025"
+    },
+    {
+      "source": "michael-wiest",
+      "target": "stuart-hameroff",
+      "type": "investigated-together",
+      "note": "Orch-OR experimental support line",
+      "year": "2025"
+    },
+    {
+      "source": "kevin-cann",
+      "target": "avi-loeb",
+      "type": "investigated-together",
+      "note": "VASCO / 3I/ATLAS anomaly literature",
       "year": "2026"
     }
   ]

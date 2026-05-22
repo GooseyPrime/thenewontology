@@ -68,6 +68,22 @@ export default function ReadingGuidePage() {
             specialized terminology throughout.
           </p>
 
+          <h3>If You Arrived After PURSUE Release 01 (May 2026)</h3>
+          <p>
+            Recommended order for visitors entering via the government disclosure cycle: (1){" "}
+            <Link href="/the-great-convergence" className="text-accent hover:underline underline-offset-4">The Great Convergence</Link>{" "}
+            including the May 21 postscript; (2){" "}
+            <Link href="/the-next-human-ontology/chapter-2" className="text-accent hover:underline underline-offset-4">Volume I, Chapter 2</Link>{" "}
+            (Architecture of Secrecy); (3){" "}
+            <Link href="/the-next-human-ontology/chapter-4" className="text-accent hover:underline underline-offset-4">Chapter 4</Link>{" "}
+            (why official &quot;non-human&quot; language matters); (4){" "}
+            <Link href="/the-sovereign-mind/chapter-1" className="text-accent hover:underline underline-offset-4">Volume II, Chapter 1</Link>{" "}
+            and{" "}
+            <Link href="/the-sovereign-mind/chapter-2" className="text-accent hover:underline underline-offset-4">Chapter 2</Link>{" "}
+            for personal and epistemic preparation; (5) the{" "}
+            <Link href="/timeline" className="text-accent hover:underline underline-offset-4">Timeline</Link>. Then branch into Volume I for depth or Volume II for practice.
+          </p>
+
           <h3>For General Readers and Newcomers</h3>
           <p>
             Begin with <Link href="/the-great-convergence" className="text-accent hover:underline underline-offset-4">The Great Convergence essay</Link>, which provides the fullest overview of
@@ -77,14 +93,11 @@ export default function ReadingGuidePage() {
             vocabulary used across the site.
           </p>
 
-          <h3>For Parents</h3>
+          <h3>For Parents and Teenagers</h3>
           <p>
-            Begin with <Link href="/the-bigger-world" className="text-accent hover:underline underline-offset-4">Volume III</Link> for age-appropriate context you can share with younger
-            readers, then consult <Link href="/the-sovereign-mind" className="text-accent hover:underline underline-offset-4">Volume II</Link> for practical guidance on supporting
-            children and families through periods of rapid social and informational disruption.
-            Volume II&apos;s coverage of maintaining psychological stability, teaching epistemic
-            discernment, and building resilience to ontological shock is directly relevant to
-            parenting through an unprecedented informational environment.
+            Begin with <Link href="/the-bigger-world" className="text-accent hover:underline underline-offset-4">Volume III</Link>: Chapters 1–3 for ages 10–12 (big questions, feelings, sky mysteries); Chapters 4–7 for ages 12–14 (brain, media literacy, toolkit); Chapters 8–10 for teens ready for history-of-intelligence and future-building themes. Pair with{" "}
+            <Link href="/the-sovereign-mind/chapter-3" className="text-accent hover:underline underline-offset-4">Volume II, Chapter 3</Link>{" "}
+            (emotional resilience) when headlines accelerate after May 2026 releases.
           </p>
 
           <h3>May 2026 headline path (post–May 17)</h3>
@@ -108,10 +121,10 @@ export default function ReadingGuidePage() {
 
           <h2>Additional Resources</h2>
           <p>
-            The <Link href="/glossary" className="text-accent hover:underline underline-offset-4">Glossary</Link> defines 55 specialized terms across UAP research, physics, and
+            The <Link href="/glossary" className="text-accent hover:underline underline-offset-4">Glossary</Link> defines specialized terms across UAP research, physics, AI welfare, and
             institutional analysis. The <Link href="/timeline" className="text-accent hover:underline underline-offset-4">Timeline</Link> provides a chronological record of
-            key events from 1947 to 2026. The <Link href="/whos-who" className="text-accent hover:underline underline-offset-4">Who&apos;s Who</Link> directory covers 30 key
-            figures with credentials, affiliations, and specific contributions. Sources are
+            key events from 1947 through May 2026. The <Link href="/whos-who" className="text-accent hover:underline underline-offset-4">Who&apos;s Who</Link> directory covers 90+ figures
+            with credentials, affiliations, and calibration notes where applicable. Sources are
             cited by chapter in the <Link href="/the-next-human-ontology/bibliography" className="text-accent hover:underline underline-offset-4">Bibliography</Link>.
           </p>
 

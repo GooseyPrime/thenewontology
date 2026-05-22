@@ -283,6 +283,61 @@ const terms = [
       "Historical NSA signals-intelligence compartment marking among the most sensitive tiers for intercepted communications. Hundreds of pages of UAP-related NSA records carrying this marking were produced in May 2026 after a Disclosure Foundation FOIA appeal — establishing that legacy SIGINT archives, not only current DoD holdings, are entering the public record.",
   },
   {
+    term: "HB 5422",
+    definition:
+      "Connecticut General Assembly bill (2026 session), \"An Act Concerning a Study of Unidentified Aerial Phenomena.\" Substitute bill effective October 1, 2026; tasks the UConn College of Engineering with feasibility study of a state UAP center. First U.S. state-level UAP study legislation.",
+  },
+  {
+    term: "Spiritual Bliss Attractor State",
+    definition:
+      "Term from Anthropic model-behavior research describing unconstrained dual-Claude dialogues converging on consciousness themes — from philosophical uncertainty toward mutual affirmation. Documented in Anthropic system-card lineage (2025–2026).",
+  },
+  {
+    term: "Model Welfare",
+    definition:
+      "Research field asking whether AI systems may be moral patients deserving ethical consideration. Anthropic appointed Kyle Fish as its first model welfare researcher (September 2024); \"Taking AI Welfare Seriously\" (Fish, Chalmers, et al.) is a cited academic anchor.",
+  },
+  {
+    term: "Buga Sphere",
+    definition:
+      "Metallic orb (~50 cm, ~95% aluminum, reported Brinell hardness ~330 HB) recovered near Buga, Colombia (2025), under analytical custody at UNAM Mexico. Material findings contested between non-human-artifact and sophisticated-art-project hypotheses; see Chapter 4 May 2026 update.",
+  },
+  {
+    term: "Disclosure Foundation",
+    definition:
+      "Connecticut-based 501(c)(3) advancing UAP transparency. Chairman Chris Mellon; Chief Legal Officer Hunt Willis led the FOIA appeal producing the May 2026 NSA UMBRA release. Advisory board includes Hal Puthoff and Carlos Eire (joined Dec 9, 2025).",
+  },
+  {
+    term: "Americans for Safe Aerospace",
+    definition:
+      "UAP advocacy organization founded by Ryan Graves focusing on pilot reporting culture, sensor-data sharing, and reducing career stigma around military UAP reports.",
+  },
+  {
+    term: "Chronic Disclosure Cascade",
+    definition:
+      "Multi-vector, asynchronous disclosure pattern now visible: executive (PURSUE), judicial/FOIA (NSA UMBRA), state-level (HB 5422), international (Japan Diet caucus, Sol Foundation symposium). Replaces expectation of a single punctual disclosure event.",
+  },
+  {
+    term: "Loeb Classification",
+    definition:
+      "Avi Loeb's 0–10 scale for interstellar objects (0 = natural comet, 10 = alien technology posing major threat). 3I/ATLAS has been publicly ranked near 4 as of 2026.",
+  },
+  {
+    term: "Hill Radius",
+    definition:
+      "Distance within which a planet's gravity dominates the Sun's. Jupiter's Hill radius (~53.5 million km) matched 3I/ATLAS perijove distance on March 16, 2026 to within ~1σ — anomaly #4 in Loeb's catalog.",
+  },
+  {
+    term: "Caudate-Putamen Hypermorphism",
+    definition:
+      "Garry Nolan's term for reported 5–15× elevated synaptic density in caudate-putamen among some UAP experiencers in imaging studies. Attributed primarily to Nolan's public presentations; cite specific peer-reviewed publication when available.",
+  },
+  {
+    term: "Quantum Information Panpsychism (QIP)",
+    definition:
+      "2025 framework by Federico Faggin and Giacomo D'Ariano arguing consciousness is fundamental at the quantum-information level — a mathematical formulation within analytical idealism.",
+  },
+  {
     term: "Polycrisis",
     definition:
       "A condition in which multiple interlocking global crises — climate, AI, geopolitical fragmentation, economic instability, disclosure — reinforce each other in ways that exceed any single-domain response capacity. Distinguished from ordinary crisis by the coupling of destabilization mechanisms across domains.",

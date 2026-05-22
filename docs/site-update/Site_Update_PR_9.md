@@ -111,4 +111,4 @@ Operate from editorial posture (NHI/ZPE suppression real); integrate skeptical *
 | 2 | `feat/p9-tier-2-tnho` | `docs/review-logs/p9-tier-2-tnho.md` | Complete |
 | 3 | `feat/p9-tier-3-tsm` | `docs/review-logs/p9-tier-3-tsm.md` | Complete |
 | 4 | `feat/p9-tier-4-tbw` | `docs/review-logs/p9-tier-4-tbw.md` | Complete |
-| 5 | `feat/p9-tier-5-network` | `docs/review-logs/p9-tier-5-network.md` | Complete (core figures; full PDF 62–76 roster deferred) |
+| 5 | `feat/p9-remaining-tier5-complete` | `docs/review-logs/p9-tier-5-network.md` | Complete on feature branch (PR pending) |
