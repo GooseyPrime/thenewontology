@@ -105,8 +105,10 @@ export default function ReadingGuidePage() {
             If you need the site current through <strong>May 21, 2026</strong>: start with the{" "}
             <Link href="/the-great-convergence" className="text-accent hover:underline underline-offset-4">Great Convergence</Link> May 21 postscript, then{" "}
             <Link href="/timeline#evt-64" className="text-accent hover:underline underline-offset-4">NSA UMBRA timeline entry</Link>,{" "}
-            <Link href="/the-next-human-ontology/chapter-2#may-2026-update" className="text-accent hover:underline underline-offset-4">Volume I Chapter 2 update</Link>, and the{" "}
-            <Link href="/glossary" className="text-accent hover:underline underline-offset-4">glossary</Link> entries for PURSUE, TOP SECRET UMBRA, and Higher Order Non-Human Intelligence.
+            <Link href="/the-next-human-ontology/chapter-2#may-2026-update" className="text-accent hover:underline underline-offset-4">Volume I Chapter 2 update</Link>, and the glossary entries for{" "}
+            <Link href="/glossary#pursue" className="text-accent hover:underline underline-offset-4">PURSUE</Link>,{" "}
+            <Link href="/glossary#top-secret-umbra" className="text-accent hover:underline underline-offset-4">TOP SECRET UMBRA</Link>, and{" "}
+            <Link href="/glossary#higher-order-non-human-intelligence" className="text-accent hover:underline underline-offset-4">Higher Order Non-Human Intelligence</Link>.
           </p>
 
           <h3>For Journalists and Congressional Staff</h3>
