@@ -16,6 +16,14 @@ export const metadata: Metadata = {
   },
 };
 
+function glossaryTermId(term: string) {
+  return term
+    .toLowerCase()
+    .replace(/\([^)]*\)/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 const terms = [
   {
     term: "3I/ATLAS",
@@ -465,7 +473,7 @@ export default function GlossaryPage() {
 
         <dl className="space-y-8">
           {terms.map((item) => (
-            <div key={item.term} className="group">
+            <div key={item.term} id={glossaryTermId(item.term)} className="group scroll-mt-24">
               <dt className="font-sans text-base font-semibold text-accent mb-2">
                 {item.term}
               </dt>
