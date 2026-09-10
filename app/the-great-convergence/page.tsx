@@ -193,7 +193,7 @@ export default function TheGreatConvergencePage() {
           <h2>Postscript — May 21, 2026</h2>
           <h3>The NSA UMBRA release</h3>
           <p>
-            Thirteen days after <Link href="/timeline#evt-59">PURSUE Release 01</Link>, the <Link href="/whos-who#hunt-willis">Disclosure Foundation</Link> forced production of more than 300 pages of National Security Agency historical UAP records — many previously marked <Link href="/glossary">TOP SECRET UMBRA</Link> — through a FOIA appeal the agency&apos;s own appeals board found had been improperly denied (<Link href="/timeline#evt-64">May 18–20, 2026</Link>). <em>Established fact:</em> disclosure is now arriving on two vectors simultaneously — executive rolling release and judicial compulsion on Cold War-era signals-intelligence archives.
+            Thirteen days after <Link href="/timeline#evt-59">PURSUE Release 01</Link>, the <Link href="/whos-who#hunt-willis">Disclosure Foundation</Link> forced production of more than 300 pages of National Security Agency historical UAP records — many previously marked <Link href="/glossary#top-secret-umbra">TOP SECRET UMBRA</Link> — through a FOIA appeal the agency&apos;s own appeals board found had been improperly denied (<Link href="/timeline#evt-64">May 18–20, 2026</Link>). <em>Established fact:</em> disclosure is now arriving on two vectors simultaneously — executive rolling release and judicial compulsion on Cold War-era signals-intelligence archives.
           </p>
           <h3>Language that names the intelligence, not the craft</h3>
           <p>

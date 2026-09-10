@@ -260,7 +260,7 @@ export default function Chapter6Page() {
           <May2026Update date="May 21, 2026">
             <h4>VASCO / Villarroel 2025 and Cann 2026</h4>
             <p>
-              Villarroel et al. (<em>PASP</em> 2025) catalogued aligned multiple-transient events on Palomar plates; Cann&apos;s <Link href="/timeline#evt-57" className="text-accent hover:underline underline-offset-4">Apr 4, 2026</Link> arXiv preprint reports geomagnetic-storm–linked suppression of detection rates (Z = −3.391, p = 0.0007), constraining a magnetospherically coupled source near geosynchronous altitude on pre-Sputnik imagery. <em>Peer-reviewed + preprint:</em> upgrades the contact-mechanics thread beyond anecdote. See glossary <Link href="/glossary">VASCO</Link> when listed.
+              Villarroel et al. (<em>PASP</em> 2025) catalogued aligned multiple-transient events on Palomar plates; Cann&apos;s <Link href="/timeline#evt-57" className="text-accent hover:underline underline-offset-4">Apr 4, 2026</Link> arXiv preprint reports geomagnetic-storm–linked suppression of detection rates (Z = −3.391, p = 0.0007), constraining a magnetospherically coupled source near geosynchronous altitude on pre-Sputnik imagery. <em>Peer-reviewed + preprint:</em> upgrades the contact-mechanics thread beyond anecdote. See the glossary entry for <Link href="/glossary#vasco">VASCO</Link>.
             </p>
             <h4>Nolan caudate-putamen — calibration</h4>
             <p>
